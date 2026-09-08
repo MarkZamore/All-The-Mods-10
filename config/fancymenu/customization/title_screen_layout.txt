@@ -1012,7 +1012,7 @@ vanilla_button {
   load_once_per_session = false
   in_editor_color = #FFC800FF
   layer_hidden_in_editor = false
-  is_hidden = false
+  is_hidden = true
   automated_button_clicks = 0
 }
 
