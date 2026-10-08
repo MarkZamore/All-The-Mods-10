@@ -177,12 +177,15 @@ def main() -> int:
         if mapping and mapping.key != wanted:
             problems.append(f"{name} is on {mapping.key}; design.md puts it on {wanted}")
 
-    # No modifier combos at all: the layout was designed without them so the
-    # right-hand modifier keys could become plain keys. A combo would conflict
-    # with whatever sits on that modifier's key.
+    # Only the exact modifier combinations imported from the player layout are allowed.
+    approved_combos = json.loads(ALLOWED.read_text(encoding="utf-8")).get("modifier_combos", {}) if ALLOWED.exists() else {}
+    actual_combos = {m.name: f"{m.key}:{m.modifier}" for m in mappings if m.bound and m.modifier != "NONE"}
+    for name, value in approved_combos.items():
+        if actual_combos.get(name) != value:
+            problems.append(f"{name} no longer uses the approved combo {value}; drop the allowance")
     for m in mappings:
-        if m.bound and m.modifier != "NONE":
-            problems.append(f"line {m.line}: {m.name} uses a {m.modifier} combo; the layout has none")
+        if m.bound and m.modifier != "NONE" and approved_combos.get(m.name) != f"{m.key}:{m.modifier}":
+            problems.append(f"line {m.line}: {m.name} uses an unapproved {m.modifier} combo")
 
     allowances = load_allowances()
     bound = [m for m in mappings if m.bound]

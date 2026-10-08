@@ -1,11 +1,11 @@
-# All The Mods 10 controls preset - a complete key layout with no conflicts.
+# All The Mods 10 controls preset - the current player layout.
 #
 # Applied by the launcher's "Пресет настроек управления" button into the
 # instance's options.txt (one line per mapping, options.txt syntax). Blank
 # lines and # comments are ours; the game never sees this file. Every mapping
 # the pack registers is listed, bound or not, so tools/keybinds/check_preset.py
-# can prove the layout has no two mappings that the Controls screen would mark
-# red. Read tools/keybinds/design.md before changing a key.
+# checks the complete layout and its explicitly documented conflict exceptions.
+# Read tools/keybinds/design.md before changing a key.
 
 # --- Minecraft ---
 key_key.advancements:key.keyboard.l
@@ -190,7 +190,7 @@ key_key.hypertube.tube_escape:key.keyboard.unknown  # unbound: was left.shift
 # --- crystalix ---
 key_key.crystalix.apply_colorless:key.keyboard.unknown  # unbound: was left.control
 key_key.crystalix.copy_properties:key.keyboard.unknown  # unbound: was x
-key_key.crystalix.wand_config:key.keyboard.unknown  # unbound: was v
+key_key.crystalix.wand_config:key.keyboard.v
 
 # --- curios ---
 key_key.curios.open.desc:key.keyboard.unknown  # unbound: was g
@@ -209,7 +209,7 @@ key_key.draconicevolution.place_item:key.keyboard.unknown  # unbound: was p
 key_key.draconicevolution.toggle_flight:key.keyboard.unknown  # unbound
 key_key.draconicevolution.toggle_magnet:key.keyboard.unknown  # unbound
 key_key.draconicevolution.tool_config:key.keyboard.f4  # was c
-key_key.draconicevolution.tool_modules:key.keyboard.unknown  # unbound: was c:SHIFT
+key_key.draconicevolution.tool_modules:key.keyboard.c:SHIFT
 
 # --- easy_villagers ---
 key_key.easy_villagers.cycle_trades:key.keyboard.unknown  # unbound: was c
@@ -615,7 +615,7 @@ key_key.refinedstorage_quartz_arsenal.open_wireless_crafting_grid:key.keyboard.u
 
 # --- relics ---
 key_key.relics.active_abilities_list:key.mouse.4  # was left.alt
-key_key.relics.research_relic:key.keyboard.unknown  # unbound: was left.shift
+key_key.relics.research_relic:key.keyboard.left.shift
 
 # --- reliquary ---
 key_keybind.reliquary.fortune_coin:key.keyboard.unknown  # unbound

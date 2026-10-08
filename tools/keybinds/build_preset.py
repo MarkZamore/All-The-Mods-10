@@ -41,6 +41,11 @@ LAYOUT = {
     "key.jei.bookmark": K + "y",
     "key.dragon_down": K + "z",
 
+    # --- current player layout, imported from the launcher instance ---
+    "key.crystalix.wand_config": K + "v",
+    "key.draconicevolution.tool_modules": K + "c:SHIFT",
+    "key.relics.research_relic": K + "left.shift",
+
     # --- punctuation ---
     "key.ftbultimine": K + "grave.accent",
     "key.mekanism.module_tweaker": K + "backslash",
@@ -116,14 +121,14 @@ def main() -> int:
         by_mod[r["mod"] or "minecraft"].append(r)
 
     out = [
-        "# All The Mods 10 controls preset - a complete key layout with no conflicts.",
+        "# All The Mods 10 controls preset - the current player layout.",
         "#",
         "# Applied by the launcher's \"Пресет настроек управления\" button into the",
         "# instance's options.txt (one line per mapping, options.txt syntax). Blank",
         "# lines and # comments are ours; the game never sees this file. Every mapping",
         "# the pack registers is listed, bound or not, so tools/keybinds/check_preset.py",
-        "# can prove the layout has no two mappings that the Controls screen would mark",
-        "# red. Read tools/keybinds/design.md before changing a key.",
+        "# checks the complete layout and its explicitly documented conflict exceptions.",
+        "# Read tools/keybinds/design.md before changing a key.",
     ]
     for mod in sorted(by_mod, key=lambda m: (m != "minecraft", m)):
         out.append("")

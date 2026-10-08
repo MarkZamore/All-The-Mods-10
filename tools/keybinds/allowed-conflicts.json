@@ -1,1 +1,49 @@
-{"pairs": []}
+{
+  "pairs": [
+    {
+      "mappings": [
+        "key.sneak",
+        "key.draconicevolution.tool_modules"
+      ],
+      "reason": "Preserve the current player layout requested for the public preset (2026-10-08)."
+    },
+    {
+      "mappings": [
+        "key.sneak",
+        "key.relics.research_relic"
+      ],
+      "reason": "Preserve the current player layout requested for the public preset (2026-10-08)."
+    },
+    {
+      "mappings": [
+        "key.ars_nouveau.open_book",
+        "key.draconicevolution.tool_modules"
+      ],
+      "reason": "Preserve the current player layout requested for the public preset (2026-10-08)."
+    },
+    {
+      "mappings": [
+        "create.keyinfo.shift_modifier",
+        "key.draconicevolution.tool_modules"
+      ],
+      "reason": "Preserve the current player layout requested for the public preset (2026-10-08)."
+    },
+    {
+      "mappings": [
+        "key.crystalix.wand_config",
+        "key.irons_spellbooks.spellbook_cast"
+      ],
+      "reason": "Preserve the current player layout requested for the public preset (2026-10-08)."
+    },
+    {
+      "mappings": [
+        "key.draconicevolution.tool_modules",
+        "key.relics.research_relic"
+      ],
+      "reason": "Preserve the current player layout requested for the public preset (2026-10-08)."
+    }
+  ],
+  "modifier_combos": {
+    "key.draconicevolution.tool_modules": "key.keyboard.c:SHIFT"
+  }
+}
