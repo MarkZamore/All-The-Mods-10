@@ -1,0 +1,16 @@
+{
+  "bindings": [
+    {
+      "mod": "ad_astra",
+      "translationKey": "key.ad_astra.toggle_suit_flight",
+      "default": "key.keyboard.v",
+      "context": "UNIVERSAL"
+    },
+    {
+      "mod": "ad_astra",
+      "translationKey": "key.ad_astra.open_radio",
+      "default": "key.keyboard.r",
+      "context": "UNIVERSAL"
+    }
+  ]
+}

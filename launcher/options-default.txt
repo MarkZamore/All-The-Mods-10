@@ -20,3 +20,25 @@
 # with them about it. After the first session the key exists and this line can
 # never change it again.
 lang:ru_ru
+
+# New 8.2 controls start unbound so they do not take existing player keys.
+# These are seeded only when missing; a player's later assignment is retained.
+key_key.logisticsnetworks.modifier_1:key.keyboard.unknown
+key_key.logisticsnetworks.modifier_2:key.keyboard.unknown
+key_key.logisticsnetworks.modifier_3:key.keyboard.unknown
+key_key.logisticsnetworks.primary_interaction:key.keyboard.unknown
+key_key.logisticsnetworks.secondary_interaction:key.keyboard.unknown
+key_key.logisticsnetworks.toggle_slot_numbers:key.keyboard.unknown
+key_key.logisticsnetworks.toggle_wrench_hud:key.keyboard.unknown
+key_key.logisticsnetworks.wrench_colors:key.keyboard.unknown
+key_key.logisticsnetworks.wrench_modes:key.keyboard.unknown
+key_keybind.advancedperipherals.glasses_hotkey:key.keyboard.unknown
+
+# Ad Astra names two controls through translated text during initialization.
+# Cover its raw, English and Russian names without replacing existing values.
+key_key.ad_astra.toggle_suit_flight:key.keyboard.unknown
+key_Toggle Suit Flight:key.keyboard.unknown
+key_Включить полёт в костюме:key.keyboard.unknown
+key_key.ad_astra.open_radio:key.keyboard.unknown
+key_Open radio:key.keyboard.unknown
+key_Открыть радио:key.keyboard.unknown

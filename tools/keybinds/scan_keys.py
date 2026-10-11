@@ -24,6 +24,11 @@ with it and written its options.txt. So a fresh snapshot is still the ground
 truth; the jars only make sure a mod added since cannot land on the layout
 unannounced.
 
+The small translated-key-aliases.json catalog records separately verified
+registrations whose names come from Component.getString(). For a present mod,
+the raw translation key and its actual English/Russian jar translations are
+kept as locale guards. They are alternative names, not separate key bindings.
+
 The context decides which mappings may share a physical key, so the layout in
 ../../launcher/controls-preset.txt is designed and checked against this stock.
 
@@ -38,6 +43,7 @@ import json
 import re
 import struct
 import sys
+import tomllib
 import zipfile
 from collections import defaultdict
 from pathlib import Path
@@ -46,6 +52,7 @@ HERE = Path(__file__).resolve().parent
 REPO = HERE.parent.parent
 MODS = REPO / "mods"
 DEFAULTS = REPO / "configureddefaults" / "options.txt"
+TRANSLATED_ALIASES = HERE / "translated-key-aliases.json"
 
 CONTEXT_CLASS = "net/neoforged/neoforge/client/settings/KeyConflictContext"
 KEYMAPPING_CLASS = "net/minecraft/client/KeyMapping"
@@ -376,7 +383,13 @@ def scan_jar(path: Path, known: set[str]):
         for toml in ("META-INF/neoforge.mods.toml", "META-INF/mods.toml"):
             if toml in names:
                 text = archive.read(toml).decode("utf-8", "replace")
-                mod_ids = re.findall(r'^\s*modId\s*=\s*"([^"]+)"', text, re.MULTILINE)
+                # Dependencies may come before [[mods]], as they do in Ad Astra.
+                # They describe required mods, not the owner of this jar.
+                try:
+                    mod_ids = [entry["modId"] for entry in tomllib.loads(text).get("mods", [])
+                               if isinstance(entry.get("modId"), str)]
+                except tomllib.TOMLDecodeError:
+                    pass
                 break
         for name in names:
             if name.startswith("assets/") and name.endswith("/lang/en_us.json"):
@@ -451,11 +464,17 @@ def main() -> int:
     discovered: dict[str, str] = {}
     discovered_owner: dict[str, str] = {}
     from_jars: dict[str, str] = {}
+    translated_bindings = json.loads(TRANSLATED_ALIASES.read_text(encoding="utf-8"))["bindings"]
+    translated_mods = {entry["mod"] for entry in translated_bindings}
+    translated_lang: dict[str, tuple[dict[str, str], dict[str, str]]] = {}
     jars = sorted(MODS.glob("*.jar"))
     for index, jar in enumerate(jars, 1):
         mod_ids, jar_lang, jar_lang_ru, jar_evidence, jar_discovered = scan_jar(jar, known)
         all_mod_ids.update(mod_ids)
         owner = mod_ids[0] if mod_ids else jar.stem
+        # Use the actual jar owner, not dependency modIds in its metadata.
+        if owner in translated_mods:
+            translated_lang[owner] = (jar_lang, jar_lang_ru)
         for key, text in jar_lang.items():
             if (key in known or LANG_CANDIDATE.search(key)) and key not in lang:
                 lang[key] = text
@@ -483,10 +502,33 @@ def main() -> int:
         for name in sorted(discovered):
             print(f"  {name} -> {discovered[name]} ({discovered_owner[name]})")
 
+    alias_defaults: dict[str, str] = {}
+    alias_owners: dict[str, str] = {}
+    alias_contexts: dict[str, str] = {}
+    alias_binding_count = 0
+    for entry in translated_bindings:
+        owner = entry["mod"]
+        if owner not in translated_lang:
+            continue
+        jar_lang, jar_lang_ru = translated_lang[owner]
+        key = entry["translationKey"]
+        english, russian = jar_lang.get(key, ""), jar_lang_ru.get(key, "")
+        alias_binding_count += 1
+        for name in {key, english, russian} - {""}:
+            known.add(name)
+            alias_defaults[name] = entry["default"]
+            alias_owners[name] = owner
+            alias_contexts[name] = entry["context"]
+            lang[name], lang_ru[name] = english, russian
+    if alias_defaults:
+        print(f"{len(alias_defaults)} locale guard names for {alias_binding_count} verified translated bindings")
+
     contexts: dict[str, dict] = {}
     for name in sorted(known):
         found = evidence.get(name, set())
-        if len(found) == 1:
+        if name in alias_contexts:
+            context, how = alias_contexts[name], "bytecode+locale_alias"
+        elif len(found) == 1:
             context, how = next(iter(found)), "bytecode"
         elif len(found) > 1:
             context, how = "UNIVERSAL", "bytecode-mixed:" + "+".join(sorted(found))
@@ -500,15 +542,16 @@ def main() -> int:
         # Where a mapping was seen decides whether the pack really has it:
         # configureddefaults still carries lines of mods LL8 has dropped.
         where = [source for source, yes in
-                 (("options", name in live), ("defaults", name in defaults), ("jar", name in discovered))
+                 (("options", name in live), ("defaults", name in defaults),
+                  ("jar", name in discovered or name in alias_owners))
                  if yes]
-        mod = discovered_owner.get(name) or lang_owner.get(name) or guess_mod(name, all_mod_ids) or ("minecraft" if lang.get(name) is None and "." not in name.split(".", 1)[-1] else "")
+        mod = alias_owners.get(name) or discovered_owner.get(name) or lang_owner.get(name) or guess_mod(name, all_mod_ids) or ("minecraft" if lang.get(name) is None and "." not in name.split(".", 1)[-1] else "")
         rows.append("\t".join([
             name,
             mod,
             contexts[name]["context"],
             contexts[name]["source"],
-            defaults.get(name) or discovered.get(name, ""),
+            alias_defaults.get(name) or defaults.get(name) or discovered.get(name, ""),
             live.get(name, ""),
             "+".join(where),
             lang.get(name, ""),

@@ -29,3 +29,10 @@ config/allthetweaks-common.toml
 # this file on start too, so the real name and version reach an instance that
 # already exists only by being claimed here.
 config/bcc-common.toml
+
+# FTB Quests and its language splitter rewrite the pack's quest definitions
+# and merge split translations during play. Updates must replace those files,
+# including upstream removals, while keeping the previous copies in conflicts.
+# Completed tasks, claimed rewards and team progress live inside each world
+# under ftbquests/ and are not part of this rule.
+config/ftbquests/quests/**

@@ -1,13 +1,24 @@
 # ATM10
 
-All the Mods 10, version 8.0, for Minecraft 1.21.1 on NeoForge 21.1.247, laid
+All the Mods 10, version 8.2, for Minecraft 1.21.1 on NeoForge 21.1.251, laid
 out as a portable pack the LANMinecraft launcher can install and update.
 
-The tree is built from the two archives CurseForge publishes for release 8.0:
-the server files supply the 455 jars that both sides share, and the client
-manifest names the 31 that only a client needs. `portable-pack.json` is what
+The tree is built from the two archives CurseForge publishes for release 8.2:
+the server files supply the shared mods, and the client manifest supplies the
+client mods and shader packs. `portable-pack.json` is what
 the launcher reads; a push to `main` regenerates `pack-manifest.json` and
 refreshes the rolling `pack-latest` release the launcher syncs from.
+
+The launcher controls preset, Russian starting language and local presentation
+settings are retained. Quest definitions are replaced on update; completed
+tasks and rewards remain in each world's own data. Back up complete worlds
+before their first launch on a new pack version, and restore that backup along
+with the old pack if a rollback is needed.
+
+Trash Cans is pinned to 1.1.1 rather than the upstream 8.2 release's 1.1.0.
+This fixes the confirmed crash when an accelerated export bus inserts a stack
+larger than 99 items. Crash Assistant, NeoAuth, CrashUtilities, Observable and
+Spark remain excluded from this portable build.
 
 Credit for the pack itself belongs to the All the Mods team, and to the author
 of every mod in `mods/`.

@@ -1,4 +1,12 @@
 {
+  "Open radio": {
+    "context": "UNIVERSAL",
+    "source": "bytecode+locale_alias"
+  },
+  "Toggle Suit Flight": {
+    "context": "UNIVERSAL",
+    "source": "bytecode+locale_alias"
+  },
   "accessories.key.open_accessories_screen": {
     "context": "UNIVERSAL",
     "source": "assumed"
@@ -110,6 +118,14 @@
   "key.actualladditions.crafting_stick_open.desc": {
     "context": "IN_GAME",
     "source": "bytecode"
+  },
+  "key.ad_astra.open_radio": {
+    "context": "UNIVERSAL",
+    "source": "bytecode+locale_alias"
+  },
+  "key.ad_astra.toggle_suit_flight": {
+    "context": "UNIVERSAL",
+    "source": "bytecode+locale_alias"
   },
   "key.advanced_ae.pattern_encoder_action": {
     "context": "UNIVERSAL",
@@ -1255,6 +1271,42 @@
     "context": "UNIVERSAL",
     "source": "assumed"
   },
+  "key.logisticsnetworks.modifier_1": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.logisticsnetworks.modifier_2": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.logisticsnetworks.modifier_3": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.logisticsnetworks.primary_interaction": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.logisticsnetworks.secondary_interaction": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.logisticsnetworks.toggle_slot_numbers": {
+    "context": "UNIVERSAL",
+    "source": "bytecode"
+  },
+  "key.logisticsnetworks.toggle_wrench_hud": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.logisticsnetworks.wrench_colors": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.logisticsnetworks.wrench_modes": {
+    "context": "IN_GAME",
+    "source": "bytecode"
+  },
   "key.mapping.compactmachines.exit_room": {
     "context": "UNIVERSAL",
     "source": "assumed"
@@ -1904,8 +1956,12 @@
     "source": "bytecode"
   },
   "keybind.advancedperipherals.description": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "bytecode"
+  },
+  "keybind.advancedperipherals.glasses_hotkey": {
+    "context": "IN_GAME",
+    "source": "bytecode"
   },
   "keybind.ironjetpacks.ascend": {
     "context": "UNIVERSAL",
@@ -2122,5 +2178,13 @@
   "tombstone.message.knowledge_of_death": {
     "context": "UNIVERSAL",
     "source": "assumed"
+  },
+  "Включить полёт в костюме": {
+    "context": "UNIVERSAL",
+    "source": "bytecode+locale_alias"
+  },
+  "Открыть радио": {
+    "context": "UNIVERSAL",
+    "source": "bytecode+locale_alias"
   }
 }

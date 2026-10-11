@@ -1,5 +1,7 @@
 name	mod	context	context_source	default	live	seen	english	russian
-accessories.key.open_accessories_screen	accessories	UNIVERSAL	assumed		key.keyboard.h	options		
+Open radio	ad_astra	UNIVERSAL	bytecode+locale_alias	key.keyboard.r		jar	Open radio	Открыть радио
+Toggle Suit Flight	ad_astra	UNIVERSAL	bytecode+locale_alias	key.keyboard.v		jar	Toggle Suit Flight	Включить полёт в костюме
+accessories.key.open_accessories_screen		UNIVERSAL	assumed		key.keyboard.unknown	options		
 artifacts.key.charm_of_shrinking.toggle	artifacts	UNIVERSAL	assumed		key.keyboard.unknown	options	Toggle Charm of Shrinking	
 artifacts.key.charm_of_sinking.toggle	artifacts	UNIVERSAL	assumed		key.keyboard.unknown	options	Toggle Charm of Sinking	
 artifacts.key.helium_flamingo.activate	artifacts	UNIVERSAL	assumed		key.keyboard.unknown	options	Activate Helium Flamingo	Активировать гелиевого фламинго
@@ -8,25 +10,27 @@ artifacts.key.scarf_of_invisibility.toggle	artifacts	UNIVERSAL	assumed		key.keyb
 artifacts.key.universal_attractor.toggle	artifacts	UNIVERSAL	assumed		key.keyboard.unknown	options	Toggle Universal Attractor	Вкл/выкл универсальный магнит
 auroras.key.reload_aurora_configs	auroras	UNIVERSAL	bytecode		key.keyboard.unknown	options	Reload Aurora Configs	
 cos.key.opencosarmorinventory	cosmeticarmorreworked	UNIVERSAL	assumed		key.keyboard.unknown	options	OpenCosmeticArmorInventory	Открытый инвентарь косметической брони
-crafting_on_a_stick.key.open_curios	crafting_on_a_stick	UNIVERSAL	assumed		key.keyboard.v	options	Open Crafting on a Stick	
-create.keyinfo.alt_modifier	create	UNIVERSAL	assumed		key.keyboard.left.alt	options	Alt Modifier	
-create.keyinfo.ctrl_modifier	create	UNIVERSAL	assumed		key.keyboard.left.control	options	Ctrl Modifier	
+crafting_on_a_stick.key.open_curios	crafting_on_a_stick	UNIVERSAL	assumed		key.keyboard.unknown	options	Open Crafting on a Stick	
+create.keyinfo.alt_modifier	create	UNIVERSAL	assumed		key.keyboard.right.alt	options	Alt Modifier	
+create.keyinfo.ctrl_modifier	create	UNIVERSAL	assumed		key.keyboard.right.control	options	Ctrl Modifier	
 create.keyinfo.rotate_menu	create	UNIVERSAL	assumed		key.keyboard.unknown	options	Open Block Rotation Menu	Открыть меню вращения блока
-create.keyinfo.shift_modifier	create	UNIVERSAL	assumed		key.keyboard.left.shift	options	Shift Modifier	
-create.keyinfo.toolbelt	create	UNIVERSAL	assumed		key.keyboard.left.alt	options	Access Nearby Toolboxes	Доступ к ящикам для инструментов
-create.keyinfo.toolmenu	create	UNIVERSAL	assumed		key.keyboard.left.alt	options	Focus Schematic Overlay	Фокусировка на интерфейсе схематики
-framedblocks.key.update_cull	framedblocks	UNIVERSAL	assumed		key.keyboard.f9	options	Update culling cache	Обновить кэш отсечения
+create.keyinfo.shift_modifier	create	UNIVERSAL	assumed		key.keyboard.right.shift	options	Shift Modifier	
+create.keyinfo.toolbelt	create	UNIVERSAL	assumed		key.keyboard.caps.lock	options	Access Nearby Toolboxes	Доступ к ящикам для инструментов
+create.keyinfo.toolmenu	create	UNIVERSAL	assumed		key.keyboard.menu	options	Focus Schematic Overlay	Фокусировка на интерфейсе схематики
+framedblocks.key.update_cull	framedblocks	UNIVERSAL	assumed		key.keyboard.unknown	options	Update culling cache	Обновить кэш отсечения
 framedblocks.key.wipe_cache	framedblocks	UNIVERSAL	assumed		key.keyboard.unknown	options	Clear model cache	Очистить кэш моделей
 ftbultimine.change_shape.next	ftbultimine	UNIVERSAL	assumed		key.keyboard.up	options	Cycle to Next Shape	Переключиться на след. форму
-ftbultimine.change_shape.prev	ftbultimine	UNIVERSAL	assumed		key.keyboard.down	options	Cycle to Previous Shape	Переключиться на пред. форму
-iris.keybind.reload	iris	UNIVERSAL	assumed		key.keyboard.r	options	Reload Shaders	Перезагрузить шейдеры
+ftbultimine.change_shape.prev	ftbultimine	UNIVERSAL	assumed		key.keyboard.unknown	options	Cycle to Previous Shape	Переключиться на пред. форму
+iris.keybind.reload	iris	UNIVERSAL	assumed		key.keyboard.unknown	options	Reload Shaders	Перезагрузить шейдеры
 iris.keybind.shaderPackSelection	iris	UNIVERSAL	assumed		key.keyboard.o	options	Shaderpack Selection Screen	Список наборов шейдеров
 iris.keybind.toggleShaders	iris	UNIVERSAL	assumed		key.keyboard.k	options	Toggle Shaders	Переключить шейдеры
 iris.keybind.wireframe	iris	UNIVERSAL	assumed		key.keyboard.unknown	options	Wireframe (SP only)	
-justdirethings.key.toggle_tool	justdirethings	UNIVERSAL	assumed		key.keyboard.v	options	Toggle Tool Abilities	Переключить способности инструмента
+justdirethings.key.toggle_tool	justdirethings	UNIVERSAL	assumed		key.keyboard.unknown	options	Toggle Tool Abilities	Переключить способности инструмента
 justdirethings.key.toolUI	justdirethings	UNIVERSAL	assumed		key.keyboard.unknown	options	Open Tool Settings UI	Открыть настройки инструмента
-justzoom.keybinds.keybind.zoom	justzoom	UNIVERSAL	assumed		key.keyboard.z	options	Zoom	
+justzoom.keybinds.keybind.zoom	justzoom	UNIVERSAL	assumed		key.keyboard.unknown	options	Zoom	
 key.actualladditions.crafting_stick_open.desc	actuallyadditions	IN_GAME	bytecode		key.keyboard.unknown	options	Open the Crafting Stick	
+key.ad_astra.open_radio	ad_astra	UNIVERSAL	bytecode+locale_alias	key.keyboard.r		jar	Open radio	Открыть радио
+key.ad_astra.toggle_suit_flight	ad_astra	UNIVERSAL	bytecode+locale_alias	key.keyboard.v		jar	Toggle Suit Flight	Включить полёт в костюме
 key.advanced_ae.pattern_encoder_action	advanced_ae	UNIVERSAL	assumed		key.keyboard.unknown	options	Open Advanced Pattern Encoder	Открытый усовершенствованный кодировщик шаблонов
 key.advanced_ae.pick_craft	advanced_ae	UNIVERSAL	assumed		key.keyboard.unknown	options	Attempt crafting targeted block	Попытка создания целевого блока
 key.advanced_ae.portable_workbench	advanced_ae	UNIVERSAL	assumed		key.keyboard.unknown	options	Open Portable Workbench	Открыть портативный верста
@@ -38,31 +42,31 @@ key.advancements	minecraft	UNIVERSAL	assumed		key.keyboard.l	options
 key.ae2.ae2wtlib_magnet	ae2wtlib	UNIVERSAL	assumed		key.keyboard.unknown	options	Toggle Magnet Card	Переключить магнитную карту
 key.ae2.ae2wtlib_restock	ae2wtlib	UNIVERSAL	assumed		key.keyboard.unknown	options	Toggle Restock	Переключить авто пополнение
 key.ae2.ae2wtlib_stow	ae2wtlib	UNIVERSAL	assumed		key.keyboard.unknown	options	Stow stack in hand into ME System	
-key.ae2.mouse_wheel_item_modifier	ae2	IN_GAME	bytecode		key.keyboard.left.shift	options	Modifier for Mouse-Wheel Items	Модификатор для предметов колёсика мыши
-key.ae2.part_placement_opposite	ae2	IN_GAME	bytecode		key.keyboard.left.control	options	Place Parts on Opposite Side	Поместите части на противоположную сторону
+key.ae2.mouse_wheel_item_modifier	ae2	IN_GAME	bytecode		key.keyboard.unknown	options	Modifier for Mouse-Wheel Items	Модификатор для предметов колёсика мыши
+key.ae2.part_placement_opposite	ae2	IN_GAME	bytecode		key.keyboard.unknown	options	Place Parts on Opposite Side	Поместите части на противоположную сторону
 key.ae2.portable_fluid_cell	ae2	UNIVERSAL	assumed		key.keyboard.unknown	options	Open Portable Fluid Cell	Открыть переносную жидкостную ячейку
 key.ae2.portable_item_cell	ae2	UNIVERSAL	assumed		key.keyboard.unknown	options	Open Portable Item Cell	Открыть переносную предметную ячейку
 key.ae2.wireless_exp_encoding_terminal	ae2	UNIVERSAL	assumed		key.keyboard.unknown	options		
 key.ae2.wireless_pattern_access_terminal	ae2wtlib	UNIVERSAL	assumed		key.keyboard.unknown	options	Open Wireless Pattern Access Terminal	Открыть беспроводной терминал шаблонов
 key.ae2.wireless_pattern_encoding_terminal	ae2wtlib	UNIVERSAL	assumed		key.keyboard.unknown	options	Open Wireless Pattern Encoding Terminal	Открыть беспроводной терминал интерфейса
 key.ae2.wireless_quantum_crafter_terminal	advanced_ae	UNIVERSAL	assumed		key.keyboard.unknown	options	Open Wireless Quantum Crafter Terminal	Open Wireless Quantum Crafter Terminal
-key.ae2.wireless_requester_terminal	merequester	UNIVERSAL	assumed		key.keyboard.unknown	options	Open Wireless Requester Terminal	
+key.ae2.wireless_requester_terminal	merequester	UNIVERSAL	assumed		key.keyboard.unknown	options	Open Wireless Requester Terminal	Открыть терминал запроса беспроводной связи
 key.ae2.wireless_terminal	ae2	UNIVERSAL	assumed		key.keyboard.unknown	options	Open Wireless Terminal	Открыть беспроводной терминал
-key.aether.gravitite_jump_ability.desc	aether	UNIVERSAL	assumed		key.keyboard.space	options	Activate Gravitite Jump	Активировать Гравититовый прыжок
-key.aether.invisibility_toggle.desc	aether	UNIVERSAL	assumed		key.keyboard.v	options	Toggle Invisibility	Переключить невидимость
+key.aether.gravitite_jump_ability.desc	aether	UNIVERSAL	assumed		key.keyboard.unknown	options	Activate Gravitite Jump	Активировать Гравититовый прыжок
+key.aether.invisibility_toggle.desc	aether	UNIVERSAL	assumed		key.keyboard.unknown	options	Toggle Invisibility	Переключить невидимость
 key.aether.open_accessories.desc	aether	UNIVERSAL	assumed		key.keyboard.i	options	Open/Close Accessories Inventory	Откр/Закр инвентарь Аксессуаров
-key.apotheosis.compare_equipment	apotheosis	UNIVERSAL	assumed		key.keyboard.left.shift	options	Compare Hovered Equipment	Сравнить экипировку под курсором
-key.apotheosis.link_item_to_chat	apotheosis	UNIVERSAL	assumed		key.keyboard.t:SHIFT	options	Link Hovered Item to Chat	Отправить предмет под курсором в чат
-key.apotheosis.open_world_tier_select	apotheosis	UNIVERSAL	assumed		key.keyboard.t:CONTROL	options	Open World Tier Select	Открыть выбор уровня мира
-key.apotheosis.toggle_radial_mining	apotheosis	UNIVERSAL	assumed		key.keyboard.o:CONTROL	options	Change Radial Mining Mode	Изменить режим радиальной добычи
+key.apotheosis.compare_equipment	apotheosis	UNIVERSAL	assumed		key.keyboard.apostrophe	options	Compare Hovered Equipment	Сравнить экипировку под курсором
+key.apotheosis.link_item_to_chat	apotheosis	UNIVERSAL	assumed		key.keyboard.unknown	options	Link Hovered Item to Chat	Отправить предмет под курсором в чат
+key.apotheosis.open_world_tier_select	apotheosis	UNIVERSAL	assumed		key.keyboard.unknown	options	Open World Tier Select	Открыть выбор уровня мира
+key.apotheosis.toggle_radial_mining	apotheosis	UNIVERSAL	assumed		key.keyboard.insert	options	Change Radial Mining Mode	Изменить режим радиальной добычи
 key.ars_additions.open_lectern	ars_additions	IN_GAME	bytecode		key.keyboard.unknown	options	[Ars Additions] Activate Warp Index	
-key.ars_elemental.open_pouch	ars_elemental	UNIVERSAL	assumed		key.keyboard.j	options	[Elemental] Open trinkets pouch	[Элементаль] Открыть мешочек для безделушек
+key.ars_elemental.open_pouch	ars_elemental	UNIVERSAL	assumed		key.keyboard.unknown	options	[Elemental] Open trinkets pouch	[Элементаль] Открыть мешочек для безделушек
 key.ars_nouveau.familiar_toggle	ars_nouveau	UNIVERSAL	assumed		key.keyboard.unknown	options	Summon/Dispel Familiar	Призвать/рассеять фамильяра
-key.ars_nouveau.head_curio_hotkey	ars_nouveau	UNIVERSAL	assumed		key.keyboard.g	options	Head Curio Menu	Главное меню Curio
-key.ars_nouveau.next_slot	ars_nouveau	UNIVERSAL	assumed		key.keyboard.x	options	(Spell Book) Next Slot	(Книга заклинаний) След. слот
+key.ars_nouveau.head_curio_hotkey	ars_nouveau	UNIVERSAL	assumed		key.keyboard.unknown	options	Head Curio Menu	Главное меню Curio
+key.ars_nouveau.next_slot	ars_nouveau	UNIVERSAL	assumed		key.keyboard.unknown	options	(Spell Book) Next Slot	(Книга заклинаний) След. слот
 key.ars_nouveau.open_book	ars_nouveau	UNIVERSAL	assumed		key.keyboard.c	options	(Spell Book) Open Book	(Книга заклинаний) Откр. книгу
-key.ars_nouveau.open_documentation	ars_nouveau	UNIVERSAL	assumed		key.keyboard.left.control	options	Open Documentation	
-key.ars_nouveau.previous_slot	ars_nouveau	UNIVERSAL	assumed		key.keyboard.z	options	(Spell Book) Previous Slot	(Книга заклинаний) Пред. слот
+key.ars_nouveau.open_documentation	ars_nouveau	UNIVERSAL	assumed		key.keyboard.unknown	options	Open Documentation	
+key.ars_nouveau.previous_slot	ars_nouveau	UNIVERSAL	assumed		key.keyboard.unknown	options	(Spell Book) Previous Slot	(Книга заклинаний) Пред. слот
 key.ars_nouveau.qc1	ars_nouveau	UNIVERSAL	assumed		key.keyboard.unknown	options	Quick Cast Slot 01	Слот быстрого каста 01
 key.ars_nouveau.qc10	ars_nouveau	UNIVERSAL	assumed		key.keyboard.unknown	options	Quick Cast Slot 10	Слот быстрого каста 10
 key.ars_nouveau.qc2	ars_nouveau	UNIVERSAL	assumed		key.keyboard.unknown	options	Quick Cast Slot 02	Слот быстрого каста 02
@@ -73,19 +77,19 @@ key.ars_nouveau.qc6	ars_nouveau	UNIVERSAL	assumed		key.keyboard.unknown	options	
 key.ars_nouveau.qc7	ars_nouveau	UNIVERSAL	assumed		key.keyboard.unknown	options	Quick Cast Slot 07	Слот быстрого каста 07
 key.ars_nouveau.qc8	ars_nouveau	UNIVERSAL	assumed		key.keyboard.unknown	options	Quick Cast Slot 08	Слот быстрого каста 08
 key.ars_nouveau.qc9	ars_nouveau	UNIVERSAL	assumed		key.keyboard.unknown	options	Quick Cast Slot 09	Слот быстрого каста 09
-key.ars_nouveau.selection_hud	ars_nouveau	UNIVERSAL	assumed		key.keyboard.v	options	Toggle Selection HUD	Перекл. HUD
+key.ars_nouveau.selection_hud	ars_nouveau	UNIVERSAL	assumed		key.keyboard.unknown	options	Toggle Selection HUD	Перекл. HUD
 key.attack	minecraft	UNIVERSAL	assumed		key.mouse.left	options		
 key.back	minecraft	UNIVERSAL	assumed		key.keyboard.s	options		
-key.bridgingmod.toggle_bridging	bridgingmod	UNIVERSAL	assumed		key.keyboard.comma	options	Toggle Reacharound Placement	Переключить размещение с обходом
-key.buildinggadgets2.anchor	buildinggadgets2	UNIVERSAL	assumed		key.keyboard.h	options	Anchor	
-key.buildinggadgets2.range	buildinggadgets2	UNIVERSAL	assumed		key.keyboard.r	options	Range	
-key.buildinggadgets2.settings_menu	buildinggadgets2	UNIVERSAL	assumed		key.keyboard.g	options	Settings Menu	
-key.buildinggadgets2.undo	buildinggadgets2	UNIVERSAL	assumed		key.keyboard.u	options	Undo	
-key.cataclysm.ability	cataclysm	UNIVERSAL	assumed		key.keyboard.v	options	Cataclysm Ability	Способности Cataclysm
-key.cataclysm.boots_ability	cataclysm	UNIVERSAL	assumed		key.keyboard.v	options	Cataclysm Boots Ability	Способности ботинков Cataclysm
-key.cataclysm.chestplate_ability	cataclysm	UNIVERSAL	assumed		key.keyboard.y	options	Cataclysm Chestplate Ability	Способности поножи Cataclysm
-key.cataclysm.helmet_ability	cataclysm	UNIVERSAL	assumed		key.keyboard.c	options	Cataclysm Helmet Ability	Способности шлема Cataclysm
-key.changeMysticCode	mahoutsukai	UNIVERSAL	assumed		key.keyboard.y	options	Change Mystic Code	Сменить Мистический код
+key.bridgingmod.toggle_bridging	bridgingmod	UNIVERSAL	assumed		key.keyboard.unknown	options	Toggle Reacharound Placement	Переключить размещение с обходом
+key.buildinggadgets2.anchor	buildinggadgets2	UNIVERSAL	assumed		key.keyboard.unknown	options	Anchor	
+key.buildinggadgets2.range	buildinggadgets2	UNIVERSAL	assumed		key.keyboard.unknown	options	Range	
+key.buildinggadgets2.settings_menu	buildinggadgets2	UNIVERSAL	assumed		key.keyboard.f6	options	Settings Menu	
+key.buildinggadgets2.undo	buildinggadgets2	UNIVERSAL	assumed		key.keyboard.backspace	options	Undo	
+key.cataclysm.ability	cataclysm	UNIVERSAL	assumed		key.keyboard.scroll.lock	options	Cataclysm Ability	Способности Cataclysm
+key.cataclysm.boots_ability	cataclysm	UNIVERSAL	assumed		key.keyboard.unknown	options	Cataclysm Boots Ability	Способности ботинков Cataclysm
+key.cataclysm.chestplate_ability	cataclysm	UNIVERSAL	assumed		key.keyboard.unknown	options	Cataclysm Chestplate Ability	Способности поножи Cataclysm
+key.cataclysm.helmet_ability	cataclysm	UNIVERSAL	assumed		key.keyboard.unknown	options	Cataclysm Helmet Ability	Способности шлема Cataclysm
+key.changeMysticCode	mahoutsukai	UNIVERSAL	assumed		key.keyboard.unknown	options	Change Mystic Code	Сменить Мистический код
 key.chat	minecraft	UNIVERSAL	assumed		key.keyboard.t	options		
 key.command	minecraft	UNIVERSAL	assumed		key.keyboard.slash	options		
 key.constructionstick.change_direction	constructionstick	UNIVERSAL	assumed		key.keyboard.unknown	options	Toggle Direction	Переключить направление
@@ -97,104 +101,104 @@ key.constructionstick.toggle_random	constructionstick	UNIVERSAL	assumed		key.key
 key.constructionstick.undo	constructionstick	UNIVERSAL	assumed		key.keyboard.unknown	options	Undo Operation	Отменить операцию
 key.craftingtweaks.balance	craftingtweaks	UNIVERSAL	assumed		key.keyboard.unknown	options	Balance Grid	Распределить по сетке
 key.craftingtweaks.clear	craftingtweaks	UNIVERSAL	assumed		key.keyboard.unknown	options	Clear Grid	Очистить сетку
-key.craftingtweaks.compress_all	craftingtweaks	UNIVERSAL	assumed		key.keyboard.k:SHIFT	options	Compress All	Совместить всё
-key.craftingtweaks.compress_one	craftingtweaks	UNIVERSAL	assumed		key.keyboard.k:CONTROL	options	Compress Item	Совместить предмет
-key.craftingtweaks.compress_stack	craftingtweaks	UNIVERSAL	assumed		key.keyboard.k	options	Compress Stack	Совместить стак
+key.craftingtweaks.compress_all	craftingtweaks	UNIVERSAL	assumed		key.keyboard.unknown	options	Compress All	Совместить всё
+key.craftingtweaks.compress_one	craftingtweaks	UNIVERSAL	assumed		key.keyboard.unknown	options	Compress Item	Совместить предмет
+key.craftingtweaks.compress_stack	craftingtweaks	UNIVERSAL	assumed		key.keyboard.unknown	options	Compress Stack	Совместить стак
 key.craftingtweaks.decompress_all	craftingtweaks	UNIVERSAL	assumed		key.keyboard.unknown	options	Decompress All	Разложить всё
 key.craftingtweaks.decompress_one	craftingtweaks	UNIVERSAL	assumed		key.keyboard.unknown	options	Decompress Item	Разложить предмет
 key.craftingtweaks.decompress_stack	craftingtweaks	UNIVERSAL	assumed		key.keyboard.unknown	options	Decompress Stack	Разложить стак
 key.craftingtweaks.force_clear	craftingtweaks	UNIVERSAL	assumed		key.keyboard.unknown	options	Force Clear Grid	Принудительно очистить сетку
-key.craftingtweaks.refill_last	craftingtweaks	UNIVERSAL	assumed		key.keyboard.tab:CONTROL	options	Refill Last	Пополнить последний
-key.craftingtweaks.refill_last_stack	craftingtweaks	UNIVERSAL	assumed		key.keyboard.tab	options	Refill Last Stack	Пополнить последний (Стак)
+key.craftingtweaks.refill_last	craftingtweaks	UNIVERSAL	assumed		key.keyboard.unknown	options	Refill Last	Пополнить последний
+key.craftingtweaks.refill_last_stack	craftingtweaks	UNIVERSAL	assumed		key.keyboard.unknown	options	Refill Last Stack	Пополнить последний (Стак)
 key.craftingtweaks.rotate	craftingtweaks	UNIVERSAL	assumed		key.keyboard.unknown	options	Rotate Grid	Повернуть сетку
 key.craftingtweaks.rotate_counter_clockwise	craftingtweaks	UNIVERSAL	assumed		key.keyboard.unknown	options	Rotate Grid (CCW)	Повернуть сетку (Против ЧС)
 key.craftingtweaks.spread	craftingtweaks	UNIVERSAL	assumed		key.keyboard.unknown	options	Spread Grid	Разбросать по сетке
 key.craftingtweaks.transfer_stack	craftingtweaks	UNIVERSAL	assumed		key.keyboard.unknown	options	Transfer to Crafting Grid	
-key.crystalix.apply_colorless	crystalix	UNIVERSAL	assumed		key.keyboard.left.control	options	Apply Colorless	
-key.crystalix.copy_properties	crystalix	UNIVERSAL	assumed		key.keyboard.x	options	Copy Properties	
+key.crystalix.apply_colorless	crystalix	UNIVERSAL	assumed		key.keyboard.unknown	options	Apply Colorless	
+key.crystalix.copy_properties	crystalix	UNIVERSAL	assumed		key.keyboard.unknown	options	Copy Properties	
 key.crystalix.wand_config	crystalix	UNIVERSAL	assumed		key.keyboard.v	options	Open Wand Config	Открыть настройки посоха
-key.curios.open.desc	curios	UNIVERSAL	assumed		key.keyboard.g	options	Open/Close Curios Inventory	Открыть/Закрыть инвентарь Curios
-key.deeperdarker.boost	deeperdarker	UNIVERSAL	assumed		key.keyboard.b	options	Boost Soul Elytra	Ускорение элитр душ
-key.deeperdarker.transmit	deeperdarker	UNIVERSAL	assumed		key.keyboard.v	options	Use Sculk Transmitter	Использовать скалковый передатчик
+key.curios.open.desc	curios	UNIVERSAL	assumed		key.keyboard.unknown	options	Open/Close Curios Inventory	Открыть/Закрыть инвентарь Curios
+key.deeperdarker.boost	deeperdarker	UNIVERSAL	assumed		key.keyboard.0	options	Boost Soul Elytra	Ускорение элитр душ
+key.deeperdarker.transmit	deeperdarker	UNIVERSAL	assumed		key.keyboard.unknown	options	Use Sculk Transmitter	Использовать скалковый передатчик
 key.draconicevolution.dislocator_blink	draconicevolution	IN_GAME	bytecode		key.keyboard.unknown	options	Advanced Dislocator Blink	Продвинутый телепортер: Телепорт. по напр. взгляда
 key.draconicevolution.dislocator_down	draconicevolution	IN_GAME	bytecode		key.keyboard.unknown	options	Advanced Dislocator Select Down	Продвинутый телепортер: выбрать точку ниже
 key.draconicevolution.dislocator_gui	draconicevolution	IN_GAME	bytecode		key.keyboard.unknown	options	Advanced Dislocator GUI	GUI продвинутого телепортера
 key.draconicevolution.dislocator_teleport	draconicevolution	IN_GAME	bytecode		key.keyboard.unknown	options	Advanced Dislocator Teleport	Телепортироваться на точку
 key.draconicevolution.dislocator_up	draconicevolution	IN_GAME	bytecode		key.keyboard.unknown	options	Advanced Dislocator Select Up	Продвинутый телепортер: выбрать точку выше
-key.draconicevolution.place_item	draconicevolution	IN_GAME	bytecode		key.keyboard.p	options	Place Item	Поставить предмет в мир
+key.draconicevolution.place_item	draconicevolution	IN_GAME	bytecode		key.keyboard.unknown	options	Place Item	Поставить предмет в мир
 key.draconicevolution.toggle_flight	draconicevolution	IN_GAME	bytecode		key.keyboard.unknown	options	Toggle Flight	Включить полёт
 key.draconicevolution.toggle_magnet	draconicevolution	IN_GAME	bytecode		key.keyboard.unknown	options	Toggle Item Dislocator	Включить телепортационный магнит
-key.draconicevolution.tool_config	draconicevolution	IN_GAME	bytecode		key.keyboard.c	options	Tool Config	Настроить инструмент
+key.draconicevolution.tool_config	draconicevolution	IN_GAME	bytecode		key.keyboard.f4	options	Tool Config	Настроить инструмент
 key.draconicevolution.tool_modules	draconicevolution	IN_GAME	bytecode		key.keyboard.c:SHIFT	options	Tool Modules	Меню модулей инструмента
-key.dragon_change_view	iceandfire	UNIVERSAL	assumed		key.keyboard.f7	options	Change 3rd person camera for dragon	Изменить камеру от третьего лица
-key.dragon_down	iceandfire	UNIVERSAL	assumed		key.keyboard.x	options	Dragon Down	Слезть с дракона/Снять малыша дракона
-key.dragon_fireAttack	iceandfire	UNIVERSAL	assumed		key.keyboard.r	options	Dragon Breath	Драконье Дыхание
-key.dragon_strike	iceandfire	UNIVERSAL	assumed		key.keyboard.g	options	Dragon Strike	Драконий Удар
-key.drawMahoujin	mahoutsukai	UNIVERSAL	assumed		key.keyboard.m	options	Draw Mahoujin	Начертить магический круг
+key.dragon_change_view	iceandfire	UNIVERSAL	assumed		key.keyboard.down	options	Change 3rd person camera for dragon	Изменить камеру от третьего лица
+key.dragon_down	iceandfire	UNIVERSAL	assumed		key.keyboard.z	options	Dragon Down	Слезть с дракона/Снять малыша дракона
+key.dragon_fireAttack	iceandfire	UNIVERSAL	assumed		key.keyboard.x	options	Dragon Breath	Драконье Дыхание
+key.dragon_strike	iceandfire	UNIVERSAL	assumed		key.keyboard.semicolon	options	Dragon Strike	Драконий Удар
+key.drawMahoujin	mahoutsukai	UNIVERSAL	assumed		key.keyboard.unknown	options	Draw Mahoujin	Начертить магический круг
 key.drop	minecraft	UNIVERSAL	assumed		key.keyboard.q	options		
-key.easy_villagers.cycle_trades	easy_villagers	UNIVERSAL	assumed		key.keyboard.c	options	Cycle Trades	Цикл продаж
-key.easy_villagers.pick_up	easy_villagers	UNIVERSAL	assumed		key.keyboard.v	options	Pick Up	Подобрать
-key.enderio.toggle_magnet	enderio	UNIVERSAL	assumed		key.keyboard.m	options	Toggle Electromagnet	Переключить электромагнит
+key.easy_villagers.cycle_trades	easy_villagers	UNIVERSAL	assumed		key.keyboard.unknown	options	Cycle Trades	Цикл продаж
+key.easy_villagers.pick_up	easy_villagers	UNIVERSAL	assumed		key.keyboard.unknown	options	Pick Up	Подобрать
+key.enderio.toggle_magnet	enderio	UNIVERSAL	assumed		key.keyboard.unknown	options	Toggle Electromagnet	Переключить электромагнит
 key.enderio.travel_staff	enderio	UNIVERSAL	assumed		key.keyboard.g	options	Staff of Travelling	Посох путешествия
-key.eternal_starlight.switch_crest	eternal_starlight	UNIVERSAL	assumed		key.keyboard.h	options	Switch Crest	Переключить гребень
-key.evilcraft.exaltedCrafting	evilcraft	UNIVERSAL	assumed		key.keyboard.c	options	Open Exalted Crafter	Открыть продвинутый верстак
-key.evilcraft.fart	evilcraft	UNIVERSAL	assumed		key.keyboard.p	options	Toggle Farting	Переключить пукание
+key.eternal_starlight.switch_crest	eternal_starlight	UNIVERSAL	assumed		key.keyboard.unknown	options		
+key.evilcraft.exaltedCrafting	evilcraft	UNIVERSAL	assumed		key.keyboard.pause	options	Open Exalted Crafter	Открыть продвинутый верстак
+key.evilcraft.fart	evilcraft	UNIVERSAL	assumed		key.keyboard.unknown	options	Toggle Farting	Переключить пукание
 key.extended_industrialization.toggle_boots_ability	extended_industrialization	UNIVERSAL	assumed		key.keyboard.unknown	options	Toggle Boots Ability	Переключить способность ботинок
 key.extended_industrialization.toggle_chestplate_ability	extended_industrialization	UNIVERSAL	assumed		key.keyboard.unknown	options	Toggle Chestplate Ability	Переключить способность нагрудника
 key.extended_industrialization.toggle_helmet_ability	extended_industrialization	UNIVERSAL	assumed		key.keyboard.unknown	options	Toggle Helmet Ability	Переключить способность шлема
 key.extended_industrialization.toggle_leggings_ability	extended_industrialization	UNIVERSAL	assumed		key.keyboard.unknown	options	Toggle Leggings Ability	Переключить способность поножей
 key.extended_industrialization.toggle_main_hand_ability	extended_industrialization	UNIVERSAL	assumed		key.keyboard.unknown	options	Toggle Main Hand Ability	Переключить способность в основной руке
-key.extendedae.set_amount	extendedae	UNIVERSAL	assumed		key.mouse.middle	options	Set Amount	
-key.extendedae.viewpattern	extendedae	UNIVERSAL	assumed		key.keyboard.p	options	View Pattern	Посмотреть шаблон
-key.fireNobu	mahoutsukai	UNIVERSAL	assumed		key.mouse.left	options	Fire Nobu	Fire Nobu
+key.extendedae.set_amount	extendedae	UNIVERSAL	assumed		key.keyboard.unknown	options	Set Amount	Установить количество
+key.extendedae.viewpattern	extendedae	UNIVERSAL	assumed		key.keyboard.unknown	options	View Pattern	Посмотреть шаблон
+key.fireNobu	mahoutsukai	UNIVERSAL	assumed		key.keyboard.unknown	options	Fire Nobu	Fire Nobu
 key.forward	minecraft	UNIVERSAL	assumed		key.keyboard.w	options		
 key.ftbchunks.add_waypoint	ftbchunks	UNIVERSAL	assumed		key.keyboard.unknown	options	Quick Add Waypoint	Быстро добавить путевую точку
 key.ftbchunks.claim_manager	ftbchunks	UNIVERSAL	assumed		key.keyboard.unknown	options	Open Claim Manager	Открыть управление захватом
-key.ftbchunks.map	ftbchunks	UNIVERSAL	assumed		key.keyboard.m	options	Open Map	Открыть карту
-key.ftbchunks.minimap.zoomIn	ftbchunks	UNIVERSAL	assumed		key.keyboard.equal	options	Zoom In Minimap	Увеличить масштаб миникарты
-key.ftbchunks.minimap.zoomOut	ftbchunks	UNIVERSAL	assumed		key.keyboard.minus	options	Zoom Out Minimap	Уменьшить масштаб миникарты
+key.ftbchunks.map	ftbchunks	UNIVERSAL	assumed		key.keyboard.unknown	options	Open Map	Открыть карту
+key.ftbchunks.minimap.zoomIn	ftbchunks	UNIVERSAL	assumed		key.keyboard.unknown	options	Zoom In Minimap	Увеличить масштаб миникарты
+key.ftbchunks.minimap.zoomOut	ftbchunks	UNIVERSAL	assumed		key.keyboard.unknown	options	Zoom Out Minimap	Уменьшить масштаб миникарты
 key.ftbchunks.toggle_minimap	ftbchunks	UNIVERSAL	assumed		key.keyboard.unknown	options	Toggle Minimap	Переключить миникарту
 key.ftbchunks.waypoint_manager	ftbchunks	UNIVERSAL	assumed		key.keyboard.unknown	options	Waypoint Manager	Управление путевыми точками
 key.ftbquests.gui.extended_info	ftbquests	UNIVERSAL	assumed		key.keyboard.f1	options	See Extended Quest Info	
-key.ftbquests.gui.move_down	ftbquests	UNIVERSAL	assumed		key.keyboard.down	options	Move Selection / Scroll Down	
-key.ftbquests.gui.move_left	ftbquests	UNIVERSAL	assumed		key.keyboard.left	options	Move Selection / Scroll Left	
-key.ftbquests.gui.move_right	ftbquests	UNIVERSAL	assumed		key.keyboard.right	options	Move Selection / Scroll Right	
-key.ftbquests.gui.move_up	ftbquests	UNIVERSAL	assumed		key.keyboard.up	options	Move Selection / Scroll Up	
-key.ftbquests.gui.next_chapter	ftbquests	UNIVERSAL	assumed		key.keyboard.tab	options	Next Chapter	
-key.ftbquests.gui.player_prefs	ftbquests	UNIVERSAL	assumed		key.keyboard.p:CONTROL	options	Player Preferences	
-key.ftbquests.gui.prev_chapter	ftbquests	UNIVERSAL	assumed		key.keyboard.tab:SHIFT	options	Previous Chapter	
-key.ftbquests.gui.recenter	ftbquests	UNIVERSAL	assumed		key.keyboard.space	options	Recenter GUI	
-key.ftbquests.gui.search	ftbquests	UNIVERSAL	assumed		key.keyboard.f:CONTROL	options	Search	
-key.ftbquests.gui.zoom_in	ftbquests	UNIVERSAL	assumed		key.keyboard.equal	options	Zoom In	
-key.ftbquests.gui.zoom_out	ftbquests	UNIVERSAL	assumed		key.keyboard.minus	options	Zoom Out	
-key.ftbquests.gui.zoom_reset	ftbquests	UNIVERSAL	assumed		key.keyboard.0	options	Reset Zoom	
-key.ftbquests.gui_editor.copy	ftbquests	UNIVERSAL	assumed		key.keyboard.c:CONTROL	options	Copy	
-key.ftbquests.gui_editor.delete	ftbquests	UNIVERSAL	assumed		key.keyboard.delete	options	Delete Hovered / Selected	
-key.ftbquests.gui_editor.force_delete	ftbquests	UNIVERSAL	assumed		key.keyboard.delete:SHIFT	options	Force-delete Hovered / Selected	
-key.ftbquests.gui_editor.paste	ftbquests	UNIVERSAL	assumed		key.keyboard.v:CONTROL	options	Paste	
-key.ftbquests.gui_editor.redo	ftbquests	UNIVERSAL	assumed		key.keyboard.y:CONTROL	options	Redo	
-key.ftbquests.gui_editor.reload_theme	ftbquests	UNIVERSAL	assumed		key.keyboard.f5	options	Reload Theme	
-key.ftbquests.gui_editor.reward_tables	ftbquests	UNIVERSAL	assumed		key.keyboard.t:CONTROL	options	Open Reward Table Editor	
-key.ftbquests.gui_editor.select_all	ftbquests	UNIVERSAL	assumed		key.keyboard.a:CONTROL	options	Select All	
-key.ftbquests.gui_editor.select_none	ftbquests	UNIVERSAL	assumed		key.keyboard.d:CONTROL	options	Select None	
-key.ftbquests.gui_editor.toggle_crosshairs	ftbquests	UNIVERSAL	assumed		key.keyboard.r:CONTROL	options	Toggle Crosshairs	
-key.ftbquests.gui_editor.undo	ftbquests	UNIVERSAL	assumed		key.keyboard.z:CONTROL	options	Undo	
-key.ftbquests.gui_quest_panel.add_image	ftbquests	UNIVERSAL	assumed		key.keyboard.i	options	Insert Line	
-key.ftbquests.gui_quest_panel.add_line	ftbquests	UNIVERSAL	assumed		key.keyboard.l	options	Insert Image	
-key.ftbquests.gui_quest_panel.add_page_break	ftbquests	UNIVERSAL	assumed		key.keyboard.p	options	Insert Page Break	
-key.ftbquests.gui_quest_panel.edit_desc	ftbquests	UNIVERSAL	assumed		key.keyboard.d	options	Edit Description	
-key.ftbquests.gui_quest_panel.edit_quest_props	ftbquests	UNIVERSAL	assumed		key.keyboard.q	options	Edit Quest Properties	
-key.ftbquests.gui_quest_panel.edit_subtitle	ftbquests	UNIVERSAL	assumed		key.keyboard.s	options	Edit Subtitle	
-key.ftbquests.gui_quest_panel.edit_title	ftbquests	UNIVERSAL	assumed		key.keyboard.t	options	Edit Title	
+key.ftbquests.gui.move_down	ftbquests	UNIVERSAL	assumed		key.keyboard.unknown	options	Move Selection / Scroll Down	
+key.ftbquests.gui.move_left	ftbquests	UNIVERSAL	assumed		key.keyboard.unknown	options	Move Selection / Scroll Left	
+key.ftbquests.gui.move_right	ftbquests	UNIVERSAL	assumed		key.keyboard.unknown	options	Move Selection / Scroll Right	
+key.ftbquests.gui.move_up	ftbquests	UNIVERSAL	assumed		key.keyboard.unknown	options	Move Selection / Scroll Up	
+key.ftbquests.gui.next_chapter	ftbquests	UNIVERSAL	assumed		key.keyboard.unknown	options	Next Chapter	
+key.ftbquests.gui.player_prefs	ftbquests	UNIVERSAL	assumed		key.keyboard.unknown	options	Player Preferences	
+key.ftbquests.gui.prev_chapter	ftbquests	UNIVERSAL	assumed		key.keyboard.unknown	options	Previous Chapter	
+key.ftbquests.gui.recenter	ftbquests	UNIVERSAL	assumed		key.keyboard.unknown	options	Recenter GUI	
+key.ftbquests.gui.search	ftbquests	UNIVERSAL	assumed		key.keyboard.unknown	options	Search	
+key.ftbquests.gui.zoom_in	ftbquests	UNIVERSAL	assumed		key.keyboard.unknown	options	Zoom In	
+key.ftbquests.gui.zoom_out	ftbquests	UNIVERSAL	assumed		key.keyboard.unknown	options	Zoom Out	
+key.ftbquests.gui.zoom_reset	ftbquests	UNIVERSAL	assumed		key.keyboard.unknown	options	Reset Zoom	
+key.ftbquests.gui_editor.copy	ftbquests	UNIVERSAL	assumed		key.keyboard.unknown	options	Copy	
+key.ftbquests.gui_editor.delete	ftbquests	UNIVERSAL	assumed		key.keyboard.unknown	options	Delete Hovered / Selected	
+key.ftbquests.gui_editor.force_delete	ftbquests	UNIVERSAL	assumed		key.keyboard.unknown	options	Force-delete Hovered / Selected	
+key.ftbquests.gui_editor.paste	ftbquests	UNIVERSAL	assumed		key.keyboard.unknown	options	Paste	
+key.ftbquests.gui_editor.redo	ftbquests	UNIVERSAL	assumed		key.keyboard.unknown	options	Redo	
+key.ftbquests.gui_editor.reload_theme	ftbquests	UNIVERSAL	assumed		key.keyboard.unknown	options	Reload Theme	
+key.ftbquests.gui_editor.reward_tables	ftbquests	UNIVERSAL	assumed		key.keyboard.unknown	options	Open Reward Table Editor	
+key.ftbquests.gui_editor.select_all	ftbquests	UNIVERSAL	assumed		key.keyboard.unknown	options	Select All	
+key.ftbquests.gui_editor.select_none	ftbquests	UNIVERSAL	assumed		key.keyboard.unknown	options	Select None	
+key.ftbquests.gui_editor.toggle_crosshairs	ftbquests	UNIVERSAL	assumed		key.keyboard.unknown	options	Toggle Crosshairs	
+key.ftbquests.gui_editor.undo	ftbquests	UNIVERSAL	assumed		key.keyboard.unknown	options	Undo	
+key.ftbquests.gui_quest_panel.add_image	ftbquests	UNIVERSAL	assumed		key.keyboard.unknown	options	Insert Line	
+key.ftbquests.gui_quest_panel.add_line	ftbquests	UNIVERSAL	assumed		key.keyboard.unknown	options	Insert Image	
+key.ftbquests.gui_quest_panel.add_page_break	ftbquests	UNIVERSAL	assumed		key.keyboard.unknown	options	Insert Page Break	
+key.ftbquests.gui_quest_panel.edit_desc	ftbquests	UNIVERSAL	assumed		key.keyboard.unknown	options	Edit Description	
+key.ftbquests.gui_quest_panel.edit_quest_props	ftbquests	UNIVERSAL	assumed		key.keyboard.unknown	options	Edit Quest Properties	
+key.ftbquests.gui_quest_panel.edit_subtitle	ftbquests	UNIVERSAL	assumed		key.keyboard.unknown	options	Edit Subtitle	
+key.ftbquests.gui_quest_panel.edit_title	ftbquests	UNIVERSAL	assumed		key.keyboard.unknown	options	Edit Title	
 key.ftbquests.quests	ftbquests	UNIVERSAL	assumed		key.keyboard.unknown	options	Open Quests	Открыть квесты
 key.ftbteams.open_gui	ftbteams	UNIVERSAL	assumed		key.keyboard.unknown	options	Open Teams GUI	Открыть интерфейс команд
 key.ftbultimine	ftbultimine	UNIVERSAL	assumed		key.keyboard.grave.accent	options	FTB Ultimine	FTB Ultimine
 key.fullscreen	minecraft	UNIVERSAL	assumed		key.keyboard.f11	options		
 key.gmut.vertical_speed	gmut	UNIVERSAL	assumed		key.keyboard.unknown	options	Vertical Speed Modifier Switch	
-key.guideme.guide	guideme	GUI	bytecode		key.keyboard.g	options	Open Guide for Items	
-key.gunDown	mahoutsukai	UNIVERSAL	assumed		key.keyboard.down	options	Nobu Guns Down	Nobu Guns Down
-key.gunUp	mahoutsukai	UNIVERSAL	assumed		key.keyboard.up	options	Nobu Guns Up	Nobu Guns Up
-key.hostilenetworks.open_deep_learner	hostilenetworks	UNIVERSAL	assumed		key.keyboard.u	options	Open Deep Learner Curio	Открыть карманный глубокий обучатель
+key.guideme.guide	guideme	GUI	bytecode		key.keyboard.unknown	options	Open Guide for Items	
+key.gunDown	mahoutsukai	UNIVERSAL	assumed		key.keyboard.unknown	options	Nobu Guns Down	Nobu Guns Down
+key.gunUp	mahoutsukai	UNIVERSAL	assumed		key.keyboard.unknown	options	Nobu Guns Up	Nobu Guns Up
+key.hostilenetworks.open_deep_learner	hostilenetworks	UNIVERSAL	assumed		key.keyboard.unknown	options	Open Deep Learner Curio	Открыть карманный глубокий обучатель
 key.hotbar.1		UNIVERSAL	assumed		key.keyboard.1	options		
 key.hotbar.2		UNIVERSAL	assumed		key.keyboard.2	options		
 key.hotbar.3		UNIVERSAL	assumed		key.keyboard.3	options		
@@ -204,25 +208,25 @@ key.hotbar.6		UNIVERSAL	assumed		key.keyboard.6	options
 key.hotbar.7		UNIVERSAL	assumed		key.keyboard.7	options		
 key.hotbar.8		UNIVERSAL	assumed		key.keyboard.8	options		
 key.hotbar.9		UNIVERSAL	assumed		key.keyboard.9	options		
-key.hypertube.tube_escape	create_hypertube	UNIVERSAL	assumed		key.keyboard.left.shift	options	Hypertube Escape Button	
+key.hypertube.tube_escape	create_hypertube	UNIVERSAL	assumed		key.keyboard.unknown	options	Hypertube Escape Button	
 key.immersiveengineering.chemthrowerSwitch	immersiveengineering	UNIVERSAL	assumed		key.keyboard.unknown	options	Switch Chemthrower Tanks	Сменить резервуары химического распылителя
-key.immersiveengineering.magnetEquip	immersiveengineering	UNIVERSAL	assumed		key.keyboard.s	options	Magnetic Shield Glove (doubletap)	Электромагнитная перчатка (дважды кликните)
-key.immersiveengineering.railgunZoom	immersiveengineering	UNIVERSAL	assumed		key.mouse.middle	options	Zoom with the Railgun	Войти в режим прицеливания на Рельсотроне
+key.immersiveengineering.magnetEquip	immersiveengineering	UNIVERSAL	assumed		key.keyboard.unknown	options	Magnetic Shield Glove (doubletap)	Электромагнитная перчатка (дважды кликните)
+key.immersiveengineering.railgunZoom	immersiveengineering	UNIVERSAL	assumed		key.keyboard.unknown	options	Zoom with the Railgun	Войти в режим прицеливания на Рельсотроне
 key.industrialforegoing.backpack.desc	industrialforegoing	UNIVERSAL	assumed		key.keyboard.unknown	options	Open Infinity Backpack	Открыть бесконечный рюкзак
-key.industrialization_overdrive.terminal_mode_switch	industrialization_overdrive	UNIVERSAL	assumed		key.keyboard.v	options		
-key.integrateddynamics.logic_programmer_focus_search	integrateddynamics	GUI	bytecode		key.keyboard.f:ALT	options	Focus Search Logic Programmer	Фокус поиска в Логическом программисте
-key.integrateddynamics.logic_programmer_open_rename	integrateddynamics	GUI	bytecode		key.keyboard.r:ALT	options	Rename Variable Logic Programmer	Переименовать переменную в Логическом программисте
-key.integratedterminals.terminal.craftinggrid.balance	integratedterminals	GUI	bytecode		key.keyboard.b	options	Balance Crafting Grid	Балансировка сетки крафта
-key.integratedterminals.terminal.craftinggrid.clearplayer	integratedterminals	GUI	bytecode		key.keyboard.c:SHIFT	options	Clear Crafting Grid into Inventory	Очистить сетку крафта в инвентарь
-key.integratedterminals.terminal.craftinggrid.clearstorage	integratedterminals	GUI	bytecode		key.keyboard.c	options	Clear Crafting Grid into Storage	Очистить сетку крафта в хранилище
-key.integratedterminals.terminal.portable.open	integratedterminals	IN_GAME	bytecode		key.keyboard.c	options	Open first Portable Storage Terminal	Открыть первый портативный терминал хранения
-key.integratedterminals.terminal.tab.next	integratedterminals	GUI	bytecode		key.keyboard.tab	options	Go to next terminal tab	Перейти на следующую вкладку терминала
-key.integratedterminals.terminal.tab.previous	integratedterminals	GUI	bytecode		key.keyboard.tab:SHIFT	options	Go to previous terminal tab	Перейти на предыдущую вкладку терминала
+key.industrialization_overdrive.terminal_mode_switch	industrialization_overdrive	UNIVERSAL	assumed		key.keyboard.unknown	options	Switch Multiblock Builder mode	
+key.integrateddynamics.logic_programmer_focus_search	integrateddynamics	GUI	bytecode		key.keyboard.unknown	options	Focus Search Logic Programmer	Фокус поиска в Логическом программисте
+key.integrateddynamics.logic_programmer_open_rename	integrateddynamics	GUI	bytecode		key.keyboard.unknown	options	Rename Variable Logic Programmer	Переименовать переменную в Логическом программисте
+key.integratedterminals.terminal.craftinggrid.balance	integratedterminals	GUI	bytecode		key.keyboard.unknown	options	Balance Crafting Grid	Балансировка сетки крафта
+key.integratedterminals.terminal.craftinggrid.clearplayer	integratedterminals	GUI	bytecode		key.keyboard.unknown	options	Clear Crafting Grid into Inventory	Очистить сетку крафта в инвентарь
+key.integratedterminals.terminal.craftinggrid.clearstorage	integratedterminals	GUI	bytecode		key.keyboard.unknown	options	Clear Crafting Grid into Storage	Очистить сетку крафта в хранилище
+key.integratedterminals.terminal.portable.open	integratedterminals	IN_GAME	bytecode		key.keyboard.unknown	options	Open first Portable Storage Terminal	Открыть первый портативный терминал хранения
+key.integratedterminals.terminal.tab.next	integratedterminals	GUI	bytecode		key.keyboard.unknown	options	Go to next terminal tab	Перейти на следующую вкладку терминала
+key.integratedterminals.terminal.tab.previous	integratedterminals	GUI	bytecode		key.keyboard.unknown	options	Go to previous terminal tab	Перейти на предыдущую вкладку терминала
 key.inventory	minecraft	UNIVERSAL	assumed		key.keyboard.e	options		
-key.invtweaks_sort_either.desc	invtweaks	GUI	bytecode		key.mouse.middle	options	Sort Inventory Under Cursor	Сортировка инвентаря под курсором
-key.invtweaks_sort_inventory.desc	invtweaks	GUI	bytecode		key.keyboard.grave.accent	options	Sort External Inventory	Сортировка внешнего инвентаря
-key.invtweaks_sort_player.desc	invtweaks	GUI	bytecode		key.keyboard.backslash	options	Sort Player Inventory	Сортировка инвентаря игрока
-key.irons_spellbooks.spell_bar_modifier	irons_spellbooks	UNIVERSAL	assumed		key.keyboard.left.alt	options	Spell Bar Scroll Modifier	Прокрутка панели заклинаний колёсиком мыши
+key.invtweaks_sort_either.desc	invtweaks	GUI	bytecode		key.keyboard.unknown	options	Sort Inventory Under Cursor	Сортировка инвентаря под курсором
+key.invtweaks_sort_inventory.desc	invtweaks	GUI	bytecode		key.keyboard.unknown	options	Sort External Inventory	Сортировка внешнего инвентаря
+key.invtweaks_sort_player.desc	invtweaks	GUI	bytecode		key.keyboard.unknown	options	Sort Player Inventory	Сортировка инвентаря игрока
+key.irons_spellbooks.spell_bar_modifier	irons_spellbooks	UNIVERSAL	assumed		key.keyboard.unknown	options	Spell Bar Scroll Modifier	Прокрутка панели заклинаний колёсиком мыши
 key.irons_spellbooks.spell_quick_cast_1	irons_spellbooks	UNIVERSAL	assumed		key.keyboard.unknown	options	Quick Cast Slot 01	Слот быстрого заклинания 01
 key.irons_spellbooks.spell_quick_cast_10	irons_spellbooks	UNIVERSAL	assumed		key.keyboard.unknown	options	Quick Cast Slot 10	Слот быстрого заклинания 10
 key.irons_spellbooks.spell_quick_cast_11	irons_spellbooks	UNIVERSAL	assumed		key.keyboard.unknown	options	Quick Cast Slot 11	Слот быстрого заклинания 11
@@ -238,68 +242,68 @@ key.irons_spellbooks.spell_quick_cast_6	irons_spellbooks	UNIVERSAL	assumed		key.
 key.irons_spellbooks.spell_quick_cast_7	irons_spellbooks	UNIVERSAL	assumed		key.keyboard.unknown	options	Quick Cast Slot 07	Слот быстрого заклинания 07
 key.irons_spellbooks.spell_quick_cast_8	irons_spellbooks	UNIVERSAL	assumed		key.keyboard.unknown	options	Quick Cast Slot 08	Слот быстрого заклинания 08
 key.irons_spellbooks.spell_quick_cast_9	irons_spellbooks	UNIVERSAL	assumed		key.keyboard.unknown	options	Quick Cast Slot 09	Слот быстрого заклинания 09
-key.irons_spellbooks.spell_wheel	irons_spellbooks	UNIVERSAL	assumed		key.keyboard.r	options	Spell Wheel Hold	Открыть панель заклинаний
+key.irons_spellbooks.spell_wheel	irons_spellbooks	UNIVERSAL	assumed		key.keyboard.j	options	Spell Wheel Hold	Открыть панель заклинаний
 key.irons_spellbooks.spell_wheel_toggle	irons_spellbooks	UNIVERSAL	assumed		key.keyboard.unknown	options	Spell Wheel Toggle	Переключение колеса заклинаний
 key.irons_spellbooks.spellbook_cast	irons_spellbooks	UNIVERSAL	assumed		key.keyboard.v	options	Cast Selected Spell	Применить выбранное заклинание
-key.jade.config	jade	UNIVERSAL	assumed		key.keyboard.keypad.0	options	Open Config	Открыть настройки
-key.jade.narrate	jade	UNIVERSAL	assumed		key.keyboard.keypad.5	options	Narrate	Комментатор
-key.jade.show_details	jade	UNIVERSAL	assumed		key.keyboard.left.shift	options	Show Details	Показать подробности
-key.jade.show_overlay	jade	UNIVERSAL	assumed		key.keyboard.keypad.1	options	Show Overlay	Показать наложение
-key.jade.show_recipes	jade	UNIVERSAL	assumed		key.keyboard.keypad.3	options	Show Recipes	Показать рецепты
-key.jade.show_uses	jade	UNIVERSAL	assumed		key.keyboard.keypad.4	options	Show Uses	Показать применения
-key.jade.toggle_liquid	jade	UNIVERSAL	assumed		key.keyboard.keypad.2	options	Toggle Fluid	Переключить жидкости
-key.jei.bookmark	jei	UNIVERSAL	assumed		key.keyboard.a	options	Add/Remove Bookmark	Добавить/убрать закладку
-key.jei.cheatItemStack	jei	UNIVERSAL	assumed		key.mouse.left:SHIFT	options	Cheat 1 Stack	Сжульничать 1 стэк
-key.jei.cheatItemStack2	jei	UNIVERSAL	assumed		key.mouse.middle	options	Cheat 1 Stack	Сжульничать 1 стэк
-key.jei.cheatOneItem	jei	UNIVERSAL	assumed		key.mouse.left	options	Cheat 1 Item	Сжульничать 1 предмет
-key.jei.cheatOneItem2	jei	UNIVERSAL	assumed		key.mouse.right	options	Cheat 1 Item	Сжульничать 1 предмет
-key.jei.clearSearchBar	jei	UNIVERSAL	assumed		key.mouse.right	options	Clear Search Filter	Очистить фильтр поиска
-key.jei.closeRecipeGui	jei	UNIVERSAL	assumed		key.keyboard.escape	options	Close Recipes GUI	Закрыть интерфейс рецепта
+key.jade.config	jade	UNIVERSAL	assumed		key.keyboard.unknown	options	Open Config	Открыть настройки
+key.jade.narrate	jade	UNIVERSAL	assumed		key.keyboard.unknown	options	Narrate	Комментатор
+key.jade.show_details	jade	UNIVERSAL	assumed		key.keyboard.left.alt	options	Show Details	Показать подробности
+key.jade.show_overlay	jade	UNIVERSAL	assumed		key.keyboard.unknown	options	Show Overlay	Показать наложение
+key.jade.show_recipes	jade	UNIVERSAL	assumed		key.keyboard.unknown	options	Show Recipes	Показать рецепты
+key.jade.show_uses	jade	UNIVERSAL	assumed		key.keyboard.unknown	options	Show Uses	Показать применения
+key.jade.toggle_liquid	jade	UNIVERSAL	assumed		key.keyboard.unknown	options	Toggle Fluid	Переключить жидкости
+key.jei.bookmark	jei	UNIVERSAL	assumed		key.keyboard.y	options	Add/Remove Bookmark	Добавить/убрать закладку
+key.jei.cheatItemStack	jei	UNIVERSAL	assumed		key.keyboard.unknown	options	Cheat One Stack	Сжульничать 1 стэк
+key.jei.cheatItemStack2	jei	UNIVERSAL	assumed		key.keyboard.unknown	options	Cheat One Stack (Alternate)	Сжульничать 1 стэк
+key.jei.cheatOneItem	jei	UNIVERSAL	assumed		key.keyboard.unknown	options	Cheat One Item	Сжульничать 1 предмет
+key.jei.cheatOneItem2	jei	UNIVERSAL	assumed		key.keyboard.unknown	options	Cheat One Item (Alternate)	Сжульничать 1 предмет
+key.jei.clearSearchBar	jei	UNIVERSAL	assumed		key.keyboard.unknown	options	Clear Search Filter	Очистить фильтр поиска
+key.jei.closeRecipeGui	jei	UNIVERSAL	assumed		key.keyboard.unknown	options	Close Recipes GUI	Закрыть интерфейс рецепта
 key.jei.copy.recipe.id	jei	UNIVERSAL	assumed		key.keyboard.unknown	options	Copy Recipe ID to Clipboard	Скопировать ID рецепта в буфер обмена
-key.jei.focusSearch	jei	UNIVERSAL	assumed		key.keyboard.f:CONTROL	options	Select Search Bar	Выбрать поле поиска
+key.jei.focusSearch	jei	UNIVERSAL	assumed		key.keyboard.unknown	options	Select Search Bar	Выбрать поле поиска
 key.jei.internal.enter.key	jei	UNIVERSAL	assumed	key.keyboard.keypad.enter		jar		
-key.jei.maxTransferRecipeBookmark	jei	UNIVERSAL	assumed		key.mouse.left:CONTROL	options	Craft Bookmarked Recipe (Many)	Создать рецепт в закладке (макс. кол-во)
-key.jei.nextCategory	jei	UNIVERSAL	assumed		key.keyboard.page.down:SHIFT	options	Next Recipe Category	Следующая категория рецепта
+key.jei.maxTransferRecipeBookmark	jei	UNIVERSAL	assumed		key.keyboard.unknown	options	Craft Bookmarked Recipe (Many)	Создать рецепт в закладке (макс. кол-во)
+key.jei.nextCategory	jei	UNIVERSAL	assumed		key.keyboard.unknown	options	Next Recipe Category	Следующая категория рецепта
 key.jei.nextPage	jei	UNIVERSAL	assumed		key.keyboard.unknown	options	Next Page	Следующая страница
 key.jei.nextRecipePage	jei	UNIVERSAL	assumed		key.keyboard.page.down	options	Next Recipe Page	Следующая страница рецепта
-key.jei.nextSearch	jei	UNIVERSAL	assumed		key.keyboard.down	options	Next Search	Следующий поиск
-key.jei.pauseRecipeCycling	jei	UNIVERSAL	assumed		key.keyboard.left.shift	options	Pause Recipe Ingredient Cycling	
-key.jei.previousCategory	jei	UNIVERSAL	assumed		key.keyboard.page.up:SHIFT	options	Previous Recipe Category	Предыдущая категория рецепта
+key.jei.nextSearch	jei	UNIVERSAL	assumed		key.keyboard.unknown	options	Next Search	Следующий поиск
+key.jei.pauseRecipeCycling	jei	UNIVERSAL	assumed		key.keyboard.unknown	options	Pause Recipe Ingredient Cycling	
+key.jei.previousCategory	jei	UNIVERSAL	assumed		key.keyboard.unknown	options	Previous Recipe Category	Предыдущая категория рецепта
 key.jei.previousPage	jei	UNIVERSAL	assumed		key.keyboard.unknown	options	Previous Page	Предыдущая страница
 key.jei.previousRecipePage	jei	UNIVERSAL	assumed		key.keyboard.page.up	options	Previous Recipe Page	Предыдущая страница рецепта
-key.jei.previousSearch	jei	UNIVERSAL	assumed		key.keyboard.up	options	Previous Search	Предыдущий поиск
-key.jei.quickMove	jei	UNIVERSAL	assumed		key.mouse.left:SHIFT	options	Quick Move Ghost Item	
-key.jei.recipeBack	jei	UNIVERSAL	assumed		key.keyboard.backspace	options	Previous Recipe	Предыдущий рецепт
+key.jei.previousSearch	jei	UNIVERSAL	assumed		key.keyboard.unknown	options	Previous Search	Предыдущий поиск
+key.jei.quickMove	jei	UNIVERSAL	assumed		key.keyboard.unknown	options	Quick Move Ghost Item	
+key.jei.recipeBack	jei	UNIVERSAL	assumed		key.keyboard.unknown	options	Previous Recipe	Предыдущий рецепт
 key.jei.shareToChat	jei	UNIVERSAL	assumed		key.keyboard.unknown	options	Share Item to Chat	
-key.jei.showBookmarkTooltipFeatures	jei	UNIVERSAL	assumed		key.keyboard.left.control	options	Show Bookmark Details	
-key.jei.showRecipe	jei	UNIVERSAL	assumed		key.keyboard.r	options	Show Recipe	Отобразить рецепт
-key.jei.showRecipe2	jei	UNIVERSAL	assumed		key.mouse.left	options	Show Recipe	Отобразить рецепт
-key.jei.showUses	jei	UNIVERSAL	assumed		key.keyboard.u	options	Show Uses	Отобразить применения
-key.jei.showUses2	jei	UNIVERSAL	assumed		key.mouse.right	options	Show Uses	Отобразить применения
+key.jei.showBookmarkTooltipFeatures	jei	UNIVERSAL	assumed		key.keyboard.unknown	options		
+key.jei.showRecipe	jei	UNIVERSAL	assumed		key.keyboard.r	options	Show Recipe for Hovered Ingredient	Отобразить рецепт
+key.jei.showRecipe2	jei	UNIVERSAL	assumed		key.keyboard.unknown	options	Show Recipe for Hovered Ingredient (Alternate)	Отобразить рецепт
+key.jei.showUses	jei	UNIVERSAL	assumed		key.keyboard.u	options	Show Uses for Hovered Ingredient	Отобразить применения
+key.jei.showUses2	jei	UNIVERSAL	assumed		key.keyboard.unknown	options	Show Uses for Hovered Ingredient (Alternate)	Отобразить применения
 key.jei.toggleBookmarkOverlay	jei	UNIVERSAL	assumed		key.keyboard.unknown	options	Show/Hide Bookmarked Ingredients	Отобразить/скрыть ингредиенты отмеченные закладкой
 key.jei.toggleCheatMode	jei	UNIVERSAL	assumed		key.keyboard.unknown	options	Toggle Cheat Mode	Вкл/выкл режим жульничества
-key.jei.toggleCheatModeConfigButton	jei	UNIVERSAL	assumed		key.mouse.left:CONTROL	options	Toggle Cheat Mode	Вкл/выкл режим жульничества
+key.jei.toggleCheatModeConfigButton	jei	UNIVERSAL	assumed		key.keyboard.unknown	options	Toggle Cheat Mode	Вкл/выкл режим жульничества
 key.jei.toggleEditMode	jei	UNIVERSAL	assumed		key.keyboard.unknown	options	Toggle Hide Ingredients Mode	Вкл/выкл режим скрытия ингредиента
-key.jei.toggleHideIngredient	jei	UNIVERSAL	assumed		key.mouse.left:CONTROL	options	Hide Ingredient	Скрыть ингредиент
-key.jei.toggleOverlay	jei	UNIVERSAL	assumed		key.keyboard.o:CONTROL	options	Show/Hide JEI Overlays	Отобразить/скрыть наложения JEI
-key.jei.toggleWildcardHideIngredient	jei	UNIVERSAL	assumed		key.mouse.right:CONTROL	options	Hide Ingredient (With Wildcard)	Скрыть ингредиент (специальный символ)
-key.jei.transferRecipeBookmark	jei	UNIVERSAL	assumed		key.mouse.left:SHIFT	options	Craft Bookmarked Recipe (One)	Создать рецепт в закладке (один раз)
-key.journeymap.create_waypoint	journeymap	UNIVERSAL	assumed		key.keyboard.b	options	Create Waypoint	Создать метку
+key.jei.toggleHideIngredient	jei	UNIVERSAL	assumed		key.keyboard.unknown	options	Hide Ingredient	Скрыть ингредиент
+key.jei.toggleOverlay	jei	UNIVERSAL	assumed		key.keyboard.unknown	options	Show/Hide JEI Overlays	Отобразить/скрыть наложения JEI
+key.jei.toggleWildcardHideIngredient	jei	UNIVERSAL	assumed		key.keyboard.unknown	options	Hide Ingredient (With Wildcard)	Скрыть ингредиент (специальный символ)
+key.jei.transferRecipeBookmark	jei	UNIVERSAL	assumed		key.keyboard.unknown	options	Craft Bookmarked Recipe (One)	Создать рецепт в закладке (один раз)
+key.journeymap.create_waypoint	journeymap	UNIVERSAL	assumed		key.keyboard.unknown	options	Create Waypoint	Создать метку
 key.journeymap.fullscreen.disable_buttons	journeymap	UNIVERSAL	assumed		key.keyboard.unknown	options	Disable Fullscreen Buttons	Disable Fullscreen Buttons
-key.journeymap.fullscreen.east	journeymap	UNIVERSAL	assumed		key.keyboard.right	options	Pan East (16 Blocks)	Сместить на восток (16 блоков)
-key.journeymap.fullscreen.north	journeymap	UNIVERSAL	assumed		key.keyboard.up	options	Pan North (16 Blocks)	Сместить на север (16 блоков)
-key.journeymap.fullscreen.south	journeymap	UNIVERSAL	assumed		key.keyboard.down	options	Pan South (16 Blocks)	Сместить на юг (16 блоков)
-key.journeymap.fullscreen.west	journeymap	UNIVERSAL	assumed		key.keyboard.left	options	Pan West (16 Blocks)	Сместить на запад (16 блоков)
-key.journeymap.fullscreen_chat_position	journeymap	UNIVERSAL	assumed		key.keyboard.c	options	Chat Position (at cursor)	Вывести позицию курсора в чат
-key.journeymap.fullscreen_create_waypoint	journeymap	UNIVERSAL	assumed		key.keyboard.b	options	Create Waypoint (at cursor)	Создать метку на месте курсора
-key.journeymap.fullscreen_follow_player	journeymap	UNIVERSAL	assumed		key.keyboard.f	options	Follow Player	Follow Player
-key.journeymap.fullscreen_options	journeymap	UNIVERSAL	assumed		key.keyboard.o	options	Options Manager	Менеджер настроек
-key.journeymap.fullscreen_waypoints	journeymap	UNIVERSAL	assumed		key.keyboard.n	options	Waypoint Manager	Менеджер меток
-key.journeymap.map_toggle_alt	journeymap	UNIVERSAL	assumed		key.keyboard.j	options	Show / Hide Fullscreen Map	Показать/Спрятать полноэкранную карту
-key.journeymap.minimap_preset	journeymap	UNIVERSAL	assumed		key.keyboard.backslash	options	Switch MiniMap Preset	Переключить режим мини-карты
-key.journeymap.minimap_toggle_alt	journeymap	UNIVERSAL	assumed		key.keyboard.j:CONTROL	options	Show / Hide MiniMap	Show / Hide MiniMap
-key.journeymap.minimap_type	journeymap	UNIVERSAL	assumed		key.keyboard.left.bracket	options	Change Map Type	Переключить тип карты
-key.journeymap.toggle_entity_names	journeymap	UNIVERSAL	assumed		key.keyboard.g	options	Toggle Entity Names	Toggle Entity Names
+key.journeymap.fullscreen.east	journeymap	UNIVERSAL	assumed		key.keyboard.unknown	options	Pan East (16 Blocks)	Сместить на восток (16 блоков)
+key.journeymap.fullscreen.north	journeymap	UNIVERSAL	assumed		key.keyboard.unknown	options	Pan North (16 Blocks)	Сместить на север (16 блоков)
+key.journeymap.fullscreen.south	journeymap	UNIVERSAL	assumed		key.keyboard.unknown	options	Pan South (16 Blocks)	Сместить на юг (16 блоков)
+key.journeymap.fullscreen.west	journeymap	UNIVERSAL	assumed		key.keyboard.unknown	options	Pan West (16 Blocks)	Сместить на запад (16 блоков)
+key.journeymap.fullscreen_chat_position	journeymap	UNIVERSAL	assumed		key.keyboard.unknown	options	Chat Position (at cursor)	Вывести позицию курсора в чат
+key.journeymap.fullscreen_create_waypoint	journeymap	UNIVERSAL	assumed		key.keyboard.unknown	options	Create Waypoint (at cursor)	Создать метку на месте курсора
+key.journeymap.fullscreen_follow_player	journeymap	UNIVERSAL	assumed		key.keyboard.unknown	options	Follow Player	Follow Player
+key.journeymap.fullscreen_options	journeymap	UNIVERSAL	assumed		key.keyboard.unknown	options	Options Manager	Менеджер настроек
+key.journeymap.fullscreen_waypoints	journeymap	UNIVERSAL	assumed		key.keyboard.unknown	options	Waypoint Manager	Менеджер меток
+key.journeymap.map_toggle_alt	journeymap	UNIVERSAL	assumed		key.keyboard.m	options	Show / Hide Fullscreen Map	Показать/Спрятать полноэкранную карту
+key.journeymap.minimap_preset	journeymap	UNIVERSAL	assumed		key.keyboard.unknown	options	Switch MiniMap Preset	Переключить режим мини-карты
+key.journeymap.minimap_toggle_alt	journeymap	UNIVERSAL	assumed		key.keyboard.unknown	options	Show / Hide MiniMap	Show / Hide MiniMap
+key.journeymap.minimap_type	journeymap	UNIVERSAL	assumed		key.keyboard.unknown	options	Change Map Type	Переключить тип карты
+key.journeymap.toggle_entity_names	journeymap	UNIVERSAL	assumed		key.keyboard.unknown	options	Toggle Entity Names	Toggle Entity Names
 key.journeymap.toggle_render_waypoints	journeymap	UNIVERSAL	assumed		key.keyboard.unknown	options	Toggle Waypoint Rendering	Toggle Waypoint Rendering
 key.journeymap.toggle_render_waypoints_map	journeymap	UNIVERSAL	assumed		key.keyboard.unknown	options	Toggle Waypoint Map Rendering	Toggle Waypoint Map Rendering
 key.journeymap.toggle_render_waypoints_world	journeymap	UNIVERSAL	assumed		key.keyboard.unknown	options	Toggle Waypoint World Rendering	Toggle Waypoint World Rendering
@@ -307,40 +311,49 @@ key.journeymap.toggle_waypoints	journeymap	UNIVERSAL	assumed		key.keyboard.unkno
 key.journeymap.zoom_in	journeymap	UNIVERSAL	assumed		key.keyboard.equal	options	Zoom In	Приблизить
 key.journeymap.zoom_out	journeymap	UNIVERSAL	assumed		key.keyboard.minus	options	Zoom Out	Отдалить
 key.jump	minecraft	UNIVERSAL	assumed		key.keyboard.space	options		
-key.keybindbundles.open_radial_menu	keybindbundles	UNIVERSAL	assumed		key.keyboard.left.alt	options	Open Bundle radial menu	
+key.keybindbundles.open_radial_menu	keybindbundles	UNIVERSAL	assumed		key.keyboard.unknown	options	Open Bundle radial menu	
 key.keybindbundles.open_screen	keybindbundles	UNIVERSAL	assumed		key.keyboard.unknown	options	Open Key Bindings Screen	
-key.kubejs.kubedex	kubejs	UNIVERSAL	bytecode		key.keyboard.k	options		
+key.kubejs.kubedex	kubejs	UNIVERSAL	bytecode		key.keyboard.unknown	options		
 key.left	minecraft	UNIVERSAL	assumed		key.keyboard.a	options		
 key.little_big_redstone.open_note_board	little_big_redstone	UNIVERSAL	assumed		key.keyboard.unknown	options	Open Note Board	Открыть блокнот
-key.loadToolbarActivator	minecraft	UNIVERSAL	assumed		key.keyboard.x	options		
+key.loadToolbarActivator	minecraft	UNIVERSAL	assumed		key.keyboard.unknown	options		
+key.logisticsnetworks.modifier_1	logisticsnetworks	UNIVERSAL	assumed	key.keyboard.left.shift		jar	Modifier Key 1	
+key.logisticsnetworks.modifier_2	logisticsnetworks	UNIVERSAL	assumed	key.keyboard.left.control		jar	Modifier Key 2	
+key.logisticsnetworks.modifier_3	logisticsnetworks	UNIVERSAL	assumed	key.keyboard.left.alt		jar	Modifier Key 3	
+key.logisticsnetworks.primary_interaction	logisticsnetworks	UNIVERSAL	assumed	key.keyboard.unknown		jar	Primary Interaction	
+key.logisticsnetworks.secondary_interaction	logisticsnetworks	UNIVERSAL	assumed	key.keyboard.unknown		jar	Secondary Interaction	
+key.logisticsnetworks.toggle_slot_numbers	logisticsnetworks	UNIVERSAL	bytecode	key.keyboard.i		jar	Toggle Slot Numbers	
+key.logisticsnetworks.toggle_wrench_hud	logisticsnetworks	UNIVERSAL	assumed	key.keyboard.h		jar	Toggle Wrench HUD	
+key.logisticsnetworks.wrench_colors	logisticsnetworks	UNIVERSAL	assumed	key.keyboard.g		jar	Edit Wrench Colors	
+key.logisticsnetworks.wrench_modes	logisticsnetworks	IN_GAME	bytecode	key.keyboard.r		jar	Hold Wrench Mode Wheel	
 key.mapping.compactmachines.exit_room	compactmachines	UNIVERSAL	assumed		key.keyboard.unknown	options	Quick-Exit Compact Machine	
 key.mapping.compactmachines.open_upgrade_screen	compactmachines	UNIVERSAL	assumed		key.keyboard.unknown	options	Open Room Upgrade Screen	
-key.mekanism.chest_mode	mekanism	UNIVERSAL	assumed		key.keyboard.g	options	Chest Mode Switch	Переключить режим ранца
-key.mekanism.description	mekanism	UNIVERSAL	assumed		key.keyboard.n:SHIFT	options	Show Description	Показать описание
-key.mekanism.details	mekanism	UNIVERSAL	assumed		key.keyboard.left.shift	options	Show Details	Подробности
-key.mekanism.feet_mode	mekanism	UNIVERSAL	assumed		key.keyboard.b	options	Feet Mode Switch	Переключить режим бегунков
-key.mekanism.head_mode	mekanism	UNIVERSAL	assumed		key.keyboard.v	options	Head Mode Switch	Переключить режим шлема
-key.mekanism.key_boost	mekanism	UNIVERSAL	assumed		key.keyboard.left.control	options	Boost	Ускорение
-key.mekanism.key_hud	mekanism	UNIVERSAL	assumed		key.keyboard.h	options	Show HUD	Показать HUD
-key.mekanism.legs_mode	mekanism	UNIVERSAL	assumed		key.keyboard.j	options	Legs Mode Switch	Переключить режим штанов
-key.mekanism.mode	mekanism	UNIVERSAL	assumed		key.keyboard.n	options	Item Mode Switch	Переключить режим предмета
+key.mekanism.chest_mode	mekanism	UNIVERSAL	assumed		key.keyboard.unknown	options	Chest Mode Switch	Переключить режим ранца
+key.mekanism.description	mekanism	UNIVERSAL	assumed		key.keyboard.unknown	options	Show Description	Показать описание
+key.mekanism.details	mekanism	UNIVERSAL	assumed		key.keyboard.unknown	options	Show Details	Подробности
+key.mekanism.feet_mode	mekanism	UNIVERSAL	assumed		key.keyboard.unknown	options	Feet Mode Switch	Переключить режим бегунков
+key.mekanism.head_mode	mekanism	UNIVERSAL	assumed		key.keyboard.unknown	options	Head Mode Switch	Переключить режим шлема
+key.mekanism.key_boost	mekanism	UNIVERSAL	assumed		key.keyboard.unknown	options	Boost	Ускорение
+key.mekanism.key_hud	mekanism	UNIVERSAL	assumed		key.keyboard.unknown	options	Show HUD	Показать HUD
+key.mekanism.legs_mode	mekanism	UNIVERSAL	assumed		key.keyboard.unknown	options	Legs Mode Switch	Переключить режим штанов
+key.mekanism.mode	mekanism	UNIVERSAL	assumed		key.keyboard.end	options	Item Mode Switch	Переключить режим предмета
 key.mekanism.module_tweaker	mekanism	UNIVERSAL	assumed		key.keyboard.backslash	options	Module Tweaker	Настройка модулей
 key.minecolonies.toggle_goggles	minecolonies	IN_GAME	bytecode		key.keyboard.unknown	options	Toggle Goggles Preview	Предварительный просмотр очков
-key.modern_industrialization.toggle_3x3	modern_industrialization	UNIVERSAL	assumed		key.keyboard.y	options	Toggle 3x3 Mining	Вкл/выкл Копание 3х3
-key.modern_industrialization.toggle_flight	modern_industrialization	UNIVERSAL	assumed		key.keyboard.v	options	Toggle Flight	Вкл/выкл Полёт
+key.modern_industrialization.toggle_3x3	modern_industrialization	UNIVERSAL	assumed		key.keyboard.unknown	options	Toggle 3x3 Mining	Вкл/выкл Копание 3х3
+key.modern_industrialization.toggle_flight	modern_industrialization	UNIVERSAL	assumed		key.keyboard.home	options	Toggle Flight	Вкл/выкл Полёт
 key.modernfix.config	modernfix	UNIVERSAL	bytecode		key.keyboard.unknown	options	Open config screen	Открыть экран настройки
-key.modularrouters.configure	modularrouters	GUI	bytecode		key.keyboard.c	options	Configure Installed Module (GUI)	
-key.modularrouters.moduleInfo	modularrouters	GUI	bytecode		key.keyboard.i	options	Extra Tooltip Info (GUI)	
+key.modularrouters.configure	modularrouters	GUI	bytecode		key.keyboard.unknown	options	Configure Installed Module (GUI)	
+key.modularrouters.moduleInfo	modularrouters	GUI	bytecode		key.keyboard.unknown	options	Extra Tooltip Info (GUI)	
 key.moreoverlays.chunkbounds.desc	moreoverlays	UNIVERSAL	assumed		key.keyboard.f9	options	Toggle Chunk Boundaries	Показать/Спрятать границы чанков
 key.moreoverlays.lightoverlay.desc	moreoverlays	UNIVERSAL	assumed		key.keyboard.f7	options	Toggle Light Overlay	Показать/Спрятать метки темноты
-key.neovitae.blood_shield	neovitae	UNIVERSAL	assumed		key.mouse.right	options	Blood Shield (Orb of Vitae)	
-key.neovitae.edit_hud	neovitae	UNIVERSAL	assumed		key.keyboard.h	options	Edit HUD Layout	
+key.neovitae.blood_shield	neovitae	UNIVERSAL	assumed		key.mouse.5	options	Blood Shield (Orb of Vitae)	
+key.neovitae.edit_hud	neovitae	UNIVERSAL	assumed		key.keyboard.unknown	options	Edit HUD Layout	
 key.neovitae.lex_beam	neovitae	UNIVERSAL	assumed		key.keyboard.unknown	options	Lex Vitae: Fire Beam	
-key.neovitae.lex_mode	neovitae	UNIVERSAL	assumed		key.keyboard.period	options	Lex Vitae: Cycle Mode	
+key.neovitae.lex_mode	neovitae	UNIVERSAL	assumed		key.keyboard.unknown	options	Lex Vitae: Cycle Mode	
 key.neovitae.open_guide	neovitae	UNIVERSAL	assumed		key.keyboard.unknown	options	Open Scriptura Vitae for Hovered Item	Открыть Scriptura Vitae для шерсти
-key.nextDestination	rftoolsbase	IN_GAME	bytecode		key.keyboard.right.bracket	options	Cycle to next target	
-key.occultism.backpack	occultism	UNIVERSAL	assumed		key.keyboard.b	options	Open Satchel	Открыть наплечную сумку
-key.occultism.ender_bag	occultism	UNIVERSAL	assumed		key.keyboard.v	options	Open Ender Satchel	Open Ender Satchel
+key.nextDestination	rftoolsbase	IN_GAME	bytecode		key.keyboard.unknown	options	Cycle to next target	
+key.occultism.backpack	occultism	UNIVERSAL	assumed		key.keyboard.unknown	options	Open Satchel	Открыть наплечную сумку
+key.occultism.ender_bag	occultism	UNIVERSAL	assumed		key.keyboard.unknown	options	Open Ender Satchel	Open Ender Satchel
 key.occultism.familiar.bat_familiar	occultism	UNIVERSAL	assumed		key.keyboard.unknown	options	Toggle Ring Effect: Bat	Переключение эффекта перстня: летучая мышь
 key.occultism.familiar.beaver_familiar	occultism	UNIVERSAL	assumed		key.keyboard.unknown	options	Toggle Ring Effect: Beaver	Переключение эффекта перстня: бобёр
 key.occultism.familiar.beholder_familiar	occultism	UNIVERSAL	assumed		key.keyboard.unknown	options	Toggle Ring Effect: Beholder	Переключение эффекта перстня: созерцатель
@@ -359,136 +372,137 @@ key.occultism.familiar.mummy_familiar	occultism	UNIVERSAL	assumed		key.keyboard.
 key.occultism.familiar.otherworld_bird	occultism	UNIVERSAL	assumed		key.keyboard.unknown	options	Toggle Ring Effect: Drikwing	Переключение эффекта перстня: дрикрыл
 key.occultism.familiar.shub_niggurath_familiar	occultism	UNIVERSAL	assumed		key.keyboard.unknown	options	Toggle Ring Effect: Shub Niggurath	Переключение эффекта перстня: Шаб-Ниггурат
 key.occultism.storage_remote	occultism	UNIVERSAL	assumed		key.keyboard.n	options	Open Storage Accessor	Открыть средство доступа к хранилищу
-key.openManual	mcjtylib	GUI	bytecode		key.keyboard.f1	options	Open Manual	
+key.openManual	mcjtylib	GUI	bytecode		key.keyboard.unknown	options	Open Manual	
 key.open_muffler_gui	extremesoundmuffler	UNIVERSAL	assumed		key.keyboard.unknown	options	Open sound muffler screen	
-key.oracle_index.open	oracle_index	UNIVERSAL	assumed		key.keyboard.h	options	Open Oracle Index	Открыть Индекс Оракула
+key.oracle_index.open	oracle_index	UNIVERSAL	assumed		key.keyboard.unknown	options	Open Oracle Index	Открыть Индекс Оракула
 key.oracle_index.search	oracle_index	UNIVERSAL	assumed		key.keyboard.unknown	options	Open Oracle Search	Открыть Поиск Оракула
-key.oritech.augment_screen	oritech	UNIVERSAL	assumed		key.keyboard.g	options	Implant Controls [Hold]	Управление имплантами [Удерживать]
+key.oritech.augment_screen	oritech	UNIVERSAL	assumed		key.keyboard.unknown	options	Implant Controls [Hold]	Управление имплантами [Удерживать]
 key.pickItem	minecraft	UNIVERSAL	assumed		key.mouse.middle	options		
 key.playerlist	minecraft	UNIVERSAL	assumed		key.keyboard.tab	options		
-key.ponder.ponder	ponder	UNIVERSAL	assumed		key.keyboard.w	options		
-key.prevDestination	rftoolsbase	IN_GAME	bytecode		key.keyboard.left.bracket	options	Cycle to previous target	
-key.railcraft.change_aura	railcraft	UNIVERSAL	assumed		key.keyboard.g	options	Change Aura	Изменить ауру
-key.railcraft.loco.faster	railcraft	UNIVERSAL	assumed		key.keyboard.period	options	Increase locomotive speed	Увеличить скорость локомотива
-key.railcraft.loco.mode	railcraft	UNIVERSAL	assumed		key.keyboard.m	options	Change locomotive mode	Изменить режим локомотива
-key.railcraft.loco.reverse	railcraft	UNIVERSAL	assumed		key.keyboard.n	options	Change locomotive direction	Изменить направление локомотива
-key.railcraft.loco.slower	railcraft	UNIVERSAL	assumed		key.keyboard.comma	options	Decrease locomotive speed	Уменьшить скорость локомотива
-key.railcraft.loco.whistle	railcraft	UNIVERSAL	assumed		key.keyboard.b	options	Locomotive whistle	Свисток
+key.ponder.ponder		UNIVERSAL	assumed		key.keyboard.unknown	options		
+key.prevDestination	rftoolsbase	IN_GAME	bytecode		key.keyboard.unknown	options	Cycle to previous target	
+key.railcraft.change_aura	railcraft	UNIVERSAL	assumed		key.keyboard.unknown	options	Change Aura	Изменить ауру
+key.railcraft.loco.faster	railcraft	UNIVERSAL	assumed		key.keyboard.right	options	Increase locomotive speed	Увеличить скорость локомотива
+key.railcraft.loco.mode	railcraft	UNIVERSAL	assumed		key.keyboard.f10	options	Change locomotive mode	Изменить режим локомотива
+key.railcraft.loco.reverse	railcraft	UNIVERSAL	assumed		key.keyboard.unknown	options	Change locomotive direction	Изменить направление локомотива
+key.railcraft.loco.slower	railcraft	UNIVERSAL	assumed		key.keyboard.left	options	Decrease locomotive speed	Уменьшить скорость локомотива
+key.railcraft.loco.whistle	railcraft	UNIVERSAL	assumed		key.keyboard.unknown	options	Locomotive whistle	Свисток
 key.refinedstorage.clear_crafting_grid_matrix_to_inventory	refinedstorage	UNIVERSAL	assumed		key.keyboard.unknown	options	Clear Crafting Grid matrix to inventory	Очистить терминал создания в инвентарь
-key.refinedstorage.clear_crafting_grid_matrix_to_network	refinedstorage	UNIVERSAL	assumed		key.keyboard.x:CONTROL	options	Clear Crafting Grid matrix to network	Очистить терминал создания в сеть
-key.refinedstorage.focus_search_bar	refinedstorage	UNIVERSAL	assumed		key.keyboard.tab	options	Focus search bar	Фокус на строку поиска
+key.refinedstorage.clear_crafting_grid_matrix_to_network	refinedstorage	UNIVERSAL	assumed		key.keyboard.unknown	options	Clear Crafting Grid matrix to network	Очистить терминал создания в сеть
+key.refinedstorage.focus_search_bar	refinedstorage	UNIVERSAL	assumed		key.keyboard.unknown	options	Focus search bar	Фокус на строку поиска
 key.refinedstorage.open_portable_grid	refinedstorage	UNIVERSAL	assumed		key.keyboard.unknown	options	Open Portable Grid	Открыть Переносной Терминал
 key.refinedstorage.open_wireless_autocrafting_monitor	refinedstorage	UNIVERSAL	assumed		key.keyboard.unknown	options	Open Wireless Autocrafting Monitor	Открыть беспроводный монитор автокрафта
 key.refinedstorage.open_wireless_grid	refinedstorage	UNIVERSAL	assumed		key.keyboard.unknown	options	Open Wireless Grid	Открыть Беспроводной Терминал
 key.refinedstorage_quartz_arsenal.open_wireless_crafting_grid	refinedstorage_quartz_arsenal	UNIVERSAL	assumed		key.keyboard.unknown	options	Open Wireless Crafting Grid	Открыть беспроводный терминал создания
-key.relics.active_abilities_list	relics	UNIVERSAL	assumed		key.keyboard.left.alt	options	Active Abilities Menu	Меню активных способностей
+key.relics.active_abilities_list	relics	UNIVERSAL	assumed		key.mouse.4	options	Active Abilities Menu	Меню активных способностей
 key.relics.research_relic	relics	UNIVERSAL	assumed		key.keyboard.left.shift	options	Research Relic Under Cursor	Исследовать реликвию под курсором
 key.right	minecraft	UNIVERSAL	assumed		key.keyboard.d	options		
-key.saveToolbarActivator	minecraft	UNIVERSAL	assumed		key.keyboard.c	options		
+key.saveToolbarActivator	minecraft	UNIVERSAL	assumed		key.keyboard.unknown	options		
 key.screenshot	minecraft	UNIVERSAL	assumed		key.keyboard.f2	options		
-key.securitycraft.cameraActivateNightVision	securitycraft	UNIVERSAL	assumed		key.keyboard.n	options	Toggle Night Vision	Переключить ночное видение
-key.securitycraft.cameraEmitRedstone	securitycraft	UNIVERSAL	assumed		key.keyboard.r	options	Toggle Redstone Output	Переключить выход редстоуна
-key.securitycraft.cameraZoomIn	securitycraft	UNIVERSAL	assumed		key.keyboard.equal	options	Zoom In	Приблизить
-key.securitycraft.cameraZoomOut	securitycraft	UNIVERSAL	assumed		key.keyboard.minus	options	Zoom Out	Отдалить
-key.securitycraft.setDefaultViewingDirection	securitycraft	UNIVERSAL	assumed		key.keyboard.u	options	Set default viewing direction	Установить направление просмотра по умолчанию
-key.selectiveDisplacement	mahoutsukai	UNIVERSAL	assumed		key.keyboard.h	options	Selective Displacement	Выборочная замена
-key.settingsGUI	mahoutsukai	UNIVERSAL	assumed		key.keyboard.period	options	Mahou Settings GUI	Настройки GUI Mahoutsukai
-key.sfm.container_inspector.activation_key	sfm	UNIVERSAL	assumed		key.keyboard.i:CONTROL	options	Toggle Container Inspector	Переключить инспектор контейнеров
+key.securitycraft.cameraActivateNightVision	securitycraft	UNIVERSAL	assumed		key.keyboard.unknown	options	Toggle Night Vision	Переключить ночное видение
+key.securitycraft.cameraEmitRedstone	securitycraft	UNIVERSAL	assumed		key.keyboard.unknown	options	Toggle Redstone Output	Переключить выход редстоуна
+key.securitycraft.cameraZoomIn	securitycraft	UNIVERSAL	assumed		key.keyboard.unknown	options	Zoom In	Приблизить
+key.securitycraft.cameraZoomOut	securitycraft	UNIVERSAL	assumed		key.keyboard.unknown	options	Zoom Out	Отдалить
+key.securitycraft.setDefaultViewingDirection	securitycraft	UNIVERSAL	assumed		key.keyboard.unknown	options	Set default viewing direction	Установить направление просмотра по умолчанию
+key.selectiveDisplacement	mahoutsukai	UNIVERSAL	assumed		key.keyboard.unknown	options	Selective Displacement	Выборочная замена
+key.settingsGUI	mahoutsukai	UNIVERSAL	assumed		key.keyboard.unknown	options	Mahou Settings GUI	Настройки GUI Mahoutsukai
+key.sfm.container_inspector.activation_key	sfm	UNIVERSAL	assumed		key.keyboard.unknown	options	Toggle Container Inspector	Переключить инспектор контейнеров
 key.sfm.item_inspector.activation_key	sfm	UNIVERSAL	assumed		key.keyboard.unknown	options	(WIP) Copy Hovered Item To Clipboard	(WIP) Скопировать наведённый предмет в буфер обмена
-key.sfm.label_gun.clear_modifier	sfm	UNIVERSAL	assumed		key.keyboard.left.shift	options	Label Gun Clear Modifier	Модификатор очистки пистолета для меток
-key.sfm.label_gun.contiguous_modifier	sfm	UNIVERSAL	assumed		key.keyboard.left.control	options	Label Gun Contiguous Modifier	Модификатор непрерывного действия пистолета для меток
+key.sfm.label_gun.clear_modifier	sfm	UNIVERSAL	assumed		key.keyboard.unknown	options	Label Gun Clear Modifier	Модификатор очистки пистолета для меток
+key.sfm.label_gun.contiguous_modifier	sfm	UNIVERSAL	assumed		key.keyboard.unknown	options	Label Gun Contiguous Modifier	Модификатор непрерывного действия пистолета для меток
 key.sfm.label_gun.next_label	sfm	UNIVERSAL	assumed		key.keyboard.unknown	options	Label Gun Next Label	Следующая метка на пистолете
 key.sfm.label_gun.open_gui	sfm	UNIVERSAL	assumed		key.keyboard.unknown	options	Open Label Gun GUI	
-key.sfm.label_gun.pick_block_modifier	sfm	UNIVERSAL	assumed		key.keyboard.left.alt	options	Label Gun Pick Block Modifier	Модификатор выбора блока пистолетом для меток
+key.sfm.label_gun.pick_block_modifier	sfm	UNIVERSAL	assumed		key.keyboard.unknown	options	Label Gun Pick Block Modifier	Модификатор выбора блока пистолетом для меток
 key.sfm.label_gun.previous_label	sfm	UNIVERSAL	assumed		key.keyboard.unknown	options	Label Gun Previous Label	Предыдущая метка на пистолете
-key.sfm.label_gun.pull_modifier	sfm	UNIVERSAL	assumed		key.keyboard.left.shift	options	Label Gun Pull Modifier	Модификатор получения меток пистолетом
-key.sfm.label_gun.scroll_modifier	sfm	UNIVERSAL	assumed		key.keyboard.left.shift	options	Label Gun Scroll Modifier	Модификатор прокрутки пистолета для меток
-key.sfm.label_gun.target_manager_modifier	sfm	UNIVERSAL	assumed		key.keyboard.right.alt	options	Label Gun Target Manager Modifier	Модификатор выбора управляющего пистолетом для меток
-key.sfm.manager.text_editor	sfm	UNIVERSAL	assumed		key.keyboard.e:CONTROL	options	Manager Screen - Open Text Editor	Экран управляющего — открыть текстовый редактор
-key.sfm.more_info	sfm	UNIVERSAL	assumed		key.keyboard.left.shift	options	Hold For More Info	Удерживать для подробной информации
-key.sfm.text_editor.accept_intellisense	sfm	UNIVERSAL	assumed		key.keyboard.backslash	options	Text Editor - Accept Intellisense Suggestion	
-key.sfm.title_screen.text_editor	sfm	UNIVERSAL	assumed		key.keyboard.e:CONTROL	options	Title Screen - Open Text Editor	Главный экран — открыть текстовый редактор
-key.sfm.toggle_label_view_key	sfm	UNIVERSAL	assumed		key.keyboard.left.alt	options	Cycle label gun view	Переключить режим отображения меток
-key.sfm.toggle_network_tool_overlay	sfm	UNIVERSAL	assumed		key.keyboard.left.alt	options	Toggle network tool overlay	Переключить оверлей сетевого инструмента
-key.silentgear.cycle.back	silentgear	UNIVERSAL	assumed		key.keyboard.z	options	Cycle Back	Назад
-key.silentgear.cycle.next	silentgear	UNIVERSAL	assumed		key.keyboard.c	options	Cycle Next	Вперед
-key.silentgear.displayItemConstruction	silentgear	UNIVERSAL	assumed		key.keyboard.left.alt	options	Display Construction and Materials	
-key.silentgear.displayItemProperties	silentgear	UNIVERSAL	assumed		key.keyboard.left.control	options	Display Properties and Traits	
-key.silentgear.displayTraitDescriptions	silentgear	UNIVERSAL	assumed		key.keyboard.left.shift	options	Display Trait Descriptions	
-key.silentgear.openItem	silentgear	UNIVERSAL	assumed		key.keyboard.x	options	Open Item	Открыть предмет
+key.sfm.label_gun.pull_modifier	sfm	UNIVERSAL	assumed		key.keyboard.unknown	options	Label Gun Pull Modifier	Модификатор получения меток пистолетом
+key.sfm.label_gun.scroll_modifier	sfm	UNIVERSAL	assumed		key.keyboard.unknown	options	Label Gun Scroll Modifier	Модификатор прокрутки пистолета для меток
+key.sfm.label_gun.target_manager_modifier	sfm	UNIVERSAL	assumed		key.keyboard.unknown	options	Label Gun Target Manager Modifier	Модификатор выбора управляющего пистолетом для меток
+key.sfm.manager.text_editor	sfm	UNIVERSAL	assumed		key.keyboard.unknown	options	Manager Screen - Open Text Editor	Экран управляющего — открыть текстовый редактор
+key.sfm.more_info	sfm	UNIVERSAL	assumed		key.keyboard.unknown	options	Hold For More Info	Удерживать для подробной информации
+key.sfm.text_editor.accept_intellisense	sfm	UNIVERSAL	assumed		key.keyboard.unknown	options	Text Editor - Accept Intellisense Suggestion	
+key.sfm.title_screen.text_editor	sfm	UNIVERSAL	assumed		key.keyboard.unknown	options	Title Screen - Open Text Editor	Главный экран — открыть текстовый редактор
+key.sfm.toggle_label_view_key	sfm	UNIVERSAL	assumed		key.keyboard.unknown	options	Cycle label gun view	Переключить режим отображения меток
+key.sfm.toggle_network_tool_overlay	sfm	UNIVERSAL	assumed		key.keyboard.unknown	options	Toggle network tool overlay	Переключить оверлей сетевого инструмента
+key.silentgear.cycle.back	silentgear	UNIVERSAL	assumed		key.keyboard.unknown	options	Cycle Back	Назад
+key.silentgear.cycle.next	silentgear	UNIVERSAL	assumed		key.keyboard.unknown	options	Cycle Next	Вперед
+key.silentgear.displayItemConstruction	silentgear	UNIVERSAL	assumed		key.keyboard.unknown	options	Display Construction and Materials	
+key.silentgear.displayItemProperties	silentgear	UNIVERSAL	assumed		key.keyboard.unknown	options	Display Properties and Traits	
+key.silentgear.displayTraitDescriptions	silentgear	UNIVERSAL	assumed		key.keyboard.unknown	options	Display Trait Descriptions	
+key.silentgear.openItem	silentgear	UNIVERSAL	assumed		key.keyboard.unknown	options	Open Item	Открыть предмет
 key.smoothCamera	minecraft	UNIVERSAL	assumed		key.keyboard.unknown	options		
 key.sneak	minecraft	UNIVERSAL	assumed		key.keyboard.left.shift	options		
-key.socialInteractions	minecraft	UNIVERSAL	assumed		key.keyboard.p	options		
-key.sophisticatedbackpacks.inventory_interaction	sophisticatedbackpacks	UNIVERSAL	assumed		key.keyboard.c	options	Run Inventory Interaction Upgrades	Загрузить или выгрузить содержимое
+key.socialInteractions	minecraft	UNIVERSAL	assumed		key.keyboard.unknown	options		
+key.sophisticatedbackpacks.inventory_interaction	sophisticatedbackpacks	UNIVERSAL	assumed		key.keyboard.unknown	options	Run Inventory Interaction Upgrades	Загрузить или выгрузить содержимое
 key.sophisticatedbackpacks.open_backpack	sophisticatedbackpacks	UNIVERSAL	assumed		key.keyboard.b	options	Open Backpack	Открыть рюкзак
-key.sophisticatedbackpacks.toggle_upgrade_1	sophisticatedbackpacks	UNIVERSAL	assumed		key.keyboard.z:ALT	options	Switch Upgrade in the 1st Slot On/Off	Переключить улучшение в слоте 1
-key.sophisticatedbackpacks.toggle_upgrade_2	sophisticatedbackpacks	UNIVERSAL	assumed		key.keyboard.x:ALT	options	Switch Upgrade in the 2nd Slot On/Off	Переключить улучшение в слоте 2
+key.sophisticatedbackpacks.toggle_upgrade_1	sophisticatedbackpacks	UNIVERSAL	assumed		key.keyboard.unknown	options	Switch Upgrade in the 1st Slot On/Off	Переключить улучшение в слоте 1
+key.sophisticatedbackpacks.toggle_upgrade_2	sophisticatedbackpacks	UNIVERSAL	assumed		key.keyboard.unknown	options	Switch Upgrade in the 2nd Slot On/Off	Переключить улучшение в слоте 2
 key.sophisticatedbackpacks.toggle_upgrade_3	sophisticatedbackpacks	UNIVERSAL	assumed		key.keyboard.unknown	options	Switch Upgrade in the 3rd Slot On/Off	Переключить улучшение в слоте 3
 key.sophisticatedbackpacks.toggle_upgrade_4	sophisticatedbackpacks	UNIVERSAL	assumed		key.keyboard.unknown	options	Switch Upgrade in the 4th Slot On/Off	Переключить улучшение в слоте 4
 key.sophisticatedbackpacks.toggle_upgrade_5	sophisticatedbackpacks	UNIVERSAL	assumed		key.keyboard.unknown	options	Switch Upgrade in the 5th Slot On/Off	Переключить улучшение в слоте 5
 key.sophisticatedbackpacks.tool_swap	sophisticatedbackpacks	UNIVERSAL	assumed		key.keyboard.unknown	options	Swap tool based on current block/entity	Заменить рабочий инструмент
-key.sophisticatedcore.sort	sophisticatedcore	UNIVERSAL	assumed		key.mouse.middle	options	Sort Storage/Backpack	Сортировать хранилище или рюкзак
+key.sophisticatedcore.sort	sophisticatedcore	UNIVERSAL	assumed		key.keyboard.unknown	options	Sort Storage/Backpack	Сортировать хранилище или рюкзак
 key.sophisticatedcore.transfer_to_inventory	sophisticatedcore	UNIVERSAL	assumed		key.keyboard.right.bracket	options	Transfer to Inventory	Перенести в инвентарь игрока
 key.sophisticatedcore.transfer_to_storage	sophisticatedcore	UNIVERSAL	assumed		key.keyboard.left.bracket	options	Transfer to Storage	Перенести в инвентарь хранилища
 key.spectatorOutlines	minecraft	UNIVERSAL	assumed		key.keyboard.unknown	options		
 key.sprint	minecraft	UNIVERSAL	assumed		key.keyboard.left.control	options		
-key.structurize.mirror	structurize	UNIVERSAL	assumed		key.keyboard.m	options	Mirror	
-key.structurize.move_back	structurize	UNIVERSAL	assumed		key.keyboard.down	options	Move Back	
-key.structurize.move_down	structurize	UNIVERSAL	assumed		key.keyboard.keypad.subtract	options	Move Down	
-key.structurize.move_forward	structurize	UNIVERSAL	assumed		key.keyboard.up	options	Move Forward	
-key.structurize.move_left	structurize	UNIVERSAL	assumed		key.keyboard.left	options	Move Left	
-key.structurize.move_right	structurize	UNIVERSAL	assumed		key.keyboard.right	options	Move Right	
-key.structurize.move_up	structurize	UNIVERSAL	assumed		key.keyboard.keypad.add	options	Move Up	
+key.structurize.mirror	structurize	UNIVERSAL	assumed		key.keyboard.unknown	options	Mirror	
+key.structurize.move_back	structurize	UNIVERSAL	assumed		key.keyboard.unknown	options	Move Back	
+key.structurize.move_down	structurize	UNIVERSAL	assumed		key.keyboard.unknown	options	Move Down	
+key.structurize.move_forward	structurize	UNIVERSAL	assumed		key.keyboard.unknown	options	Move Forward	
+key.structurize.move_left	structurize	UNIVERSAL	assumed		key.keyboard.unknown	options	Move Left	
+key.structurize.move_right	structurize	UNIVERSAL	assumed		key.keyboard.unknown	options	Move Right	
+key.structurize.move_up	structurize	UNIVERSAL	assumed		key.keyboard.unknown	options	Move Up	
 key.structurize.place	structurize	UNIVERSAL	assumed		key.keyboard.enter	options	Place Structure	
-key.structurize.rotate_ccw	structurize	UNIVERSAL	assumed		key.keyboard.left:SHIFT	options	Rotate Counter-clockwise	
-key.structurize.rotate_cw	structurize	UNIVERSAL	assumed		key.keyboard.right:SHIFT	options	Rotate Clockwise	
+key.structurize.rotate_ccw	structurize	UNIVERSAL	assumed		key.keyboard.unknown	options	Rotate Counter-clockwise	
+key.structurize.rotate_cw	structurize	UNIVERSAL	assumed		key.keyboard.unknown	options	Rotate Clockwise	
 key.structurize.teleport	structurize	IN_GAME	bytecode		key.keyboard.unknown	options	Scan Tool Teleport	
 key.swapOffhand	minecraft	UNIVERSAL	assumed		key.keyboard.f	options		
 key.tempad.macro	tempad	UNIVERSAL	assumed		key.keyboard.unknown	options	Use Tempad Macro	
 key.tempad.new_location	tempad	UNIVERSAL	assumed		key.keyboard.unknown	options	Open Tempad New Location App	
 key.tempad.shortcut	tempad	UNIVERSAL	assumed		key.keyboard.unknown	options	Open Tempad screen	
 key.tempad.travel_timeline	tempad	UNIVERSAL	assumed		key.keyboard.unknown	options	Open Tempad Travel Timeline App	
-key.the_bumblezone.beehemoth_down	the_bumblezone	UNIVERSAL	assumed		key.keyboard.caps.lock	options	Beehemoth Fly Down	Направить Шмеллиафана вниз
-key.the_bumblezone.beehemoth_up	the_bumblezone	UNIVERSAL	assumed		key.keyboard.space	options	Beehemoth Fly Up	Направить Шмеллиафана вверх
+key.the_bumblezone.beehemoth_down	the_bumblezone	UNIVERSAL	assumed		key.keyboard.unknown	options	Beehemoth Fly Down	Направить Шмеллиафана вниз
+key.the_bumblezone.beehemoth_up	the_bumblezone	UNIVERSAL	assumed		key.keyboard.unknown	options	Beehemoth Fly Up	Направить Шмеллиафана вверх
 key.theurgy.change_item_mode	theurgy	UNIVERSAL	assumed		key.keyboard.unknown	options	Change Item Mode	Изменить режим предмета
-key.toastcontrol.clear	toastcontrol	UNIVERSAL	assumed		key.keyboard.j	options	Clear Active Toasts	Очистить активные Тосты
+key.toastcontrol.clear	toastcontrol	UNIVERSAL	assumed		key.keyboard.unknown	options	Clear Active Toasts	Очистить активные Тосты
 key.togglePerspective	minecraft	UNIVERSAL	assumed		key.keyboard.f5	options		
 key.toolbelt.cycle.left	toolbelt	UNIVERSAL	assumed		key.keyboard.unknown	options	Cycle Tool Left	Циклический инструмент слева
 key.toolbelt.cycle.right	toolbelt	UNIVERSAL	assumed		key.keyboard.unknown	options	Cycle Tool Right	Циклический инструмент справа
-key.toolbelt.open	toolbelt	UNIVERSAL	assumed		key.keyboard.r	options	Swap Tool	Заменить инструмент
-key.toolbelt.slot	toolbelt	UNIVERSAL	assumed		key.keyboard.v	options	Open Belt Slot Inventory	Открыть слот инвентарь Пояса
+key.toolbelt.open	toolbelt	UNIVERSAL	assumed		key.keyboard.unknown	options	Swap Tool	Заменить инструмент
+key.toolbelt.slot	toolbelt	UNIVERSAL	assumed		key.keyboard.unknown	options	Open Belt Slot Inventory	Открыть слот инвентарь Пояса
 key.trashslot.delete	trashslot	UNIVERSAL	assumed		key.keyboard.delete	options	Delete Item	Удалить предмет
-key.trashslot.delete_all	trashslot	UNIVERSAL	assumed		key.keyboard.delete:SHIFT	options	Delete All Items of Type	
-key.trashslot.toggle	trashslot	UNIVERSAL	assumed		key.keyboard.t	options	Show/Hide TrashSlot	Показать/скрыть слот для мусорки
+key.trashslot.delete_all	trashslot	UNIVERSAL	assumed		key.keyboard.unknown	options	Delete All Items of Type	
+key.trashslot.toggle	trashslot	UNIVERSAL	assumed		key.keyboard.unknown	options	Show/Hide TrashSlot	Показать/скрыть слот для мусорки
 key.trashslot.toggle_lock	trashslot	UNIVERSAL	assumed		key.keyboard.unknown	options	Lock/Unlock TrashSlot	
-key.twilightforest.item_display_map_cycle	twilightforest	UNIVERSAL	assumed		key.keyboard.c	options	Cycle Item Display's Stored Maps	
+key.twilightforest.item_display_map_cycle	twilightforest	UNIVERSAL	assumed		key.keyboard.unknown	options	Cycle Item Display's Stored Maps	
 key.twilightforest.red_thread_vision	twilightforest	UNIVERSAL	assumed		key.keyboard.unknown	options	See Red Thread with Goggles	
-key.twilightforest.swap_hotbar	twilightforest	UNIVERSAL	assumed		key.keyboard.v	options	Swap Hotbar	
-key.twilightforest.zoom	twilightforest	UNIVERSAL	assumed		key.keyboard.z	options	Zoom With Goggles	
+key.twilightforest.swap_hotbar	twilightforest	UNIVERSAL	assumed		key.keyboard.unknown	options	Swap Hotbar	
+key.twilightforest.zoom	twilightforest	UNIVERSAL	assumed		key.keyboard.unknown	options	Zoom With Goggles	
 key.universalgrid.open_wireless_universal_grid	universalgrid	UNIVERSAL	assumed		key.keyboard.unknown	options	Open Wireless Universal Grid	Открыть беспроводной универсальный терминал
 key.universalgrid.switch_wireless_universal_grid_type	universalgrid	UNIVERSAL	assumed		key.keyboard.unknown	options	Switch Wireless Universal Grid Type	Switch Wireless Universal Grid Type
-key.unmountVehicle	rftoolsbuilder	IN_GAME	bytecode		key.keyboard.backslash	options	Unmount Vehicle	
+key.unmountVehicle	rftoolsbuilder	IN_GAME	bytecode		key.keyboard.unknown	options	Unmount Vehicle	
 key.use	minecraft	UNIVERSAL	assumed		key.mouse.right	options		
-key.utilityvest.gui	utilityvest	UNIVERSAL	assumed		key.keyboard.r	options	Open Gui	
-key.utilityvest.load	utilityvest	UNIVERSAL	assumed		key.keyboard.left.control	options	Load	
-key.utilityvest.radial	utilityvest	UNIVERSAL	assumed		key.keyboard.g	options	Open Radial Menu	
-key.utilityvest.restock	utilityvest	UNIVERSAL	assumed		key.keyboard.x	options	Restock	
-key.utilityvest.save	utilityvest	UNIVERSAL	assumed		key.keyboard.left.alt	options	Save	
-key.xycraft_core.modifier_key	xycraft_core	UNIVERSAL	bytecode		key.keyboard.left.control	options	Modifier Key	
-keybind.advancedperipherals.description	advancedperipherals	UNIVERSAL	assumed		key.keyboard.left.control	options	Show Description	Показать описание
+key.utilityvest.gui	utilityvest	UNIVERSAL	assumed		key.keyboard.unknown	options	Open Gui	
+key.utilityvest.load	utilityvest	UNIVERSAL	assumed		key.keyboard.unknown	options	Load	
+key.utilityvest.radial	utilityvest	UNIVERSAL	assumed		key.keyboard.f12	options	Open Radial Menu	
+key.utilityvest.restock	utilityvest	UNIVERSAL	assumed		key.keyboard.unknown	options	Restock	
+key.utilityvest.save	utilityvest	UNIVERSAL	assumed		key.keyboard.unknown	options	Save	
+key.xycraft_core.modifier_key	xycraft_core	UNIVERSAL	bytecode		key.keyboard.unknown	options	Modifier Key	
+keybind.advancedperipherals.description	advancedperipherals	GUI	bytecode		key.keyboard.unknown	options	Show Description	Показать описание
+keybind.advancedperipherals.glasses_hotkey	advancedperipherals	IN_GAME	bytecode	key.keyboard.g		jar		
 keybind.ironjetpacks.ascend	ironjetpacks	UNIVERSAL	assumed		key.keyboard.unknown	options	Ascend	
 keybind.ironjetpacks.decrement_throttle	ironjetpacks	UNIVERSAL	assumed		key.keyboard.comma	options	Decrease Throttle	Убавить газ
 keybind.ironjetpacks.descend	ironjetpacks	UNIVERSAL	assumed		key.keyboard.unknown	options	Descend	Снижение
-keybind.ironjetpacks.engine	ironjetpacks	UNIVERSAL	assumed		key.keyboard.v	options	Toggle Engine	Режим переключения двигателя
-keybind.ironjetpacks.hover	ironjetpacks	UNIVERSAL	assumed		key.keyboard.h	options	Toggle Hover Mode	Режим переключения зависания
+keybind.ironjetpacks.engine	ironjetpacks	UNIVERSAL	assumed		key.keyboard.f8	options	Toggle Engine	Режим переключения двигателя
+keybind.ironjetpacks.hover	ironjetpacks	UNIVERSAL	assumed		key.keyboard.p	options	Toggle Hover Mode	Режим переключения зависания
 keybind.ironjetpacks.hud	ironjetpacks	UNIVERSAL	assumed		key.keyboard.unknown	options	Toggle HUD	
 keybind.ironjetpacks.increment_throttle	ironjetpacks	UNIVERSAL	assumed		key.keyboard.period	options	Increase Throttle	Прибавить газу
 keybind.reliquary.fortune_coin	reliquary	UNIVERSAL	bytecode		key.keyboard.unknown	options	Enable/Disable Fortune Coin	Вкл./Выкл. монетку фортуны
 mininggadgets.text.open_gui	mininggadgets	UNIVERSAL	assumed		key.keyboard.unknown	options	Open Mining Gadget Settings	
-options.narrator	minecraft	UNIVERSAL	bytecode		key.keyboard.b:CONTROL	options		
-placebo.toggleTrails	placebo	UNIVERSAL	assumed		key.keyboard.keypad.9	options	Toggle Supporter Trails	Переключить Patreon следы
-placebo.toggleWings	placebo	UNIVERSAL	assumed		key.keyboard.keypad.8	options	Toggle Supporter Wings	Переключить Patreon крылья
-pneumaticcraft.armor.options	pneumaticcraft	IN_GAME	bytecode		key.keyboard.u	options	Pneumatic Armor General Options	Общие параметры Пневмоброни
+options.narrator	minecraft	UNIVERSAL	bytecode		key.keyboard.unknown	options		
+placebo.toggleTrails	placebo	UNIVERSAL	assumed		key.keyboard.unknown	options	Toggle Supporter Trails	Переключить Patreon следы
+placebo.toggleWings	placebo	UNIVERSAL	assumed		key.keyboard.unknown	options	Toggle Supporter Wings	Переключить Patreon крылья
+pneumaticcraft.armor.options	pneumaticcraft	IN_GAME	bytecode		key.keyboard.unknown	options	Pneumatic Armor General Options	Общие параметры Пневмоброни
 pneumaticcraft.armor.upgrade.air_conditioning	pneumaticcraft	UNIVERSAL	assumed		key.keyboard.unknown	options	Air Conditioning	Воздушное кондиционорование
 pneumaticcraft.armor.upgrade.block_tracker	pneumaticcraft	UNIVERSAL	assumed		key.keyboard.unknown	options	Block Tracker	Трекер блоков
 pneumaticcraft.armor.upgrade.block_tracker.module.end_portal	pneumaticcraft	UNIVERSAL	assumed		key.keyboard.unknown	options	End Portal Frames	Рамки портала Края
@@ -519,14 +533,16 @@ pneumaticcraft.armor.upgrade.scuba	pneumaticcraft	UNIVERSAL	assumed		key.keyboar
 pneumaticcraft.armor.upgrade.search	pneumaticcraft	UNIVERSAL	assumed		key.keyboard.unknown	options	Item Search	Поиск предметов
 pneumaticcraft.armor.upgrade.step_assist	pneumaticcraft	UNIVERSAL	assumed		key.keyboard.unknown	options	Step Assist	Помощник шага
 pneumaticcraft.armor.upgrade.stomp	pneumaticcraft	UNIVERSAL	assumed		key.keyboard.unknown	options	Stomp	Поступь
-pneumaticcraft.boots.jet_boots	pneumaticcraft	IN_GAME	bytecode		key.keyboard.space	options	Pneumatic Jet Boots Thrust	Тяга рактивных ботинок
-pneumaticcraft.boots.kick	pneumaticcraft	IN_GAME	bytecode		key.keyboard.x:CONTROL	options	Pneumatic Boots Kick	Пневмоудар ботинками
-pneumaticcraft.chestplate.launcher	pneumaticcraft	IN_GAME	bytecode		key.keyboard.c:CONTROL	options	Pneumatic Chestplate Launcher	Пусковая установка Пневмоброни
-pneumaticcraft.helmet.debugging.drone	pneumaticcraft	IN_GAME	bytecode		key.keyboard.y	options	Pneumatic Helmet Drone Debugging	Отладка дронов с Пневмошлемом
+pneumaticcraft.boots.jet_boots	pneumaticcraft	IN_GAME	bytecode		key.keyboard.unknown	options	Pneumatic Jet Boots Thrust	Тяга рактивных ботинок
+pneumaticcraft.boots.kick	pneumaticcraft	IN_GAME	bytecode		key.keyboard.unknown	options	Pneumatic Boots Kick	Пневмоудар ботинками
+pneumaticcraft.chestplate.launcher	pneumaticcraft	IN_GAME	bytecode		key.keyboard.unknown	options	Pneumatic Chestplate Launcher	Пусковая установка Пневмоброни
+pneumaticcraft.helmet.debugging.drone	pneumaticcraft	IN_GAME	bytecode		key.keyboard.unknown	options	Pneumatic Helmet Drone Debugging	Отладка дронов с Пневмошлемом
 pneumaticcraft.helmet.hack	pneumaticcraft	IN_GAME	bytecode		key.keyboard.h	options	Pneumatic Helmet Hacking	Хакерство с Пневмошлемом
 rainbows.key.reload_rainbow_configs	rainbows	UNIVERSAL	bytecode		key.keyboard.unknown	options	Reload Rainbow Configs	
-simplemagnets.keys.toggle	simplemagnets	UNIVERSAL	assumed		key.keyboard.h	options	Toggle Magnet	Включить магнит
-supplementaries.keybind.quiver	supplementaries	UNIVERSAL	assumed		key.keyboard.v	options	Quiver	Колчан
+simplemagnets.keys.toggle	simplemagnets	UNIVERSAL	assumed		key.keyboard.unknown	options	Toggle Magnet	Включить магнит
+supplementaries.keybind.quiver	supplementaries	UNIVERSAL	assumed		key.keyboard.unknown	options	Quiver	Колчан
 tombstone.message.compendium	tombstone	UNIVERSAL	assumed		key.keyboard.unknown	options	Compendium	Компендиум
 tombstone.message.config	tombstone	UNIVERSAL	assumed		key.keyboard.unknown	options	Configuration	Конфигурация
 tombstone.message.knowledge_of_death	tombstone	UNIVERSAL	assumed		key.keyboard.unknown	options	Knowledge of Death	Знания о смерти
+Включить полёт в костюме	ad_astra	UNIVERSAL	bytecode+locale_alias	key.keyboard.v		jar	Toggle Suit Flight	Включить полёт в костюме
+Открыть радио	ad_astra	UNIVERSAL	bytecode+locale_alias	key.keyboard.r		jar	Open radio	Открыть радио

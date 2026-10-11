@@ -747,3 +747,23 @@ key_key.utilityvest.save:key.keyboard.unknown  # unbound: was left.alt
 
 # --- xycraft_core ---
 key_key.xycraft_core.modifier_key:key.keyboard.unknown  # unbound: was left.control
+
+# --- New mappings in ATM10 8.2 ---
+key_key.logisticsnetworks.modifier_1:key.keyboard.unknown  # unbound
+key_key.logisticsnetworks.modifier_2:key.keyboard.unknown  # unbound
+key_key.logisticsnetworks.modifier_3:key.keyboard.unknown  # unbound
+key_key.logisticsnetworks.primary_interaction:key.keyboard.unknown  # unbound
+key_key.logisticsnetworks.secondary_interaction:key.keyboard.unknown  # unbound
+key_key.logisticsnetworks.toggle_slot_numbers:key.keyboard.unknown  # unbound
+key_key.logisticsnetworks.toggle_wrench_hud:key.keyboard.unknown  # unbound
+key_key.logisticsnetworks.wrench_colors:key.keyboard.unknown  # unbound
+key_key.logisticsnetworks.wrench_modes:key.keyboard.unknown  # unbound
+key_keybind.advancedperipherals.glasses_hotkey:key.keyboard.unknown  # unbound
+
+# --- Ad Astra: aliases of two dynamically translated key names (raw/en/ru) ---
+key_Open radio:key.keyboard.unknown  # unbound; locale alias, not a separate binding
+key_Toggle Suit Flight:key.keyboard.unknown  # unbound; locale alias, not a separate binding
+key_key.ad_astra.open_radio:key.keyboard.unknown  # unbound; locale alias, not a separate binding
+key_key.ad_astra.toggle_suit_flight:key.keyboard.unknown  # unbound; locale alias, not a separate binding
+key_Включить полёт в костюме:key.keyboard.unknown  # unbound; locale alias, not a separate binding
+key_Открыть радио:key.keyboard.unknown  # unbound; locale alias, not a separate binding
