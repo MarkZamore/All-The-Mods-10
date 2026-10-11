@@ -9,9 +9,5 @@ manifest names the 31 that only a client needs. `portable-pack.json` is what
 the launcher reads; a push to `main` regenerates `pack-manifest.json` and
 refreshes the rolling `pack-latest` release the launcher syncs from.
 
-This portable edition also includes [Starfall Bow 1.0.0](https://www.curseforge.com/minecraft/mc-mods/starfall-bow/files/9019718)
-for NeoForge 1.21.1. The mod is shipped to both clients and servers. Its recipe
-uses eight dirt blocks surrounding a bow.
-
 Credit for the pack itself belongs to the All the Mods team, and to the author
 of every mod in `mods/`.

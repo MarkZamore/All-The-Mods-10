@@ -29,7 +29,3 @@ config/allthetweaks-common.toml
 # this file on start too, so the real name and version reach an instance that
 # already exists only by being claimed here.
 config/bcc-common.toml
-
-# Starfall Bow generates this config on first launch. Keep the pack's recipe
-# authoritative so existing instances receive it along with new installations.
-config/starfallbow-common.toml
