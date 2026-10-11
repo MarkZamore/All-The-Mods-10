@@ -1,0 +1,8 @@
+# Starfall Bow recipe for this pack, listed row by row.
+[recipe]
+craftable = true
+grid = [
+    "minecraft:dirt", "minecraft:dirt", "minecraft:dirt",
+    "minecraft:dirt", "minecraft:bow", "minecraft:dirt",
+    "minecraft:dirt", "minecraft:dirt", "minecraft:dirt"
+]
