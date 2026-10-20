@@ -42,7 +42,9 @@ jobs:
         run: python tools/generate_manifest.py --pack . --out dist --revision "$GITHUB_SHA"
 
       - name: Self-check staged assets
-        run: python tools/generate_manifest.py --pack . --out dist --verify-only
+        run: |
+          python -m unittest discover -s tools -p test_pack_library.py
+          python tools/generate_manifest.py --pack . --out dist --verify-only
 
       - name: Publish pack-latest release
         env:

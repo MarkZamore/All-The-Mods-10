@@ -1,0 +1,43 @@
+{
+  "id": "all-the-mods-10",
+  "name": "All The Mods 10",
+  "summary": "Магия и технологии встречаются в мире кристальных глубин и великих открытий.",
+  "description": "Спустись под землю, где кристаллы озаряют огромные пещеры, и отыщи путь к редким материалам и далёким измерениям. Магические школы откроют заклинания, приручённые духи станут спутниками, а обыкновенный дом постепенно превратится в оплот твоих открытий.\n\nПострой мастерскую Create, наладь производство с Mekanism и доверь хранилища Applied Energistics 2. Сотни взаимосвязанных модов позволяют пройти от первых инструментов до сложнейшей автоматизации, выбирая собственный путь между чарами и инженерией.",
+  "libraryIds": [
+    "common_storage_lib",
+    "corgilib",
+    "edivadlib",
+    "experiencelib",
+    "irons_lib",
+    "monolib",
+    "silentlib"
+  ],
+  "parents": {
+    "ae2ct": "ae2",
+    "ae2importexportcard": "ae2",
+    "ae2jeiintegration": "ae2",
+    "ars_additions": "ars_nouveau",
+    "ars_controle": "ars_nouveau",
+    "ars_creo": "ars_nouveau",
+    "ars_elemancy": "ars_nouveau",
+    "ars_elemental": "ars_nouveau",
+    "ars_ocultas": "ars_nouveau",
+    "ars_polymorphia": "ars_nouveau",
+    "ars_technica": "ars_nouveau",
+    "ars_unification": "ars_nouveau",
+    "bellsandwhistles": "create",
+    "copycats": "create",
+    "create_enchantment_industry": "create",
+    "create_aquatic_ambitions": "create",
+    "create_hypertube": "create",
+    "createaddition": "create",
+    "create_dragons_plus": "create",
+    "mekanismgenerators": "mekanism",
+    "mekanismtools": "mekanism",
+    "mekmm": "mekanism",
+    "rechiseledcreate": "create",
+    "sophisticatedbackpackscreateintegration": "sophisticatedbackpacks",
+    "sophisticatedstoragecreateintegration": "sophisticatedstorage"
+  },
+  "relativePath": "All The Mods 10"
+}

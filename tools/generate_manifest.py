@@ -27,6 +27,8 @@ Python 3.12, standard library only.
 
 from __future__ import annotations
 
+from pack_library import stage_library, verify_library
+
 import argparse
 import fnmatch
 import hashlib
@@ -289,6 +291,9 @@ def generate(pack: Path, out: Path, revision: str) -> None:
         "assets": assets,
     }
 
+    if (pack / "library/content.json").is_file():
+        manifest["library"] = stage_library(pack, out, revision)
+
     manifest_path = out / "pack-manifest.json"
     tmp_path = out / "pack-manifest.json.tmp"
     with open(tmp_path, "w", encoding="utf-8", newline="\n") as handle:
@@ -307,6 +312,8 @@ def verify_only(out: Path) -> None:
     if not manifest_path.is_file():
         fail(f"manifest not found: {manifest_path}")
     manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    if manifest.get("library"):
+        verify_library(out, manifest["library"])
     assets = manifest.get("assets") or []
     if not assets:
         fail("manifest contains no assets")

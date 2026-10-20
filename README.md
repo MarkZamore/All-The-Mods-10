@@ -22,3 +22,8 @@ Spark remain excluded from this portable build.
 
 Credit for the pack itself belongs to the All the Mods team, and to the author
 of every mod in `mods/`.
+
+
+## Launcher library
+
+`library/content.json` owns the player-facing description, stable identity, additional library IDs and curated addon relationships; `library/preview.jpg` is the original menu background resized for cards and the detail banner. `tools/pack_library.py` reads the actual shipped jars and builds a deterministic, content-addressed library bundle. The optional `library` field of `pack-manifest.json` names its size, SHA-256 and revision. It is published before the manifest, separately from installed game files, and ignored by older launchers.
