@@ -3,7 +3,7 @@
   "minecraftVersion": "1.21.1",
   "loader": {
     "type": "neoforge",
-    "version": "21.1.251"
+    "version": "21.1.259"
   },
   "clientJar": "minecraft-1.21.1-client.jar"
 }

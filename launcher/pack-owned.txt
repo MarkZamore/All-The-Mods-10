@@ -16,10 +16,8 @@
 # because the loader's own rewrite made it look like somebody's edit.
 config/fml.toml
 
-# The pack version All The Tweaks reports. It ships the mod's defaults, 1.0.0,
-# against a pack that is 8.0, so the mod announced an update to the version
-# already installed. The mod rewrites this file on start, which is exactly
-# why the corrected numbers need claiming to reach an instance.
+# All The Tweaks rewrites this file on start. Keep current branding/schema
+# and the portable pack setting that disables Discord Rich Presence.
 config/allthetweaks-common.toml
 
 # The same answer to a second asker. This pack's own update check, in

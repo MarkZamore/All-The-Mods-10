@@ -8,10 +8,10 @@
 #start that an update was available:
 #
 #    [KubeJS Startup]: Pack Version is: CHANGE_ME
-#    [KubeJS Startup]: CF Version is: 8.2
+#    [KubeJS Startup]: CF Version is: 8.3
 #
 #The version is the one in the CurseForge manifest this pack was built from,
-#_download/update-8.2/client-manifest.json. It has to move when that does.
+#_download/update-8.3/client-manifest.json. It has to move when that does.
 #
 #Every other key is left to the mod: NeoForge fills in what a config does not
 #name, so this stays correct across updates rather than freezing today's
@@ -21,4 +21,4 @@
 	#The name of the modpack
 	modpackName = "All the Mods 10"
 	#The version of the modpack
-	modpackVersion = "8.2"
+	modpackVersion = "8.3"

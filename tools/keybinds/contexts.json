@@ -111,7 +111,19 @@
     "context": "UNIVERSAL",
     "source": "assumed"
   },
+  "justzoom.keybinds.keybind.open_options": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
   "justzoom.keybinds.keybind.zoom": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "justzoom.keybinds.keybind.zoom_in": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "justzoom.keybinds.keybind.zoom_out": {
     "context": "UNIVERSAL",
     "source": "assumed"
   },
@@ -2157,7 +2169,7 @@
   },
   "rainbows.key.reload_rainbow_configs": {
     "context": "UNIVERSAL",
-    "source": "bytecode"
+    "source": "assumed"
   },
   "simplemagnets.keys.toggle": {
     "context": "UNIVERSAL",

@@ -42,3 +42,8 @@ key_Включить полёт в костюме:key.keyboard.unknown
 key_key.ad_astra.open_radio:key.keyboard.unknown
 key_Open radio:key.keyboard.unknown
 key_Открыть радио:key.keyboard.unknown
+
+# New Just Zoom 3 bindings: preserve existing player assignments.
+key_justzoom.keybinds.keybind.open_options:key.keyboard.unknown
+key_justzoom.keybinds.keybind.zoom_in:key.keyboard.unknown
+key_justzoom.keybinds.keybind.zoom_out:key.keyboard.unknown

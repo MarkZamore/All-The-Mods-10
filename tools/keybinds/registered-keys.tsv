@@ -1,6 +1,6 @@
 name	mod	context	context_source	default	live	seen	english	russian
-Open radio	ad_astra	UNIVERSAL	bytecode+locale_alias	key.keyboard.r		jar	Open radio	Открыть радио
-Toggle Suit Flight	ad_astra	UNIVERSAL	bytecode+locale_alias	key.keyboard.v		jar	Toggle Suit Flight	Включить полёт в костюме
+Open radio	ad_astra	UNIVERSAL	bytecode+locale_alias	key.keyboard.r	key.keyboard.r	options+jar	Open radio	Открыть радио
+Toggle Suit Flight	ad_astra	UNIVERSAL	bytecode+locale_alias	key.keyboard.v	key.keyboard.v	options+jar	Toggle Suit Flight	Включить полёт в костюме
 accessories.key.open_accessories_screen		UNIVERSAL	assumed		key.keyboard.unknown	options		
 artifacts.key.charm_of_shrinking.toggle	artifacts	UNIVERSAL	assumed		key.keyboard.unknown	options	Toggle Charm of Shrinking	
 artifacts.key.charm_of_sinking.toggle	artifacts	UNIVERSAL	assumed		key.keyboard.unknown	options	Toggle Charm of Sinking	
@@ -27,10 +27,13 @@ iris.keybind.toggleShaders	iris	UNIVERSAL	assumed		key.keyboard.k	options	Toggle
 iris.keybind.wireframe	iris	UNIVERSAL	assumed		key.keyboard.unknown	options	Wireframe (SP only)	
 justdirethings.key.toggle_tool	justdirethings	UNIVERSAL	assumed		key.keyboard.unknown	options	Toggle Tool Abilities	Переключить способности инструмента
 justdirethings.key.toolUI	justdirethings	UNIVERSAL	assumed		key.keyboard.unknown	options	Open Tool Settings UI	Открыть настройки инструмента
-justzoom.keybinds.keybind.zoom	justzoom	UNIVERSAL	assumed		key.keyboard.unknown	options	Zoom	
+justzoom.keybinds.keybind.open_options	justzoom	UNIVERSAL	assumed	key.keyboard.b		jar		
+justzoom.keybinds.keybind.zoom	justzoom	UNIVERSAL	assumed		key.keyboard.unknown	options	Zoom	Зум
+justzoom.keybinds.keybind.zoom_in	justzoom	UNIVERSAL	assumed	key.keyboard.unknown		jar		
+justzoom.keybinds.keybind.zoom_out	justzoom	UNIVERSAL	assumed	key.keyboard.unknown		jar		
 key.actualladditions.crafting_stick_open.desc	actuallyadditions	IN_GAME	bytecode		key.keyboard.unknown	options	Open the Crafting Stick	
-key.ad_astra.open_radio	ad_astra	UNIVERSAL	bytecode+locale_alias	key.keyboard.r		jar	Open radio	Открыть радио
-key.ad_astra.toggle_suit_flight	ad_astra	UNIVERSAL	bytecode+locale_alias	key.keyboard.v		jar	Toggle Suit Flight	Включить полёт в костюме
+key.ad_astra.open_radio	ad_astra	UNIVERSAL	bytecode+locale_alias	key.keyboard.r	key.keyboard.r	options+jar	Open radio	Открыть радио
+key.ad_astra.toggle_suit_flight	ad_astra	UNIVERSAL	bytecode+locale_alias	key.keyboard.v	key.keyboard.v	options+jar	Toggle Suit Flight	Включить полёт в костюме
 key.advanced_ae.pattern_encoder_action	advanced_ae	UNIVERSAL	assumed		key.keyboard.unknown	options	Open Advanced Pattern Encoder	Открытый усовершенствованный кодировщик шаблонов
 key.advanced_ae.pick_craft	advanced_ae	UNIVERSAL	assumed		key.keyboard.unknown	options	Attempt crafting targeted block	Попытка создания целевого блока
 key.advanced_ae.portable_workbench	advanced_ae	UNIVERSAL	assumed		key.keyboard.unknown	options	Open Portable Workbench	Открыть портативный верста
@@ -261,7 +264,7 @@ key.jei.clearSearchBar	jei	UNIVERSAL	assumed		key.keyboard.unknown	options	Clear
 key.jei.closeRecipeGui	jei	UNIVERSAL	assumed		key.keyboard.unknown	options	Close Recipes GUI	Закрыть интерфейс рецепта
 key.jei.copy.recipe.id	jei	UNIVERSAL	assumed		key.keyboard.unknown	options	Copy Recipe ID to Clipboard	Скопировать ID рецепта в буфер обмена
 key.jei.focusSearch	jei	UNIVERSAL	assumed		key.keyboard.unknown	options	Select Search Bar	Выбрать поле поиска
-key.jei.internal.enter.key	jei	UNIVERSAL	assumed	key.keyboard.keypad.enter		jar		
+key.jei.internal.enter.key	jei	UNIVERSAL	assumed		key.keyboard.keypad.enter	options		
 key.jei.maxTransferRecipeBookmark	jei	UNIVERSAL	assumed		key.keyboard.unknown	options	Craft Bookmarked Recipe (Many)	Создать рецепт в закладке (макс. кол-во)
 key.jei.nextCategory	jei	UNIVERSAL	assumed		key.keyboard.unknown	options	Next Recipe Category	Следующая категория рецепта
 key.jei.nextPage	jei	UNIVERSAL	assumed		key.keyboard.unknown	options	Next Page	Следующая страница
@@ -317,15 +320,15 @@ key.kubejs.kubedex	kubejs	UNIVERSAL	bytecode		key.keyboard.unknown	options
 key.left	minecraft	UNIVERSAL	assumed		key.keyboard.a	options		
 key.little_big_redstone.open_note_board	little_big_redstone	UNIVERSAL	assumed		key.keyboard.unknown	options	Open Note Board	Открыть блокнот
 key.loadToolbarActivator	minecraft	UNIVERSAL	assumed		key.keyboard.unknown	options		
-key.logisticsnetworks.modifier_1	logisticsnetworks	UNIVERSAL	assumed	key.keyboard.left.shift		jar	Modifier Key 1	
-key.logisticsnetworks.modifier_2	logisticsnetworks	UNIVERSAL	assumed	key.keyboard.left.control		jar	Modifier Key 2	
-key.logisticsnetworks.modifier_3	logisticsnetworks	UNIVERSAL	assumed	key.keyboard.left.alt		jar	Modifier Key 3	
-key.logisticsnetworks.primary_interaction	logisticsnetworks	UNIVERSAL	assumed	key.keyboard.unknown		jar	Primary Interaction	
-key.logisticsnetworks.secondary_interaction	logisticsnetworks	UNIVERSAL	assumed	key.keyboard.unknown		jar	Secondary Interaction	
-key.logisticsnetworks.toggle_slot_numbers	logisticsnetworks	UNIVERSAL	bytecode	key.keyboard.i		jar	Toggle Slot Numbers	
-key.logisticsnetworks.toggle_wrench_hud	logisticsnetworks	UNIVERSAL	assumed	key.keyboard.h		jar	Toggle Wrench HUD	
-key.logisticsnetworks.wrench_colors	logisticsnetworks	UNIVERSAL	assumed	key.keyboard.g		jar	Edit Wrench Colors	
-key.logisticsnetworks.wrench_modes	logisticsnetworks	IN_GAME	bytecode	key.keyboard.r		jar	Hold Wrench Mode Wheel	
+key.logisticsnetworks.modifier_1	logisticsnetworks	UNIVERSAL	assumed		key.keyboard.left.shift	options	Modifier Key 1	
+key.logisticsnetworks.modifier_2	logisticsnetworks	UNIVERSAL	assumed		key.keyboard.left.control	options	Modifier Key 2	
+key.logisticsnetworks.modifier_3	logisticsnetworks	UNIVERSAL	assumed		key.keyboard.left.alt	options	Modifier Key 3	
+key.logisticsnetworks.primary_interaction	logisticsnetworks	UNIVERSAL	assumed		key.keyboard.unknown	options	Primary Interaction	
+key.logisticsnetworks.secondary_interaction	logisticsnetworks	UNIVERSAL	assumed		key.keyboard.unknown	options	Secondary Interaction	
+key.logisticsnetworks.toggle_slot_numbers	logisticsnetworks	UNIVERSAL	bytecode		key.keyboard.i	options	Toggle Slot Numbers	
+key.logisticsnetworks.toggle_wrench_hud	logisticsnetworks	UNIVERSAL	assumed		key.keyboard.h	options	Toggle Wrench HUD	
+key.logisticsnetworks.wrench_colors	logisticsnetworks	UNIVERSAL	assumed		key.keyboard.g	options	Wrench Settings	
+key.logisticsnetworks.wrench_modes	logisticsnetworks	IN_GAME	bytecode		key.keyboard.r	options	Hold Wrench Mode Wheel	
 key.mapping.compactmachines.exit_room	compactmachines	UNIVERSAL	assumed		key.keyboard.unknown	options	Quick-Exit Compact Machine	
 key.mapping.compactmachines.open_upgrade_screen	compactmachines	UNIVERSAL	assumed		key.keyboard.unknown	options	Open Room Upgrade Screen	
 key.mekanism.chest_mode	mekanism	UNIVERSAL	assumed		key.keyboard.unknown	options	Chest Mode Switch	Переключить режим ранца
@@ -489,7 +492,7 @@ key.utilityvest.restock	utilityvest	UNIVERSAL	assumed		key.keyboard.unknown	opti
 key.utilityvest.save	utilityvest	UNIVERSAL	assumed		key.keyboard.unknown	options	Save	
 key.xycraft_core.modifier_key	xycraft_core	UNIVERSAL	bytecode		key.keyboard.unknown	options	Modifier Key	
 keybind.advancedperipherals.description	advancedperipherals	GUI	bytecode		key.keyboard.unknown	options	Show Description	Показать описание
-keybind.advancedperipherals.glasses_hotkey	advancedperipherals	IN_GAME	bytecode	key.keyboard.g		jar		
+keybind.advancedperipherals.glasses_hotkey	advancedperipherals	IN_GAME	bytecode		key.keyboard.g	options	Smart Glasses Hotkey	Быстрая клавиша умных очков
 keybind.ironjetpacks.ascend	ironjetpacks	UNIVERSAL	assumed		key.keyboard.unknown	options	Ascend	
 keybind.ironjetpacks.decrement_throttle	ironjetpacks	UNIVERSAL	assumed		key.keyboard.comma	options	Decrease Throttle	Убавить газ
 keybind.ironjetpacks.descend	ironjetpacks	UNIVERSAL	assumed		key.keyboard.unknown	options	Descend	Снижение
@@ -538,11 +541,11 @@ pneumaticcraft.boots.kick	pneumaticcraft	IN_GAME	bytecode		key.keyboard.unknown	
 pneumaticcraft.chestplate.launcher	pneumaticcraft	IN_GAME	bytecode		key.keyboard.unknown	options	Pneumatic Chestplate Launcher	Пусковая установка Пневмоброни
 pneumaticcraft.helmet.debugging.drone	pneumaticcraft	IN_GAME	bytecode		key.keyboard.unknown	options	Pneumatic Helmet Drone Debugging	Отладка дронов с Пневмошлемом
 pneumaticcraft.helmet.hack	pneumaticcraft	IN_GAME	bytecode		key.keyboard.h	options	Pneumatic Helmet Hacking	Хакерство с Пневмошлемом
-rainbows.key.reload_rainbow_configs	rainbows	UNIVERSAL	bytecode		key.keyboard.unknown	options	Reload Rainbow Configs	
+rainbows.key.reload_rainbow_configs		UNIVERSAL	assumed		key.keyboard.unknown	options		
 simplemagnets.keys.toggle	simplemagnets	UNIVERSAL	assumed		key.keyboard.unknown	options	Toggle Magnet	Включить магнит
 supplementaries.keybind.quiver	supplementaries	UNIVERSAL	assumed		key.keyboard.unknown	options	Quiver	Колчан
 tombstone.message.compendium	tombstone	UNIVERSAL	assumed		key.keyboard.unknown	options	Compendium	Компендиум
 tombstone.message.config	tombstone	UNIVERSAL	assumed		key.keyboard.unknown	options	Configuration	Конфигурация
 tombstone.message.knowledge_of_death	tombstone	UNIVERSAL	assumed		key.keyboard.unknown	options	Knowledge of Death	Знания о смерти
-Включить полёт в костюме	ad_astra	UNIVERSAL	bytecode+locale_alias	key.keyboard.v		jar	Toggle Suit Flight	Включить полёт в костюме
-Открыть радио	ad_astra	UNIVERSAL	bytecode+locale_alias	key.keyboard.r		jar	Open radio	Открыть радио
+Включить полёт в костюме	ad_astra	UNIVERSAL	bytecode+locale_alias	key.keyboard.v	key.keyboard.v	options+jar	Toggle Suit Flight	Включить полёт в костюме
+Открыть радио	ad_astra	UNIVERSAL	bytecode+locale_alias	key.keyboard.r	key.keyboard.r	options+jar	Open radio	Открыть радио

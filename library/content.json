@@ -9,7 +9,9 @@
     "edivadlib",
     "experiencelib",
     "irons_lib",
+    "mezz_config",
     "monolib",
+    "observerlib",
     "silentlib"
   ],
   "parents": {
@@ -37,7 +39,9 @@
     "mekmm": "mekanism",
     "rechiseledcreate": "create",
     "sophisticatedbackpackscreateintegration": "sophisticatedbackpacks",
-    "sophisticatedstoragecreateintegration": "sophisticatedstorage"
+    "sophisticatedstoragecreateintegration": "sophisticatedstorage",
+    "refinedfluidsubstitution": "refinedstorage",
+    "rsinsertexportupgrade": "refinedstorage"
   },
   "relativePath": "All The Mods 10"
 }
