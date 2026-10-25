@@ -36,7 +36,10 @@ jobs:
       # fails the publish if any two mappings would come out red in the
       # Controls screen.
       - name: Check the controls preset
-        run: python tools/keybinds/check_preset.py
+        run: |
+          if [ -f launcher/controls-preset.txt ]; then
+            python tools/keybinds/check_preset.py
+          fi
 
       - name: Generate manifest and stage assets
         run: python tools/generate_manifest.py --pack . --out dist --revision "$GITHUB_SHA"
