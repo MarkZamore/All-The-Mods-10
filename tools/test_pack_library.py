@@ -20,12 +20,17 @@ class LibraryPublisherTests(unittest.TestCase):
         for mod_id, name in (("base", "Base Mod"), ("addon", "An Addon"), ("helper", "A Helper Library"), ("integration", "Independent integration")):
             with zipfile.ZipFile(self.pack / "mods" / (mod_id + ".jar"), "w") as archive:
                 archive.writestr("META-INF/neoforge.mods.toml", f'[[mods]]\nmodId="{mod_id}"\ndisplayName="{name}"\nversion="1.2.3"\n[[dependencies.{mod_id}]]\nmodId="base"\ntype="required"\n')
+        self.pages = {mod_id: "https://www.curseforge.com/minecraft/mc-mods/" + mod_id for mod_id in ("base", "addon", "helper", "integration")}
+        self.write_pages()
 
     def tearDown(self):
         self.temp.cleanup()
 
     def write_content(self):
         (self.pack / "library/content.json").write_text(json.dumps(self.content))
+
+    def write_pages(self):
+        (self.pack / "library/mod-pages.json").write_text(json.dumps(self.pages))
 
     def test_actual_names_curated_addons_and_libraries_not_the_whole_dependency_graph(self):
         payload = build_library(self.pack, "revision-one")
@@ -41,6 +46,22 @@ class LibraryPublisherTests(unittest.TestCase):
         self.assertEqual("1.21.1", data["minecraftVersion"])
         self.assertEqual("revision-one", data["revision"])
         self.assertEqual("Stable Folder", data["relativePath"])
+        self.assertEqual(self.pages["addon"], mods["addon"]["websiteUrl"])
+        self.assertTrue(mods["addon"]["websiteAvailable"])
+
+    def test_new_or_invalid_project_links_fail_and_unavailable_author_links_keep_provenance(self):
+        for value in [None, "http://example.org/unsafe", "https://user:password@example.org/unsafe", {"url": self.pages["addon"], "available": "false"}]:
+            with self.subTest(value=value):
+                self.pages["addon"] = value; self.write_pages()
+                with self.assertRaisesRegex(ValueError, "project page"):
+                    build_library(self.pack, "r1")
+        original = "https://www.curseforge.com/minecraft/mc-mods/addon"
+        self.pages["addon"] = {"url": original, "available": False}; self.write_pages()
+        import io
+        with zipfile.ZipFile(io.BytesIO(build_library(self.pack, "r1"))) as archive:
+            mods = {m["id"]: m for m in json.loads(archive.read("library.json"))["mods"]}
+        self.assertEqual(mods["addon"]["websiteUrl"], original)
+        self.assertFalse(mods["addon"]["websiteAvailable"])
 
     def test_bundle_is_deterministic_and_tampering_fails_verification(self):
         self.assertEqual(build_library(self.pack, "r1"), build_library(self.pack, "r1"))

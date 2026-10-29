@@ -41,6 +41,9 @@ jobs:
             python tools/keybinds/check_preset.py
           fi
 
+      - name: Verify pack-owned menu compatibility
+        run: python tools/menu-compatibility/verify_shipped.py --pack .
+
       - name: Generate manifest and stage assets
         run: python tools/generate_manifest.py --pack . --out dist --revision "$GITHUB_SHA"
 

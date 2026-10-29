@@ -13,3 +13,4 @@
 # decision about this pack's mods: the same option takes model loading away from
 # BetterEnd on 1.18.2, and that pack does not start at all.
 -Dmodernfix.config.mixin.perf.dynamic_resources=true
+-Dlog4j.configurationFile=config/log4j2.xml
