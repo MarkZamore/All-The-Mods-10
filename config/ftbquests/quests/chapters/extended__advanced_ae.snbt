@@ -12,7 +12,7 @@
 			click: "#78215D704E6095B0"
 			color: 7344293
 			height: 1.0d
-			hover: ["Quantum Helmet"]
+			hover: ["{atm10quests.manual.inline.76c9845a91c2b12778a2.0}"]
 			image: "advanced_ae:item/quantum_helmet_tint"
 			rotation: 0.0d
 			width: 1.0d
@@ -23,7 +23,7 @@
 			click: "#78215D704E6095B0"
 			color: 7344293
 			height: 1.0d
-			hover: ["Quantum Chestplate"]
+			hover: ["{atm10quests.manual.inline.ccb53805778fe45cddc0.0}"]
 			image: "advanced_ae:item/quantum_chestplate_tint"
 			rotation: 0.0d
 			width: 1.0d
@@ -34,7 +34,7 @@
 			click: "#78215D704E6095B0"
 			color: 7344293
 			height: 1.0d
-			hover: ["Quantum Leggings"]
+			hover: ["{atm10quests.manual.inline.67716465f87ada1c10bf.0}"]
 			image: "advanced_ae:item/quantum_leggings_tint"
 			rotation: 0.0d
 			width: 1.0d
@@ -45,7 +45,7 @@
 			click: "#78215D704E6095B0"
 			color: 7344293
 			height: 1.0d
-			hover: ["Quantum Boots"]
+			hover: ["{atm10quests.manual.inline.7b66457e1b95ab3a4d90.0}"]
 			image: "advanced_ae:item/quantum_boots_tint"
 			rotation: 0.0d
 			width: 1.0d

@@ -1,0 +1,955 @@
+{
+  "schemaVersion": 1,
+  "pack": "All The Mods 10",
+  "authorVersion": "8.4",
+  "minecraftVersion": "1.21.1",
+  "loader": "NeoForge 21.1.265",
+  "nativeInventory": {
+    "sha256": "e2c7c8f07529f5827bfb6172373baea8db8ed0b8bcc6beba1dad5666129e9d1c",
+    "source": "isolated technical client, native backing fields",
+    "registeredAllCount": 574,
+    "optionsCount": 567,
+    "gameBindingsChanged": false,
+    "optionsNamesSha256": "fe10cc66c005ad0b85188527b161aa7c2bc33ab8663d46c3402f368c07d99cdb"
+  },
+  "presetNamespace": {
+    "nativeOptions": 567,
+    "additionalLocaleGuards": 4,
+    "total": 571
+  },
+  "previousPreset": {
+    "mappings": 550,
+    "bound": 90,
+    "boundAssignmentsSha256": "3fde5cebc21dfddc60bf023d0990a01dd024fe473793fff0a63257e87f4bb127"
+  },
+  "newMappings": [
+    {
+      "name": "key.apotheosis.toggle_attribute_bonuses",
+      "nativeDefaultKey": "key.keyboard.k",
+      "observedModifier": "CONTROL",
+      "preset": "key.keyboard.unknown",
+      "languageResourceEvidence": {
+        "jar": "Apotheosis-1.21.1-8.9.0.jar",
+        "sha256": "23a8b4a21d0d8744f097c77c8a96fcba14c4b95f3b1bb542412f40dab272872e",
+        "modIds": [
+          "apotheosis"
+        ],
+        "resource": "assets/apotheosis/lang/en_us.json",
+        "english": "Toggle Boots Attribute Bonuses",
+        "russian": ""
+      }
+    },
+    {
+      "name": "key.ftbquests.cycle_pinned_tracker",
+      "nativeDefaultKey": "key.keyboard.unknown",
+      "observedModifier": "NONE",
+      "preset": "key.keyboard.unknown",
+      "languageResourceEvidence": {
+        "jar": "ftb-quests-neoforge-2101.1.37.jar",
+        "sha256": "6b42457d680108d0af5b8deb21e3fe7b92138209f0683c62441dc360d4fc01d5",
+        "modIds": [
+          "ftbquests"
+        ],
+        "resource": "assets/ftbquests/lang/en_us.json",
+        "english": "Pinned Quest Tracker Visibility",
+        "russian": ""
+      }
+    },
+    {
+      "name": "key.ftbquests.gui_editor.complete_object",
+      "nativeDefaultKey": "key.keyboard.c",
+      "observedModifier": "ALT",
+      "preset": "key.keyboard.unknown",
+      "languageResourceEvidence": {
+        "jar": "ftb-quests-neoforge-2101.1.37.jar",
+        "sha256": "6b42457d680108d0af5b8deb21e3fe7b92138209f0683c62441dc360d4fc01d5",
+        "modIds": [
+          "ftbquests"
+        ],
+        "resource": "assets/ftbquests/lang/en_us.json",
+        "english": "Force-complete Hovered",
+        "russian": ""
+      }
+    },
+    {
+      "name": "key.ftbquests.gui_editor.reset_object",
+      "nativeDefaultKey": "key.keyboard.r",
+      "observedModifier": "ALT",
+      "preset": "key.keyboard.unknown",
+      "languageResourceEvidence": {
+        "jar": "ftb-quests-neoforge-2101.1.37.jar",
+        "sha256": "6b42457d680108d0af5b8deb21e3fe7b92138209f0683c62441dc360d4fc01d5",
+        "modIds": [
+          "ftbquests"
+        ],
+        "resource": "assets/ftbquests/lang/en_us.json",
+        "english": "Force-reset Hovered",
+        "russian": ""
+      }
+    },
+    {
+      "name": "key.ftbquests.gui_editor.save",
+      "nativeDefaultKey": "key.keyboard.s",
+      "observedModifier": "CONTROL",
+      "preset": "key.keyboard.unknown",
+      "languageResourceEvidence": {
+        "jar": "ftb-quests-neoforge-2101.1.37.jar",
+        "sha256": "6b42457d680108d0af5b8deb21e3fe7b92138209f0683c62441dc360d4fc01d5",
+        "modIds": [
+          "ftbquests"
+        ],
+        "resource": "assets/ftbquests/lang/en_us.json",
+        "english": "Save Quests Now",
+        "russian": ""
+      }
+    },
+    {
+      "name": "key.integratedscripting.comment",
+      "nativeDefaultKey": "key.keyboard.slash",
+      "observedModifier": "CONTROL",
+      "preset": "key.keyboard.unknown",
+      "languageResourceEvidence": {
+        "jar": "integratedscripting-1.21.1-neoforge-1.0.27-708.jar",
+        "sha256": "0fcfbcc029b13c8ad088253253acdd3b3341bd282456100808215105a00f3f59",
+        "modIds": [
+          "integratedscripting"
+        ],
+        "resource": "assets/integratedscripting/lang/en_us.json",
+        "english": "Toggle comment",
+        "russian": ""
+      }
+    },
+    {
+      "name": "key.integratedscripting.find",
+      "nativeDefaultKey": "key.keyboard.f",
+      "observedModifier": "CONTROL",
+      "preset": "key.keyboard.unknown",
+      "languageResourceEvidence": {
+        "jar": "integratedscripting-1.21.1-neoforge-1.0.27-708.jar",
+        "sha256": "0fcfbcc029b13c8ad088253253acdd3b3341bd282456100808215105a00f3f59",
+        "modIds": [
+          "integratedscripting"
+        ],
+        "resource": "assets/integratedscripting/lang/en_us.json",
+        "english": "Find",
+        "russian": ""
+      }
+    },
+    {
+      "name": "key.integratedscripting.focus_mode",
+      "nativeDefaultKey": "key.keyboard.f12",
+      "observedModifier": "NONE",
+      "preset": "key.keyboard.unknown",
+      "languageResourceEvidence": {
+        "jar": "integratedscripting-1.21.1-neoforge-1.0.27-708.jar",
+        "sha256": "0fcfbcc029b13c8ad088253253acdd3b3341bd282456100808215105a00f3f59",
+        "modIds": [
+          "integratedscripting"
+        ],
+        "resource": "assets/integratedscripting/lang/en_us.json",
+        "english": "Enlarge editor",
+        "russian": ""
+      }
+    },
+    {
+      "name": "key.integratedscripting.goto_line",
+      "nativeDefaultKey": "key.keyboard.g",
+      "observedModifier": "CONTROL",
+      "preset": "key.keyboard.unknown",
+      "languageResourceEvidence": {
+        "jar": "integratedscripting-1.21.1-neoforge-1.0.27-708.jar",
+        "sha256": "0fcfbcc029b13c8ad088253253acdd3b3341bd282456100808215105a00f3f59",
+        "modIds": [
+          "integratedscripting"
+        ],
+        "resource": "assets/integratedscripting/lang/en_us.json",
+        "english": "Go to line",
+        "russian": ""
+      }
+    },
+    {
+      "name": "key.integratedscripting.move_lines_down",
+      "nativeDefaultKey": "key.keyboard.down",
+      "observedModifier": "ALT",
+      "preset": "key.keyboard.unknown",
+      "languageResourceEvidence": {
+        "jar": "integratedscripting-1.21.1-neoforge-1.0.27-708.jar",
+        "sha256": "0fcfbcc029b13c8ad088253253acdd3b3341bd282456100808215105a00f3f59",
+        "modIds": [
+          "integratedscripting"
+        ],
+        "resource": "assets/integratedscripting/lang/en_us.json",
+        "english": "Move lines down",
+        "russian": ""
+      }
+    },
+    {
+      "name": "key.integratedscripting.move_lines_up",
+      "nativeDefaultKey": "key.keyboard.up",
+      "observedModifier": "ALT",
+      "preset": "key.keyboard.unknown",
+      "languageResourceEvidence": {
+        "jar": "integratedscripting-1.21.1-neoforge-1.0.27-708.jar",
+        "sha256": "0fcfbcc029b13c8ad088253253acdd3b3341bd282456100808215105a00f3f59",
+        "modIds": [
+          "integratedscripting"
+        ],
+        "resource": "assets/integratedscripting/lang/en_us.json",
+        "english": "Move lines up",
+        "russian": ""
+      }
+    },
+    {
+      "name": "key.integratedscripting.redo",
+      "nativeDefaultKey": "key.keyboard.y",
+      "observedModifier": "CONTROL",
+      "preset": "key.keyboard.unknown",
+      "languageResourceEvidence": {
+        "jar": "integratedscripting-1.21.1-neoforge-1.0.27-708.jar",
+        "sha256": "0fcfbcc029b13c8ad088253253acdd3b3341bd282456100808215105a00f3f59",
+        "modIds": [
+          "integratedscripting"
+        ],
+        "resource": "assets/integratedscripting/lang/en_us.json",
+        "english": "Redo",
+        "russian": ""
+      }
+    },
+    {
+      "name": "key.integratedscripting.undo",
+      "nativeDefaultKey": "key.keyboard.z",
+      "observedModifier": "CONTROL",
+      "preset": "key.keyboard.unknown",
+      "languageResourceEvidence": {
+        "jar": "integratedscripting-1.21.1-neoforge-1.0.27-708.jar",
+        "sha256": "0fcfbcc029b13c8ad088253253acdd3b3341bd282456100808215105a00f3f59",
+        "modIds": [
+          "integratedscripting"
+        ],
+        "resource": "assets/integratedscripting/lang/en_us.json",
+        "english": "Undo",
+        "russian": ""
+      }
+    },
+    {
+      "name": "key.jei.cheatItemStackToInventory",
+      "nativeDefaultKey": "key.mouse.left",
+      "observedModifier": "ALT",
+      "preset": "key.keyboard.unknown",
+      "languageResourceEvidence": {
+        "jar": "jei-1.21.1-neoforge-19.70.0.464.jar",
+        "sha256": "df3883c1f53780eacfb670c1c4252a4b9e3da3fea8469571aac5efc815459949",
+        "modIds": [
+          "jei"
+        ],
+        "resource": "assets/jei/lang/en_us.json",
+        "english": "Cheat One Stack to Inventory",
+        "russian": ""
+      }
+    },
+    {
+      "name": "key.jei.cheatOneItemToInventory",
+      "nativeDefaultKey": "key.mouse.right",
+      "observedModifier": "ALT",
+      "preset": "key.keyboard.unknown",
+      "languageResourceEvidence": {
+        "jar": "jei-1.21.1-neoforge-19.70.0.464.jar",
+        "sha256": "df3883c1f53780eacfb670c1c4252a4b9e3da3fea8469571aac5efc815459949",
+        "modIds": [
+          "jei"
+        ],
+        "resource": "assets/jei/lang/en_us.json",
+        "english": "Cheat One Item to Inventory",
+        "russian": ""
+      }
+    },
+    {
+      "name": "key.jei.maxTransferRecipeGui",
+      "nativeDefaultKey": "key.keyboard.unknown",
+      "observedModifier": "NONE",
+      "preset": "key.keyboard.unknown",
+      "languageResourceEvidence": {
+        "jar": "jei-1.21.1-neoforge-19.70.0.464.jar",
+        "sha256": "df3883c1f53780eacfb670c1c4252a4b9e3da3fea8469571aac5efc815459949",
+        "modIds": [
+          "jei"
+        ],
+        "resource": "assets/jei/lang/en_us.json",
+        "english": "Craft Hovered Recipe (Many)",
+        "russian": ""
+      }
+    },
+    {
+      "name": "key.jei.recipeForward",
+      "nativeDefaultKey": "key.keyboard.unknown",
+      "observedModifier": "NONE",
+      "preset": "key.keyboard.unknown",
+      "languageResourceEvidence": {
+        "jar": "jei-1.21.1-neoforge-19.70.0.464.jar",
+        "sha256": "df3883c1f53780eacfb670c1c4252a4b9e3da3fea8469571aac5efc815459949",
+        "modIds": [
+          "jei"
+        ],
+        "resource": "assets/jei/lang/en_us.json",
+        "english": "Next Recipe",
+        "russian": ""
+      }
+    },
+    {
+      "name": "key.jei.toggleHideIngredientsWhenNotSearching",
+      "nativeDefaultKey": "key.mouse.right",
+      "observedModifier": "CONTROL",
+      "preset": "key.keyboard.unknown",
+      "languageResourceEvidence": {
+        "jar": "jei-1.21.1-neoforge-19.70.0.464.jar",
+        "sha256": "df3883c1f53780eacfb670c1c4252a4b9e3da3fea8469571aac5efc815459949",
+        "modIds": [
+          "jei"
+        ],
+        "resource": "assets/jei/lang/en_us.json",
+        "english": "Toggle Hide Ingredients When Not Searching",
+        "russian": ""
+      }
+    },
+    {
+      "name": "key.jei.transferRecipeGui",
+      "nativeDefaultKey": "key.keyboard.unknown",
+      "observedModifier": "NONE",
+      "preset": "key.keyboard.unknown",
+      "languageResourceEvidence": {
+        "jar": "jei-1.21.1-neoforge-19.70.0.464.jar",
+        "sha256": "df3883c1f53780eacfb670c1c4252a4b9e3da3fea8469571aac5efc815459949",
+        "modIds": [
+          "jei"
+        ],
+        "resource": "assets/jei/lang/en_us.json",
+        "english": "Craft Hovered Recipe (One)",
+        "russian": ""
+      }
+    },
+    {
+      "name": "key.railcraft.bed_minecart.sleep",
+      "nativeDefaultKey": "key.keyboard.down",
+      "observedModifier": "NONE",
+      "preset": "key.keyboard.unknown",
+      "languageResourceEvidence": {
+        "jar": "railcraft-reborn-1.21.1-1.2.16.jar",
+        "sha256": "0ff06bb6d39535a6950f2260a905194fae9bd2adccc45643da005ae18bb93397",
+        "modIds": [
+          "railcraft"
+        ],
+        "resource": "assets/railcraft/lang/en_us.json",
+        "english": "Sleep in the Minecart with Bed",
+        "russian": ""
+      }
+    },
+    {
+      "name": "keyinfo.copycats.fill_copycat",
+      "nativeDefaultKey": "key.keyboard.left.alt",
+      "observedModifier": "NONE",
+      "preset": "key.keyboard.unknown",
+      "languageResourceEvidence": {
+        "jar": "copycats-3.0.9+mc.1.21.1-neoforge.jar",
+        "sha256": "d1efdd8688af6603dff9425299ac4547ef56a7d5cfee757716ead7853276694e",
+        "modIds": [
+          "copycats"
+        ],
+        "resource": "assets/copycats/lang/en_us.json",
+        "english": "Fill Copycat with Material",
+        "russian": "Заполнить весь элемент материалом"
+      }
+    },
+    {
+      "name": "pneumaticcraft.armor.upgrade.ad_astra_giselle_addon.acid_rain_proof",
+      "nativeDefaultKey": "key.keyboard.unknown",
+      "observedModifier": "NONE",
+      "preset": "key.keyboard.unknown",
+      "languageResourceEvidence": {
+        "jar": "Ad-Astra-Giselle-Addon-neoforge-1.21.1-8.6.jar",
+        "sha256": "87e88f0ea678214714a5f2f17e616761667a38e89070124a2f7635d5c618d763",
+        "modIds": [
+          "ad_astra_giselle_addon"
+        ],
+        "resource": "assets/ad_astra_giselle_addon/lang/en_us.json",
+        "english": "Acid Rain Proof",
+        "russian": "Защита от кислотных дождей"
+      }
+    },
+    {
+      "name": "pneumaticcraft.armor.upgrade.ad_astra_giselle_addon.gravity_normalizing",
+      "nativeDefaultKey": "key.keyboard.unknown",
+      "observedModifier": "NONE",
+      "preset": "key.keyboard.unknown",
+      "languageResourceEvidence": {
+        "jar": "Ad-Astra-Giselle-Addon-neoforge-1.21.1-8.6.jar",
+        "sha256": "87e88f0ea678214714a5f2f17e616761667a38e89070124a2f7635d5c618d763",
+        "modIds": [
+          "ad_astra_giselle_addon"
+        ],
+        "resource": "assets/ad_astra_giselle_addon/lang/en_us.json",
+        "english": "Gravity Normalizing",
+        "russian": "Гравитационная нормализация"
+      }
+    },
+    {
+      "name": "pneumaticcraft.armor.upgrade.ad_astra_giselle_addon.space_breathing",
+      "nativeDefaultKey": "key.keyboard.unknown",
+      "observedModifier": "NONE",
+      "preset": "key.keyboard.unknown",
+      "languageResourceEvidence": {
+        "jar": "Ad-Astra-Giselle-Addon-neoforge-1.21.1-8.6.jar",
+        "sha256": "87e88f0ea678214714a5f2f17e616761667a38e89070124a2f7635d5c618d763",
+        "modIds": [
+          "ad_astra_giselle_addon"
+        ],
+        "resource": "assets/ad_astra_giselle_addon/lang/en_us.json",
+        "english": "Space Breathing",
+        "russian": "Космическое дыхание"
+      }
+    },
+    {
+      "name": "pneumaticcraft.armor.upgrade.ad_astra_giselle_addon.space_fire_proof",
+      "nativeDefaultKey": "key.keyboard.unknown",
+      "observedModifier": "NONE",
+      "preset": "key.keyboard.unknown",
+      "languageResourceEvidence": {
+        "jar": "Ad-Astra-Giselle-Addon-neoforge-1.21.1-8.6.jar",
+        "sha256": "87e88f0ea678214714a5f2f17e616761667a38e89070124a2f7635d5c618d763",
+        "modIds": [
+          "ad_astra_giselle_addon"
+        ],
+        "resource": "assets/ad_astra_giselle_addon/lang/en_us.json",
+        "english": "Space Fire Proof",
+        "russian": "Космическая огнестойкость"
+      }
+    }
+  ],
+  "removedOldPresetNames": [
+    {
+      "name": "key.eternal_starlight.switch_crest",
+      "previousPreset": "key.keyboard.unknown",
+      "reason": "absent from actual Options and ALL"
+    },
+    {
+      "name": "key.jei.internal.enter.key",
+      "previousPreset": "key.keyboard.unknown",
+      "reason": "ALL-only internal mapping, absent from Options"
+    },
+    {
+      "name": "key.jei.showBookmarkTooltipFeatures",
+      "previousPreset": "key.keyboard.unknown",
+      "reason": "absent from actual Options and ALL"
+    },
+    {
+      "name": "rainbows.key.reload_rainbow_configs",
+      "previousPreset": "key.keyboard.unknown",
+      "reason": "absent from actual Options and ALL"
+    }
+  ],
+  "allOnlyInternalNamesExcluded": [
+    "create.keyinfo.",
+    "key.jei.internal.enter.key",
+    "key.jei.internal.enter.key2",
+    "key.jei.internal.escape.key",
+    "key.jei.internal.left.click",
+    "key.jei.internal.right.click",
+    "key.jei.internal.tab.key"
+  ],
+  "adAstra": {
+    "jar": "adastra-1.21.1-1.16.26-neoforge.jar",
+    "sha256": "b8d1441e284db2e1e8ce5ffe739452633c90725312e476db8d8a0a4b64126856",
+    "classSha256": {
+      "earth/terrarium/adastra/client/AdAstraClient.class": "12ec518e8a184ece19300ab2020783731b17d85ab377a55d48f570c7a28b1bc0",
+      "earth/terrarium/adastra/common/constants/ConstantComponents.class": "77fb3782adb2a24cca8a9328db5a7982bfc79f3981bcde8d2f20c47b42444302"
+    },
+    "registrationCaller": "earth.terrarium.adastra.client.AdAstraClient.<clinit>",
+    "componentGetStringBytecodeOffsets": [
+      49,
+      77
+    ],
+    "defaultKeyBytecodeOffsets": [
+      54,
+      82
+    ],
+    "defaultGlfwCodes": [
+      86,
+      82
+    ],
+    "additionalGuardNames": {
+      "Toggle Suit Flight": {
+        "translationKey": "key.ad_astra.toggle_suit_flight",
+        "locale": "en_us"
+      },
+      "Включить полёт в костюме": {
+        "translationKey": "key.ad_astra.toggle_suit_flight",
+        "locale": "ru_ru"
+      },
+      "Open radio": {
+        "translationKey": "key.ad_astra.open_radio",
+        "locale": "en_us"
+      },
+      "Открыть радио": {
+        "translationKey": "key.ad_astra.open_radio",
+        "locale": "ru_ru"
+      }
+    },
+    "nativeObservedRawNames": [
+      "key.ad_astra.open_radio",
+      "key.ad_astra.toggle_suit_flight"
+    ]
+  },
+  "conflictContextPolicy": {
+    "simpleNativeEnumsUsed": [
+      "GUI",
+      "IN_GAME",
+      "UNIVERSAL"
+    ],
+    "customContextsAreApproximations": true,
+    "fallbacks": [
+      {
+        "name": "justdirethings.key.toggle_tool",
+        "nativeClass": "com.direwolf20.justdirethings.client.KeyBindings$KeyConflictContextGadget",
+        "nativeEnum": "",
+        "modeledContext": "UNIVERSAL",
+        "basis": "previous"
+      },
+      {
+        "name": "justdirethings.key.toolUI",
+        "nativeClass": "com.direwolf20.justdirethings.client.KeyBindings$KeyConflictContextConfigScreen",
+        "nativeEnum": "",
+        "modeledContext": "UNIVERSAL",
+        "basis": "previous"
+      },
+      {
+        "name": "key.buildinggadgets2.anchor",
+        "nativeClass": "com.direwolf20.buildinggadgets2.client.KeyBindings$KeyConflictContextGadget",
+        "nativeEnum": "",
+        "modeledContext": "UNIVERSAL",
+        "basis": "previous"
+      },
+      {
+        "name": "key.buildinggadgets2.range",
+        "nativeClass": "com.direwolf20.buildinggadgets2.client.KeyBindings$KeyConflictContextGadget",
+        "nativeEnum": "",
+        "modeledContext": "UNIVERSAL",
+        "basis": "previous"
+      },
+      {
+        "name": "key.buildinggadgets2.settings_menu",
+        "nativeClass": "com.direwolf20.buildinggadgets2.client.KeyBindings$KeyConflictContextGadget",
+        "nativeEnum": "",
+        "modeledContext": "UNIVERSAL",
+        "basis": "previous"
+      },
+      {
+        "name": "key.buildinggadgets2.undo",
+        "nativeClass": "com.direwolf20.buildinggadgets2.client.KeyBindings$KeyConflictContextGadget",
+        "nativeEnum": "",
+        "modeledContext": "UNIVERSAL",
+        "basis": "previous"
+      },
+      {
+        "name": "key.draconicevolution.dislocator_blink",
+        "nativeClass": "com.brandon3055.draconicevolution.client.keybinding.KeyBindings$CustomContext",
+        "nativeEnum": "",
+        "modeledContext": "IN_GAME",
+        "basis": "previous"
+      },
+      {
+        "name": "key.draconicevolution.dislocator_down",
+        "nativeClass": "com.brandon3055.draconicevolution.client.keybinding.KeyBindings$CustomContext",
+        "nativeEnum": "",
+        "modeledContext": "IN_GAME",
+        "basis": "previous"
+      },
+      {
+        "name": "key.draconicevolution.dislocator_gui",
+        "nativeClass": "com.brandon3055.draconicevolution.client.keybinding.KeyBindings$CustomContext",
+        "nativeEnum": "",
+        "modeledContext": "IN_GAME",
+        "basis": "previous"
+      },
+      {
+        "name": "key.draconicevolution.dislocator_teleport",
+        "nativeClass": "com.brandon3055.draconicevolution.client.keybinding.KeyBindings$CustomContext",
+        "nativeEnum": "",
+        "modeledContext": "IN_GAME",
+        "basis": "previous"
+      },
+      {
+        "name": "key.draconicevolution.dislocator_up",
+        "nativeClass": "com.brandon3055.draconicevolution.client.keybinding.KeyBindings$CustomContext",
+        "nativeEnum": "",
+        "modeledContext": "IN_GAME",
+        "basis": "previous"
+      },
+      {
+        "name": "key.draconicevolution.place_item",
+        "nativeClass": "com.brandon3055.draconicevolution.client.keybinding.KeyBindings$CustomContext",
+        "nativeEnum": "",
+        "modeledContext": "IN_GAME",
+        "basis": "previous"
+      },
+      {
+        "name": "key.draconicevolution.toggle_flight",
+        "nativeClass": "com.brandon3055.draconicevolution.client.keybinding.KeyBindings$CustomContext",
+        "nativeEnum": "",
+        "modeledContext": "IN_GAME",
+        "basis": "previous"
+      },
+      {
+        "name": "key.draconicevolution.toggle_magnet",
+        "nativeClass": "com.brandon3055.draconicevolution.client.keybinding.KeyBindings$CustomContext",
+        "nativeEnum": "",
+        "modeledContext": "IN_GAME",
+        "basis": "previous"
+      },
+      {
+        "name": "key.draconicevolution.tool_config",
+        "nativeClass": "com.brandon3055.draconicevolution.client.keybinding.KeyBindings$CustomContext",
+        "nativeEnum": "",
+        "modeledContext": "IN_GAME",
+        "basis": "previous"
+      },
+      {
+        "name": "key.draconicevolution.tool_modules",
+        "nativeClass": "com.brandon3055.draconicevolution.client.keybinding.KeyBindings$CustomContext",
+        "nativeEnum": "",
+        "modeledContext": "IN_GAME",
+        "basis": "previous"
+      },
+      {
+        "name": "key.immersiveengineering.magnetEquip",
+        "nativeClass": "blusunrize.immersiveengineering.client.IEKeybinds$1",
+        "nativeEnum": "",
+        "modeledContext": "UNIVERSAL",
+        "basis": "previous"
+      },
+      {
+        "name": "key.immersiveengineering.railgunZoom",
+        "nativeClass": "blusunrize.immersiveengineering.client.ItemKeybindConflictContext",
+        "nativeEnum": "",
+        "modeledContext": "UNIVERSAL",
+        "basis": "previous"
+      },
+      {
+        "name": "key.jei.bookmark",
+        "nativeClass": "mezz.jei.neoforge.input.JeiForgeKeyConflictContexts",
+        "nativeEnum": "JEI_GUI_HOVER",
+        "modeledContext": "UNIVERSAL",
+        "basis": "previous"
+      },
+      {
+        "name": "key.jei.cheatItemStack",
+        "nativeClass": "mezz.jei.neoforge.input.JeiForgeKeyConflictContexts",
+        "nativeEnum": "JEI_GUI_HOVER_CHEAT_MODE",
+        "modeledContext": "UNIVERSAL",
+        "basis": "previous"
+      },
+      {
+        "name": "key.jei.cheatItemStack2",
+        "nativeClass": "mezz.jei.neoforge.input.JeiForgeKeyConflictContexts",
+        "nativeEnum": "JEI_GUI_HOVER_CHEAT_MODE",
+        "modeledContext": "UNIVERSAL",
+        "basis": "previous"
+      },
+      {
+        "name": "key.jei.cheatItemStackToInventory",
+        "nativeClass": "mezz.jei.neoforge.input.JeiForgeKeyConflictContexts",
+        "nativeEnum": "JEI_GUI_HOVER_CHEAT_MODE",
+        "modeledContext": "UNIVERSAL",
+        "basis": "UNIVERSAL"
+      },
+      {
+        "name": "key.jei.cheatOneItem",
+        "nativeClass": "mezz.jei.neoforge.input.JeiForgeKeyConflictContexts",
+        "nativeEnum": "JEI_GUI_HOVER_CHEAT_MODE",
+        "modeledContext": "UNIVERSAL",
+        "basis": "previous"
+      },
+      {
+        "name": "key.jei.cheatOneItem2",
+        "nativeClass": "mezz.jei.neoforge.input.JeiForgeKeyConflictContexts",
+        "nativeEnum": "JEI_GUI_HOVER_CHEAT_MODE",
+        "modeledContext": "UNIVERSAL",
+        "basis": "previous"
+      },
+      {
+        "name": "key.jei.cheatOneItemToInventory",
+        "nativeClass": "mezz.jei.neoforge.input.JeiForgeKeyConflictContexts",
+        "nativeEnum": "JEI_GUI_HOVER_CHEAT_MODE",
+        "modeledContext": "UNIVERSAL",
+        "basis": "UNIVERSAL"
+      },
+      {
+        "name": "key.jei.clearSearchBar",
+        "nativeClass": "mezz.jei.neoforge.input.JeiForgeKeyConflictContexts",
+        "nativeEnum": "JEI_GUI_HOVER_SEARCH",
+        "modeledContext": "UNIVERSAL",
+        "basis": "previous"
+      },
+      {
+        "name": "key.jei.maxTransferRecipeBookmark",
+        "nativeClass": "mezz.jei.neoforge.input.JeiForgeKeyConflictContexts",
+        "nativeEnum": "JEI_GUI_HOVER_BOOKMARK",
+        "modeledContext": "UNIVERSAL",
+        "basis": "previous"
+      },
+      {
+        "name": "key.jei.nextSearch",
+        "nativeClass": "mezz.jei.neoforge.input.JeiForgeKeyConflictContexts",
+        "nativeEnum": "JEI_GUI_FOCUSED_SEARCH",
+        "modeledContext": "UNIVERSAL",
+        "basis": "previous"
+      },
+      {
+        "name": "key.jei.previousSearch",
+        "nativeClass": "mezz.jei.neoforge.input.JeiForgeKeyConflictContexts",
+        "nativeEnum": "JEI_GUI_FOCUSED_SEARCH",
+        "modeledContext": "UNIVERSAL",
+        "basis": "previous"
+      },
+      {
+        "name": "key.jei.quickMove",
+        "nativeClass": "mezz.jei.neoforge.input.JeiForgeKeyConflictContexts",
+        "nativeEnum": "JEI_GUI_HOVER",
+        "modeledContext": "UNIVERSAL",
+        "basis": "previous"
+      },
+      {
+        "name": "key.jei.shareToChat",
+        "nativeClass": "mezz.jei.neoforge.input.JeiForgeKeyConflictContexts",
+        "nativeEnum": "JEI_GUI_HOVER",
+        "modeledContext": "UNIVERSAL",
+        "basis": "previous"
+      },
+      {
+        "name": "key.jei.showRecipe",
+        "nativeClass": "mezz.jei.neoforge.input.JeiForgeKeyConflictContexts",
+        "nativeEnum": "JEI_GUI_HOVER",
+        "modeledContext": "UNIVERSAL",
+        "basis": "previous"
+      },
+      {
+        "name": "key.jei.showRecipe2",
+        "nativeClass": "mezz.jei.neoforge.input.JeiForgeKeyConflictContexts",
+        "nativeEnum": "JEI_GUI_HOVER",
+        "modeledContext": "UNIVERSAL",
+        "basis": "previous"
+      },
+      {
+        "name": "key.jei.showUses",
+        "nativeClass": "mezz.jei.neoforge.input.JeiForgeKeyConflictContexts",
+        "nativeEnum": "JEI_GUI_HOVER",
+        "modeledContext": "UNIVERSAL",
+        "basis": "previous"
+      },
+      {
+        "name": "key.jei.showUses2",
+        "nativeClass": "mezz.jei.neoforge.input.JeiForgeKeyConflictContexts",
+        "nativeEnum": "JEI_GUI_HOVER",
+        "modeledContext": "UNIVERSAL",
+        "basis": "previous"
+      },
+      {
+        "name": "key.jei.toggleCheatModeConfigButton",
+        "nativeClass": "mezz.jei.neoforge.input.JeiForgeKeyConflictContexts",
+        "nativeEnum": "JEI_GUI_HOVER_CONFIG_BUTTON",
+        "modeledContext": "UNIVERSAL",
+        "basis": "previous"
+      },
+      {
+        "name": "key.jei.toggleHideIngredient",
+        "nativeClass": "mezz.jei.neoforge.input.JeiForgeKeyConflictContexts",
+        "nativeEnum": "JEI_GUI_HOVER_INGREDIENT",
+        "modeledContext": "UNIVERSAL",
+        "basis": "previous"
+      },
+      {
+        "name": "key.jei.toggleHideIngredientsWhenNotSearching",
+        "nativeClass": "mezz.jei.neoforge.input.JeiForgeKeyConflictContexts",
+        "nativeEnum": "JEI_GUI_HOVER_CONFIG_BUTTON",
+        "modeledContext": "UNIVERSAL",
+        "basis": "UNIVERSAL"
+      },
+      {
+        "name": "key.jei.toggleWildcardHideIngredient",
+        "nativeClass": "mezz.jei.neoforge.input.JeiForgeKeyConflictContexts",
+        "nativeEnum": "JEI_GUI_HOVER_INGREDIENT",
+        "modeledContext": "UNIVERSAL",
+        "basis": "previous"
+      },
+      {
+        "name": "key.jei.transferRecipeBookmark",
+        "nativeClass": "mezz.jei.neoforge.input.JeiForgeKeyConflictContexts",
+        "nativeEnum": "JEI_GUI_HOVER_BOOKMARK",
+        "modeledContext": "UNIVERSAL",
+        "basis": "previous"
+      },
+      {
+        "name": "key.mapping.compactmachines.exit_room",
+        "nativeClass": "dev.compactmods.machines.client.keybinds.room.RoomExitKeyMapping$1",
+        "nativeEnum": "",
+        "modeledContext": "UNIVERSAL",
+        "basis": "previous"
+      },
+      {
+        "name": "key.mapping.compactmachines.open_upgrade_screen",
+        "nativeClass": "dev.compactmods.machines.client.keybinds.room.RoomUpgradeUIMapping$1",
+        "nativeEnum": "",
+        "modeledContext": "UNIVERSAL",
+        "basis": "previous"
+      },
+      {
+        "name": "key.occultism.backpack",
+        "nativeClass": "com.klikli_dev.occultism.client.keybindings.BackpackKeyConflictContext",
+        "nativeEnum": "",
+        "modeledContext": "UNIVERSAL",
+        "basis": "previous"
+      },
+      {
+        "name": "key.occultism.ender_bag",
+        "nativeClass": "com.klikli_dev.occultism.client.keybindings.EnderBagKeyConflictContext",
+        "nativeEnum": "",
+        "modeledContext": "UNIVERSAL",
+        "basis": "previous"
+      },
+      {
+        "name": "key.occultism.storage_remote",
+        "nativeClass": "com.klikli_dev.occultism.client.keybindings.StorageRemoteKeyConflictContext",
+        "nativeEnum": "",
+        "modeledContext": "UNIVERSAL",
+        "basis": "previous"
+      },
+      {
+        "name": "key.sophisticatedbackpacks.open_backpack",
+        "nativeClass": "net.p3pp3rf1y.sophisticatedbackpacks.client.KeybindHandler$BackpackKeyConflictContext",
+        "nativeEnum": "",
+        "modeledContext": "UNIVERSAL",
+        "basis": "previous"
+      },
+      {
+        "name": "key.sophisticatedcore.sort",
+        "nativeClass": "net.p3pp3rf1y.sophisticatedcore.client.ClientEventHandler$SophisticatedScreenKeyConflictContext",
+        "nativeEnum": "",
+        "modeledContext": "UNIVERSAL",
+        "basis": "previous"
+      },
+      {
+        "name": "key.sophisticatedcore.transfer_to_inventory",
+        "nativeClass": "net.p3pp3rf1y.sophisticatedcore.client.ClientEventHandler$ContainerScreenKeyConflictContext",
+        "nativeEnum": "",
+        "modeledContext": "UNIVERSAL",
+        "basis": "previous"
+      },
+      {
+        "name": "key.sophisticatedcore.transfer_to_storage",
+        "nativeClass": "net.p3pp3rf1y.sophisticatedcore.client.ClientEventHandler$ContainerScreenKeyConflictContext",
+        "nativeEnum": "",
+        "modeledContext": "UNIVERSAL",
+        "basis": "previous"
+      },
+      {
+        "name": "key.structurize.mirror",
+        "nativeClass": "com.ldtteam.structurize.client.ModKeyMappings$1",
+        "nativeEnum": "",
+        "modeledContext": "UNIVERSAL",
+        "basis": "previous"
+      },
+      {
+        "name": "key.structurize.move_back",
+        "nativeClass": "com.ldtteam.structurize.client.ModKeyMappings$1",
+        "nativeEnum": "",
+        "modeledContext": "UNIVERSAL",
+        "basis": "previous"
+      },
+      {
+        "name": "key.structurize.move_down",
+        "nativeClass": "com.ldtteam.structurize.client.ModKeyMappings$1",
+        "nativeEnum": "",
+        "modeledContext": "UNIVERSAL",
+        "basis": "previous"
+      },
+      {
+        "name": "key.structurize.move_forward",
+        "nativeClass": "com.ldtteam.structurize.client.ModKeyMappings$1",
+        "nativeEnum": "",
+        "modeledContext": "UNIVERSAL",
+        "basis": "previous"
+      },
+      {
+        "name": "key.structurize.move_left",
+        "nativeClass": "com.ldtteam.structurize.client.ModKeyMappings$1",
+        "nativeEnum": "",
+        "modeledContext": "UNIVERSAL",
+        "basis": "previous"
+      },
+      {
+        "name": "key.structurize.move_right",
+        "nativeClass": "com.ldtteam.structurize.client.ModKeyMappings$1",
+        "nativeEnum": "",
+        "modeledContext": "UNIVERSAL",
+        "basis": "previous"
+      },
+      {
+        "name": "key.structurize.move_up",
+        "nativeClass": "com.ldtteam.structurize.client.ModKeyMappings$1",
+        "nativeEnum": "",
+        "modeledContext": "UNIVERSAL",
+        "basis": "previous"
+      },
+      {
+        "name": "key.structurize.place",
+        "nativeClass": "com.ldtteam.structurize.client.ModKeyMappings$1",
+        "nativeEnum": "",
+        "modeledContext": "UNIVERSAL",
+        "basis": "previous"
+      },
+      {
+        "name": "key.structurize.rotate_ccw",
+        "nativeClass": "com.ldtteam.structurize.client.ModKeyMappings$1",
+        "nativeEnum": "",
+        "modeledContext": "UNIVERSAL",
+        "basis": "previous"
+      },
+      {
+        "name": "key.structurize.rotate_cw",
+        "nativeClass": "com.ldtteam.structurize.client.ModKeyMappings$1",
+        "nativeEnum": "",
+        "modeledContext": "UNIVERSAL",
+        "basis": "previous"
+      },
+      {
+        "name": "key.the_bumblezone.beehemoth_down",
+        "nativeClass": "com.telepathicgrunt.the_bumblezone.services.neoforge.NeoClientPlatformService$ForgeConflict",
+        "nativeEnum": "",
+        "modeledContext": "UNIVERSAL",
+        "basis": "previous"
+      },
+      {
+        "name": "key.the_bumblezone.beehemoth_up",
+        "nativeClass": "com.telepathicgrunt.the_bumblezone.services.neoforge.NeoClientPlatformService$ForgeConflict",
+        "nativeEnum": "",
+        "modeledContext": "UNIVERSAL",
+        "basis": "previous"
+      },
+      {
+        "name": "key.theurgy.change_item_mode",
+        "nativeClass": "com.klikli_dev.theurgy.registry.KeyMappingsRegistry$1",
+        "nativeEnum": "",
+        "modeledContext": "UNIVERSAL",
+        "basis": "previous"
+      }
+    ],
+    "actualNativeAllPairTestPerformed": false
+  },
+  "scope": {
+    "keybindingsOnly": true,
+    "playerOptionsRead": false,
+    "gameStateWritten": false,
+    "presetAppliedInGame": false,
+    "closeRestartRetentionTested": false,
+    "authorJarOrConfigChanged": false,
+    "sourceTreeWritten": false
+  }
+}

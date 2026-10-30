@@ -11,7 +11,7 @@
 		{
 			click: "https://m.youtube.com/watch?v=phsjFbUs7gw"
 			height: 1.0d
-			hover: ["Pilpoh's Time Crystal Automation Tutorial"]
+			hover: ["{atm10quests.manual.inline.489fd0fdf85666df0214.0}"]
 			image: "actuallyadditions:item/youtube"
 			rotation: 0.0d
 			width: 1.0d

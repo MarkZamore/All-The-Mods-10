@@ -147,7 +147,7 @@
 		{
 			click: "#0EC2053B191C55C6"
 			height: 1.0d
-			hover: ["Fluid Extractor"]
+			hover: ["{atm10quests.manual.inline.8a1d7302ebcff71c7f99.0}"]
 			image: "industrialforegoing:block/tree_fluid_extractor_back"
 			rotation: 0.0d
 			width: 1.0d
@@ -157,7 +157,7 @@
 		{
 			click: "#294C729B9EBD7A3C"
 			height: 1.0d
-			hover: ["Block Placer"]
+			hover: ["{atm10quests.manual.inline.04c529c5732ddda6300a.0}"]
 			image: "industrialforegoing:block/block_placer_back"
 			rotation: 0.0d
 			width: 1.0d
@@ -175,7 +175,7 @@
 		{
 			click: "#0EC2053B191C55C6"
 			height: 1.0d
-			hover: ["Fluid Extractor"]
+			hover: ["{atm10quests.manual.inline.54831d2482b2f098cd83.0}"]
 			image: "industrialforegoing:block/tree_fluid_extractor_back"
 			rotation: 0.0d
 			width: 1.0d
@@ -185,7 +185,7 @@
 		{
 			click: "#0EC2053B191C55C6"
 			height: 1.0d
-			hover: ["Fluid Extractor"]
+			hover: ["{atm10quests.manual.inline.63ce66ac857998e654f6.0}"]
 			image: "industrialforegoing:block/tree_fluid_extractor_back"
 			rotation: 0.0d
 			width: 1.0d
@@ -195,7 +195,7 @@
 		{
 			click: "#6FF04DD735346BED"
 			height: 1.0d
-			hover: ["Latex Processing Unit"]
+			hover: ["{atm10quests.manual.inline.4ade71d1109320a746d5.0}"]
 			image: "industrialforegoing:block/latex_processing_unit_front"
 			rotation: 0.0d
 			width: 1.0d
@@ -204,7 +204,7 @@
 		}
 		{
 			height: 1.0d
-			image: "jei:textures/jei/atlas/gui/icons/arrow_next.png"
+			image: "jei:textures/gui/sprites/icons/arrow_next_v2.png"
 			rotation: 0.0d
 			width: 1.0d
 			x: 2.130612244897911d
@@ -237,7 +237,7 @@
 		}
 		{
 			height: 1.0d
-			image: "jei:textures/jei/atlas/gui/icons/arrow_next.png"
+			image: "jei:textures/gui/sprites/icons/arrow_next_v2.png"
 			rotation: 0.0d
 			width: 1.0d
 			x: 4.028571428571368d
@@ -270,7 +270,7 @@
 		{
 			click: "https://youtu.be/d4XVnLaHgrc?si=u_DIyC_FU7ZrNsgA"
 			height: 1.0d
-			hover: ["BucketSt's Industrial Foregoing Video"]
+			hover: ["{atm10quests.manual.inline.5de5947d7a4c228bd6c0.0}"]
 			image: "actuallyadditions:item/youtube"
 			rotation: 0.0d
 			width: 1.0d

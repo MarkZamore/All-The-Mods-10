@@ -134,7 +134,7 @@
 			click: "#5C040191740A53C8"
 			dependency: "5C040191740A53C8"
 			height: 2.5d
-			hover: ["Your Highness"]
+			hover: ["{atm10quests.manual.inline.fa42ebad2be4d8e9f5e3.0}"]
 			image: "atm:textures/questpics/bumblezone/bumble_queen.png"
 			rotation: 0.0d
 			width: 4.444444444444445d
@@ -145,7 +145,7 @@
 			click: "#30C12E249F7E2D52"
 			dependency: "30C12E249F7E2D52"
 			height: 2.5d
-			hover: ["Cell Maze"]
+			hover: ["{atm10quests.manual.inline.6becf38a5b9bcf8e9a33.0}"]
 			image: "atm:textures/questpics/bumblezone/bumble_cell.png"
 			rotation: 0.0d
 			width: 4.444444444444445d
@@ -156,7 +156,7 @@
 			click: "#46FEF3DB6A5B52A0"
 			dependency: "46FEF3DB6A5B52A0"
 			height: 2.5d
-			hover: ["Battle Cubes"]
+			hover: ["{atm10quests.manual.inline.e7cb236208a9a74fc793.0}"]
 			image: "atm:textures/questpics/bumblezone/bumble_cube.png"
 			rotation: 0.0d
 			width: 4.444444444444445d

@@ -43,5 +43,12 @@
     "refinedfluidsubstitution": "refinedstorage",
     "rsinsertexportupgrade": "refinedstorage"
   },
+  "modSourceSelections": {
+    "computercraft": {
+      "path": "mods/cc-tweaked-1.21.1-forge-1.120.2.jar",
+      "sha256": "e8651fe24b384e925e563c9ad077644744474e2e7c0adb8e6d5b4757598dce9f",
+      "version": "1.120.2"
+    }
+  },
   "relativePath": "All The Mods 10"
 }

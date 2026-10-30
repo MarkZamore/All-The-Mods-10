@@ -2,9 +2,9 @@
 #
 # Applied by the launcher's "Пресет настроек управления" button into the
 # instance's options.txt (one line per mapping, options.txt syntax). Blank
-# lines and # comments are ours; the game never sees this file. Every mapping
-# the pack registers is listed, bound or not, so tools/keybinds/check_preset.py
-# checks the complete layout and its explicitly documented conflict exceptions.
+# lines and # comments are ours; the game never sees this file. Native Options
+# mappings and verified locale guards are listed; ALL-only internals are excluded.
+# tools/keybinds/check_preset.py checks this namespace and its documented conflict model.
 # Read tools/keybinds/design.md before changing a key.
 
 # --- Minecraft ---
@@ -45,7 +45,6 @@ key_key.swapOffhand:key.keyboard.f
 key_key.togglePerspective:key.keyboard.f5
 key_key.use:key.mouse.right
 key_options.narrator:key.keyboard.unknown  # unbound: Ctrl+B turning the narrator on by accident is the whole complaint
-key_rainbows.key.reload_rainbow_configs:key.keyboard.unknown  # unbound
 
 # --- actuallyadditions ---
 key_key.actualladditions.crafting_stick_open.desc:key.keyboard.unknown  # unbound
@@ -57,6 +56,12 @@ key_key.ad_astra.open_radio:key.keyboard.unknown  # unbound: was r
 key_key.ad_astra.toggle_suit_flight:key.keyboard.unknown  # unbound: was v
 key_Включить полёт в костюме:key.keyboard.unknown  # unbound: was v
 key_Открыть радио:key.keyboard.unknown  # unbound: was r
+
+# --- ad_astra_giselle_addon ---
+key_pneumaticcraft.armor.upgrade.ad_astra_giselle_addon.acid_rain_proof:key.keyboard.unknown  # unbound
+key_pneumaticcraft.armor.upgrade.ad_astra_giselle_addon.gravity_normalizing:key.keyboard.unknown  # unbound
+key_pneumaticcraft.armor.upgrade.ad_astra_giselle_addon.space_breathing:key.keyboard.unknown  # unbound
+key_pneumaticcraft.armor.upgrade.ad_astra_giselle_addon.space_fire_proof:key.keyboard.unknown  # unbound
 
 # --- advanced_ae ---
 key_key.advanced_ae.pattern_encoder_action:key.keyboard.unknown  # unbound
@@ -96,6 +101,7 @@ key_key.aether.open_accessories.desc:key.keyboard.i
 key_key.apotheosis.compare_equipment:key.keyboard.apostrophe
 key_key.apotheosis.link_item_to_chat:key.keyboard.unknown  # unbound
 key_key.apotheosis.open_world_tier_select:key.keyboard.unknown  # unbound
+key_key.apotheosis.toggle_attribute_bonuses:key.keyboard.unknown  # unbound: was k:CONTROL
 key_key.apotheosis.toggle_radial_mining:key.keyboard.insert
 
 # --- ars_additions ---
@@ -161,6 +167,9 @@ key_key.constructionstick.open_gui:key.keyboard.unknown  # unbound
 key_key.constructionstick.show_previous:key.keyboard.unknown  # unbound
 key_key.constructionstick.toggle_random:key.keyboard.unknown  # unbound
 key_key.constructionstick.undo:key.keyboard.unknown  # unbound
+
+# --- copycats ---
+key_keyinfo.copycats.fill_copycat:key.keyboard.unknown  # unbound: was left.alt
 
 # --- cosmeticarmorreworked ---
 key_cos.key.opencosarmorinventory:key.keyboard.unknown  # unbound
@@ -228,9 +237,6 @@ key_key.easy_villagers.pick_up:key.keyboard.unknown  # unbound
 key_key.enderio.toggle_magnet:key.keyboard.unknown  # unbound
 key_key.enderio.travel_staff:key.keyboard.g
 
-# --- eternal_starlight ---
-key_key.eternal_starlight.switch_crest:key.keyboard.unknown  # unbound
-
 # --- evilcraft ---
 key_key.evilcraft.exaltedCrafting:key.keyboard.pause
 key_key.evilcraft.fart:key.keyboard.unknown  # unbound
@@ -263,6 +269,7 @@ key_key.ftbchunks.toggle_minimap:key.keyboard.unknown  # unbound
 key_key.ftbchunks.waypoint_manager:key.keyboard.unknown  # unbound
 
 # --- ftbquests ---
+key_key.ftbquests.cycle_pinned_tracker:key.keyboard.unknown  # unbound
 key_key.ftbquests.gui.extended_info:key.keyboard.f1
 key_key.ftbquests.gui.move_down:key.keyboard.unknown  # unbound
 key_key.ftbquests.gui.move_left:key.keyboard.unknown  # unbound
@@ -276,13 +283,16 @@ key_key.ftbquests.gui.search:key.keyboard.unknown  # unbound
 key_key.ftbquests.gui.zoom_in:key.keyboard.unknown  # unbound
 key_key.ftbquests.gui.zoom_out:key.keyboard.unknown  # unbound
 key_key.ftbquests.gui.zoom_reset:key.keyboard.unknown  # unbound
+key_key.ftbquests.gui_editor.complete_object:key.keyboard.unknown  # unbound: was c:ALT
 key_key.ftbquests.gui_editor.copy:key.keyboard.unknown  # unbound
 key_key.ftbquests.gui_editor.delete:key.keyboard.unknown  # unbound
 key_key.ftbquests.gui_editor.force_delete:key.keyboard.unknown  # unbound
 key_key.ftbquests.gui_editor.paste:key.keyboard.unknown  # unbound
 key_key.ftbquests.gui_editor.redo:key.keyboard.unknown  # unbound
 key_key.ftbquests.gui_editor.reload_theme:key.keyboard.unknown  # unbound
+key_key.ftbquests.gui_editor.reset_object:key.keyboard.unknown  # unbound: was r:ALT
 key_key.ftbquests.gui_editor.reward_tables:key.keyboard.unknown  # unbound
+key_key.ftbquests.gui_editor.save:key.keyboard.unknown  # unbound: was s:CONTROL
 key_key.ftbquests.gui_editor.select_all:key.keyboard.unknown  # unbound
 key_key.ftbquests.gui_editor.select_none:key.keyboard.unknown  # unbound
 key_key.ftbquests.gui_editor.toggle_crosshairs:key.keyboard.unknown  # unbound
@@ -333,6 +343,16 @@ key_key.industrialization_overdrive.terminal_mode_switch:key.keyboard.unknown  #
 # --- integrateddynamics ---
 key_key.integrateddynamics.logic_programmer_focus_search:key.keyboard.unknown  # unbound
 key_key.integrateddynamics.logic_programmer_open_rename:key.keyboard.unknown  # unbound
+
+# --- integratedscripting ---
+key_key.integratedscripting.comment:key.keyboard.unknown  # unbound: was slash:CONTROL
+key_key.integratedscripting.find:key.keyboard.unknown  # unbound: was f:CONTROL
+key_key.integratedscripting.focus_mode:key.keyboard.unknown  # unbound: was f12
+key_key.integratedscripting.goto_line:key.keyboard.unknown  # unbound: was g:CONTROL
+key_key.integratedscripting.move_lines_down:key.keyboard.unknown  # unbound: was down:ALT
+key_key.integratedscripting.move_lines_up:key.keyboard.unknown  # unbound: was up:ALT
+key_key.integratedscripting.redo:key.keyboard.unknown  # unbound: was y:CONTROL
+key_key.integratedscripting.undo:key.keyboard.unknown  # unbound: was z:CONTROL
 
 # --- integratedterminals ---
 key_key.integratedterminals.terminal.craftinggrid.balance:key.keyboard.unknown  # unbound
@@ -396,14 +416,16 @@ key_key.jade.toggle_liquid:key.keyboard.unknown  # unbound
 key_key.jei.bookmark:key.keyboard.y
 key_key.jei.cheatItemStack:key.keyboard.unknown  # unbound
 key_key.jei.cheatItemStack2:key.keyboard.unknown  # unbound
+key_key.jei.cheatItemStackToInventory:key.keyboard.unknown  # unbound: was mouse left:ALT
 key_key.jei.cheatOneItem:key.keyboard.unknown  # unbound
 key_key.jei.cheatOneItem2:key.keyboard.unknown  # unbound
+key_key.jei.cheatOneItemToInventory:key.keyboard.unknown  # unbound: was mouse right:ALT
 key_key.jei.clearSearchBar:key.keyboard.unknown  # unbound
 key_key.jei.closeRecipeGui:key.keyboard.unknown  # unbound
 key_key.jei.copy.recipe.id:key.keyboard.unknown  # unbound
 key_key.jei.focusSearch:key.keyboard.unknown  # unbound
-key_key.jei.internal.enter.key:key.keyboard.unknown  # unbound: was keypad.enter
 key_key.jei.maxTransferRecipeBookmark:key.keyboard.unknown  # unbound
+key_key.jei.maxTransferRecipeGui:key.keyboard.unknown  # unbound
 key_key.jei.nextCategory:key.keyboard.unknown  # unbound
 key_key.jei.nextPage:key.keyboard.unknown  # unbound
 key_key.jei.nextRecipePage:key.keyboard.page.down
@@ -415,8 +437,8 @@ key_key.jei.previousRecipePage:key.keyboard.page.up
 key_key.jei.previousSearch:key.keyboard.unknown  # unbound
 key_key.jei.quickMove:key.keyboard.unknown  # unbound
 key_key.jei.recipeBack:key.keyboard.unknown  # unbound
+key_key.jei.recipeForward:key.keyboard.unknown  # unbound
 key_key.jei.shareToChat:key.keyboard.unknown  # unbound
-key_key.jei.showBookmarkTooltipFeatures:key.keyboard.unknown  # unbound
 key_key.jei.showRecipe:key.keyboard.r
 key_key.jei.showRecipe2:key.keyboard.unknown  # unbound
 key_key.jei.showUses:key.keyboard.u
@@ -426,9 +448,11 @@ key_key.jei.toggleCheatMode:key.keyboard.unknown  # unbound
 key_key.jei.toggleCheatModeConfigButton:key.keyboard.unknown  # unbound
 key_key.jei.toggleEditMode:key.keyboard.unknown  # unbound
 key_key.jei.toggleHideIngredient:key.keyboard.unknown  # unbound
+key_key.jei.toggleHideIngredientsWhenNotSearching:key.keyboard.unknown  # unbound: was mouse right:CONTROL
 key_key.jei.toggleOverlay:key.keyboard.unknown  # unbound
 key_key.jei.toggleWildcardHideIngredient:key.keyboard.unknown  # unbound
 key_key.jei.transferRecipeBookmark:key.keyboard.unknown  # unbound
+key_key.jei.transferRecipeGui:key.keyboard.unknown  # unbound
 
 # --- journeymap ---
 key_key.journeymap.create_waypoint:key.keyboard.unknown  # unbound
@@ -612,6 +636,7 @@ key_pneumaticcraft.helmet.debugging.drone:key.keyboard.unknown  # unbound
 key_pneumaticcraft.helmet.hack:key.keyboard.h
 
 # --- railcraft ---
+key_key.railcraft.bed_minecart.sleep:key.keyboard.unknown  # unbound: was down
 key_key.railcraft.change_aura:key.keyboard.unknown  # unbound
 key_key.railcraft.loco.faster:key.keyboard.right
 key_key.railcraft.loco.mode:key.keyboard.f10

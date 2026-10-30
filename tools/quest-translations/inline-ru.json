@@ -1,0 +1,748 @@
+{
+  "schemaVersion": 1,
+  "kind": "ftb-image-hover-language-aliases",
+  "sourceReference": "official-CurseForge9366926/ATM10-8.4",
+  "entries": [
+    {
+      "key": "atm10quests.manual.inline.e54b609dd3e9eb433660",
+      "sourcePath": "config/ftbquests/quests/chapters/apotheosis_gear.snbt",
+      "displayPath": [
+        "images",
+        18,
+        "hover"
+      ],
+      "englishValue": [
+        "Sigil of Supremacy"
+      ],
+      "englishFingerprint": "9fb7f469b131322f09aa81068975a92b7ca98576ef31cb34f2a1be6219e7908b",
+      "imageFingerprint": "211c9e17ee2d831470b6321497cfb7d894c7b284af87d537d314c44a28c98a5f",
+      "text": [
+        "Печать превосходства"
+      ],
+      "decision": "translated",
+      "reason": "Translate only the visible legacy image caption; retain mod/author brands and every image/click/ID field."
+    },
+    {
+      "key": "atm10quests.manual.inline.fa42ebad2be4d8e9f5e3",
+      "sourcePath": "config/ftbquests/quests/chapters/bumblezone.snbt",
+      "displayPath": [
+        "images",
+        15,
+        "hover"
+      ],
+      "englishValue": [
+        "Your Highness"
+      ],
+      "englishFingerprint": "852e151911ecdcced5b5a64b4cf55a125c0398afb32a560204a913df365849cf",
+      "imageFingerprint": "0083719fe619b5acc28ea39f104ea74ceb2302d989517a482055209a67bf5f7b",
+      "text": [
+        "Ваше величество"
+      ],
+      "decision": "translated",
+      "reason": "Translate only the visible legacy image caption; retain mod/author brands and every image/click/ID field."
+    },
+    {
+      "key": "atm10quests.manual.inline.6becf38a5b9bcf8e9a33",
+      "sourcePath": "config/ftbquests/quests/chapters/bumblezone.snbt",
+      "displayPath": [
+        "images",
+        16,
+        "hover"
+      ],
+      "englishValue": [
+        "Cell Maze"
+      ],
+      "englishFingerprint": "55349b485991595ad61b3defce62070a15ccf9f96abfee2a21df22b1d6355233",
+      "imageFingerprint": "e0c0a8c628fbd25789e78ef342a4d7c6f41e676f944a7a21cd0674d4b58256d8",
+      "text": [
+        "Сотовый лабиринт"
+      ],
+      "decision": "translated",
+      "reason": "Translate only the visible legacy image caption; retain mod/author brands and every image/click/ID field."
+    },
+    {
+      "key": "atm10quests.manual.inline.e7cb236208a9a74fc793",
+      "sourcePath": "config/ftbquests/quests/chapters/bumblezone.snbt",
+      "displayPath": [
+        "images",
+        17,
+        "hover"
+      ],
+      "englishValue": [
+        "Battle Cubes"
+      ],
+      "englishFingerprint": "b49230849c6a7fcdd7a31d0784f41036d2cd4a44fff3c78574704fddaef470ca",
+      "imageFingerprint": "549c0f16e3f6da32c7fa0fe6ba3a02c7100e7192e3710c5c9d0e8f514425eba9",
+      "text": [
+        "Боевые кубы"
+      ],
+      "decision": "translated",
+      "reason": "Translate only the visible legacy image caption; retain mod/author brands and every image/click/ID field."
+    },
+    {
+      "key": "atm10quests.manual.inline.c9af242a5f104a721091",
+      "sourcePath": "config/ftbquests/quests/chapters/bumblezone.snbt",
+      "displayPath": [
+        "images",
+        18,
+        "hover"
+      ],
+      "englishValue": [
+        "Honitel"
+      ],
+      "englishFingerprint": "fd6383a8088eefff04b1c277d7933f66ca98daf57867abf0221ca7fa06033ef7",
+      "imageFingerprint": "59d81c7ca07a94cb4c58edd64b8ac5b830e3655d1675bdc7aad8a91ea07489ff",
+      "text": [
+        "Honitel"
+      ],
+      "decision": "preserve-brand",
+      "reason": "Translate only the visible legacy image caption; retain mod/author brands and every image/click/ID field."
+    },
+    {
+      "key": "atm10quests.manual.inline.76c9845a91c2b12778a2",
+      "sourcePath": "config/ftbquests/quests/chapters/extended__advanced_ae.snbt",
+      "displayPath": [
+        "images",
+        0,
+        "hover"
+      ],
+      "englishValue": [
+        "Quantum Helmet"
+      ],
+      "englishFingerprint": "f395037cf62e7fcc8a4136fbf14e4fb2664d7770c3edc18e87d37d730b6ca398",
+      "imageFingerprint": "75d37cbffef19a62d9f9aa1b248aa695bf8be75de12db518a3261ebcd0d218d6",
+      "text": [
+        "Квантовый шлем"
+      ],
+      "decision": "translated",
+      "reason": "Translate only the visible legacy image caption; retain mod/author brands and every image/click/ID field."
+    },
+    {
+      "key": "atm10quests.manual.inline.ccb53805778fe45cddc0",
+      "sourcePath": "config/ftbquests/quests/chapters/extended__advanced_ae.snbt",
+      "displayPath": [
+        "images",
+        1,
+        "hover"
+      ],
+      "englishValue": [
+        "Quantum Chestplate"
+      ],
+      "englishFingerprint": "c5c6da945356b74aeb252ba1a93963e78824191b901015fd46d62fd17f84ea56",
+      "imageFingerprint": "cdf2b6b27a0acca45279c9aa05bcc10a895a5fc38a5580fc0e05892821ea5de3",
+      "text": [
+        "Квантовый нагрудник"
+      ],
+      "decision": "translated",
+      "reason": "Translate only the visible legacy image caption; retain mod/author brands and every image/click/ID field."
+    },
+    {
+      "key": "atm10quests.manual.inline.67716465f87ada1c10bf",
+      "sourcePath": "config/ftbquests/quests/chapters/extended__advanced_ae.snbt",
+      "displayPath": [
+        "images",
+        2,
+        "hover"
+      ],
+      "englishValue": [
+        "Quantum Leggings"
+      ],
+      "englishFingerprint": "8ffb924c2dabfecd82ec4ef4126745b301a50f251ba38331bd49c60a6e1103f8",
+      "imageFingerprint": "2f844046639401e4649857061dd7439b696b6dabf08ea62b974c0b12c3534bed",
+      "text": [
+        "Квантовые поножи"
+      ],
+      "decision": "translated",
+      "reason": "Translate only the visible legacy image caption; retain mod/author brands and every image/click/ID field."
+    },
+    {
+      "key": "atm10quests.manual.inline.7b66457e1b95ab3a4d90",
+      "sourcePath": "config/ftbquests/quests/chapters/extended__advanced_ae.snbt",
+      "displayPath": [
+        "images",
+        3,
+        "hover"
+      ],
+      "englishValue": [
+        "Quantum Boots"
+      ],
+      "englishFingerprint": "bdfe794f831b769308927809e49b024042266dca038a457715051fd8035f2fff",
+      "imageFingerprint": "2fb4a4eb7655de32483adc0a835c94e2dd529027cc92a7343336fb83b4d31c9b",
+      "text": [
+        "Квантовые ботинки"
+      ],
+      "decision": "translated",
+      "reason": "Translate only the visible legacy image caption; retain mod/author brands and every image/click/ID field."
+    },
+    {
+      "key": "atm10quests.manual.inline.8a1d7302ebcff71c7f99",
+      "sourcePath": "config/ftbquests/quests/chapters/industrial_foregoing.snbt",
+      "displayPath": [
+        "images",
+        17,
+        "hover"
+      ],
+      "englishValue": [
+        "Fluid Extractor"
+      ],
+      "englishFingerprint": "094314e2c8f6010244896d9ef1bb4a41f9ec6f42f89451fce9176089545064e9",
+      "imageFingerprint": "9cadda112a1208660855c377b456761a1b9a8388cc080aa4c757ff48b22cbd82",
+      "text": [
+        "Экстрактор жидкости"
+      ],
+      "decision": "translated",
+      "reason": "Translate only the visible legacy image caption; retain mod/author brands and every image/click/ID field."
+    },
+    {
+      "key": "atm10quests.manual.inline.04c529c5732ddda6300a",
+      "sourcePath": "config/ftbquests/quests/chapters/industrial_foregoing.snbt",
+      "displayPath": [
+        "images",
+        18,
+        "hover"
+      ],
+      "englishValue": [
+        "Block Placer"
+      ],
+      "englishFingerprint": "385be65e8b658210f2de20186976320d8fe15dda7295b0ba63efd8edbf4c2853",
+      "imageFingerprint": "3515e9c411d4edad32f8cd44601a561bbf822edae6cdac6479e49df1d672e369",
+      "text": [
+        "Установщик блоков"
+      ],
+      "decision": "translated",
+      "reason": "Translate only the visible legacy image caption; retain mod/author brands and every image/click/ID field."
+    },
+    {
+      "key": "atm10quests.manual.inline.54831d2482b2f098cd83",
+      "sourcePath": "config/ftbquests/quests/chapters/industrial_foregoing.snbt",
+      "displayPath": [
+        "images",
+        20,
+        "hover"
+      ],
+      "englishValue": [
+        "Fluid Extractor"
+      ],
+      "englishFingerprint": "094314e2c8f6010244896d9ef1bb4a41f9ec6f42f89451fce9176089545064e9",
+      "imageFingerprint": "30501144ebc078e8aa23b483da86799560ee1a17a9d05794791a80e942c0df6f",
+      "text": [
+        "Экстрактор жидкости"
+      ],
+      "decision": "translated",
+      "reason": "Translate only the visible legacy image caption; retain mod/author brands and every image/click/ID field."
+    },
+    {
+      "key": "atm10quests.manual.inline.63ce66ac857998e654f6",
+      "sourcePath": "config/ftbquests/quests/chapters/industrial_foregoing.snbt",
+      "displayPath": [
+        "images",
+        21,
+        "hover"
+      ],
+      "englishValue": [
+        "Fluid Extractor"
+      ],
+      "englishFingerprint": "094314e2c8f6010244896d9ef1bb4a41f9ec6f42f89451fce9176089545064e9",
+      "imageFingerprint": "1c85b329669b88de2dcfef3cf914f4c29b5310b5df31c73b0cf2babd5f900411",
+      "text": [
+        "Экстрактор жидкости"
+      ],
+      "decision": "translated",
+      "reason": "Translate only the visible legacy image caption; retain mod/author brands and every image/click/ID field."
+    },
+    {
+      "key": "atm10quests.manual.inline.4ade71d1109320a746d5",
+      "sourcePath": "config/ftbquests/quests/chapters/industrial_foregoing.snbt",
+      "displayPath": [
+        "images",
+        22,
+        "hover"
+      ],
+      "englishValue": [
+        "Latex Processing Unit"
+      ],
+      "englishFingerprint": "2cb5f0bd84e6602f9b64acb1a54b6b425a1f903aff80f88ca8393a9b94533bdc",
+      "imageFingerprint": "6e6f103298d492e0c3a3a022f5f6ad8c8ebeea1c3343b8c3230a32280ef41d08",
+      "text": [
+        "Установка переработки латекса"
+      ],
+      "decision": "translated",
+      "reason": "Translate only the visible legacy image caption; retain mod/author brands and every image/click/ID field."
+    },
+    {
+      "key": "atm10quests.manual.inline.5de5947d7a4c228bd6c0",
+      "sourcePath": "config/ftbquests/quests/chapters/industrial_foregoing.snbt",
+      "displayPath": [
+        "images",
+        31,
+        "hover"
+      ],
+      "englishValue": [
+        "BucketSt's Industrial Foregoing Video"
+      ],
+      "englishFingerprint": "79be44933eb010f81fad485bc2fbb7ca9b68a15ee026e8628c0acabd643fe216",
+      "imageFingerprint": "848a577f5a389fb678c051eda56e06dc20f061ab736598f5e0d921439bc38074",
+      "text": [
+        "Видео BucketSt по Industrial Foregoing"
+      ],
+      "decision": "translated",
+      "reason": "Translate only the visible legacy image caption; retain mod/author brands and every image/click/ID field."
+    },
+    {
+      "key": "atm10quests.manual.inline.489fd0fdf85666df0214",
+      "sourcePath": "config/ftbquests/quests/chapters/justdirethings.snbt",
+      "displayPath": [
+        "images",
+        0,
+        "hover"
+      ],
+      "englishValue": [
+        "Pilpoh's Time Crystal Automation Tutorial"
+      ],
+      "englishFingerprint": "7e5f029aef1ff96009c57d12ea89f2e3f4acf2625449a473062f00ced02069d2",
+      "imageFingerprint": "6e0c929e141d7217ec8e2ab206b3b7cf0739cc4afc6336c25fa90559f8dfe25d",
+      "text": [
+        "Руководство Pilpoh по автоматизации кристаллов времени"
+      ],
+      "decision": "translated",
+      "reason": "Translate only the visible legacy image caption; retain mod/author brands and every image/click/ID field."
+    },
+    {
+      "key": "atm10quests.manual.inline.7ae1df93796409fdb281",
+      "sourcePath": "config/ftbquests/quests/chapters/productive_trees.snbt",
+      "displayPath": [
+        "images",
+        0,
+        "hover"
+      ],
+      "englishValue": [
+        "Pilpoh's Productive Trees Guide"
+      ],
+      "englishFingerprint": "3bd4b80e722d3f5820dcf34936fa5dcff36b67bdd361aa52cff071977d262e3e",
+      "imageFingerprint": "f6de5e6cbedfea79c2b099698b99b340a004b68692e0ad60d56e1cf2e1038c7a",
+      "text": [
+        "Руководство Pilpoh по Productive Trees"
+      ],
+      "decision": "translated",
+      "reason": "Translate only the visible legacy image caption; retain mod/author brands and every image/click/ID field."
+    },
+    {
+      "key": "atm10quests.manual.inline.5cafb8a30846dd653e24",
+      "sourcePath": "config/ftbquests/quests/chapters/railcraft.snbt",
+      "displayPath": [
+        "images",
+        0,
+        "hover"
+      ],
+      "englishValue": [
+        "Electric Locomotive"
+      ],
+      "englishFingerprint": "851288a478c247a3c9d3b03465f7e597551cc3d5733d1a02fa8ae25af82dd586",
+      "imageFingerprint": "840e4e11235c5d5e3d51b593afd515fde34a9889882d091c54288546e38ba3fc",
+      "text": [
+        "Электровоз"
+      ],
+      "decision": "translated",
+      "reason": "Translate only the visible legacy image caption; retain mod/author brands and every image/click/ID field."
+    },
+    {
+      "key": "atm10quests.manual.inline.f7d97107eefd1e698e78",
+      "sourcePath": "config/ftbquests/quests/chapters/railcraft.snbt",
+      "displayPath": [
+        "images",
+        1,
+        "hover"
+      ],
+      "englishValue": [
+        "Steam Locomotive"
+      ],
+      "englishFingerprint": "4e947e467cc924274835951c4e67d9acc0cb001b33fd162c1016ee47691cde4f",
+      "imageFingerprint": "088d902bf49a5b62ecd092f048338c7d7c0281e14dba0b20242e5a48c6aa5cd2",
+      "text": [
+        "Паровоз"
+      ],
+      "decision": "translated",
+      "reason": "Translate only the visible legacy image caption; retain mod/author brands and every image/click/ID field."
+    },
+    {
+      "key": "atm10quests.manual.inline.3aaeca7f3dc85f2ad734",
+      "sourcePath": "config/ftbquests/quests/chapters/railcraft.snbt",
+      "displayPath": [
+        "images",
+        2,
+        "hover"
+      ],
+      "englishValue": [
+        "Blast Furnace"
+      ],
+      "englishFingerprint": "73f9959e222187a967d83bf5b79733cc828825a0c7b92c52122c3b832ae92a60",
+      "imageFingerprint": "0a06a57a00a36a517fa240c9efc864816527c3e87fc94f2b748042ddcf1fc4cf",
+      "text": [
+        "Доменная печь"
+      ],
+      "decision": "translated",
+      "reason": "Translate only the visible legacy image caption; retain mod/author brands and every image/click/ID field."
+    },
+    {
+      "key": "atm10quests.manual.inline.d1be5a0ed730da1379bd",
+      "sourcePath": "config/ftbquests/quests/chapters/railcraft.snbt",
+      "displayPath": [
+        "images",
+        3,
+        "hover"
+      ],
+      "englishValue": [
+        "Coke Oven"
+      ],
+      "englishFingerprint": "925a8a8454cbe1b9f41c4fd9df2fa0c5d8c0e86ae183bf15b253e7af34f295b9",
+      "imageFingerprint": "f2041ea5e6efe8aaa8c3ddc774ca9056fafd873c81bf9b9f7af48b9f9f71c2eb",
+      "text": [
+        "Коксовая печь"
+      ],
+      "decision": "translated",
+      "reason": "Translate only the visible legacy image caption; retain mod/author brands and every image/click/ID field."
+    },
+    {
+      "key": "atm10quests.manual.inline.0cb7350292016750dd4c",
+      "sourcePath": "config/ftbquests/quests/chapters/railcraft.snbt",
+      "displayPath": [
+        "images",
+        5,
+        "hover"
+      ],
+      "englishValue": [
+        "Water Boiler"
+      ],
+      "englishFingerprint": "4653bb190a72783de7aa8820ba2f89d852ec9742cfea5157962501ba9c5c59ab",
+      "imageFingerprint": "3ce2d7b37d38b1dba07e5063092b34cffaa08e47e9d8cb49f4098354cb730310",
+      "text": [
+        "Водяной котёл"
+      ],
+      "decision": "translated",
+      "reason": "Translate only the visible legacy image caption; retain mod/author brands and every image/click/ID field."
+    },
+    {
+      "key": "atm10quests.manual.inline.e9a35c289217537fb5fe",
+      "sourcePath": "config/ftbquests/quests/chapters/railcraft.snbt",
+      "displayPath": [
+        "images",
+        6,
+        "hover"
+      ],
+      "englishValue": [
+        "Steam Turbine"
+      ],
+      "englishFingerprint": "68d3d6d619f514cab7371aae92f6fd83e92dfc1e6790cb835f15fe70f114e5b3",
+      "imageFingerprint": "b55e8e951acebb45559c7b0eda276125ba0a8206616b2a5d65f75f05c9f89c25",
+      "text": [
+        "Паровая турбина"
+      ],
+      "decision": "translated",
+      "reason": "Translate only the visible legacy image caption; retain mod/author brands and every image/click/ID field."
+    },
+    {
+      "key": "atm10quests.manual.inline.ce64312a0dec44029554",
+      "sourcePath": "config/ftbquests/quests/chapters/railcraft.snbt",
+      "displayPath": [
+        "images",
+        7,
+        "hover"
+      ],
+      "englishValue": [
+        "Steam Oven"
+      ],
+      "englishFingerprint": "093233336808a08af6a9d3ab5ace08b8d3756dac066539426f44bc9c951f7544",
+      "imageFingerprint": "f73a18bb372607137746c6d6226e6912b0f32d02ee35cf6e2f320f7d1724644e",
+      "text": [
+        "Паровая печь"
+      ],
+      "decision": "translated",
+      "reason": "Translate only the visible legacy image caption; retain mod/author brands and every image/click/ID field."
+    },
+    {
+      "key": "atm10quests.manual.inline.626475a3a53e9c5f4c26",
+      "sourcePath": "config/ftbquests/quests/chapters/railcraft.snbt",
+      "displayPath": [
+        "images",
+        8,
+        "hover"
+      ],
+      "englishValue": [
+        "Water Tank"
+      ],
+      "englishFingerprint": "8cfb282e3c78b3113069dfd6a57101e0e329002c8fbb10815ae4a021bbb0b9c8",
+      "imageFingerprint": "8f7011243a3c0c31ff0e34ba43e939fb27954bc8c4b1855250580f60c952faea",
+      "text": [
+        "Водяной бак"
+      ],
+      "decision": "translated",
+      "reason": "Translate only the visible legacy image caption; retain mod/author brands and every image/click/ID field."
+    },
+    {
+      "key": "atm10quests.manual.inline.5d46e73a74c095473341",
+      "sourcePath": "config/ftbquests/quests/chapters/railcraft.snbt",
+      "displayPath": [
+        "images",
+        9,
+        "hover"
+      ],
+      "englishValue": [
+        "Crusher"
+      ],
+      "englishFingerprint": "88f6037bc6dab8f4d4249fb0c5895914dbb22467e25dd891b3fe64fc564622fa",
+      "imageFingerprint": "9be58857aea0121e1d770772fea534f9009070bc0d14a03539afb526de227fb8",
+      "text": [
+        "Дробилка"
+      ],
+      "decision": "translated",
+      "reason": "Translate only the visible legacy image caption; retain mod/author brands and every image/click/ID field."
+    },
+    {
+      "key": "atm10quests.manual.inline.1b4cf7e24076e6fad39f",
+      "sourcePath": "config/ftbquests/quests/chapters/railcraft.snbt",
+      "displayPath": [
+        "images",
+        10,
+        "hover"
+      ],
+      "englishValue": [
+        "Abandoned Tracks"
+      ],
+      "englishFingerprint": "5e0508d0937298a195cc0877164586fd6ee4faedca85de62d1fd10868018f352",
+      "imageFingerprint": "662ded0b7d9347c71abcf771cb7c2a0b5aceac9c5cac68773809d5c4d252823b",
+      "text": [
+        "Заброшенные рельсы"
+      ],
+      "decision": "translated",
+      "reason": "Translate only the visible legacy image caption; retain mod/author brands and every image/click/ID field."
+    },
+    {
+      "key": "atm10quests.manual.inline.b826ac18eaa4f3d16aa9",
+      "sourcePath": "config/ftbquests/quests/chapters/railcraft.snbt",
+      "displayPath": [
+        "images",
+        11,
+        "hover"
+      ],
+      "englishValue": [
+        "Reinforced Tracks"
+      ],
+      "englishFingerprint": "9d674bfafe80f6753293c20f817f147a13bbda2cc12fc93448f6581e6e122c8f",
+      "imageFingerprint": "5b25abbc18355ef8a5210008ec563035b0a06d7b24bef1d5eb298470c77869c3",
+      "text": [
+        "Усиленные рельсы"
+      ],
+      "decision": "translated",
+      "reason": "Translate only the visible legacy image caption; retain mod/author brands and every image/click/ID field."
+    },
+    {
+      "key": "atm10quests.manual.inline.cc68b77afc4e460c0543",
+      "sourcePath": "config/ftbquests/quests/chapters/railcraft.snbt",
+      "displayPath": [
+        "images",
+        12,
+        "hover"
+      ],
+      "englishValue": [
+        "Electric Tracks"
+      ],
+      "englishFingerprint": "b0460035f0e7fb609ec1cf2be034538d3b476183a06a5e2d65e3c55fb1d05ab9",
+      "imageFingerprint": "6627528f958751ab91a1a6c29d30bd677a4b8507647355b705a57e9627c858cb",
+      "text": [
+        "Электрифицированные рельсы"
+      ],
+      "decision": "translated",
+      "reason": "Translate only the visible legacy image caption; retain mod/author brands and every image/click/ID field."
+    },
+    {
+      "key": "atm10quests.manual.inline.832f9a0c81a3b94b1962",
+      "sourcePath": "config/ftbquests/quests/chapters/railcraft.snbt",
+      "displayPath": [
+        "images",
+        13,
+        "hover"
+      ],
+      "englishValue": [
+        "Strap Iron Tracks"
+      ],
+      "englishFingerprint": "49a51b81a45155c94e08a1c4d2911c112a4ef1436bc51daf88ff4578869f3ffc",
+      "imageFingerprint": "f9aa54dc51068148865952316f54dbea9940ead5e9a06c9efc6acec98468b8a9",
+      "text": [
+        "Рельсы из железной полосы"
+      ],
+      "decision": "translated",
+      "reason": "Translate only the visible legacy image caption; retain mod/author brands and every image/click/ID field."
+    },
+    {
+      "key": "atm10quests.manual.inline.63ae0cc935aeb7f8569e",
+      "sourcePath": "config/ftbquests/quests/chapters/railcraft.snbt",
+      "displayPath": [
+        "images",
+        14,
+        "hover"
+      ],
+      "englishValue": [
+        "Minecart with Tank"
+      ],
+      "englishFingerprint": "808aca55f0b4f5800fd475b901f5416910a48544747a8ace6d7b42cb7eeefd47",
+      "imageFingerprint": "c9d8f9292d0d8c2fb48e8b223b2c1f5e6f64f24ba861be91e22852bd339864fe",
+      "text": [
+        "Вагонетка с цистерной"
+      ],
+      "decision": "translated",
+      "reason": "Translate only the visible legacy image caption; retain mod/author brands and every image/click/ID field."
+    },
+    {
+      "key": "atm10quests.manual.inline.d9cf7e7c56f3940c79fd",
+      "sourcePath": "config/ftbquests/quests/chapters/railcraft.snbt",
+      "displayPath": [
+        "images",
+        15,
+        "hover"
+      ],
+      "englishValue": [
+        "Minecart with Energy Cell"
+      ],
+      "englishFingerprint": "bab38011f5734191611816bc165a8bb62a1e24320280fa167805785771aba846",
+      "imageFingerprint": "16c7d32558bd8cbbafd91b7012b86af680349aa7c150b52e772b5d04b5737f6e",
+      "text": [
+        "Вагонетка с энергетической ячейкой"
+      ],
+      "decision": "translated",
+      "reason": "Translate only the visible legacy image caption; retain mod/author brands and every image/click/ID field."
+    },
+    {
+      "key": "atm10quests.manual.inline.ec1fd3683e423b7fd8ce",
+      "sourcePath": "config/ftbquests/quests/chapters/railcraft.snbt",
+      "displayPath": [
+        "images",
+        16,
+        "hover"
+      ],
+      "englishValue": [
+        "Track: Remover, Relayer, and Placer"
+      ],
+      "englishFingerprint": "de7bc57b20b67c7fd1d773eba4eb6e6e8baefee87f8310e01223a0305b6daa4c",
+      "imageFingerprint": "14784a49743b786cda90b9f79620cc2970f47d7fbc2a438c28f1ea334e88ea9b",
+      "text": [
+        "Рельсы: демонтаж, замена и укладка"
+      ],
+      "decision": "translated",
+      "reason": "Translate only the visible legacy image caption; retain mod/author brands and every image/click/ID field."
+    },
+    {
+      "key": "atm10quests.manual.inline.c1876bfb69318ae9b600",
+      "sourcePath": "config/ftbquests/quests/chapters/railcraft.snbt",
+      "displayPath": [
+        "images",
+        17,
+        "hover"
+      ],
+      "englishValue": [
+        "Item Loading"
+      ],
+      "englishFingerprint": "b4c745548eb4793dacddd0283ff9e7b4883cde9a4b869fb4a5ad9d59dfd1d565",
+      "imageFingerprint": "8af5df009f916894b320047a865e8e2d9a1609fc95b5d9a7ad0242e1fc842d8e",
+      "text": [
+        "Погрузка предметов"
+      ],
+      "decision": "translated",
+      "reason": "Translate only the visible legacy image caption; retain mod/author brands and every image/click/ID field."
+    },
+    {
+      "key": "atm10quests.manual.inline.fb80f4e47a9051ed5088",
+      "sourcePath": "config/ftbquests/quests/chapters/railcraft.snbt",
+      "displayPath": [
+        "images",
+        18,
+        "hover"
+      ],
+      "englishValue": [
+        "Item Unloading"
+      ],
+      "englishFingerprint": "c12616babca6a72f2118e863356cb0289afa44149c901eaa06fdb8651901eadf",
+      "imageFingerprint": "b87e9e0ee9f963458d2497049d8ba9ffc9cb88e63608f5851f54b6e63d493888",
+      "text": [
+        "Разгрузка предметов"
+      ],
+      "decision": "translated",
+      "reason": "Translate only the visible legacy image caption; retain mod/author brands and every image/click/ID field."
+    },
+    {
+      "key": "atm10quests.manual.inline.da0cfafb61c04e898f18",
+      "sourcePath": "config/ftbquests/quests/chapters/railcraft.snbt",
+      "displayPath": [
+        "images",
+        19,
+        "hover"
+      ],
+      "englishValue": [
+        "Cart Dispenser"
+      ],
+      "englishFingerprint": "71d40cc75ed44a7d6c6d4e0a698c55b2eda44492fcc23a86b8260a748b724a80",
+      "imageFingerprint": "04224982a072eb1bfd4cb907eaf5aa185e348aa060878c27b6c29245db0e5d38",
+      "text": [
+        "Раздатчик вагонеток"
+      ],
+      "decision": "translated",
+      "reason": "Translate only the visible legacy image caption; retain mod/author brands and every image/click/ID field."
+    },
+    {
+      "key": "atm10quests.manual.inline.1525ebe63b23482e42a3",
+      "sourcePath": "config/ftbquests/quests/chapters/railcraft.snbt",
+      "displayPath": [
+        "images",
+        20,
+        "hover"
+      ],
+      "englishValue": [
+        "Train Dispenser"
+      ],
+      "englishFingerprint": "f30ff31e94b69c21e9d30756891e98cdb2ebe2318e6124dbd77ecbb01f2ad104",
+      "imageFingerprint": "fdd1b8c2a0b8243d4e0da8d3d1c259dc89968e244e9e3064ef9ccb88f346dc37",
+      "text": [
+        "Раздатчик поездов"
+      ],
+      "decision": "translated",
+      "reason": "Translate only the visible legacy image caption; retain mod/author brands and every image/click/ID field."
+    },
+    {
+      "key": "atm10quests.manual.inline.9eba901e04d8ef5dd37b",
+      "sourcePath": "config/ftbquests/quests/chapters/railcraft.snbt",
+      "displayPath": [
+        "images",
+        22,
+        "hover"
+      ],
+      "englishValue": [
+        "Fluid Loading"
+      ],
+      "englishFingerprint": "cb40c49779afc7cfb246eb826862ce4de0cff94d243907b2c64d0836418ad62f",
+      "imageFingerprint": "1c024c89ff1ed06b7ab1878d326714ab258d818363120fce5dff59e69fc7f35e",
+      "text": [
+        "Погрузка жидкостей"
+      ],
+      "decision": "translated",
+      "reason": "Translate only the visible legacy image caption; retain mod/author brands and every image/click/ID field."
+    },
+    {
+      "key": "atm10quests.manual.inline.d320d3a9146d6573912f",
+      "sourcePath": "config/ftbquests/quests/chapters/welcome.snbt",
+      "displayPath": [
+        "images",
+        1,
+        "hover"
+      ],
+      "englishValue": [
+        "Join the Discord!"
+      ],
+      "englishFingerprint": "199406cbef76b705ab6ab3a060ac9a5fbe60fd504186c460067dfb8db4b07b94",
+      "imageFingerprint": "3d73d29ec21d240b990919b59e4b5c9aad4961e2fe2e4ba2232e2776597b87c0",
+      "text": [
+        "Присоединяйтесь к Discord!"
+      ],
+      "decision": "translated",
+      "reason": "Translate only the visible legacy image caption; retain mod/author brands and every image/click/ID field."
+    }
+  ]
+}

@@ -9,2187 +9,2271 @@
   },
   "accessories.key.open_accessories_screen": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "artifacts.key.charm_of_shrinking.toggle": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "artifacts.key.charm_of_sinking.toggle": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "artifacts.key.helium_flamingo.activate": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "artifacts.key.night_vision_goggles.toggle": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "artifacts.key.scarf_of_invisibility.toggle": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "artifacts.key.universal_attractor.toggle": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "auroras.key.reload_aurora_configs": {
     "context": "UNIVERSAL",
-    "source": "bytecode"
+    "source": "native-options-8.4"
   },
   "cos.key.opencosarmorinventory": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "crafting_on_a_stick.key.open_curios": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "create.keyinfo.alt_modifier": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "create.keyinfo.ctrl_modifier": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "create.keyinfo.rotate_menu": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "create.keyinfo.shift_modifier": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "create.keyinfo.toolbelt": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "create.keyinfo.toolmenu": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "framedblocks.key.update_cull": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "framedblocks.key.wipe_cache": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "ftbultimine.change_shape.next": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "ftbultimine.change_shape.prev": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "iris.keybind.reload": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "iris.keybind.shaderPackSelection": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "iris.keybind.toggleShaders": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "iris.keybind.wireframe": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "justdirethings.key.toggle_tool": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-custom-fallback:previous"
   },
   "justdirethings.key.toolUI": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-custom-fallback:previous"
   },
   "justzoom.keybinds.keybind.open_options": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "justzoom.keybinds.keybind.zoom": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "justzoom.keybinds.keybind.zoom_in": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "justzoom.keybinds.keybind.zoom_out": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.actualladditions.crafting_stick_open.desc": {
     "context": "IN_GAME",
-    "source": "bytecode"
+    "source": "native-options-8.4"
   },
   "key.ad_astra.open_radio": {
     "context": "UNIVERSAL",
-    "source": "bytecode+locale_alias"
+    "source": "native-options-8.4"
   },
   "key.ad_astra.toggle_suit_flight": {
     "context": "UNIVERSAL",
-    "source": "bytecode+locale_alias"
+    "source": "native-options-8.4"
   },
   "key.advanced_ae.pattern_encoder_action": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.advanced_ae.pick_craft": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.advanced_ae.portable_workbench": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.advanced_ae.quantum_armor_config": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.advanced_ae.quantum_auto_stock_upgrade": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.advanced_ae.quantum_magnet_upgrade": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.advanced_ae.quantum_night_vision_upgrade": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.advancements": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.ae2.ae2wtlib_magnet": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.ae2.ae2wtlib_restock": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.ae2.ae2wtlib_stow": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.ae2.mouse_wheel_item_modifier": {
     "context": "IN_GAME",
-    "source": "bytecode"
+    "source": "native-options-8.4"
   },
   "key.ae2.part_placement_opposite": {
     "context": "IN_GAME",
-    "source": "bytecode"
+    "source": "native-options-8.4"
   },
   "key.ae2.portable_fluid_cell": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.ae2.portable_item_cell": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.ae2.wireless_exp_encoding_terminal": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.ae2.wireless_pattern_access_terminal": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.ae2.wireless_pattern_encoding_terminal": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.ae2.wireless_quantum_crafter_terminal": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.ae2.wireless_requester_terminal": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.ae2.wireless_terminal": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.aether.gravitite_jump_ability.desc": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.aether.invisibility_toggle.desc": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.aether.open_accessories.desc": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.apotheosis.compare_equipment": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.apotheosis.link_item_to_chat": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.apotheosis.open_world_tier_select": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
+  },
+  "key.apotheosis.toggle_attribute_bonuses": {
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.apotheosis.toggle_radial_mining": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.ars_additions.open_lectern": {
     "context": "IN_GAME",
-    "source": "bytecode"
+    "source": "native-options-8.4"
   },
   "key.ars_elemental.open_pouch": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.ars_nouveau.familiar_toggle": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.ars_nouveau.head_curio_hotkey": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.ars_nouveau.next_slot": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.ars_nouveau.open_book": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.ars_nouveau.open_documentation": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.ars_nouveau.previous_slot": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.ars_nouveau.qc1": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.ars_nouveau.qc10": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.ars_nouveau.qc2": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.ars_nouveau.qc3": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.ars_nouveau.qc4": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.ars_nouveau.qc5": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.ars_nouveau.qc6": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.ars_nouveau.qc7": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.ars_nouveau.qc8": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.ars_nouveau.qc9": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.ars_nouveau.selection_hud": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.attack": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.back": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.bridgingmod.toggle_bridging": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.buildinggadgets2.anchor": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-custom-fallback:previous"
   },
   "key.buildinggadgets2.range": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-custom-fallback:previous"
   },
   "key.buildinggadgets2.settings_menu": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-custom-fallback:previous"
   },
   "key.buildinggadgets2.undo": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-custom-fallback:previous"
   },
   "key.cataclysm.ability": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.cataclysm.boots_ability": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.cataclysm.chestplate_ability": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.cataclysm.helmet_ability": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.changeMysticCode": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.chat": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.command": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.constructionstick.change_direction": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.constructionstick.change_restriction": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.constructionstick.change_upgrade": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.constructionstick.open_gui": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.constructionstick.show_previous": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.constructionstick.toggle_random": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.constructionstick.undo": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.craftingtweaks.balance": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.craftingtweaks.clear": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.craftingtweaks.compress_all": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.craftingtweaks.compress_one": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.craftingtweaks.compress_stack": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.craftingtweaks.decompress_all": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.craftingtweaks.decompress_one": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.craftingtweaks.decompress_stack": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.craftingtweaks.force_clear": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.craftingtweaks.refill_last": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.craftingtweaks.refill_last_stack": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.craftingtweaks.rotate": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.craftingtweaks.rotate_counter_clockwise": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.craftingtweaks.spread": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.craftingtweaks.transfer_stack": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.crystalix.apply_colorless": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.crystalix.copy_properties": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.crystalix.wand_config": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.curios.open.desc": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.deeperdarker.boost": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.deeperdarker.transmit": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.draconicevolution.dislocator_blink": {
     "context": "IN_GAME",
-    "source": "bytecode"
+    "source": "native-custom-fallback:previous"
   },
   "key.draconicevolution.dislocator_down": {
     "context": "IN_GAME",
-    "source": "bytecode"
+    "source": "native-custom-fallback:previous"
   },
   "key.draconicevolution.dislocator_gui": {
     "context": "IN_GAME",
-    "source": "bytecode"
+    "source": "native-custom-fallback:previous"
   },
   "key.draconicevolution.dislocator_teleport": {
     "context": "IN_GAME",
-    "source": "bytecode"
+    "source": "native-custom-fallback:previous"
   },
   "key.draconicevolution.dislocator_up": {
     "context": "IN_GAME",
-    "source": "bytecode"
+    "source": "native-custom-fallback:previous"
   },
   "key.draconicevolution.place_item": {
     "context": "IN_GAME",
-    "source": "bytecode"
+    "source": "native-custom-fallback:previous"
   },
   "key.draconicevolution.toggle_flight": {
     "context": "IN_GAME",
-    "source": "bytecode"
+    "source": "native-custom-fallback:previous"
   },
   "key.draconicevolution.toggle_magnet": {
     "context": "IN_GAME",
-    "source": "bytecode"
+    "source": "native-custom-fallback:previous"
   },
   "key.draconicevolution.tool_config": {
     "context": "IN_GAME",
-    "source": "bytecode"
+    "source": "native-custom-fallback:previous"
   },
   "key.draconicevolution.tool_modules": {
     "context": "IN_GAME",
-    "source": "bytecode"
+    "source": "native-custom-fallback:previous"
   },
   "key.dragon_change_view": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.dragon_down": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.dragon_fireAttack": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.dragon_strike": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.drawMahoujin": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.drop": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.easy_villagers.cycle_trades": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.easy_villagers.pick_up": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.enderio.toggle_magnet": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.enderio.travel_staff": {
     "context": "UNIVERSAL",
-    "source": "assumed"
-  },
-  "key.eternal_starlight.switch_crest": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.evilcraft.exaltedCrafting": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.evilcraft.fart": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.extended_industrialization.toggle_boots_ability": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.extended_industrialization.toggle_chestplate_ability": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.extended_industrialization.toggle_helmet_ability": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.extended_industrialization.toggle_leggings_ability": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.extended_industrialization.toggle_main_hand_ability": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.extendedae.set_amount": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.extendedae.viewpattern": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.fireNobu": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.forward": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.ftbchunks.add_waypoint": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.ftbchunks.claim_manager": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.ftbchunks.map": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.ftbchunks.minimap.zoomIn": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.ftbchunks.minimap.zoomOut": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.ftbchunks.toggle_minimap": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.ftbchunks.waypoint_manager": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
+  },
+  "key.ftbquests.cycle_pinned_tracker": {
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.ftbquests.gui.extended_info": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.ftbquests.gui.move_down": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.ftbquests.gui.move_left": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.ftbquests.gui.move_right": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.ftbquests.gui.move_up": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.ftbquests.gui.next_chapter": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.ftbquests.gui.player_prefs": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.ftbquests.gui.prev_chapter": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.ftbquests.gui.recenter": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.ftbquests.gui.search": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.ftbquests.gui.zoom_in": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.ftbquests.gui.zoom_out": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.ftbquests.gui.zoom_reset": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
+  },
+  "key.ftbquests.gui_editor.complete_object": {
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.ftbquests.gui_editor.copy": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.ftbquests.gui_editor.delete": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.ftbquests.gui_editor.force_delete": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.ftbquests.gui_editor.paste": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.ftbquests.gui_editor.redo": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.ftbquests.gui_editor.reload_theme": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
+  },
+  "key.ftbquests.gui_editor.reset_object": {
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.ftbquests.gui_editor.reward_tables": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
+  },
+  "key.ftbquests.gui_editor.save": {
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.ftbquests.gui_editor.select_all": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.ftbquests.gui_editor.select_none": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.ftbquests.gui_editor.toggle_crosshairs": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.ftbquests.gui_editor.undo": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.ftbquests.gui_quest_panel.add_image": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.ftbquests.gui_quest_panel.add_line": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.ftbquests.gui_quest_panel.add_page_break": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.ftbquests.gui_quest_panel.edit_desc": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.ftbquests.gui_quest_panel.edit_quest_props": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.ftbquests.gui_quest_panel.edit_subtitle": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.ftbquests.gui_quest_panel.edit_title": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.ftbquests.quests": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.ftbteams.open_gui": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.ftbultimine": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.fullscreen": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.gmut.vertical_speed": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.guideme.guide": {
     "context": "GUI",
-    "source": "bytecode"
+    "source": "native-options-8.4"
   },
   "key.gunDown": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.gunUp": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.hostilenetworks.open_deep_learner": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.hotbar.1": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.hotbar.2": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.hotbar.3": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.hotbar.4": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.hotbar.5": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.hotbar.6": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.hotbar.7": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.hotbar.8": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.hotbar.9": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.hypertube.tube_escape": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.immersiveengineering.chemthrowerSwitch": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.immersiveengineering.magnetEquip": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-custom-fallback:previous"
   },
   "key.immersiveengineering.railgunZoom": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-custom-fallback:previous"
   },
   "key.industrialforegoing.backpack.desc": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.industrialization_overdrive.terminal_mode_switch": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.integrateddynamics.logic_programmer_focus_search": {
     "context": "GUI",
-    "source": "bytecode"
+    "source": "native-options-8.4"
   },
   "key.integrateddynamics.logic_programmer_open_rename": {
     "context": "GUI",
-    "source": "bytecode"
+    "source": "native-options-8.4"
+  },
+  "key.integratedscripting.comment": {
+    "context": "GUI",
+    "source": "native-options-8.4"
+  },
+  "key.integratedscripting.find": {
+    "context": "GUI",
+    "source": "native-options-8.4"
+  },
+  "key.integratedscripting.focus_mode": {
+    "context": "GUI",
+    "source": "native-options-8.4"
+  },
+  "key.integratedscripting.goto_line": {
+    "context": "GUI",
+    "source": "native-options-8.4"
+  },
+  "key.integratedscripting.move_lines_down": {
+    "context": "GUI",
+    "source": "native-options-8.4"
+  },
+  "key.integratedscripting.move_lines_up": {
+    "context": "GUI",
+    "source": "native-options-8.4"
+  },
+  "key.integratedscripting.redo": {
+    "context": "GUI",
+    "source": "native-options-8.4"
+  },
+  "key.integratedscripting.undo": {
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.integratedterminals.terminal.craftinggrid.balance": {
     "context": "GUI",
-    "source": "bytecode"
+    "source": "native-options-8.4"
   },
   "key.integratedterminals.terminal.craftinggrid.clearplayer": {
     "context": "GUI",
-    "source": "bytecode"
+    "source": "native-options-8.4"
   },
   "key.integratedterminals.terminal.craftinggrid.clearstorage": {
     "context": "GUI",
-    "source": "bytecode"
+    "source": "native-options-8.4"
   },
   "key.integratedterminals.terminal.portable.open": {
     "context": "IN_GAME",
-    "source": "bytecode"
+    "source": "native-options-8.4"
   },
   "key.integratedterminals.terminal.tab.next": {
     "context": "GUI",
-    "source": "bytecode"
+    "source": "native-options-8.4"
   },
   "key.integratedterminals.terminal.tab.previous": {
     "context": "GUI",
-    "source": "bytecode"
+    "source": "native-options-8.4"
   },
   "key.inventory": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.invtweaks_sort_either.desc": {
     "context": "GUI",
-    "source": "bytecode"
+    "source": "native-options-8.4"
   },
   "key.invtweaks_sort_inventory.desc": {
     "context": "GUI",
-    "source": "bytecode"
+    "source": "native-options-8.4"
   },
   "key.invtweaks_sort_player.desc": {
     "context": "GUI",
-    "source": "bytecode"
+    "source": "native-options-8.4"
   },
   "key.irons_spellbooks.spell_bar_modifier": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.irons_spellbooks.spell_quick_cast_1": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.irons_spellbooks.spell_quick_cast_10": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.irons_spellbooks.spell_quick_cast_11": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.irons_spellbooks.spell_quick_cast_12": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.irons_spellbooks.spell_quick_cast_13": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.irons_spellbooks.spell_quick_cast_14": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.irons_spellbooks.spell_quick_cast_15": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.irons_spellbooks.spell_quick_cast_2": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.irons_spellbooks.spell_quick_cast_3": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.irons_spellbooks.spell_quick_cast_4": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.irons_spellbooks.spell_quick_cast_5": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.irons_spellbooks.spell_quick_cast_6": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.irons_spellbooks.spell_quick_cast_7": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.irons_spellbooks.spell_quick_cast_8": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.irons_spellbooks.spell_quick_cast_9": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.irons_spellbooks.spell_wheel": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.irons_spellbooks.spell_wheel_toggle": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.irons_spellbooks.spellbook_cast": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.jade.config": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.jade.narrate": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.jade.show_details": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.jade.show_overlay": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.jade.show_recipes": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.jade.show_uses": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.jade.toggle_liquid": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.jei.bookmark": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-custom-fallback:previous"
   },
   "key.jei.cheatItemStack": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-custom-fallback:previous"
   },
   "key.jei.cheatItemStack2": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-custom-fallback:previous"
+  },
+  "key.jei.cheatItemStackToInventory": {
+    "context": "UNIVERSAL",
+    "source": "native-custom-fallback:UNIVERSAL"
   },
   "key.jei.cheatOneItem": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-custom-fallback:previous"
   },
   "key.jei.cheatOneItem2": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-custom-fallback:previous"
+  },
+  "key.jei.cheatOneItemToInventory": {
+    "context": "UNIVERSAL",
+    "source": "native-custom-fallback:UNIVERSAL"
   },
   "key.jei.clearSearchBar": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-custom-fallback:previous"
   },
   "key.jei.closeRecipeGui": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.jei.copy.recipe.id": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.jei.focusSearch": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
-  },
-  "key.jei.internal.enter.key": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.jei.maxTransferRecipeBookmark": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-custom-fallback:previous"
+  },
+  "key.jei.maxTransferRecipeGui": {
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.jei.nextCategory": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.jei.nextPage": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.jei.nextRecipePage": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.jei.nextSearch": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-custom-fallback:previous"
   },
   "key.jei.pauseRecipeCycling": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.jei.previousCategory": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.jei.previousPage": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.jei.previousRecipePage": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.jei.previousSearch": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-custom-fallback:previous"
   },
   "key.jei.quickMove": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-custom-fallback:previous"
   },
   "key.jei.recipeBack": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
+  },
+  "key.jei.recipeForward": {
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.jei.shareToChat": {
     "context": "UNIVERSAL",
-    "source": "assumed"
-  },
-  "key.jei.showBookmarkTooltipFeatures": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-custom-fallback:previous"
   },
   "key.jei.showRecipe": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-custom-fallback:previous"
   },
   "key.jei.showRecipe2": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-custom-fallback:previous"
   },
   "key.jei.showUses": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-custom-fallback:previous"
   },
   "key.jei.showUses2": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-custom-fallback:previous"
   },
   "key.jei.toggleBookmarkOverlay": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.jei.toggleCheatMode": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.jei.toggleCheatModeConfigButton": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-custom-fallback:previous"
   },
   "key.jei.toggleEditMode": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.jei.toggleHideIngredient": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-custom-fallback:previous"
+  },
+  "key.jei.toggleHideIngredientsWhenNotSearching": {
+    "context": "UNIVERSAL",
+    "source": "native-custom-fallback:UNIVERSAL"
   },
   "key.jei.toggleOverlay": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.jei.toggleWildcardHideIngredient": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-custom-fallback:previous"
   },
   "key.jei.transferRecipeBookmark": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-custom-fallback:previous"
+  },
+  "key.jei.transferRecipeGui": {
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.journeymap.create_waypoint": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.journeymap.fullscreen.disable_buttons": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.journeymap.fullscreen.east": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.journeymap.fullscreen.north": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.journeymap.fullscreen.south": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.journeymap.fullscreen.west": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.journeymap.fullscreen_chat_position": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.journeymap.fullscreen_create_waypoint": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.journeymap.fullscreen_follow_player": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.journeymap.fullscreen_options": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.journeymap.fullscreen_waypoints": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.journeymap.map_toggle_alt": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.journeymap.minimap_preset": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.journeymap.minimap_toggle_alt": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.journeymap.minimap_type": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.journeymap.toggle_entity_names": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.journeymap.toggle_render_waypoints": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.journeymap.toggle_render_waypoints_map": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.journeymap.toggle_render_waypoints_world": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.journeymap.toggle_waypoints": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.journeymap.zoom_in": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.journeymap.zoom_out": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.jump": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.keybindbundles.open_radial_menu": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.keybindbundles.open_screen": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.kubejs.kubedex": {
     "context": "UNIVERSAL",
-    "source": "bytecode"
+    "source": "native-options-8.4"
   },
   "key.left": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.little_big_redstone.open_note_board": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.loadToolbarActivator": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.logisticsnetworks.modifier_1": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.logisticsnetworks.modifier_2": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.logisticsnetworks.modifier_3": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.logisticsnetworks.primary_interaction": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.logisticsnetworks.secondary_interaction": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.logisticsnetworks.toggle_slot_numbers": {
     "context": "UNIVERSAL",
-    "source": "bytecode"
+    "source": "native-options-8.4"
   },
   "key.logisticsnetworks.toggle_wrench_hud": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.logisticsnetworks.wrench_colors": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.logisticsnetworks.wrench_modes": {
     "context": "IN_GAME",
-    "source": "bytecode"
+    "source": "native-options-8.4"
   },
   "key.mapping.compactmachines.exit_room": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-custom-fallback:previous"
   },
   "key.mapping.compactmachines.open_upgrade_screen": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-custom-fallback:previous"
   },
   "key.mekanism.chest_mode": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.mekanism.description": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.mekanism.details": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.mekanism.feet_mode": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.mekanism.head_mode": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.mekanism.key_boost": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.mekanism.key_hud": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.mekanism.legs_mode": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.mekanism.mode": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.mekanism.module_tweaker": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.minecolonies.toggle_goggles": {
     "context": "IN_GAME",
-    "source": "bytecode"
+    "source": "native-options-8.4"
   },
   "key.modern_industrialization.toggle_3x3": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.modern_industrialization.toggle_flight": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.modernfix.config": {
     "context": "UNIVERSAL",
-    "source": "bytecode"
+    "source": "native-options-8.4"
   },
   "key.modularrouters.configure": {
     "context": "GUI",
-    "source": "bytecode"
+    "source": "native-options-8.4"
   },
   "key.modularrouters.moduleInfo": {
     "context": "GUI",
-    "source": "bytecode"
+    "source": "native-options-8.4"
   },
   "key.moreoverlays.chunkbounds.desc": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.moreoverlays.lightoverlay.desc": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.neovitae.blood_shield": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.neovitae.edit_hud": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.neovitae.lex_beam": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.neovitae.lex_mode": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.neovitae.open_guide": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.nextDestination": {
     "context": "IN_GAME",
-    "source": "bytecode"
+    "source": "native-options-8.4"
   },
   "key.occultism.backpack": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-custom-fallback:previous"
   },
   "key.occultism.ender_bag": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-custom-fallback:previous"
   },
   "key.occultism.familiar.bat_familiar": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.occultism.familiar.beaver_familiar": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.occultism.familiar.beholder_familiar": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.occultism.familiar.blacksmith_familiar": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.occultism.familiar.chimera_familiar": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.occultism.familiar.cthulhu_familiar": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.occultism.familiar.deer_familiar": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.occultism.familiar.devil_familiar": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.occultism.familiar.dragon_familiar": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.occultism.familiar.fairy_familiar": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.occultism.familiar.goat_familiar": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.occultism.familiar.greedy_familiar": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.occultism.familiar.guardian_familiar": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.occultism.familiar.headless_familiar": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.occultism.familiar.mummy_familiar": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.occultism.familiar.otherworld_bird": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.occultism.familiar.shub_niggurath_familiar": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.occultism.storage_remote": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-custom-fallback:previous"
   },
   "key.openManual": {
     "context": "GUI",
-    "source": "bytecode"
+    "source": "native-options-8.4"
   },
   "key.open_muffler_gui": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.oracle_index.open": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.oracle_index.search": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.oritech.augment_screen": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.pickItem": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.playerlist": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.ponder.ponder": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.prevDestination": {
     "context": "IN_GAME",
-    "source": "bytecode"
+    "source": "native-options-8.4"
+  },
+  "key.railcraft.bed_minecart.sleep": {
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.railcraft.change_aura": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.railcraft.loco.faster": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.railcraft.loco.mode": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.railcraft.loco.reverse": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.railcraft.loco.slower": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.railcraft.loco.whistle": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.refinedstorage.clear_crafting_grid_matrix_to_inventory": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.refinedstorage.clear_crafting_grid_matrix_to_network": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.refinedstorage.focus_search_bar": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.refinedstorage.open_portable_grid": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.refinedstorage.open_wireless_autocrafting_monitor": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.refinedstorage.open_wireless_grid": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.refinedstorage_quartz_arsenal.open_wireless_crafting_grid": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.relics.active_abilities_list": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.relics.research_relic": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.right": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.saveToolbarActivator": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.screenshot": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.securitycraft.cameraActivateNightVision": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.securitycraft.cameraEmitRedstone": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.securitycraft.cameraZoomIn": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.securitycraft.cameraZoomOut": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.securitycraft.setDefaultViewingDirection": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.selectiveDisplacement": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.settingsGUI": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.sfm.container_inspector.activation_key": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.sfm.item_inspector.activation_key": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.sfm.label_gun.clear_modifier": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.sfm.label_gun.contiguous_modifier": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.sfm.label_gun.next_label": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.sfm.label_gun.open_gui": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.sfm.label_gun.pick_block_modifier": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.sfm.label_gun.previous_label": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.sfm.label_gun.pull_modifier": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.sfm.label_gun.scroll_modifier": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.sfm.label_gun.target_manager_modifier": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.sfm.manager.text_editor": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.sfm.more_info": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.sfm.text_editor.accept_intellisense": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.sfm.title_screen.text_editor": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.sfm.toggle_label_view_key": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.sfm.toggle_network_tool_overlay": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.silentgear.cycle.back": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.silentgear.cycle.next": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.silentgear.displayItemConstruction": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.silentgear.displayItemProperties": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.silentgear.displayTraitDescriptions": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.silentgear.openItem": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.smoothCamera": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.sneak": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.socialInteractions": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.sophisticatedbackpacks.inventory_interaction": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.sophisticatedbackpacks.open_backpack": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-custom-fallback:previous"
   },
   "key.sophisticatedbackpacks.toggle_upgrade_1": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.sophisticatedbackpacks.toggle_upgrade_2": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.sophisticatedbackpacks.toggle_upgrade_3": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.sophisticatedbackpacks.toggle_upgrade_4": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.sophisticatedbackpacks.toggle_upgrade_5": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.sophisticatedbackpacks.tool_swap": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.sophisticatedcore.sort": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-custom-fallback:previous"
   },
   "key.sophisticatedcore.transfer_to_inventory": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-custom-fallback:previous"
   },
   "key.sophisticatedcore.transfer_to_storage": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-custom-fallback:previous"
   },
   "key.spectatorOutlines": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.sprint": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.structurize.mirror": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-custom-fallback:previous"
   },
   "key.structurize.move_back": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-custom-fallback:previous"
   },
   "key.structurize.move_down": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-custom-fallback:previous"
   },
   "key.structurize.move_forward": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-custom-fallback:previous"
   },
   "key.structurize.move_left": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-custom-fallback:previous"
   },
   "key.structurize.move_right": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-custom-fallback:previous"
   },
   "key.structurize.move_up": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-custom-fallback:previous"
   },
   "key.structurize.place": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-custom-fallback:previous"
   },
   "key.structurize.rotate_ccw": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-custom-fallback:previous"
   },
   "key.structurize.rotate_cw": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-custom-fallback:previous"
   },
   "key.structurize.teleport": {
     "context": "IN_GAME",
-    "source": "bytecode"
+    "source": "native-options-8.4"
   },
   "key.swapOffhand": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.tempad.macro": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.tempad.new_location": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.tempad.shortcut": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.tempad.travel_timeline": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.the_bumblezone.beehemoth_down": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-custom-fallback:previous"
   },
   "key.the_bumblezone.beehemoth_up": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-custom-fallback:previous"
   },
   "key.theurgy.change_item_mode": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-custom-fallback:previous"
   },
   "key.toastcontrol.clear": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.togglePerspective": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.toolbelt.cycle.left": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.toolbelt.cycle.right": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.toolbelt.open": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.toolbelt.slot": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.trashslot.delete": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.trashslot.delete_all": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.trashslot.toggle": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.trashslot.toggle_lock": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.twilightforest.item_display_map_cycle": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.twilightforest.red_thread_vision": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.twilightforest.swap_hotbar": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.twilightforest.zoom": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.universalgrid.open_wireless_universal_grid": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "key.universalgrid.switch_wireless_universal_grid_type": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "GUI",
+    "source": "native-options-8.4"
   },
   "key.unmountVehicle": {
     "context": "IN_GAME",
-    "source": "bytecode"
+    "source": "native-options-8.4"
   },
   "key.use": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.utilityvest.gui": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.utilityvest.load": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.utilityvest.radial": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.utilityvest.restock": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.utilityvest.save": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "key.xycraft_core.modifier_key": {
     "context": "UNIVERSAL",
-    "source": "bytecode"
+    "source": "native-options-8.4"
   },
   "keybind.advancedperipherals.description": {
     "context": "GUI",
-    "source": "bytecode"
+    "source": "native-options-8.4"
   },
   "keybind.advancedperipherals.glasses_hotkey": {
     "context": "IN_GAME",
-    "source": "bytecode"
+    "source": "native-options-8.4"
   },
   "keybind.ironjetpacks.ascend": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "keybind.ironjetpacks.decrement_throttle": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "keybind.ironjetpacks.descend": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "keybind.ironjetpacks.engine": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "keybind.ironjetpacks.hover": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "keybind.ironjetpacks.hud": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "keybind.ironjetpacks.increment_throttle": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "keybind.reliquary.fortune_coin": {
     "context": "UNIVERSAL",
-    "source": "bytecode"
+    "source": "native-options-8.4"
+  },
+  "keyinfo.copycats.fill_copycat": {
+    "context": "UNIVERSAL",
+    "source": "native-options-8.4"
   },
   "mininggadgets.text.open_gui": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "options.narrator": {
     "context": "UNIVERSAL",
-    "source": "bytecode"
+    "source": "native-options-8.4"
   },
   "placebo.toggleTrails": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "placebo.toggleWings": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "pneumaticcraft.armor.options": {
     "context": "IN_GAME",
-    "source": "bytecode"
+    "source": "native-options-8.4"
+  },
+  "pneumaticcraft.armor.upgrade.ad_astra_giselle_addon.acid_rain_proof": {
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
+  },
+  "pneumaticcraft.armor.upgrade.ad_astra_giselle_addon.gravity_normalizing": {
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
+  },
+  "pneumaticcraft.armor.upgrade.ad_astra_giselle_addon.space_breathing": {
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
+  },
+  "pneumaticcraft.armor.upgrade.ad_astra_giselle_addon.space_fire_proof": {
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "pneumaticcraft.armor.upgrade.air_conditioning": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "pneumaticcraft.armor.upgrade.block_tracker": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "pneumaticcraft.armor.upgrade.block_tracker.module.end_portal": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "pneumaticcraft.armor.upgrade.block_tracker.module.energy": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "pneumaticcraft.armor.upgrade.block_tracker.module.fluids": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "pneumaticcraft.armor.upgrade.block_tracker.module.hackables": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "pneumaticcraft.armor.upgrade.block_tracker.module.inventories": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "pneumaticcraft.armor.upgrade.block_tracker.module.misc": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "pneumaticcraft.armor.upgrade.block_tracker.module.spawner": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "pneumaticcraft.armor.upgrade.charging": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "pneumaticcraft.armor.upgrade.coordinate_tracker": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "pneumaticcraft.armor.upgrade.core_components": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "pneumaticcraft.armor.upgrade.elytra": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "pneumaticcraft.armor.upgrade.ender_visor": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "pneumaticcraft.armor.upgrade.entity_tracker": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "pneumaticcraft.armor.upgrade.fall_protection": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "pneumaticcraft.armor.upgrade.jet_boots": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "pneumaticcraft.armor.upgrade.jet_boots.module.builder_mode": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "pneumaticcraft.armor.upgrade.jet_boots.module.flight_stabilizers": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "pneumaticcraft.armor.upgrade.jet_boots.module.hover": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "pneumaticcraft.armor.upgrade.jet_boots.module.smart_hover": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "pneumaticcraft.armor.upgrade.jump_boost": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "pneumaticcraft.armor.upgrade.magnet": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "pneumaticcraft.armor.upgrade.night_vision": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "pneumaticcraft.armor.upgrade.reach_distance": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "pneumaticcraft.armor.upgrade.run_speed": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "pneumaticcraft.armor.upgrade.scuba": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "pneumaticcraft.armor.upgrade.search": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "pneumaticcraft.armor.upgrade.step_assist": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "pneumaticcraft.armor.upgrade.stomp": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "pneumaticcraft.boots.jet_boots": {
     "context": "IN_GAME",
-    "source": "bytecode"
+    "source": "native-options-8.4"
   },
   "pneumaticcraft.boots.kick": {
     "context": "IN_GAME",
-    "source": "bytecode"
+    "source": "native-options-8.4"
   },
   "pneumaticcraft.chestplate.launcher": {
     "context": "IN_GAME",
-    "source": "bytecode"
+    "source": "native-options-8.4"
   },
   "pneumaticcraft.helmet.debugging.drone": {
     "context": "IN_GAME",
-    "source": "bytecode"
+    "source": "native-options-8.4"
   },
   "pneumaticcraft.helmet.hack": {
     "context": "IN_GAME",
-    "source": "bytecode"
-  },
-  "rainbows.key.reload_rainbow_configs": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "simplemagnets.keys.toggle": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "supplementaries.keybind.quiver": {
     "context": "UNIVERSAL",
-    "source": "assumed"
+    "source": "native-options-8.4"
   },
   "tombstone.message.compendium": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "tombstone.message.config": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "tombstone.message.knowledge_of_death": {
-    "context": "UNIVERSAL",
-    "source": "assumed"
+    "context": "IN_GAME",
+    "source": "native-options-8.4"
   },
   "Включить полёт в костюме": {
     "context": "UNIVERSAL",

@@ -1,0 +1,41 @@
+{
+  "refreshQueue": [],
+  "removedManualKeys": [],
+  "strippedPreviousOwnedKeys": [],
+  "omittedStaleEnglishAuthorKeys": [],
+  "freshAuthorSource": true,
+  "futureUpdatesBlockedForNewEnglish": false,
+  "schemaVersion": 1,
+  "kind": "ftb-native-russian-fallbacks",
+  "englishKeys": 9222,
+  "authorRussianKeys": 7488,
+  "effectiveRussianKeys": 9469,
+  "coveredKeys": 9222,
+  "officialRussianKeys": 6510,
+  "ownedFallbackKeys": 2336,
+  "changedPaths": [
+    "config/ftbquests/quests/lang/ru_ru.snbt",
+    "kubejs/assets/atm10_quest_language/lang/en_us.json",
+    "kubejs/assets/atm10_quest_language/lang/ru_ru.json"
+  ],
+  "nativeManagedRussianPath": "config/ftbquests/quests/lang/ru_ru.snbt",
+  "freshAuthorSourceCaptured": false,
+  "sourceOnlyAuthorCacheUsed": true,
+  "nativeMergedInstanceFilesModified": false,
+  "sourceEnglishOrOtherLocalesOrQuestLogicChanged": false,
+  "jarOrPlatformChanged": false,
+  "currentReleaseRequireComplete": true,
+  "staleCachedAuthorKeysSkippedUntilFreshImport": [],
+  "inline": {
+    "inlineEntries": 39,
+    "coveredInlineEntries": 39,
+    "nativeAliasStrings": 38,
+    "refreshQueue": [],
+    "englishOriginalResourceFilesChanged": false,
+    "newEnglishAliasResource": "kubejs/assets/atm10_quest_language/lang/en_us.json",
+    "russianAliasResource": "kubejs/assets/atm10_quest_language/lang/ru_ru.json",
+    "questIdsImagesClicksRewardsProgressChanged": false
+  },
+  "status": "PREPARED",
+  "applied": true
+}

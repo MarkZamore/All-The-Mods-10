@@ -155,7 +155,7 @@
 		{
 			click: "#2E5E129F25707C5D"
 			height: 1.0d
-			hover: ["Sigil of Supremacy"]
+			hover: ["{atm10quests.manual.inline.e54b609dd3e9eb433660.0}"]
 			image: "apotheosis:items/sigils/supremacy"
 			rotation: 0.0d
 			width: 1.0d

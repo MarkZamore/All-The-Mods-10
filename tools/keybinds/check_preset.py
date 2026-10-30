@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Proves launcher/controls-preset.txt has no two mappings the Controls screen marks red.
+"""Checks the preset namespace and modeled conflicts, with documented allowances.
 
 The rule is NeoForge 1.21.1's own, KeyMapping.same(), applied to every pair:
 
@@ -11,8 +11,10 @@ The rule is NeoForge 1.21.1's own, KeyMapping.same(), applied to every pair:
     conflict too when either mapping is UNIVERSAL/IN_GAME and one modifier is
     empty (a plain E fires under Shift+E) - only GUI mappings keep them apart.
 
-Contexts come from contexts.json (read from the mods' bytecode where the class
-gave it away, UNIVERSAL otherwise) with contexts.overrides.json on top. Also
+Contexts come from contexts.json: native simple contexts where measured, previous
+known contexts or UNIVERSAL for custom implementations, with contexts.overrides.json
+on top. Custom behavior is approximated; this is not an execution of every native
+conflict-context pair. Also
 checks the file lists every mapping in registered-keys.tsv, names only known
 keys, has no duplicate lines, and keeps the four right-hand modifier keys and
 Left Alt in the roles design.md gives them.
@@ -24,7 +26,7 @@ file cannot quietly outlive the layout it excuses.
 
     python tools/keybinds/check_preset.py [--report]
 
-Exit code 0 means the layout is clean; anything else prints why.
+Exit code 0 means these model checks pass; anything else prints why.
 """
 from __future__ import annotations
 
@@ -219,7 +221,7 @@ def main() -> int:
         for problem in problems:
             print("  " + problem)
         return 1
-    print("The preset is clean.")
+    print("Preset model checks passed; custom native contexts remain approximations.")
     return 0
 
 

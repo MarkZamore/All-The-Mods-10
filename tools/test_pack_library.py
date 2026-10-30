@@ -78,6 +78,31 @@ class LibraryPublisherTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "Cyclic"):
             build_library(self.pack, "r1")
 
+    def test_native_selected_source_displays_the_loaded_duplicate_version_and_rejects_stale_pins(self):
+        import hashlib
+        import io
+        selected = self.pack / 'mods/z-base-new.jar'
+        with zipfile.ZipFile(selected, 'w') as archive:
+            archive.writestr('META-INF/neoforge.mods.toml',
+                             '[[mods]]\nmodId="base"\ndisplayName="Base New"\nversion="2.0"\n')
+        self.content['modSourceSelections'] = {'base': {
+            'path': 'mods/z-base-new.jar', 'version': '2.0',
+            'sha256': hashlib.sha256(selected.read_bytes()).hexdigest()}}
+        self.write_content()
+        with zipfile.ZipFile(io.BytesIO(build_library(self.pack, 'r1'))) as archive:
+            mods = {m['id']: m for m in json.loads(archive.read('library.json'))['mods']}
+        self.assertEqual('2.0', mods['base']['version'])
+        self.assertEqual('Base New', mods['base']['name'])
+        for field, value in [('sha256', '0' * 64), ('version', '3.0'),
+                             ('path', '../outside.jar')]:
+            with self.subTest(field=field):
+                saved = self.content['modSourceSelections']['base'][field]
+                self.content['modSourceSelections']['base'][field] = value
+                self.write_content()
+                with self.assertRaisesRegex(ValueError, 'mod source'):
+                    build_library(self.pack, 'r1')
+                self.content['modSourceSelections']['base'][field] = saved
+
 
 if __name__ == "__main__":
     unittest.main()

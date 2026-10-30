@@ -1,0 +1,4075 @@
+{
+  "schemaVersion": 1,
+  "kind": "author-pack-native-title-report",
+  "packId": "all-the-mods-10",
+  "authorVersion": "8.4",
+  "minecraftVersion": "1.21.1",
+  "neoForgeVersion": "21.1.265",
+  "officialAuthorArchiveSha256": "e6ac21055562b08cbad4ed65438e97954d28c2216dde7a084a7a2f9e5795aac4",
+  "status": "TITLE_PASS_WITH_REPORTED_ERRORS",
+  "launcher": {
+    "release": 420,
+    "sourceRevision": "b130ef14f0fd9c8dfdca9e3dcc3bb916e1b8d8dc",
+    "testedManagedAssemblySha256": "b3862b052ab9d51e13e81e7f8b5f5b5685c12316b04d6075e3786f3b896a3d20",
+    "assemblyKind": "Independent Debug build of exact published420 source; not the public EXE bytes.",
+    "actualProductionRuntimeAndInstancePreparationUsed": true,
+    "actualProductionJvmCompositionUsed": true,
+    "ordinaryLauncherUiLaunchClaimed": false
+  },
+  "nativeObservation": {
+    "titleAtUtc": "2026-10-30T01:46:36.874659600Z",
+    "stableTitleSamples": 3,
+    "actualTitleScreenClass": "net.minecraft.client.gui.screens.TitleScreen",
+    "overlayPresent": false,
+    "levelPresent": false,
+    "playerPresent": false,
+    "integratedServerPresent": false,
+    "nativeRenderExecutor": true,
+    "sourceAuthorJarsRehashed": 490,
+    "sourceAuthorJarMismatches": 0,
+    "loadedModCount": 534,
+    "registeredKeyMappings": 574,
+    "optionsKeyMappings": 567,
+    "inputOrGuiAutomation": false,
+    "probeChangedBindings": false,
+    "probeTransformedClasses": false,
+    "graphicsOrDistanceSettingsChanged": false,
+    "fixtureOnlyFirstRunAdaptation": "onboardAccessibility:false after the first-run native accessibility screen; source pack and personal settings untouched."
+  },
+  "gpu": {
+    "maxTextureSize": 16384,
+    "vendor": "Intel",
+    "renderer": "Intel(R) Arc(TM) B390 GPU",
+    "version": "4.6.0 - Build 32.0.101.8724",
+    "currentContextVerified": true,
+    "renderExecutor": true
+  },
+  "advancedAE": {
+    "sourcePath": "mods/AdvancedAE-1.6.12-1.21.1.jar",
+    "sha256": "a01d9718667ac13899013e91c5b0b7708b9b9db1da9b8e380772dde54bbe8f41",
+    "sizeBytes": 4791255,
+    "authorOriginal": true,
+    "packCompatibilityDerivativeApplied": false,
+    "launcherMenuContentTransformerApplied": false,
+    "result": "Original AdvancedAE completes this full client initialization to Title; no initialization fix was needed for this run.",
+    "menuInteractionOrWorldBehaviorTested": false
+  },
+  "computercraft": {
+    "selectedNativeModVersion": "1.120.2",
+    "selectedJar": {
+      "sourcePath": "mods/cc-tweaked-1.21.1-forge-1.120.2.jar",
+      "name": "cc-tweaked-1.21.1-forge-1.120.2.jar",
+      "sha256": "e8651fe24b384e925e563c9ad077644744474e2e7c0adb8e6d5b4757598dce9f",
+      "sizeBytes": 3126327
+    },
+    "discoveryFoundBothAuthorJars": [
+      "cc-tweaked-1.21.1-forge-1.113.1.jar",
+      "cc-tweaked-1.21.1-forge-1.120.2.jar"
+    ],
+    "selectionEvidence": "Actual NeoForge ModList version1.120.2; native discovery assigns cobalt0.9.9 and jzlib1.1.3 nested dependencies to the1.120.2 parent.",
+    "olderAuthorFileRemovedOrDisabledByPreparation": false
+  },
+  "shutdown": {
+    "method": "Minecraft.stop on native render executor",
+    "exitCode": 0,
+    "exitedAtUtc": "2026-10-30T01:46:48.2621465+00:00",
+    "forcedKill": false,
+    "worldOrPersonalSaveLoaded": false
+  },
+  "errorEventCount": 248,
+  "errorFamilies": [
+    {
+      "kind": "invalid-author-resource-path",
+      "count": 205,
+      "byAuthorJar": {
+        "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar": 204,
+        "mods/ZeroCore2-1.21.1-2.4.21.jar": 1
+      },
+      "newTranslationOverlayProviders": 0,
+      "resolution": "Unchanged; native loader ignores these exact invalid author paths."
+    },
+    {
+      "kind": "native-author-config-before-load",
+      "count": 32,
+      "handler": "JustDireThings1.5.7 armor getAbilities -> PlayerEvents.ItemAttributes",
+      "trigger": "MineColonies1.1.1406 equipment-tier initialization -> native item attributes event",
+      "byArmor": {
+        "BaseHelmet": 8,
+        "BaseChestplate": 8,
+        "BaseLeggings": 8,
+        "BaseBoots": 8
+      },
+      "integrationFramesInTheseStacks": 0,
+      "resolution": "Unchanged; equipment attribute/gameplay effect not tested."
+    },
+    {
+      "kind": "author-animation-expression-parse",
+      "count": 4,
+      "resolution": "Unchanged; native GeckoLib4.9.3 reports expression failures. Consumer/visual impact not tested."
+    },
+    {
+      "kind": "native-ftb-legacy-invisible-entity-icon",
+      "count": 3,
+      "resolution": "Unchanged; native FTB Library itself ships three legacy invisible markers and logs them during resource reload."
+    },
+    {
+      "kind": "offline-user-properties",
+      "count": 1
+    },
+    {
+      "kind": "offline-profile-key",
+      "count": 1
+    },
+    {
+      "kind": "offline-realms-availability",
+      "count": 1
+    },
+    {
+      "kind": "steam-api-init",
+      "count": 1,
+      "observedSteamProcessAvailable": false,
+      "resolution": "Steam was not running. No settings were changed and no Steam readiness/connection PASS is claimed."
+    }
+  ],
+  "invalidAuthorResources": [
+    {
+      "location": "zerocore:GUI Theme file.md",
+      "providers": [
+        {
+          "sourcePath": "mods/ZeroCore2-1.21.1-2.4.21.jar",
+          "sha256": "54ac755031b05c3a5b6ddfa22dabc45fb3775481041503dcecd75e5e86627779",
+          "sizeBytes": 1551013,
+          "entry": "assets/zerocore/GUI Theme file.md",
+          "resourceSha256": "fc551068efdaced4c9b903482061ae1f015b0557a685c7ba1ef35cdd1d1f629c",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 247921,
+            "fileId": 7344742
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/yogurtitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/yogurtitem.png",
+          "resourceSha256": "46cc954b29e1511f48a27e6b1a6e09223a829e1811224b6537f31b666143ae0d",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/vinegaritem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/vinegaritem.png",
+          "resourceSha256": "8cb4170690be38b0a11352e96e024ffbe690a40ba0861256782a05cf690e4d04",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/veggiepotpieitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/veggiepotpieitem.png",
+          "resourceSha256": "3831071e045d9c2a7e61a0777895219742bbfe9b9a19fadc537b6dd4bd683e29",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/vegetablenoodlesoupitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/vegetablenoodlesoupitem.png",
+          "resourceSha256": "d4d96bc77601976e00fa87911c2cdaa4b43330c8c3f1a3268fe5fc2a856d00a6",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/trailmixitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/trailmixitem.png",
+          "resourceSha256": "68082e2d8b880bd1ec884e12eef4ed4b70227e43f4a77bad56fb92f6088e236b",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/toastitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/toastitem.png",
+          "resourceSha256": "cb9277d80f9c24bac38fca286d1b2e2bb39f3096df7e11b21c718aa751f7991e",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/sweetberryyogurtitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/sweetberryyogurtitem.png",
+          "resourceSha256": "0b3b8115e99f237d4fd665dde54da7923ecfccec6638751c86a6a9a5a38d5486",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/sweetberrysmoothieitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/sweetberrysmoothieitem.png",
+          "resourceSha256": "a428387c9acd674e1a00a0724c38270d14a026dc43b0ff94b9c7369e6ef4264b",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/sweetberrypopsicleitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/sweetberrypopsicleitem.png",
+          "resourceSha256": "1041da1afd374f26e89b2d7c1b0ada6968e6dd7e5431603f3f794288932cb977",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/sweetberrypieitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/sweetberrypieitem.png",
+          "resourceSha256": "4ee1d980dc1a2c61af9a47d7ca744dfeb510d162e4964559d297e02401f2d45e",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/sweetberrymuffinitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/sweetberrymuffinitem.png",
+          "resourceSha256": "dc17d2fc00046a826881fb52bdadb24d970b5bcb77016097c4933469314b59eb",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/sweetberryjuiceitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/sweetberryjuiceitem.png",
+          "resourceSha256": "d022f11a38d2e3479683030abffa59f1e4756db9f575080e2fabded507966b4f",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/sweetberryjellytoastitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/sweetberryjellytoastitem.png",
+          "resourceSha256": "03f69b1f87ab53849cdc42d4b30e65372977a8f2971283ae5e5aebc79a206acb",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/sweetberryjellyitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/sweetberryjellyitem.png",
+          "resourceSha256": "9cfd0d1a86724c85880f2a4c7834bea675d88cd6e3b1154513cf1b1e74a31a05",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/sweetberrydonutitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/sweetberrydonutitem.png",
+          "resourceSha256": "5217a9e414af4e115177a909bf803496851479c199724f7455fd09d023c65734",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/sunflowerseedsitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/sunflowerseedsitem.png",
+          "resourceSha256": "7215951578cb1357b4e295b956b03ab360729c787f3b43e4ece63dc282989489",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/stockitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/stockitem.png",
+          "resourceSha256": "42379d26ac4cea975aa27f663daded776f5bfa1c7b1c403d0c6acbfbd86326ac",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/stewitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/stewitem.png",
+          "resourceSha256": "0594a46c5673d0936f7dc8bd2bdd757344a9dc94c9e9076411b3488219ae4ecd",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/sprinklesdonutitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/sprinklesdonutitem.png",
+          "resourceSha256": "fff87763e885a8c13c19c7dea13b276ae0ac07877fad46ee4464221cd1506488",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/softpretzelitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/softpretzelitem.png",
+          "resourceSha256": "2af0ff83b4408cf2f1c6c5a72f75b8aa07e207f49ab4e75622b7f6d2a27a9148",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/smoresitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/smoresitem.png",
+          "resourceSha256": "b7a7b261c9f6ad9f43c3eca2cf452e7911bd50e2f86ee8ca7869bfdcc2a14454",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/skilletitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/skilletitem.png",
+          "resourceSha256": "64f40f2c0e8822ae42c28511eaf9b3621fd7042fcf126ef25100adafd32a9b63",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/scrambledeggitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/scrambledeggitem.png",
+          "resourceSha256": "a644c311dcd4a8b20b8635880902f4eb04e0951327194365bd3a300aecc994d3",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/saucepanitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/saucepanitem.png",
+          "resourceSha256": "aab5081ad90d1e8c63f859987e12845ddd0bb4d4f331653ab52de22f060f8355",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/saltitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/saltitem.png",
+          "resourceSha256": "98dc23fa20fdaf539f11aabcb32b2947cbfba20042e1cb07b4ce937a314d47c8",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/rolleritem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/rolleritem.png",
+          "resourceSha256": "9a03f7f87509c5b6b7e01792b5cb4dd1b64f87cf68406a3df1adbe952fa27412",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/roastedsunflowerseedsitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/roastedsunflowerseedsitem.png",
+          "resourceSha256": "4682075a6d3b949388a27626cda53a73f9566e6d5d4e8f1bbeac1dc79c033a8f",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/rabbitpotpieitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/rabbitpotpieitem.png",
+          "resourceSha256": "1379f413481d51a88488d1f874856785ad780fd47310f56a41febabd9b22f66a",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/rabbitnoodlesoupitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/rabbitnoodlesoupitem.png",
+          "resourceSha256": "c292f30dcc693e5deb1933edd41c97affb2183532b97679c4cc81a8daa51ac2c",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/rabbitjerkyitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/rabbitjerkyitem.png",
+          "resourceSha256": "dde52827fbaddc757c4a3a11d81e9782a4c03d6239d53f3a6a3c2ba0f2aa4d1b",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/pumpkinyogurtitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/pumpkinyogurtitem.png",
+          "resourceSha256": "781b66c8ba9a9c93ad9eb5154b59f0ccbe0687500575d1a361a32f4ee45f9f94",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/pumpkinsoupitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/pumpkinsoupitem.png",
+          "resourceSha256": "3d04eeb808612b9083d73bd3c97d81f3057ab7218ec9b299d7f6ab8833b95a3b",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/pumpkinmuffinitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/pumpkinmuffinitem.png",
+          "resourceSha256": "543c4eb6653032ff7fb529432afdca8c3bbb75977dabd95b92de9f81f9e3e3e6",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/pumpkindonutitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/pumpkindonutitem.png",
+          "resourceSha256": "ebbf6767ae2329a28947592b99cb6e75facb05d577c3574b6b43bfd8e3ff2bb3",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/pumpkincheesecakeitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/pumpkincheesecakeitem.png",
+          "resourceSha256": "093224c73ba8a70429507bc76bf4680d6d89cb62a1b5c7c2ac84da601bec2945",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/pumpkinbreaditem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/pumpkinbreaditem.png",
+          "resourceSha256": "ee78fef2e1d2f134fec98e35de48628bc752424715ce7526485ef002e0f2a7a9",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/powdereddonutitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/powdereddonutitem.png",
+          "resourceSha256": "46b51bc39e6609417af6677d4d06099551431a6a1c5e2071666ce708460336c5",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/potroastitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/potroastitem.png",
+          "resourceSha256": "d83379b6462a5e3911c56222c3ecde4efb2518223f3a38340ff4c9a149266f84",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/potitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/potitem.png",
+          "resourceSha256": "5dcc4da0613b85dc2068bb07716cb22753a6cce3e0f282f2f0396ca0030fa9fa",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/potatosoupitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/potatosoupitem.png",
+          "resourceSha256": "9937605da5bbb5b141de4361c23602b8a451cb32ae4bb90b798d042beea38fb3",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/potatochipsitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/potatochipsitem.png",
+          "resourceSha256": "ad366fcbacb701e907521137ddcdd3dece23f42188a2a2da08b088348884e4cd",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/porkpotpieitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/porkpotpieitem.png",
+          "resourceSha256": "6ef466353f0f3f8fee1ca019f478619c4e83f9e3d5610685006dde95d606d23b",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/porknoodlesoupitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/porknoodlesoupitem.png",
+          "resourceSha256": "20b3bd96a149552818b8f115648a5e0eca04ae9a3ed3d39270cfe3be25759542",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/porkjerkyitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/porkjerkyitem.png",
+          "resourceSha256": "2bb26ddb0c59941a727a0c370be56b09cba664e08749b0b9683d1cc1fd23533e",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/plaindonutitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/plaindonutitem.png",
+          "resourceSha256": "c00d24f61251500caae4641669838f4cad3ca5fd1965ee1bf1cf254dc8eb6020",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/pickledbeetsitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/pickledbeetsitem.png",
+          "resourceSha256": "6ef1acc41e58c509daaae42d5719265c21388e0130da6d4b18039261578ef3cb",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/pastaitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/pastaitem.png",
+          "resourceSha256": "011b80086f422255692feeb1dd7a6749675defdea8fbb3dd2c5d3257bf66208c",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/p8juiceitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/p8juiceitem.png",
+          "resourceSha256": "887ca4268f9fe4bc681a871aaa030b889e1733a1160b071d384781e42ef95438",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/noodlesoupitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/noodlesoupitem.png",
+          "resourceSha256": "c65f5f0c3e63c17fac28fc5b340567298d993c4f16adc68b573f980a44859a55",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/noodlesitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/noodlesitem.png",
+          "resourceSha256": "bc90e89ba4800a515aec77c90e28cd46192f3cc01520935b3ca6cf9d9389e563",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/muttonpotpieitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/muttonpotpieitem.png",
+          "resourceSha256": "a72378099bd2307e9e52f3fce626191e1f19a76f43e6b581c7739fb2e4f69b86",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/muttonnoodlesoupitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/muttonnoodlesoupitem.png",
+          "resourceSha256": "fd1dfa28b7bdc4f9886c1c4b6fc52b375bf4beeabdbeafa57f00e134e45438aa",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/muttonjerkyitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/muttonjerkyitem.png",
+          "resourceSha256": "05ba7b3b9c68f332a1e92f77cdb76576e4f966e4b41731aab8fbd85cbc1cda11",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/mixingbowlitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/mixingbowlitem.png",
+          "resourceSha256": "4d9c5f4da868c220b6edb8d196cb0687ab7265dd0e05ff8e222aa1d07ed4f01e",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/melonyogurtitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/melonyogurtitem.png",
+          "resourceSha256": "6cf66b6661b3dd567f7d7a48dcb28eb492070f291286763e98fed3bdecec780d",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/melonsmoothieitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/melonsmoothieitem.png",
+          "resourceSha256": "7d26c70985ccea9cf4ba9ee2b30cfbce98cc95da603bd64daaacd0859a1f7578",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/melonpopsicleitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/melonpopsicleitem.png",
+          "resourceSha256": "aeea600ccd37ad33bc17d7781add4782021018975a14691c589e0f4d11fca981",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/melonpieitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/melonpieitem.png",
+          "resourceSha256": "5f716c0708c0415e1f656b26ac3faf894f445e279580bda2903b391cf73ea9b3",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/melonmuffinitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/melonmuffinitem.png",
+          "resourceSha256": "8883e08c0ee12e406c6a9b513d340039f54cbb76023296cfa8378f2e38351257",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/melonjuiceitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/melonjuiceitem.png",
+          "resourceSha256": "08b435bedcf53e9f3d7a8e1587c577c4a2e8bbd2f884a4fac7d62e9007d6edae",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/melonjellytoastitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/melonjellytoastitem.png",
+          "resourceSha256": "d84f5ffc1d8f9b8b01151a1dc7621954885fae7cc90dd0b93425864403846584",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/melonjellyitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/melonjellyitem.png",
+          "resourceSha256": "9dbb33a28c2f32d589e1ae359ea66ac3ba696a62fd97f5b4e564185e1b43202b",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/melondonutitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/melondonutitem.png",
+          "resourceSha256": "1faffee3aadbe1aae91e89516685cc75ffed9e60ca96011dc8bc6b8fcfed71c7",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/meatloafitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/meatloafitem.png",
+          "resourceSha256": "d59295d548a10abddd47fe45cc14cf77336d4d5d6a081b9e6b58aebf841e1b8a",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/mayonaiseitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/mayonaiseitem.png",
+          "resourceSha256": "8368b6f7318f503c026f9cc8e084aecf88ed6199583075c4dbbb853bd3976372",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/mashedpotatoesitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/mashedpotatoesitem.png",
+          "resourceSha256": "007bf65c71b788ca7c29556647d87c32ca600508552ac0fb0a6f346ab8e38cc7",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/marshmellowsitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/marshmellowsitem.png",
+          "resourceSha256": "c6dabf8f8cf30d6ed335fbb37e8d038ae72ef3bd7480bc462023ceb5ceb0f024",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/macncheeseitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/macncheeseitem.png",
+          "resourceSha256": "d056ceb8641e008527765053a8d048b60c3cf7ae03c53807b6f04bcd311b0243",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/juiceritem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/juiceritem.png",
+          "resourceSha256": "8c34866076694e88115a9a52124ea5aef154d175f11e0bc691ccb3ddee057eb7",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/jellybeansitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/jellybeansitem.png",
+          "resourceSha256": "0e708d524fe61b3d857f644508def0aee15ecc87a37fc39e2f98daa9a0ef82c6",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/icecreamitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/icecreamitem.png",
+          "resourceSha256": "5da83dfe2c3afb8c7bfff76675b8e42d19b990dad68a68775719bb34118d6453",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/hotdogitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/hotdogitem.png",
+          "resourceSha256": "37c553c88d5957ffdc3a4e0d06d80af9d7fdee4ca2fc5834b78063351517abd8",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/hotchocolateitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/hotchocolateitem.png",
+          "resourceSha256": "211bbd5c9f8931d04c556d09d10ba30ff70447cf21cf3ac27ff6e6a1075b5238",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/honeypieitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/honeypieitem.png",
+          "resourceSha256": "963a3d73daadddd15b08510793bb6bf83b745c66f749bdf5657183b64acbe1dc",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/honeymuffinitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/honeymuffinitem.png",
+          "resourceSha256": "048289fdb3f7fa720546563a15a738e77efc9e8bcdf4807f1265259fda67fd23",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/honeyglazeddonutitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/honeyglazeddonutitem.png",
+          "resourceSha256": "6c4f6a4cb41321893003387899f4a37dfab78a8551c6b7675bac101de8a78b9a",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/gummycreepersitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/gummycreepersitem.png",
+          "resourceSha256": "00dbfa571ad8a0d408ba55da9a2fbabde992640af44310df1ee23ee89f66b119",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/groundrabbititem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/groundrabbititem.png",
+          "resourceSha256": "b2954604a38d2b36a62da214e24f2cea519f6a41e6043bea9eb8a64271a8918e",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/groundporkitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/groundporkitem.png",
+          "resourceSha256": "43a5de54ce059d2ae1e46cd59b0e80e90bc4be8726b47b5a6b66705c5d70a74c",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/groundmuttonitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/groundmuttonitem.png",
+          "resourceSha256": "f6bde8ce2a30032d83ad4dc1063677bb19e0c81b5ef9af4f62bcd48e4367f265",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/groundfishitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/groundfishitem.png",
+          "resourceSha256": "60680229acc59238b87a610fc24275ad4a0b12fb1055763bc0aff67c63242e64",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/groundchickenitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/groundchickenitem.png",
+          "resourceSha256": "7f9230c82d188683598c6adb8db92e68a22afdb1c5478452f17596393b9f45b4",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/groundbeefitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/groundbeefitem.png",
+          "resourceSha256": "ab68b0a84b5bec809cf98c18f73979bfc605e50973bc95e9026d63dc60955029",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/grinderitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/grinderitem.png",
+          "resourceSha256": "d133e3fa49a550269212d45953182d20ddf3871d2b72a3418ac28f35329ee5c3",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/grilledveggieskeweritem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/grilledveggieskeweritem.png",
+          "resourceSha256": "1e680da19c739d0e3b077d9396a4b63f0a7895e9da435023660093b6b1186001",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/grilledrabbitskeweritem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/grilledrabbitskeweritem.png",
+          "resourceSha256": "d9631bc8c197462dddaf1c26335b6eee02ec2d02d265ed924654a4d33bc94a62",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/grilledporkskeweritem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/grilledporkskeweritem.png",
+          "resourceSha256": "b0fd3a32dcf9931e937f04d8fa9c1e77ceadab71ed002ab5b1ac99388973b6e0",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/grilledmuttonskeweritem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/grilledmuttonskeweritem.png",
+          "resourceSha256": "93b4a7228089b4e083f1078a37e974cf4b2951b452684354f04c692ae6e0a67e",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/grilledfishskeweritem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/grilledfishskeweritem.png",
+          "resourceSha256": "5c04dcf7c73f6a1d120215b41fae7110f602d7ec07b060680189fee267f54d93",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/grilledchickenskeweritem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/grilledchickenskeweritem.png",
+          "resourceSha256": "cd38ba9c0fac8f28b7736523a84ddcc4afe658e6c59acc22bade7e213bc4bc8c",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/grilledcheeseitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/grilledcheeseitem.png",
+          "resourceSha256": "4497e9e78478556036ae6ce0d1f5c62eb9c23aca54756594ece155c150a019ff",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/grilledcheeseandhamitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/grilledcheeseandhamitem.png",
+          "resourceSha256": "225bde8e26f8f37eb0b3a6600c4b9a23078a77ca0dd3e8d2ec13eaf5c81ea4ed",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/grilledbeefskeweritem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/grilledbeefskeweritem.png",
+          "resourceSha256": "080118ca8fa784ad474e7dffc860536adce266cf869588e72648f5c67e540ec4",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/glowberryyogurtitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/glowberryyogurtitem.png",
+          "resourceSha256": "6b8618f968e46b2c518f1ac301252aa4ea9f8d308cb1aae9064fcb786ad74b33",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/glowberrysmoothieitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/glowberrysmoothieitem.png",
+          "resourceSha256": "5e7c255e49bf0d7afd666b8fef417847acc2b62b37da322a98822641e929e3a2",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/glowberrypopsicleitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/glowberrypopsicleitem.png",
+          "resourceSha256": "381c580f33f47b45bc29a5440b65b2647c0e19c5c0d3cf0af4dc73631c1158f4",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/glowberrypieitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/glowberrypieitem.png",
+          "resourceSha256": "6005f3fcbcb1c429cccef0630e4d0ef0299602904cd0f002f99b0a6af4f16a82",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/glowberrymuffinitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/glowberrymuffinitem.png",
+          "resourceSha256": "8f52a22d549e5828f1666ba943e184fc2ccb7f9015070aa61bca9ffd45bd5af5",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/glowberryjuiceitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/glowberryjuiceitem.png",
+          "resourceSha256": "f47cf8eb4780d6a9897355366087f1fe01076d9472a447ffde3c2a9869216a9b",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/glowberryjellytoastitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/glowberryjellytoastitem.png",
+          "resourceSha256": "3bae996369566519a3950c5afd1137e04f9f6e43aa0b3e5fc791542b03bcd88a",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/glowberryjellyitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/glowberryjellyitem.png",
+          "resourceSha256": "aa3606037a579a17c608cb3e3cc563c16202907a762e9eeeba1676e2a9f2e5fe",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/glowberrydonutitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/glowberrydonutitem.png",
+          "resourceSha256": "c5eed27d4710590929828740024b44863190388369ba6fe015d5fc21d123fa14",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/glazedcarrotsitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/glazedcarrotsitem.png",
+          "resourceSha256": "28afa09e04cffd324ad7ecd7283497236878bbeff1fbc64b04b53057edce12ad",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/fudgesicleitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/fudgesicleitem.png",
+          "resourceSha256": "33a703513f0a0091311e406d723d49c39470d54a81352eda562978b1cb5b48a5",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/fruitsaladitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/fruitsaladitem.png",
+          "resourceSha256": "38a2a066da83a7e6046ad222c175e4dc0a93cb47f81c16a7abfe72edee6118fa",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/fruitpunchitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/fruitpunchitem.png",
+          "resourceSha256": "e2eca4d39de3d0db69adab29818117dacec744cbed0b2f1e7fb01d7aeb659e19",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/friesitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/friesitem.png",
+          "resourceSha256": "e3a17c74506a13f9fb950be2cd03dab566c4ce9612fdaf249b3aec53962e87c3",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/friedeggitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/friedeggitem.png",
+          "resourceSha256": "ac9570d6452075c5d0763ff7a6465b9fb768ef016d390482b3e97c552b73efae",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/friedchickenitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/friedchickenitem.png",
+          "resourceSha256": "ff0368b51380db2d9d7da7d61e1a4aabaae0de034addd11249483e04e43069cb",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/freshwateritem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/freshwateritem.png",
+          "resourceSha256": "baec926f22874df4db0de10308576a6623dad352bbd28c5031b885fc83f88286",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/freshmilkitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/freshmilkitem.png",
+          "resourceSha256": "2ed600cb327a9aea1b32add8a1a906f36dc54140ac957f8f4e2b2158e18cf9c7",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/flouritem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/flouritem.png",
+          "resourceSha256": "b127baaacb57ea18e8a9582c69df8956a87e7fec6527a0c091072db55c74fb40",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/fishsticksitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/fishsticksitem.png",
+          "resourceSha256": "8b3133de3b361a38c38a3b0350b4f166f2a0797fef2f4b30dedb09b54e8b601d",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/fishpotpieitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/fishpotpieitem.png",
+          "resourceSha256": "486b616f46a2056134080ea16129523737a48011652ff2edfb4da980175f0cb4",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/fishnoodlesoupitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/fishnoodlesoupitem.png",
+          "resourceSha256": "0ae03c0ad4e18d637d8680fa648b3014d26fad3b3806c104bf9011ea59a5c069",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/fishjerkyitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/fishjerkyitem.png",
+          "resourceSha256": "205335662586bec44fb59ca9fd467f89d144dbd93cbe42cb3bbd22e715a569b6",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/fishandchipsitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/fishandchipsitem.png",
+          "resourceSha256": "af7dc8ec3a9688c2fd5eddc0ef51353a53ea8806f0af9979c38524ef46c4b53c",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/epicbaconitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/epicbaconitem.png",
+          "resourceSha256": "1c017bfb75d63751664190809d66e56a4f9325b19c050a0554193f5a4d1e552c",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/doughitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/doughitem.png",
+          "resourceSha256": "4b2fd4b2e2f630b70ed1a9612ac2dfdca20c3e0e0d460059b54df59cc6ecbe4b",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/cuttingboarditem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/cuttingboarditem.png",
+          "resourceSha256": "2549762ee9c5dc4b7ad25ff140b4b6f48d2d6ea1ef323793730e972b99632428",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/creamitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/creamitem.png",
+          "resourceSha256": "a1e18bf94b887650efc5388d56686de315122c483f487529df3d583043f5a19e",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/crackersandcheeseitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/crackersandcheeseitem.png",
+          "resourceSha256": "48cb76e752a88c4757bed6b97ba2611426f035771d1b673bfc14d665ea66415e",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/crackeritem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/crackeritem.png",
+          "resourceSha256": "fed69b560621179acbc7c7c5c245333f8c4baa14d2ab347bda9b489a7637034c",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/cottoncandyitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/cottoncandyitem.png",
+          "resourceSha256": "075ba1e99441cba6ec13555b167c07a623ccc2446eaaf06e3e6f4ac481b438c4",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/cookingoilitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/cookingoilitem.png",
+          "resourceSha256": "2849d49707599ae9989b0e1d5213aac723e0d84462815c815af70ab858fa4cd7",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/cookiesandmilkitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/cookiesandmilkitem.png",
+          "resourceSha256": "73707cf4c9fdfbe760f1173e1f88ca7208de14a4a9efae46e5c060d660c652d3",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/cookedgroundrabbititem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/cookedgroundrabbititem.png",
+          "resourceSha256": "f2bb5b6082d13824a6089200dd03d817d590f436a697489fc26c03105a0510cc",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/cookedgroundporkitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/cookedgroundporkitem.png",
+          "resourceSha256": "c3544d7bcf21d2595b69e186cf0398f308f7f4b764c56fd4358763ba5bb28330",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/cookedgroundmuttonitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/cookedgroundmuttonitem.png",
+          "resourceSha256": "83b0a3948103b39954ed232f6fe6f258d813e57b52121678ea75a1638a18dc1a",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/cookedgroundfishitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/cookedgroundfishitem.png",
+          "resourceSha256": "56779b91906bb40b096bf62d8ae661200a8b6e7e6632d758837365f14dba9dfa",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/cookedgroundchickenitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/cookedgroundchickenitem.png",
+          "resourceSha256": "0944e21fed96a5ad3c8e8a36ded63cf4ee3d935d0e6f9482334f7c3542641459",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/cookedgroundbeefitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/cookedgroundbeefitem.png",
+          "resourceSha256": "2460e7fb7853a2a3ef05c01ce1cd34e3ccbed51341537af5dade7456841d8797",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/cocoapowderitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/cocoapowderitem.png",
+          "resourceSha256": "395f6ef6947c26a556ffedccfbc8fa59212f4c9b39cd79dd5199c60e6f54e095",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/chorusyogurtitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/chorusyogurtitem.png",
+          "resourceSha256": "580f402b6964ed430e1410c331f705bb9207ba6c67d5fb2be6f9105e4ead2f97",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/chorussmoothieitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/chorussmoothieitem.png",
+          "resourceSha256": "6a0ad66ea893681af99c6997f41683733b31ba4502d61dc2ff3cac37b518cb8e",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/choruspopsicleitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/choruspopsicleitem.png",
+          "resourceSha256": "d7178210a40a65448a5b18a9213282aab543346c69423f39d303601fa8b58f91",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/choruspieitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/choruspieitem.png",
+          "resourceSha256": "c5d666f8190bd3d15a1af39f9f1279a3e7927a4c1996e838ee8b12e23f6e598f",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/chorusmuffinitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/chorusmuffinitem.png",
+          "resourceSha256": "057d95733a246b6520afd432bb8ca76019d1107baec059f20ee18a425cfd53a6",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/chorusjuiceitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/chorusjuiceitem.png",
+          "resourceSha256": "9e496912a8c6cc0459af1eb242d18e0bbb226dc064cb0241b5685a0f1fe60134",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/chorusjellytoastitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/chorusjellytoastitem.png",
+          "resourceSha256": "64e14fbc2d4dcb2c96dc5d8ec62f81f5a4a3761e5f504f0fcf6bcc8e6b82357f",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/chorusjellyitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/chorusjellyitem.png",
+          "resourceSha256": "6cdd469996c6f1a4dbaa90a2e27bd3960c9aa47135ae01a34250c6d856b87999",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/chorusdonutitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/chorusdonutitem.png",
+          "resourceSha256": "06b5064cc85d55a6ccb40b10a68ef727e7604bb554c4dc5a5d4764893b5c19a4",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/chocolateyogurtitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/chocolateyogurtitem.png",
+          "resourceSha256": "138bd3e4697057b5de25358a347f1a0f0110868e1a8a7b457d22b5fbfe82f4d2",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/chocolaterollitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/chocolaterollitem.png",
+          "resourceSha256": "24ed4bed3465c5044efadf2802538fed3acdc885f9a86067e88d234b2e846cf6",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/chocolatepieitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/chocolatepieitem.png",
+          "resourceSha256": "5e1a5aee3616a37cf418e356d4d3ce3142c83e7dd8b95de63a5b9c6ddd058409",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/chocolatemuffinitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/chocolatemuffinitem.png",
+          "resourceSha256": "79b0f24bb40aa2ba5304d43c40789353133c4ef1430cf4d92b3fbb5991022d62",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/chocolatemilkshakeitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/chocolatemilkshakeitem.png",
+          "resourceSha256": "21620795c015ee1031bb906d74aeede40d264757800cc4710174736bee8a7a80",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/chocolatemilkitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/chocolatemilkitem.png",
+          "resourceSha256": "a56a8771d318060113bbc37dce8e0d6f7473a78879ea987108a55e85e0dea5c7",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/chocolateicecreamitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/chocolateicecreamitem.png",
+          "resourceSha256": "b11a98c9c698071e9b8f9beaa3e60f6ac1a390113aa516ca6a13d8c55c303bca",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/chocolatedonutitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/chocolatedonutitem.png",
+          "resourceSha256": "39270db1e54c4a44ce38908fbde5f07cc985227a07e78015cc1336c1bf3e0d70",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/chocolatecaramelfudgeitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/chocolatecaramelfudgeitem.png",
+          "resourceSha256": "6bd815c3c551deabee2db7b879d701d6ad86f282998c79e3e9ff3d8c84abbbe0",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/chocolatecakeitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/chocolatecakeitem.png",
+          "resourceSha256": "81991428776782df2a45a05b6ac585fcfe6233bee72182a4346da404336dd5a3",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/chocolatebaritem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/chocolatebaritem.png",
+          "resourceSha256": "ae0d48b80d7a2d624e8684c6b952fb2d948ec1775a7c801f5abbbb4522cc6940",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/chocolatebaconitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/chocolatebaconitem.png",
+          "resourceSha256": "f29094a1f75159460c710237a6be7bc1e6f3561fa0db9779e158e03577d97565",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/chickenpotpieitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/chickenpotpieitem.png",
+          "resourceSha256": "ebc14dfd8037d3c9a09634d3e87290223fafa2ef9c0d2f62663398b47602fdc1",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/chickennuggetitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/chickennuggetitem.png",
+          "resourceSha256": "85d71164058774aa28d9ba001c33bacdbbbc9720c123da444fe9e2b36561adae",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/chickennoodlesoupitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/chickennoodlesoupitem.png",
+          "resourceSha256": "337b0811f79976b2c993291e2bf8a6840e49b601dccbbc8970490f225ed32fa8",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/chickenjerkyitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/chickenjerkyitem.png",
+          "resourceSha256": "df6cee30f6f2d6cf028e078c983bb0e92f2d83ea5eab8317ef6c656368bebd3a",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/chickendinneritem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/chickendinneritem.png",
+          "resourceSha256": "22fe250a79be538fc2009b9ea76abe48aa4fbc2b9cc5c3aa8b1c9dd852bbe75d",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/cheeseitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/cheeseitem.png",
+          "resourceSha256": "f0745803aca26620143ff389e77a73508a90f91f09c33dedd240e48328c4467b",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/cheesecakeitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/cheesecakeitem.png",
+          "resourceSha256": "9eaa6f6bdfac1bff41ff1485101d0299fcdc951582dc7347e57802b1fcd5ed42",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/carrotsoupitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/carrotsoupitem.png",
+          "resourceSha256": "212f5c5dd7db00b8194e9b2b3dcaca0261d181fbb54db42e4dc6ae25d271a59a",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/carrotpieitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/carrotpieitem.png",
+          "resourceSha256": "bc9f71b35ddcdf9f11c62a70a929e48bebf4fb3c8e2db1093a43054aae113bf3",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/carrotmuffinitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/carrotmuffinitem.png",
+          "resourceSha256": "9c0e886388520ab1cff80f7da9f7e42c97a5a59cd98ae90fa5eecd2e278bd6ed",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/carrotjuiceitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/carrotjuiceitem.png",
+          "resourceSha256": "f89c7b19b17e84a9e087f4d1e69e591a0021e74c13b87668e79498cad080adf1",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/carrotdonutitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/carrotdonutitem.png",
+          "resourceSha256": "c69dbb50ae86ad5b9f00c0d57f9c040ce57808f8f659eb414e18ba563863abc9",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/carrotcakeitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/carrotcakeitem.png",
+          "resourceSha256": "4f30495cf301ad2b5e6f2ce0fcf27d51133e5cdf11e3ea2e8ae672b7b84f3a81",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/carrotbreaditem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/carrotbreaditem.png",
+          "resourceSha256": "f534cce4e8b3c6bb082d59b39e317178a98ae61395fb8b1fb775c717753a60d0",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/caramelyogurtitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/caramelyogurtitem.png",
+          "resourceSha256": "c1ae3fc296ba1073c70970ba933a48a10e2b092187e3289cb9ea799207800096",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/caramelpieitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/caramelpieitem.png",
+          "resourceSha256": "d027e23a2e56c7f3e6bb55347ae9c0a9cba3105c582e97cf489e5dc0d2512be3",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/caramelmuffinitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/caramelmuffinitem.png",
+          "resourceSha256": "3cdb2cc8cf13bf48967e74a4edf7d7ac917c95480d703e5b50ad46b8d7cfc3be",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/caramelitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/caramelitem.png",
+          "resourceSha256": "afaf9d2d569cde670968f26cc3607e9951d571bd085e49b74356326411227a8a",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/caramelicecreamitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/caramelicecreamitem.png",
+          "resourceSha256": "8dc35e1d723838cbcb57cc6f71f5ae9c0a449466884e91945bf2da0a3b43e133",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/carameldonutitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/carameldonutitem.png",
+          "resourceSha256": "908565e4fb0e1297e6500d80d9971b74fbe2adf3add5c8d273604e4bb349a6b8",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/caramelappleitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/caramelappleitem.png",
+          "resourceSha256": "e4114cdddcf736705bc75264c7ba38d9ed50b135cd0e60ed53d14e47743db696",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/butteritem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/butteritem.png",
+          "resourceSha256": "ac3219a6786516edced17fe6e82f19e901c75209874c6a980d08075589317624",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/butteredbakedpotatoitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/butteredbakedpotatoitem.png",
+          "resourceSha256": "59557781e6ce9d2f9aa1190accd4525c01fa0a1b859d80407373a542b50b785c",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/boiledeggitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/boiledeggitem.png",
+          "resourceSha256": "319da5adc49ce19606ef9868b281c097ac32671af93533e677482e65f9e48993",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/beefpotpieitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/beefpotpieitem.png",
+          "resourceSha256": "e839d86b2f1808a001c8a99388bc542ddffa20c689fe128cacb631b1aa8d8fdc",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/beefnoodlesoupitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/beefnoodlesoupitem.png",
+          "resourceSha256": "401dc466b337119dd9ee14cdd57460a8a7a500f9802d87731e61efa608fc1ad9",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/beefjerkyitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/beefjerkyitem.png",
+          "resourceSha256": "41fa28a80b7b75476db3210f0abea61754cdb986fa539efa9902cbfde5c16351",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/batteritem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/batteritem.png",
+          "resourceSha256": "5238f58632b7df8b0018c7e9b0819692756fa0b8994e173eb6500e27aaff60df",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/basicveggieburgeritem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/basicveggieburgeritem.png",
+          "resourceSha256": "a3f081c2a7100199fa192406adf81ec30f73ae5e779e1beefe28173386a5f51b",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/basicrabbitsandwichitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/basicrabbitsandwichitem.png",
+          "resourceSha256": "81f73df2cef6f9ddf7b61f2b801f6b83163305657cadce8beecd8cdef223a3a5",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/basicporksandwichitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/basicporksandwichitem.png",
+          "resourceSha256": "0b996fe6bcddbc4e1531f166a29e50fb104a573dd85b8a6b398324c7f2a9577f",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/basicmuttonsandwichitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/basicmuttonsandwichitem.png",
+          "resourceSha256": "cf99a68cd1a552e2976edd33d2b457f1a307df5135a33f4c586a4c837c5b3d72",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/basichamburgeritem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/basichamburgeritem.png",
+          "resourceSha256": "a5311001c3df04b05da2a366f53d5d30b5f5d9b5432d06bc66de07a97a8445f1",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/basicfishsandwichitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/basicfishsandwichitem.png",
+          "resourceSha256": "6d68c71d2ddebbc5bc0fbe770809c1af53856fb04895fc65decbce16a6ca3885",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/basicchickensandwichitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/basicchickensandwichitem.png",
+          "resourceSha256": "2c05a6f5cd2cf3945db0aa2b971e10ba1e82bc21fb948aa4915b4256525e1310",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/basiccheeseburgeritem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/basiccheeseburgeritem.png",
+          "resourceSha256": "69390dc3a38ecaada940f8299cc9b2bbfabf3d4f372f07e4baec13c3301e2b46",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/bakewareitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/bakewareitem.png",
+          "resourceSha256": "24359f2aa30597ff1489c06f01e85949fd8e948dd8dae9b1a647b38237387b58",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/bakedvegetablemedlyitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/bakedvegetablemedlyitem.png",
+          "resourceSha256": "73e5126b7a71e926cdfaedbf443b9e13f3b4467e19d215d158c17ff0505f5f16",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/baconcheeseburgeritem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/baconcheeseburgeritem.png",
+          "resourceSha256": "6015bae96da478c86301e55a3d407941c11700a24701ddec3095a9b8caf0ae35",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/baconandeggsitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/baconandeggsitem.png",
+          "resourceSha256": "2c85dba444763ba41974735954bd5a245a98cf28fd6111ca4919285c9a498eae",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/appleyogurtitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/appleyogurtitem.png",
+          "resourceSha256": "4f88797dd91b1f02858eafecb6d42737ac0c8f596fa3278d061591a9cfd25a7f",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/applesmoothieitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/applesmoothieitem.png",
+          "resourceSha256": "845036e043242a49492f36c8dea7fe3dec614e9c686dad622ec42b21d1df9720",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/applesauceitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/applesauceitem.png",
+          "resourceSha256": "589eee28eab8fff8c9ec4fb0b1b366de601ced9888d4ac4628e5cdd4d9f6ba82",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/applepopsicleitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/applepopsicleitem.png",
+          "resourceSha256": "accea2e1d4aeff63789c677ce07eac298db8d5bac399218a33ea22e606adeb0e",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/applepieitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/applepieitem.png",
+          "resourceSha256": "9c22316ad6e9c084170a3b551c399fa15667a5409f34ea755cc18d93a0cf25ca",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/applemuffinitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/applemuffinitem.png",
+          "resourceSha256": "100f6eb2a99aba962ea40bb046f9e66b42aeebbdf301d875f91c671af10e2206",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/applejuiceitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/applejuiceitem.png",
+          "resourceSha256": "c82ddee2a1256158471c542e9e98f51f2907406400e99910d83bdaa93d026ee7",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/applejellytoastitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/applejellytoastitem.png",
+          "resourceSha256": "87cec273a54af241342295777eb315a38205dcdc57c292f656df0ad19d8291e1",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/applejellyitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/applejellyitem.png",
+          "resourceSha256": "f4114d396a941f3cdf4d6630bc9314af88faccb68675a8f3342b1c46ecd86d9a",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    },
+    {
+      "location": "pamhc2foodcore:textures/item - old icons/appledonutitem.png",
+      "providers": [
+        {
+          "sourcePath": "mods/pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar",
+          "sha256": "acd5dd380eafc3f317b67231a2355c204cab254dfdf4ab1f25c084fdd3d317b9",
+          "sizeBytes": 1699044,
+          "entry": "assets/pamhc2foodcore/textures/item - old icons/appledonutitem.png",
+          "resourceSha256": "2670af285fff90a627ac2e9540b14761fe92664b0abb2c22f56b011f00f01399",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 372534,
+            "fileId": 6919485
+          }
+        }
+      ]
+    }
+  ],
+  "animationFailures": [
+    {
+      "animationKey": "animation.calcination_oven.start",
+      "expression": "easeinoutquint",
+      "failure": "Native GeckoLib could not resolve compiled expression symbols.",
+      "providers": [
+        {
+          "sourcePath": "mods/theurgy-1.21.1-neoforge-1.78.0.jar",
+          "sha256": "2165c80889e24f30d3351941078247c37de238c59354eaf6bc1bb278af2bc7dd",
+          "sizeBytes": 5323672,
+          "entry": "assets/theurgy/animations/calcination_oven.animation.json",
+          "resourceSha256": "38a9488dbf7d15d06b8b7e1e3fe91be9beca741d0cdb4e74051cd995f8099017",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 430636,
+            "fileId": 9080461
+          }
+        }
+      ]
+    },
+    {
+      "animationKey": "adjust_size",
+      "expression": "aoe",
+      "failure": "Native GeckoLib could not resolve compiled expression symbols.",
+      "providers": [
+        {
+          "sourcePath": "mods/ars_elemental-1.21.1-0.7.10.4.jar",
+          "sha256": "9ba4393c98228bb1647e3786c71c30c7eb97574b9e65baba14f34c92f7b86eb9",
+          "sizeBytes": 2273778,
+          "entry": "assets/ars_elemental/animations/spike.animation.json",
+          "resourceSha256": "869e7f2eff88b825ebd43f6d55076e22b3226c1a40a142e0436dc4febfcd745d",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 561470,
+            "fileId": 9057244
+          }
+        }
+      ]
+    },
+    {
+      "animationKey": "animation.calcination_oven.stop",
+      "expression": "easeinoutquint",
+      "failure": "Native GeckoLib could not resolve compiled expression symbols.",
+      "providers": [
+        {
+          "sourcePath": "mods/theurgy-1.21.1-neoforge-1.78.0.jar",
+          "sha256": "2165c80889e24f30d3351941078247c37de238c59354eaf6bc1bb278af2bc7dd",
+          "sizeBytes": 5323672,
+          "entry": "assets/theurgy/animations/calcination_oven.animation.json",
+          "resourceSha256": "38a9488dbf7d15d06b8b7e1e3fe91be9beca741d0cdb4e74051cd995f8099017",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 430636,
+            "fileId": 9080461
+          }
+        }
+      ]
+    },
+    {
+      "animationKey": "swim_charge",
+      "expression": "math.cos(query.anim_time*swimcharge-25)*8",
+      "failure": "Native GeckoLib could not resolve compiled expression symbols.",
+      "providers": [
+        {
+          "sourcePath": "mods/ars_nouveau-1.21.1-5.13.3.jar",
+          "sha256": "45c1b6022d8e63464177c1f822bda22c3d6fb66970857fd7677e4e3ccffd259f",
+          "sizeBytes": 19841105,
+          "entry": "assets/ars_nouveau/animations/wilden_chimera_animations.json",
+          "resourceSha256": "2b0c29efc211fd676e9853dcf4287370af0c4ee381e4e16206df360aa41ce220",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 401955,
+            "fileId": 9052154
+          }
+        }
+      ]
+    }
+  ],
+  "legacyInvisibleMarkers": [
+    {
+      "entityId": "artifacts:mimic",
+      "providers": [
+        {
+          "sourcePath": "mods/ftb-library-neoforge-2101.1.39.jar",
+          "sha256": "ca64bd1b5f335406900f74eeafacea5a3580a3933d61de6b6600a64eb12a9a95",
+          "sizeBytes": 1477833,
+          "entry": "assets/ftblibrary/textures/faces/artifacts/mimic.invisible",
+          "resourceSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 404465,
+            "fileId": 9350706
+          }
+        }
+      ]
+    },
+    {
+      "entityId": "undergarden:gwibling",
+      "providers": [
+        {
+          "sourcePath": "mods/ftb-library-neoforge-2101.1.39.jar",
+          "sha256": "ca64bd1b5f335406900f74eeafacea5a3580a3933d61de6b6600a64eb12a9a95",
+          "sizeBytes": 1477833,
+          "entry": "assets/ftblibrary/textures/faces/undergarden/gwibling.invisible",
+          "resourceSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 404465,
+            "fileId": 9350706
+          }
+        }
+      ]
+    },
+    {
+      "entityId": "iceandfire:stone_statue",
+      "providers": [
+        {
+          "sourcePath": "mods/ftb-library-neoforge-2101.1.39.jar",
+          "sha256": "ca64bd1b5f335406900f74eeafacea5a3580a3933d61de6b6600a64eb12a9a95",
+          "sizeBytes": 1477833,
+          "entry": "assets/ftblibrary/textures/faces/iceandfire/stone_statue.invisible",
+          "resourceSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "nestedJar": "",
+          "officialAuthorAcquisition": {
+            "kind": "exact-author-manifest-CurseForge-file",
+            "projectId": 404465,
+            "fileId": 9350706
+          }
+        }
+      ]
+    }
+  ],
+  "relevantAuthorJarPins": [
+    {
+      "sourcePath": "mods/The_Undergarden-1.21.1-0.9.6.jar",
+      "sha256": "49e3db6ce2cf6864e9d45f0633de95bc3ef72cbd5ebffee493fca7198d30ccb0",
+      "sizeBytes": 45294936,
+      "officialAuthorAcquisition": {
+        "kind": "exact-author-manifest-CurseForge-file",
+        "projectId": 379849,
+        "fileId": 7862546
+      }
+    },
+    {
+      "sourcePath": "mods/artifacts-neoforge-13.2.5.jar",
+      "sha256": "e36a929420a0a616abdb28f5bbbdb866a426aa3bb78d1b39bc1183927c101ce6",
+      "sizeBytes": 1086922,
+      "officialAuthorAcquisition": {
+        "kind": "exact-author-manifest-CurseForge-file",
+        "projectId": 312353,
+        "fileId": 8791899
+      }
+    },
+    {
+      "sourcePath": "mods/ftb-library-neoforge-2101.1.39.jar",
+      "sha256": "ca64bd1b5f335406900f74eeafacea5a3580a3933d61de6b6600a64eb12a9a95",
+      "sizeBytes": 1477833,
+      "officialAuthorAcquisition": {
+        "kind": "exact-author-manifest-CurseForge-file",
+        "projectId": 404465,
+        "fileId": 9350706
+      }
+    },
+    {
+      "sourcePath": "mods/geckolib-neoforge-1.21.1-4.9.3.jar",
+      "sha256": "20a1995e4074f387ff549e2c57ea79dd7d41ee83c6afb9dd6a6e840e592d1c47",
+      "sizeBytes": 634531,
+      "officialAuthorAcquisition": {
+        "kind": "exact-author-manifest-CurseForge-file",
+        "projectId": 388172,
+        "fileId": 8893490
+      }
+    },
+    {
+      "sourcePath": "mods/iceandfire-2.0-beta.17.jar",
+      "sha256": "ee52349445615417e69ab64cf15dbb96b9332a9117225119d281695c5f8d90f0",
+      "sizeBytes": 20848811,
+      "officialAuthorAcquisition": {
+        "kind": "exact-author-manifest-CurseForge-file",
+        "projectId": 1040076,
+        "fileId": 8147245
+      }
+    },
+    {
+      "sourcePath": "mods/justdirethings-1.5.7.jar",
+      "sha256": "6e5f7dd7091cc271fee66b0df62bde2250e8b52397b51dd911f79c088eb22d2f",
+      "sizeBytes": 2853190,
+      "officialAuthorAcquisition": {
+        "kind": "exact-author-manifest-CurseForge-file",
+        "projectId": 1002348,
+        "fileId": 7463040
+      }
+    },
+    {
+      "sourcePath": "mods/minecolonies-1.1.1406-1.21.1-snapshot.jar",
+      "sha256": "f57817f650ac3d7fd1c2b495fd5e77dbcfcce404605763a4294c2f467fbe7513",
+      "sizeBytes": 78350952,
+      "officialAuthorAcquisition": {
+        "kind": "exact-author-manifest-CurseForge-file",
+        "projectId": 245506,
+        "fileId": 9351402
+      }
+    },
+    {
+      "sourcePath": "mods/reliquified_artifacts-1.21.1-1.0.9.jar",
+      "sha256": "b074e7bbb010b1030f4def909548ccca1b43bec82584e2cc03e29e6baa6040d6",
+      "sizeBytes": 699259,
+      "officialAuthorAcquisition": {
+        "kind": "exact-author-manifest-CurseForge-file",
+        "projectId": 1100379,
+        "fileId": 9143545
+      }
+    }
+  ],
+  "privateEvidenceFilePins": [
+    {
+      "name": "loaded-mods.json",
+      "sha256": "c2bc98662bdfc79cbfb67f761012c0bbcf3b09c4d5e33f1bb13a5078c703a03c",
+      "sizeBytes": 37468
+    },
+    {
+      "name": "key-inventory.json",
+      "sha256": "e2c7c8f07529f5827bfb6172373baea8db8ed0b8bcc6beba1dad5666129e9d1c",
+      "sizeBytes": 400391
+    },
+    {
+      "name": "observations.jsonl",
+      "sha256": "46516617666f38bc5b9f024023b9772ee4fe1c29e484019e91c5a7df3ef2be72",
+      "sizeBytes": 5023
+    }
+  ],
+  "acceptanceLimits": {
+    "authorOnlyBaselineRun": false,
+    "fullWorldRun": false,
+    "steamReady": false,
+    "steamConnectionTested": false,
+    "twoClientTested": false,
+    "visualReview": false,
+    "allErrorsResolved": false,
+    "worldMigrationWithoutLossPromised": false,
+    "personalWorldReadOrCopied": false,
+    "rawLogsPublished": false
+  }
+}

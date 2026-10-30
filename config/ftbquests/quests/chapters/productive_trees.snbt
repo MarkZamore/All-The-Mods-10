@@ -11,7 +11,7 @@
 		{
 			click: "https://youtu.be/5kKjlCsmfcc?si=I_jZPW6TzqHpb8OD"
 			height: 1.0d
-			hover: ["Pilpoh's Productive Trees Guide"]
+			hover: ["{atm10quests.manual.inline.7ae1df93796409fdb281.0}"]
 			image: "minecraft:textures/gui/sprites/toast/tree.png"
 			rotation: 0.0d
 			width: 1.0d

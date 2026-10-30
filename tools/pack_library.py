@@ -104,6 +104,21 @@ def build_library(pack, revision):
     for jar in sorted((pack / "mods").glob("*.jar")):
         for mod in read_mods(jar.read_bytes(), jar.name):
             mods.setdefault(mod["id"], mod)
+    # Multiple author JARs can declare the same ID. A recorded native-loader
+    # selection chooses catalog metadata; it never removes or rewrites a JAR.
+    for mod_id, selection in authored.get("modSourceSelections", {}).items():
+        relative = selection.get("path", "")
+        if not isinstance(relative, str) or not re.fullmatch(r"mods/[^/\\:]+\.jar", relative):
+            raise ValueError("Invalid selected mod source: " + mod_id)
+        jar = pack / relative
+        if (jar.is_symlink() or not jar.is_file()
+                or hashlib.sha256(jar.read_bytes()).hexdigest() != selection.get("sha256")):
+            raise ValueError("Selected mod source hash differs: " + mod_id)
+        selected = [mod for mod in read_mods(jar.read_bytes(), jar.name)
+                    if mod["id"] == mod_id and mod["version"] == selection.get("version")]
+        if len(selected) != 1 or mod_id not in mods:
+            raise ValueError("Selected mod source ID/version differs: " + mod_id)
+        mods[mod_id] = selected[0]
     libraries = LIBRARIES | set(authored.get("libraryIds", []))
     parents = PARENTS | authored.get("parents", {})
     for mod in mods.values():

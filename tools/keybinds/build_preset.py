@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Writes launcher/controls-preset.txt from the layout below and the key registry.
 
-Every mapping registered.tsv knows gets a line: the key the layout gives it, or
+Every persistable mapping and verified locale guard in registered-keys.tsv gets a line: the key the layout gives it, or
 key.keyboard.unknown with the key it used to sit on remembered in a comment.
 """
 from __future__ import annotations
@@ -125,9 +125,9 @@ def main() -> int:
         "#",
         "# Applied by the launcher's \"Пресет настроек управления\" button into the",
         "# instance's options.txt (one line per mapping, options.txt syntax). Blank",
-        "# lines and # comments are ours; the game never sees this file. Every mapping",
-        "# the pack registers is listed, bound or not, so tools/keybinds/check_preset.py",
-        "# checks the complete layout and its explicitly documented conflict exceptions.",
+        "# lines and # comments are ours; the game never sees this file. Native Options",
+        "# mappings and verified locale guards are listed; ALL-only internals are excluded.",
+        "# tools/keybinds/check_preset.py checks this namespace and its documented conflict model.",
         "# Read tools/keybinds/design.md before changing a key.",
     ]
     for mod in sorted(by_mod, key=lambda m: (m != "minecraft", m)):

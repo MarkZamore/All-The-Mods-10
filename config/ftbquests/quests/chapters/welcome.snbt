@@ -20,7 +20,7 @@
 		{
 			click: "https://discord.gg/allthemods"
 			height: 1.0d
-			hover: ["Join the Discord!"]
+			hover: ["{atm10quests.manual.inline.d320d3a9146d6573912f.0}"]
 			image: "ftbchunks:textures/waypoint_default.png"
 			rotation: 180.0d
 			width: 1.0d

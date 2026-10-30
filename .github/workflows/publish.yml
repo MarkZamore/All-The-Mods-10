@@ -31,26 +31,39 @@ jobs:
         with:
           python-version: "3.12"
 
-      # The layout is only a promise until something proves it: this reads the
-      # preset against the key registry and NeoForge's own KeyMapping.same, and
-      # fails the publish if any two mappings would come out red in the
-      # Controls screen.
+      - name: Check quest translation update rules
+        run: python -m unittest discover -s tools/quest-translations -p "test_*.py"
+
+      - name: Prepare native Russian quest fallback data
+        run: >-
+          python tools/quest-translations/prepare.py prepare
+          --pack .
+          --manual tools/quest-translations/manual-ru.json
+          --inline-manual tools/quest-translations/inline-ru.json
+          --ownership tools/quest-translations/ownership.json
+          --author-cache tools/quest-translations/author-ru.json
+          --report tools/quest-translations/last-report.json
+          --apply
+
+      # Check complete coverage of the measured Options registry and verified
+      # locale aliases. The conservative conflict model preserves six explicit
+      # player-approved overlaps; custom native contexts are not fully executed.
       - name: Check the controls preset
         run: |
           if [ -f launcher/controls-preset.txt ]; then
             python tools/keybinds/check_preset.py
           fi
 
-      - name: Verify pack-owned menu compatibility
-        run: python tools/menu-compatibility/verify_shipped.py --pack .
+      - name: Verify selected unchanged author JARs
+        run: python tools/upstream/verify.py --pack .
 
       - name: Generate manifest and stage assets
         run: python tools/generate_manifest.py --pack . --out dist --revision "$GITHUB_SHA"
 
       - name: Self-check staged assets
         run: |
-          python -m unittest discover -s tools -p test_pack_library.py
-          python tools/generate_manifest.py --pack . --out dist --verify-only
+          python -m unittest discover -s tools -p 'test_*.py'
+          python tools/generate_manifest.py --pack . --out dist --verify-all
 
       - name: Publish pack-latest release
         env:
