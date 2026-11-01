@@ -34,3 +34,4 @@ config/bcc-common.toml
 # Completed tasks, claimed rewards and team progress live inside each world
 # under ftbquests/ and are not part of this rule.
 config/ftbquests/quests/**
+config/log4j2.xml

@@ -6,6 +6,7 @@ import subprocess
 import sys
 import tempfile
 import unittest
+import network_logging_policy
 
 
 class ReleaseVerificationTests(unittest.TestCase):
@@ -14,6 +15,12 @@ class ReleaseVerificationTests(unittest.TestCase):
             root = Path(temporary)
             pack = root / 'source'
             pack.mkdir()
+            (pack / 'config').mkdir()
+            source = Path(__file__).resolve().parents[1]
+            (pack / 'config/log4j2.xml').write_bytes((source / 'config/log4j2.xml').read_bytes())
+            version = json.loads((source / 'portable-pack.json').read_text(encoding='utf-8-sig'))['minecraftVersion']
+            (pack / 'portable-pack.json').write_text(json.dumps({'minecraftVersion': version}), encoding='utf-8')
+            network_logging_policy.prepare(pack)
             dist = root / 'dist'
             assets = dist / 'assets'
             assets.mkdir(parents=True)
@@ -33,6 +40,14 @@ class ReleaseVerificationTests(unittest.TestCase):
             self.assertEqual(0, passed.returncode, passed.stdout + passed.stderr)
             self.assertIn('verified 11 of 11 staged assets', passed.stdout)
             self.assertEqual(original_manifest, manifest.read_bytes())
+            receipt = pack / 'tools/network-logging-policy.json'
+            pinned = receipt.read_bytes()
+            receipt.unlink()
+            no_policy = subprocess.run(command, capture_output=True, text=True, timeout=30)
+            self.assertNotEqual(0, no_policy.returncode)
+            self.assertIn('network logging policy invalid', no_policy.stderr)
+            self.assertEqual(original_manifest, manifest.read_bytes())
+            receipt.write_bytes(pinned)
             for row in rows:
                 asset = assets / row['name']
                 original = asset.read_bytes()

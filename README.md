@@ -67,9 +67,60 @@ The [native runtime report](tools/upstream/runtime-8.4-report.md) records the
 successful title/quit observations and all 248 remaining ERROR events, including
 their exact author-resource origins and the offline/closed-Steam limitations.
 
-`config/log4j2.xml` and the pack-owned `launcher/jvm-args.txt` now supply the
-existing logging policy. The native Log4j/loader parser was checked separately;
-the launcher no longer needs to recreate this configuration on launch.
+The active pack-owned `config/log4j2.xml` retains only four native Connection
+DEBUG exception diagnostics in the existing rolling `latest.log`: `Failed to
+sent packet` (Minecraft's spelling), `Double fault`, `Skipping packet due to
+errors` and `Timeout`. Packet traces and unrelated Connection DEBUG are filtered
+out; INFO/WARN/ERROR and the existing archive/console limits remain unchanged.
+There is no separate `debug.log`, packet hook, game-JAR rewrite or launcher-time
+configuration rewrite. The exact current XML is 4617 bytes, SHA256
+`9e7b9918b6ede54f7393ed3d307e51a2edb032b98c12f069f5df976bcf940b89`.
+
+[Native caller and filter evidence](tools/qa/connection-throwables/README.md)
+covers the six current profiles and exact native JARs, with actual Log4j 2.19.0,
+2.22.1 and 2.26.0 filter checks. These are native bytecode/library checks, not new
+game runs or evidence that a disconnect was fixed.
+
+The existing pack-owned JVM selector is retained byte-for-byte. An existing
+instance receives the owned logging file through normal pack synchronization;
+its previous edited copy is preserved in `PackConflicts`, using the launcher's
+existing ownership mechanism. No running game or instance is edited here.
+
+For future author updates, retain `tools/network_logging_policy.py` and
+`tools/network-logging-policy.json` with the pack-owned logging/JVM/ownership
+data. After merging author files, run the source-authoring operation:
+
+```text
+python -B tools/network_logging_policy.py prepare --pack .
+python -B tools/network_logging_policy.py verify --pack .
+```
+
+The source refresh preservation list is explicit:
+
+- `config/log4j2.xml`
+- `launcher/jvm-args.txt`
+- `launcher/pack-owned.txt`
+- `tools/network_logging_policy.py` and `tools/network-logging-policy.json`
+
+Carry these tracked source overlays forward when merging a new author release,
+then run the source prepare and verify commands after the author overrides have
+been merged. This repository does not claim an automatic author-version updater.
+The existing fixed-version import/restore or manual author-source refresh stays
+separate from publication; the publisher verifies the retained policy and never
+silently recreates a missing overlay.
+
+Preparation preserves authored XML outside the bounded Connection block and
+existing JVM arguments; conflicting custom logger/filter layouts fail for review
+instead of being replaced with a default. Review any changed configuration pins.
+The generator calls the read-only policy verifier in generation, sample-check
+and full-check CLI modes, so an author import that drops or changes this policy
+cannot silently publish. Publication never runs the mutating prepare operation.
+Recheck the native caller proof on a new Minecraft/loader version; untested legacy
+NetworkManager versions are not covered.
+
+ATM10 adds only the exact `config/log4j2.xml` ownership claim. Other personal
+configuration files are not claimed by this change. The author JAR lock,
+Russian quest fallback/update rules, controls and memory policies are unchanged.
 
 ## Native client compatibility policies
 
