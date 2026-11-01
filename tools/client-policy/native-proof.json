@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "status": "PASS_STANDALONE_NATIVE_API_AND_REVIEWED_LIFECYCLE",
+  "scope": "Current exact author API and actual Rhino execution; not a new in-game/visual acceptance",
+  "gameRunWaivedByUser": true,
+  "officialKnownIssueUrl": "https://www.curseforge.com/minecraft/modpacks/all-the-mods-10/files/9366926",
+  "nativeInputs": [
+    {
+      "fileName": "ImmediatelyFast-NeoForge-1.6.15+1.21.1.jar",
+      "sha256": "7d7b1d7b9f71d5303e42b2fa45f222a5ab06e0ef5982abb6da5dd9cc449b3702"
+    },
+    {
+      "fileName": "memorysettings-1.21-6.0.jar",
+      "sha256": "83721e70a8702b4389ca5d83daa5b30f55797561ee30d788cec2987b7ce3e042"
+    },
+    {
+      "fileName": "cupboard-1.21.1-4.2.jar",
+      "sha256": "5162922647fe07c7b9f446870915b57ddd0ae9dcf56b243611130fea30f2f77a"
+    },
+    {
+      "fileName": "rhino-2101.2.8-build.91.jar",
+      "sha256": "1d53d962aa4dac54bcbb4f998c1845980cf194318f1d6b1580ea6ac15cce5ef3"
+    },
+    {
+      "fileName": "kubejs-neoforge-2101.7.2-build.377.jar",
+      "sha256": "43b656bc2d4ce867141abb828c9481f080a38585b99bcfa07e54732a4976a601"
+    }
+  ],
+  "nativeProbeSourceSha256": "d0c89ea8b1802d00f73d67cd17fdd722093ffe6695d3b64cc975de1f43aa4670",
+  "nativeProbePassed": true,
+  "checks": [
+    "Only hud_batching changed in actual ImmediatelyFast configuration and runtime configuration",
+    "Only disableWarnings changed in actual MemorySettings CommonConfiguration",
+    "All unrelated native configuration values retained",
+    "Personal memory JSON file bytes unchanged",
+    "Repeated client-script evaluation is idempotent",
+    "ImmediatelyFast.createRuntimeConfig retains hud_batching=false after native config policy",
+    "Personal ImmediatelyFast JSON bytes also unchanged"
+  ],
+  "lifecycle": {
+    "immediatelyFast": "MixinPlugin.onLoad calls earlyInit before mod construction, creating both native configs",
+    "kubejs": "KubeJS constructor creates ClientScriptManager and calls reload at bytecode offset338 before FML completion",
+    "memoryPanel": "MemorySettings MinecraftMixin checks the live disableWarnings field at onGameLoadFinished before Runnable.run and MemoryErrorScreen allocation",
+    "patchedMinecraft": "NeoForge21.1.265 Minecraft constructor calls ClientModLoader.begin; CommonModLoader.begin gathers and constructs mods before initial screens",
+    "patchedMinecraftJarSha256": "374997701b28d3c9374d5dd5fa8bdd96e4143a6786ccba660246b4451a0be23d"
+  },
+  "limits": [
+    "Native early low-heap Swing warning/constructor logs precede the client-stage policy and are not claimed removed",
+    "No game launch, screenshot or renderer-quality acceptance",
+    "No mod JAR or personal configuration file is rewritten"
+  ],
+  "nativeProbeSource": "tools/client-policy/NativePolicyProbe.java"
+}

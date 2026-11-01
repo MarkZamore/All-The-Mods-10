@@ -54,6 +54,9 @@ jobs:
             python tools/keybinds/check_preset.py
           fi
 
+      - name: Restore and verify pack-owned native client policies
+        run: python tools/client-policy/prepare.py --pack . --apply
+
       - name: Verify selected unchanged author JARs
         run: python tools/upstream/verify.py --pack .
 

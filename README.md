@@ -71,6 +71,35 @@ their exact author-resource origins and the offline/closed-Steam limitations.
 existing logging policy. The native Log4j/loader parser was checked separately;
 the launcher no longer needs to recreate this configuration on launch.
 
+## Native client compatibility policies
+
+The official [ATM10 8.4 known issues](https://www.curseforge.com/minecraft/modpacks/all-the-mods-10/files/9366926)
+recommend disabling ImmediatelyFast `hud_batching` for the Draconic Evolution HUD.
+The pack-owned `kubejs/client_scripts/lanmc_draconic_hud_compat.js` sets only that
+option in ImmediatelyFast's loaded configuration and runtime configuration.
+The original 3D Draconic HUD, shaders and visual effects stay enabled. This uses
+ordinary HUD submission; it can require more HUD draw calls than batching.
+The player's `config/immediatelyfast.json` and its other options are preserved.
+
+`lanmc_memory_warning_policy.js` sets only the loaded Memory Settings
+`disableWarnings` option before its first game-menu check. It suppresses the
+upper-memory panel when the launcher-selected heap exceeds the author's 32000 MB
+recommendation, without imposing a heap limit or rewriting `memorysettings.json`.
+The earlier native low-heap Swing warning and constructor log are outside this
+client-stage policy. The author JSON deliberately retains its original `false`.
+
+`tools/client-policy/prepare.py --pack . --apply` restores only these two missing
+owned scripts after an author import. It refuses conflicting source scripts and
+validates their native public mutable fields against the actual author JARs.
+The CI workflow runs it before packing. Later author versions with the same
+public API continue to work; an API change requires review instead of silently
+shipping a broken script. Keep this source-only tool and its templates when
+importing a later author version. See [client-policy/README.md](tools/client-policy/README.md).
+
+The exact current native APIs, real Rhino script execution, preservation of
+unrelated native options and unchanged personal JSON bytes were checked offline.
+No new in-game or visual check was run for this update, as requested.
+
 ## Russian questbook and later author updates
 
 FTB Quests selects Russian only when Minecraft uses `ru_ru`; other selected
