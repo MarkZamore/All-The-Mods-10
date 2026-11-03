@@ -30,6 +30,7 @@ from __future__ import annotations
 
 from pack_library import stage_library, verify_library
 import network_logging_policy
+import waypoint_source_policy
 
 import argparse
 import fnmatch
@@ -200,6 +201,7 @@ class Staging:
 
 
 def generate(pack: Path, out: Path, revision: str) -> None:
+    waypoint_source_policy.verify(pack)
     portable = load_portable_pack(pack)
     client_jar = portable["clientJar"].replace("\\", "/")
     client_path = pack / Path(client_jar)
@@ -386,6 +388,7 @@ def main() -> None:
 
     try:
         network_logging_policy.verify(pack)
+        waypoint_source_policy.verify(pack)
     except (ValueError, OSError) as error:
         fail("pack-owned network logging policy invalid: " + str(error))
 

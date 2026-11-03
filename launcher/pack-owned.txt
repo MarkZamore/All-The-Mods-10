@@ -35,3 +35,4 @@ config/bcc-common.toml
 # under ftbquests/ and are not part of this rule.
 config/ftbquests/quests/**
 config/log4j2.xml
+kubejs/startup_scripts/lanmc_journeymap_waypoint_policy.js

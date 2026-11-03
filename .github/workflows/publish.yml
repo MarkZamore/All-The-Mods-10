@@ -57,6 +57,9 @@ jobs:
       - name: Restore and verify pack-owned native client policies
         run: python tools/client-policy/prepare.py --pack . --apply
 
+      - name: Restore and verify owned JourneyMap world associations
+        run: python -B tools/waypoint_source_policy.py prepare --pack . --apply
+
       - name: Verify selected unchanged author JARs
         run: python tools/upstream/verify.py --pack .
 

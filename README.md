@@ -185,3 +185,10 @@ ownership/retry rules. These tools do not run in the game or launcher.
 declared library entry, including the official AdvancedAE project. Missing links
 fail generation. Explicitly unavailable
 author URLs retain their provenance and remain non-clickable in the launcher.
+
+
+## Привязка меток JourneyMap к миру
+
+Скрипт самой сборки связывает одиночные миры с устойчивыми UUID и сохраняет вытесненные метки в локальном архиве. Проверены настоящие Rhino/KubeJS и штатная Windows-ссылка папки saves; существующие миры и неоднозначные старые метки принимаются без удаления. [Точные версии и границы](tools/journeymap-waypoints-policy.json), [native API](tools/qa/journeymap-native-1211.json). Это данные сборки, а не запись конфигов лаунчером. Полный игровой прогон NeoForge этой поставки не объявляется выполненным.
+
+После авторского импорта сохраните `tools/waypoint_source_policy.py`, receipt и шаблон; затем выполните `python -B tools/waypoint_source_policy.py prepare --pack . --apply` и `verify --pack .`. Генератор проверяет слой read-only до упаковки. Новая версия JourneyMap/KubeJS/Rhino требует проверки native API и обновления точных pins; произвольный совпавший файл не перезаписывается.
