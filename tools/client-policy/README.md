@@ -30,9 +30,12 @@ conflicting source file. It never writes a player config, downloads a mod or edi
 an author JAR. Updated author JARs with the same native API remain supported;
 changed or missing APIs need review. CI runs this before manifest generation.
 
-The source tests check current native APIs, rejection of a missing member, missing
-owned-script restoration, idempotence and preservation of foreign source/config
-bytes. `native-proof.json` separately records actual Rhino evaluation against the
+The publication preparation command above checks the current native APIs and
+owned source scripts. The source tests retain the exact five required API
+classes and cover rejection of a missing member,
+missing owned-script restoration, idempotence and preservation of foreign
+source/config bytes without repeating that successful publication smoke check.
+`native-proof.json` separately records actual Rhino evaluation against the
 native current configs and reviewed loader ordering. The user waived a new game
 run for this update, so no new in-game or visual result is claimed.
 
