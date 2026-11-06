@@ -28,6 +28,31 @@ with patch('waypoint_source_policy.verify') as native_waypoint_gate:
 
 
 class ReleaseVerificationTests(unittest.TestCase):
+    def test_optional_client_jar_controls_manifest_and_staged_assets(self):
+        from generate_manifest import generate
+
+        with tempfile.TemporaryDirectory() as temporary:
+            pack = Path(temporary) / 'pack'
+            pack.mkdir()
+            dist = Path(temporary) / 'dist'
+            descriptor = pack / 'portable-pack.json'
+            jar = pack / 'fixture.jar'
+            jar.write_bytes(b'fixture')
+            for declared in (True, False):
+                with self.subTest(declared=declared):
+                    data = {'minecraftVersion': '1.21.1'}
+                    if declared:
+                        data['clientJar'] = jar.name
+                    descriptor.write_text(json.dumps(data), encoding='utf-8')
+                    with patch('waypoint_source_policy.verify'):
+                        generate(pack, dist, 'qa')
+                    manifest = json.loads((dist / 'pack-manifest.json').read_bytes())
+                    expected = {descriptor.name, jar.name} if declared else {descriptor.name}
+                    self.assertEqual(expected, {row['path'] for row in manifest['files']})
+                    self.assertEqual(expected, {p for row in manifest['assets'] for p in row['covers']})
+                    self.assertEqual(jar.name if declared else None, manifest.get('clientJar'))
+                    self.assertEqual(len(expected), len(list((dist / 'assets').iterdir())))
+
     def test_verify_all_checks_assets_beyond_the_sample_without_generating(self):
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)

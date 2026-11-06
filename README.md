@@ -16,6 +16,11 @@ resource pack. Its resource ZIP belongs under `resourcepacks/`, not
 the launcher reads; a push to `main` regenerates `pack-manifest.json` and
 refreshes the rolling `pack-latest` release the launcher syncs from.
 
+The pack does not include the original Minecraft client JAR. With no
+`clientJar` in `portable-pack.json`, LANMinecraft resolves Minecraft 1.21.1
+from Mojang. On a clean install, NeoForge 21.1.265 downloads the original
+client into the shared runtime and checks its SHA-1 against Mojang metadata.
+
 The launcher controls preset, Russian starting language and local presentation
 settings are retained. The language seed applies only when the player has no
 language setting yet. Quest definitions are replaced on update; completed

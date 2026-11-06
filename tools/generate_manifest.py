@@ -10,14 +10,14 @@ Behavior:
     * Collects the shipped file set: everything under the roots
       mods/, config/, kubejs/, scripts/, defaultconfigs/, data/, resourcepacks/,
       shaderpacks/, configureddefaults/, datapacks/, launcher/ (recursively, absent roots
-      are skipped) plus the root files portable-pack.json and the client jar
+      are skipped) plus portable-pack.json and the optional client jar
       named by portable-pack.json's "clientJar" field. launcher/ carries data
       the launcher reads (the controls preset), not the game.
     * Stages release assets into <distDir>/assets/:
         - every file under mods/ becomes its own byte-for-byte asset (kind "jar");
         - every other non-empty top-level root becomes ONE deterministic zip
           (kind "zipRoot") that is byte-stable across runs;
-        - portable-pack.json and the client jar become individual assets.
+        - portable-pack.json and any declared client jar become individual assets.
     * Writes <distDir>/pack-manifest.json after validating that every shipped
       file is covered by exactly one asset and all asset names are unique.
     * --verify-only re-hashes a sample of staged assets against the manifest;
@@ -129,8 +129,9 @@ def load_portable_pack(pack: Path) -> dict:
     if not isinstance(data, dict):
         fail("portable-pack.json must contain a JSON object")
     client_jar = data.get("clientJar")
-    if not isinstance(client_jar, str) or not client_jar:
-        fail("portable-pack.json is missing a non-empty string 'clientJar' field")
+    if client_jar is not None and (not isinstance(client_jar, str) or
+            not re.fullmatch(r"[^/\\:]+\.jar", client_jar, re.IGNORECASE)):
+        fail("clientJar must be the name of one .jar file in the pack root")
     return data
 
 
@@ -203,10 +204,12 @@ class Staging:
 def generate(pack: Path, out: Path, revision: str) -> None:
     waypoint_source_policy.verify(pack)
     portable = load_portable_pack(pack)
-    client_jar = portable["clientJar"].replace("\\", "/")
-    client_path = pack / Path(client_jar)
-    if not client_path.is_file():
-        fail(f"client jar '{client_jar}' (from portable-pack.json) not found in {pack}")
+    client_jar = portable.get("clientJar")
+    root_files = ["portable-pack.json"]
+    if client_jar:
+        if not (pack / client_jar).is_file():
+            fail(f"client jar '{client_jar}' (from portable-pack.json) not found in {pack}")
+        root_files.append(client_jar)
 
     per_root: dict[str, list[str]] = {}
     shipped: list[str] = []
@@ -215,7 +218,7 @@ def generate(pack: Path, out: Path, revision: str) -> None:
         if files:
             per_root[root] = files
             shipped.extend(files)
-    for root_file in ("portable-pack.json", client_jar):
+    for root_file in root_files:
         if root_file in shipped:
             fail(f"root file '{root_file}' unexpectedly also found under a scanned root")
         shipped.append(root_file)
@@ -255,7 +258,7 @@ def generate(pack: Path, out: Path, revision: str) -> None:
     for root in ZIP_ROOTS:
         if root in per_root:
             staging.add_zip_root(pack, root, per_root[root])
-    for rel in ("portable-pack.json", client_jar):
+    for rel in root_files:
         sha256, size_bytes = file_meta[rel]
         staging.add_single_file(pack, rel, "c", sha256, size_bytes)
 
@@ -287,7 +290,7 @@ def generate(pack: Path, out: Path, revision: str) -> None:
         # and the estimate moved by up to 3 GB when only one existed.
         "modCount": count_loaded_mods(pack, shipped),
         "loader": portable.get("loader"),
-        "clientJar": client_jar,
+        **({"clientJar": client_jar} if client_jar else {}),
         "files": [
             {"path": rel, "sizeBytes": file_meta[rel][1], "sha256": file_meta[rel][0]}
             for rel in shipped

@@ -4,6 +4,5 @@
   "loader": {
     "type": "neoforge",
     "version": "21.1.265"
-  },
-  "clientJar": "minecraft-1.21.1-client.jar"
+  }
 }
