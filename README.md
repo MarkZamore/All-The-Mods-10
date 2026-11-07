@@ -1,15 +1,15 @@
 # ATM10
 
-All the Mods 10, version 8.4, for Minecraft 1.21.1 on NeoForge 21.1.265, laid
+All the Mods 10, version 8.5, for Minecraft 1.21.1 on NeoForge 21.1.265, laid
 out as a portable pack the LANMinecraft launcher can install and update.
 
-The tree is prepared from official CurseForge client file `9366926`,
-`All-the-Mods-10-8.4.zip`, SHA256
-`e6ac21055562b08cbad4ed65438e97954d28c2216dde7a084a7a2f9e5795aac4`.
-All 499 exact project/file references were downloaded and checked; the bundled
+The tree is prepared from official CurseForge client file `9431424`,
+`All-the-Mods-10-8.5.zip`, SHA256
+`ea56a46b478b634ac538dfdd4c7175b5e58f6f3e0df67d25373ff601c79b49ac`.
+All 498 exact project/file references were downloaded and checked; the bundled
 CC: Tweaked JAR is taken unchanged from the archive's overrides. After retaining
 the five existing service-mod exclusions below, this distribution contains
-490 unchanged author JARs, four shader packs and the Neo Vitae Bloodborn
+489 unchanged author JARs, four shader packs and the Neo Vitae Bloodborn
 resource pack. Its resource ZIP belongs under `resourcepacks/`, not
 `shaderpacks/`. The author's `datapacks/sawmill.zip` is included too.
 `portable-pack.json` is what
@@ -197,3 +197,24 @@ author URLs retain their provenance and remain non-clickable in the launcher.
 Скрипт самой сборки связывает одиночные миры с устойчивыми UUID и сохраняет вытесненные метки в локальном архиве. Проверены настоящие Rhino/KubeJS и штатная Windows-ссылка папки saves; существующие миры и неоднозначные старые метки принимаются без удаления. [Точные версии и границы](tools/journeymap-waypoints-policy.json), [native API](tools/qa/journeymap-native-1211.json). Это данные сборки, а не запись конфигов лаунчером. Полный игровой прогон NeoForge этой поставки не объявляется выполненным.
 
 После авторского импорта сохраните `tools/waypoint_source_policy.py`, receipt и шаблон; затем выполните `python -B tools/waypoint_source_policy.py prepare --pack . --apply` и `verify --pack .`. Генератор проверяет слой read-only до упаковки. Новая версия JourneyMap/KubeJS/Rhino требует проверки native API и обновления точных pins; произвольный совпавший файл не перезаписывается.
+
+
+## Update from 8.4 to 8.5
+
+The original 8.5 author archive removes Ars Polymorphia and updates 41 selected
+artifacts in this distribution. Exact old/new sources, sizes and SHA256 are
+in `tools/upstream/8.4-to-8.5-impact.json`. Both author CC:Tweaked JARs and
+the original AdvancedAE remain. The five service-mod exclusions are retained.
+No custom Safety or content rewrite is added.
+
+Existing launcher defaults, the explicit controls preset, logging/JVM policy,
+ImmediatelyFast HUD policy and Memory Settings policy are retained.
+The four KubeJS classes used by the JourneyMap bridge are byte-identical in
+build.381; the exact proof and source pins were refreshed.
+
+Fresh author Russian was imported before regeneration. 9218 of the current
+9221 English keys are covered. Three changed descriptions retain English and
+are listed in `tools/quest-translations/last-report.json:refreshQueue`.
+Unchanged reviewed manual fallbacks remain. The translation overlay does not
+restore the author's removed quest or change its new tasks and rewards.
+The detailed 8.4 native runtime report above is historical evidence.

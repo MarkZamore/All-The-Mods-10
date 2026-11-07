@@ -23,9 +23,9 @@
     },
     {
       "modId": "kubejs",
-      "path": "mods/kubejs-neoforge-2101.7.2-build.377.jar",
-      "sizeBytes": 2294111,
-      "sha256": "43b656bc2d4ce867141abb828c9481f080a38585b99bcfa07e54732a4976a601"
+      "path": "mods/kubejs-neoforge-2101.7.2-build.381.jar",
+      "sizeBytes": 2295092,
+      "sha256": "e4539156a6e93badf140d050306d2b4d7975037541b3c51f746cf78bf6fe14a2"
     },
     {
       "modId": "rhino",
@@ -55,5 +55,5 @@
     "No real Minecraft startup, NeoForge event-bus delivery, rendering or world visibility acceptance is claimed by the artifact-only native tests.",
     "This is rollback/process-interruption recovery, not a hardware/power-loss fsync guarantee."
   ],
-  "nativePublicApiProofSha256": "af9ac85ac2ff2c797c92339b8a5e653bad6878c3855bde29965dcb4047952fcb"
+  "nativePublicApiProofSha256": "73d64ffcbad2e3dcb7b8a857181b23b2ce3777282251cb8661faac2c78a68354"
 }

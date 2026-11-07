@@ -1,0 +1,1172 @@
+{
+  "previousAuthor": "8.4",
+  "authorVersion": "8.5",
+  "changedArtifacts": [
+    {
+      "previous": {
+        "path": "mods/Aquaculture-1.21.1-2.7.21.jar",
+        "projectId": 60028,
+        "fileId": 7901588,
+        "fileName": "Aquaculture-1.21.1-2.7.21.jar",
+        "sizeBytes": 605949,
+        "sha256": "45f00f9059838b2fecc988861111d8b3d4613a5f1b3688a8dbfa8655751b85bb",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/60028/files/7901588",
+        "metadataSha256": "8c33c99879d1f73d2821b161d6a798726262031b2cef95e7d5a1eb212eef93c5",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/7901/588/Aquaculture-1.21.1-2.7.21.jar",
+        "author": "girafi",
+        "kind": "mod"
+      },
+      "current": {
+        "path": "mods/Aquaculture-1.21.1-2.7.22.jar",
+        "projectId": 60028,
+        "fileId": 9426623,
+        "fileName": "Aquaculture-1.21.1-2.7.22.jar",
+        "sizeBytes": 608905,
+        "sha256": "d77cc93b1285e16c2e8dae27565e96c86fbcaec811904b9cdc23a9fc379585ad",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/60028/files/9426623",
+        "metadataSha256": "8c76be0d41c9d877efffa85ab077de1f87afc95eecf71b5f9320e0841f7e82e5",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9426/623/Aquaculture-1.21.1-2.7.22.jar",
+        "author": "girafi",
+        "kind": "mod"
+      }
+    },
+    {
+      "previous": {
+        "path": "mods/ExtendedAE-1.21-2.2.42-neoforge.jar",
+        "projectId": 892005,
+        "fileId": 9305327,
+        "fileName": "ExtendedAE-1.21-2.2.42-neoforge.jar",
+        "sizeBytes": 5913692,
+        "sha256": "a15225108aecadeace640af3447b7ce13d1097dc1547dd52da64cd525101903d",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/892005/files/9305327",
+        "metadataSha256": "c811803d5286da5b7f6ea9ccd3920d380dec8371af3734c9608a15d64adbf956",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9305/327/ExtendedAE-1.21-2.2.42-neoforge.jar",
+        "author": "jojo2k333",
+        "kind": "mod"
+      },
+      "current": {
+        "path": "mods/ExtendedAE-1.21-2.2.43-neoforge.jar",
+        "projectId": 892005,
+        "fileId": 9391213,
+        "fileName": "ExtendedAE-1.21-2.2.43-neoforge.jar",
+        "sizeBytes": 5913764,
+        "sha256": "d723ad922d51868eaa393aa6c5439ce21ead37562dc48f29a08ef5828e841838",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/892005/files/9391213",
+        "metadataSha256": "47b7903dacf806caa4fe779c470220c9f00b0567cb0cb03af7f7a423f3b885b8",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9391/213/ExtendedAE-1.21-2.2.43-neoforge.jar",
+        "author": "jojo2k333",
+        "kind": "mod"
+      }
+    },
+    {
+      "previous": {
+        "path": "mods/IrisSearch-1.8.3-neoforge.jar",
+        "projectId": 1583035,
+        "fileId": 9122537,
+        "fileName": "IrisSearch-1.8.3-neoforge.jar",
+        "sizeBytes": 220073,
+        "sha256": "2b1899a20809a3346a877c3b940881fd204045cf1e946ecb196fe88663efcc98",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/1583035/files/9122537",
+        "metadataSha256": "65ce5028c99e1962adabfad269c2c82caac3e68d2bf63b0effc7086649fd42b9",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9122/537/IrisSearch-1.8.3-neoforge.jar",
+        "author": "spaceagle17",
+        "kind": "mod"
+      },
+      "current": {
+        "path": "mods/IrisSearch-1.8.4-neoforge.jar",
+        "projectId": 1583035,
+        "fileId": 9390096,
+        "fileName": "IrisSearch-1.8.4-neoforge.jar",
+        "sizeBytes": 230710,
+        "sha256": "c303c17030038fb42504d3db4ec855a3337cf644a073fb27b87c1a9a02f8bc64",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/1583035/files/9390096",
+        "metadataSha256": "fc5e9769e036f81aa4c24f1a3378acb302d33e2f8b21385fee3a86dbf035996d",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9390/96/IrisSearch-1.8.4-neoforge.jar",
+        "author": "spaceagle17",
+        "kind": "mod"
+      }
+    },
+    {
+      "previous": {
+        "path": "mods/Modern-Industrialization-2.5.11.jar",
+        "projectId": 405388,
+        "fileId": 9273385,
+        "fileName": "Modern-Industrialization-2.5.11.jar",
+        "sizeBytes": 7308900,
+        "sha256": "492c6cd8cc3f69fff067f535bc53d0b59f0e9316b325305486e9ec61af813027",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/405388/files/9273385",
+        "metadataSha256": "0d40ae86f21221be95036de2403333e2d02072e9de89e7a88f2dc1aeb0978011",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9273/385/Modern-Industrialization-2.5.11.jar",
+        "author": "thetechnici4n",
+        "kind": "mod"
+      },
+      "current": {
+        "path": "mods/Modern-Industrialization-2.5.12.jar",
+        "projectId": 405388,
+        "fileId": 9401938,
+        "fileName": "Modern-Industrialization-2.5.12.jar",
+        "sizeBytes": 7311721,
+        "sha256": "56f59a5a4481c98d44fa1c582e577b7324e43788227cab5ba66b5b17eeab5262",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/405388/files/9401938",
+        "metadataSha256": "5cdca1c847409ff35f72d4750bedc637f102b9b9e51569da6a406a0e4dab5369",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9401/938/Modern-Industrialization-2.5.12.jar",
+        "author": "thetechnici4n",
+        "kind": "mod"
+      }
+    },
+    {
+      "previous": {
+        "path": "mods/amendments-1.21-2.2.4-neoforge.jar",
+        "projectId": 896746,
+        "fileId": 9357939,
+        "fileName": "amendments-1.21-2.2.4-neoforge.jar",
+        "sizeBytes": 1198235,
+        "sha256": "4295efd4537ebbb532915fa998a0920473e50954aa6872c5f3586e4f4fe2f771",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/896746/files/9357939",
+        "metadataSha256": "c06a20dfc862586f74543210de900cf581c836ee18cc1ff1230789e677669481",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9357/939/amendments-1.21-2.2.4-neoforge.jar",
+        "author": "mehvahdjukaar",
+        "kind": "mod"
+      },
+      "current": {
+        "path": "mods/amendments-1.21-2.2.7-neoforge.jar",
+        "projectId": 896746,
+        "fileId": 9388448,
+        "fileName": "amendments-1.21-2.2.7-neoforge.jar",
+        "sizeBytes": 1212703,
+        "sha256": "352d8d9752d9a3ca66a976535d28d622d21b8a1ec58d1876a3f34dbda6eb3253",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/896746/files/9388448",
+        "metadataSha256": "dc78c28a2356e716a3ccbbfcc67225b85e1a346b5b90baeed996a7fe2c4f54b1",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9388/448/amendments-1.21-2.2.7-neoforge.jar",
+        "author": "mehvahdjukaar",
+        "kind": "mod"
+      }
+    },
+    {
+      "previous": {
+        "path": "mods/ars_nouveau-1.21.1-5.13.3.jar",
+        "projectId": 401955,
+        "fileId": 9052154,
+        "fileName": "ars_nouveau-1.21.1-5.13.3.jar",
+        "sizeBytes": 19841105,
+        "sha256": "45c1b6022d8e63464177c1f822bda22c3d6fb66970857fd7677e4e3ccffd259f",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/401955/files/9052154",
+        "metadataSha256": "e2fe84ac39fe550101ad72137b544fb2fae136e24bc249705bb48085562c2690",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9052/154/ars_nouveau-1.21.1-5.13.3.jar",
+        "author": "baileyholl2",
+        "kind": "mod"
+      },
+      "current": {
+        "path": "mods/ars_nouveau-1.21.1-5.13.4.jar",
+        "projectId": 401955,
+        "fileId": 9423156,
+        "fileName": "ars_nouveau-1.21.1-5.13.4.jar",
+        "sizeBytes": 19872506,
+        "sha256": "6bd42eae022c6b78fb907e24bede2601af32861e238dcce2573ede23c9aec86c",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/401955/files/9423156",
+        "metadataSha256": "2534c62e1bf7b21c2d2ebd6362b519d71c3cbd89b56984a002310e4bc8c8f10e",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9423/156/ars_nouveau-1.21.1-5.13.4.jar",
+        "author": "baileyholl2",
+        "kind": "mod"
+      }
+    },
+    {
+      "previous": {
+        "path": "mods/balm-neoforge-1.21.1-21.0.66.jar",
+        "projectId": 531761,
+        "fileId": 8969738,
+        "fileName": "balm-neoforge-1.21.1-21.0.66.jar",
+        "sizeBytes": 783793,
+        "sha256": "6be660e1f6d169553bf44f66d4f78bb9e96a1d66ce108d9608819e3ce6bfba34",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/531761/files/8969738",
+        "metadataSha256": "9ef0e32204d11bfee941708ff6639b36600d3e481d389fff84b8476e54b30db4",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/8969/738/balm-neoforge-1.21.1-21.0.66.jar",
+        "author": "blaytheninth",
+        "kind": "mod"
+      },
+      "current": {
+        "path": "mods/balm-neoforge-1.21.1-21.0.67.jar",
+        "projectId": 531761,
+        "fileId": 9406246,
+        "fileName": "balm-neoforge-1.21.1-21.0.67.jar",
+        "sizeBytes": 786010,
+        "sha256": "eaae887582a67a02f55a970ec2d7353f1886a99924ed6144aa4d898266606c34",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/531761/files/9406246",
+        "metadataSha256": "27e5fcbd0e36322072b8abc423004761f7088155e051b5d2ae1d06ccc6d9a876",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9406/246/balm-neoforge-1.21.1-21.0.67.jar",
+        "author": "blaytheninth",
+        "kind": "mod"
+      }
+    },
+    {
+      "previous": {
+        "path": "mods/colorwheel-neoforge-1.3.0+mc1.21.1.jar",
+        "projectId": 1254143,
+        "fileId": 8990905,
+        "fileName": "colorwheel-neoforge-1.3.0+mc1.21.1.jar",
+        "sizeBytes": 514376,
+        "sha256": "3c7c1f91b1add47053f40a58375de492b87ce83309be378527f100cb842c07c0",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/1254143/files/8990905",
+        "metadataSha256": "d8c671da4aa1b707b3aeb04c4c0fa079cc990675995e80e5836a5220eaf5fe35",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/8990/905/colorwheel-neoforge-1.3.0%2Bmc1.21.1.jar",
+        "author": "djefrey",
+        "kind": "mod"
+      },
+      "current": {
+        "path": "mods/colorwheel-neoforge-1.3.2-mc1.21.1.jar",
+        "projectId": 1254143,
+        "fileId": 9427087,
+        "fileName": "colorwheel-neoforge-1.3.2-mc1.21.1.jar",
+        "sizeBytes": 515142,
+        "sha256": "6f881290ff7f71e36bba189d87c31fb104c668f01aac19ac0d003fac3cc1cd5f",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/1254143/files/9427087",
+        "metadataSha256": "a00828574028e9ae154fc0751071375aaf69fbe974dae7d13696997f18eb5f00",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9427/87/colorwheel-neoforge-1.3.2-mc1.21.1.jar",
+        "author": "djefrey",
+        "kind": "mod"
+      }
+    },
+    {
+      "previous": {
+        "path": "mods/cyclopscore-1.21.1-neoforge-1.30.0-1205.jar",
+        "projectId": 232758,
+        "fileId": 9239356,
+        "fileName": "cyclopscore-1.21.1-neoforge-1.30.0-1205.jar",
+        "sizeBytes": 1163240,
+        "sha256": "616def3ad0b5f024b3417eb8083603fedc285af8cfc8f204f657896eb2f8a425",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/232758/files/9239356",
+        "metadataSha256": "8ab4daa27cdf0c002111ab9ece41537ce6f3d940620e1d065b65c9d9803be22f",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9239/356/cyclopscore-1.21.1-neoforge-1.30.0-1205.jar",
+        "author": "kroeser",
+        "kind": "mod"
+      },
+      "current": {
+        "path": "mods/cyclopscore-1.21.1-neoforge-1.30.1.jar",
+        "projectId": 232758,
+        "fileId": 9383688,
+        "fileName": "cyclopscore-1.21.1-neoforge-1.30.1.jar",
+        "sizeBytes": 1163235,
+        "sha256": "6b9f26de108bf540ea85f6e07deecd20481df8acd9c44fe8f89f03924a61925d",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/232758/files/9383688",
+        "metadataSha256": "c0a756d3fa2d8510e0a6953f1577f29f5b16036822366c5d65db1c28f2d63b83",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9383/688/cyclopscore-1.21.1-neoforge-1.30.1.jar",
+        "author": "kroeser",
+        "kind": "mod"
+      }
+    },
+    {
+      "previous": {
+        "path": "mods/deimos-1.21.1-neoforge-2.7.jar",
+        "projectId": 1158094,
+        "fileId": 8237493,
+        "fileName": "deimos-1.21.1-neoforge-2.7.jar",
+        "sizeBytes": 49576,
+        "sha256": "ee35d4e8967ccb23dee3c1a05b55c8d4ac0e0045bf8d324e215b397869af0573",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/1158094/files/8237493",
+        "metadataSha256": "1326d20cd1a31622fc7d62d71949aefa758be5d3dc15bfce15d7da84aa2bcf07",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/8237/493/deimos-1.21.1-neoforge-2.7.jar",
+        "author": "1_block_microwave",
+        "kind": "mod"
+      },
+      "current": {
+        "path": "mods/deimos-1.21.1-neoforge-2.8.jar",
+        "projectId": 1158094,
+        "fileId": 9377168,
+        "fileName": "deimos-1.21.1-neoforge-2.8.jar",
+        "sizeBytes": 49587,
+        "sha256": "55880c73e1b899993e83486e0a3a66c61ccf50ac12970b51b563ca732bde44e4",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/1158094/files/9377168",
+        "metadataSha256": "3617d231fdb6bb38006c54f8200518a82afef2caed2e1d2332a4f4babb59cbe2",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9377/168/deimos-1.21.1-neoforge-2.8.jar",
+        "author": "1_block_microwave",
+        "kind": "mod"
+      }
+    },
+    {
+      "previous": {
+        "path": "mods/domum-ornamentum-1.0.236-snapshot-main.jar",
+        "projectId": 527361,
+        "fileId": 8784713,
+        "fileName": "domum-ornamentum-1.0.236-snapshot-main.jar",
+        "sizeBytes": 1151579,
+        "sha256": "fcf875b183f9096b868b527837dfb677e397a11510cec79bdb01c7268b918f27",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/527361/files/8784713",
+        "metadataSha256": "57ade49577882a87987ffef3a0d72888d20b7ec73613d8aa30975a373f6c9ca1",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/8784/713/domum-ornamentum-1.0.236-snapshot-main.jar",
+        "author": "ldtteammaintainers",
+        "kind": "mod"
+      },
+      "current": {
+        "path": "mods/domum-ornamentum-1.0.237-snapshot-main.jar",
+        "projectId": 527361,
+        "fileId": 9394376,
+        "fileName": "domum-ornamentum-1.0.237-snapshot-main.jar",
+        "sizeBytes": 1151617,
+        "sha256": "1c420344edbf2c78837dfa3137a29bb65cffe24c01b5c57df9546c33ae24bb77",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/527361/files/9394376",
+        "metadataSha256": "6e59c5b66aee2646646c8f3d44cd2f133f31e085dd2c4e9fda4b2078c25601e2",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9394/376/domum-ornamentum-1.0.237-snapshot-main.jar",
+        "author": "ldtteammaintainers",
+        "kind": "mod"
+      }
+    },
+    {
+      "previous": {
+        "path": "mods/energymeter-neoforge-1.21.1-0.5.3.jar",
+        "projectId": 532169,
+        "fileId": 9207028,
+        "fileName": "energymeter-neoforge-1.21.1-0.5.3.jar",
+        "sizeBytes": 398419,
+        "sha256": "ecf28d2c666725a63e9b8bfe6879758ff135e4e553237de01ebdd1b679532379",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/532169/files/9207028",
+        "metadataSha256": "271d5a49b36de2edd57369efe50ab0cd27eb44f480b74ae817cf2d9b455a3268",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9207/28/energymeter-neoforge-1.21.1-0.5.3.jar",
+        "author": "teamalmostreliable",
+        "kind": "mod"
+      },
+      "current": {
+        "path": "mods/energymeter-neoforge-1.21.1-0.6.0.jar",
+        "projectId": 532169,
+        "fileId": 9396087,
+        "fileName": "energymeter-neoforge-1.21.1-0.6.0.jar",
+        "sizeBytes": 398803,
+        "sha256": "9ffa9863d80fb15855d92f399c1bcf36d833b8cf325398f687920cef0e87b8df",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/532169/files/9396087",
+        "metadataSha256": "5bddb5429871ed4b05e2a21342b81062707baf05284fcebf0450b8dc36c17f66",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9396/87/energymeter-neoforge-1.21.1-0.6.0.jar",
+        "author": "teamalmostreliable",
+        "kind": "mod"
+      }
+    },
+    {
+      "previous": {
+        "path": "mods/evilcraft-1.21.1-neoforge-1.2.99-1182.jar",
+        "projectId": 74610,
+        "fileId": 9310443,
+        "fileName": "evilcraft-1.21.1-neoforge-1.2.99-1182.jar",
+        "sizeBytes": 2853069,
+        "sha256": "02b8e758c16d7d1ec8f175500fca308b0019bf287b99690fd21c272a9f22824b",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/74610/files/9310443",
+        "metadataSha256": "df3afe8ed4e4ae8431ddec3e42251a2fa69357d400fe3f8989a408d3fec5ed06",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9310/443/evilcraft-1.21.1-neoforge-1.2.99-1182.jar",
+        "author": "kroeser",
+        "kind": "mod"
+      },
+      "current": {
+        "path": "mods/evilcraft-1.21.1-neoforge-1.2.100.jar",
+        "projectId": 74610,
+        "fileId": 9383609,
+        "fileName": "evilcraft-1.21.1-neoforge-1.2.100.jar",
+        "sizeBytes": 2854369,
+        "sha256": "d25309bc36f6d5598366b523ac7b51ab9a76676effe480a5d22749712ad68185",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/74610/files/9383609",
+        "metadataSha256": "8ff0ee3045d240b841510ade80ba4bfc4d094049c316221194efbcfff0ebd2ac",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9383/609/evilcraft-1.21.1-neoforge-1.2.100.jar",
+        "author": "kroeser",
+        "kind": "mod"
+      }
+    },
+    {
+      "previous": {
+        "path": "mods/extended-industrialization-1.16.4-1.21.1.jar",
+        "projectId": 1068418,
+        "fileId": 9094252,
+        "fileName": "extended-industrialization-1.16.4-1.21.1.jar",
+        "sizeBytes": 2246194,
+        "sha256": "a440f8416b6ed0f3a56009f175a7cb07d7585d985126dd6d23d58fc370061d80",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/1068418/files/9094252",
+        "metadataSha256": "90eaaea2337366d5b89440fcb66b2c84dd42a903411c8f7fa228879c37ac0a22",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9094/252/extended-industrialization-1.16.4-1.21.1.jar",
+        "author": "swedzish",
+        "kind": "mod"
+      },
+      "current": {
+        "path": "mods/extended-industrialization-1.16.5-1.21.1.jar",
+        "projectId": 1068418,
+        "fileId": 9403073,
+        "fileName": "extended-industrialization-1.16.5-1.21.1.jar",
+        "sizeBytes": 2254555,
+        "sha256": "cd64b296cdd847248268b0de84c3f32b6e3e17c95b685c84ad16035bdfdc518e",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/1068418/files/9403073",
+        "metadataSha256": "5e08f31be58c12327ec5bfb185351e64cb994ab2a1062fb4fcc0ec4ebf3d300c",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9403/73/extended-industrialization-1.16.5-1.21.1.jar",
+        "author": "swedzish",
+        "kind": "mod"
+      }
+    },
+    {
+      "previous": {
+        "path": "mods/ftb-chunks-neoforge-2101.1.22.jar",
+        "projectId": 314906,
+        "fileId": 8791113,
+        "fileName": "ftb-chunks-neoforge-2101.1.22.jar",
+        "sizeBytes": 655807,
+        "sha256": "4ba1b3352184fa7f6e2aa4bca76edd074867697d62344dfa50dcccdb4dab5217",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/314906/files/8791113",
+        "metadataSha256": "5e4d1385a84f5f71a0a3103ad94f3bd91c7829eb1d8bf3aa1775eb78cf3aef30",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/8791/113/ftb-chunks-neoforge-2101.1.22.jar",
+        "author": "ftbcfuser",
+        "kind": "mod"
+      },
+      "current": {
+        "path": "mods/ftb-chunks-neoforge-2101.1.23.jar",
+        "projectId": 314906,
+        "fileId": 9374151,
+        "fileName": "ftb-chunks-neoforge-2101.1.23.jar",
+        "sizeBytes": 671413,
+        "sha256": "6750da28d725bfb4c7da43157bb9b82492226ce5acab595ef782d48f41ff5647",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/314906/files/9374151",
+        "metadataSha256": "d4cae35b83ecc1fb88bf8a650fdaa3094283a767594c3171e5a33f9a445ab5e9",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9374/151/ftb-chunks-neoforge-2101.1.23.jar",
+        "author": "ftbcfuser",
+        "kind": "mod"
+      }
+    },
+    {
+      "previous": {
+        "path": "mods/ftb-quests-neoforge-2101.1.37.jar",
+        "projectId": 289412,
+        "fileId": 9298629,
+        "fileName": "ftb-quests-neoforge-2101.1.37.jar",
+        "sizeBytes": 1635351,
+        "sha256": "6b42457d680108d0af5b8deb21e3fe7b92138209f0683c62441dc360d4fc01d5",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/289412/files/9298629",
+        "metadataSha256": "03f7ac67b18a940550494b9557b40b894303a566377479699bb7652d5b429d41",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9298/629/ftb-quests-neoforge-2101.1.37.jar",
+        "author": "ftbcfuser",
+        "kind": "mod"
+      },
+      "current": {
+        "path": "mods/ftb-quests-neoforge-2101.1.38.jar",
+        "projectId": 289412,
+        "fileId": 9405148,
+        "fileName": "ftb-quests-neoforge-2101.1.38.jar",
+        "sizeBytes": 1635517,
+        "sha256": "3752657a82c69b0a80c034700df86f1a3d7c5f3e3aad814b5af748b9082a834b",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/289412/files/9405148",
+        "metadataSha256": "70630a409967b2be5dfce5db4a9fd0fad33e012b16c0faeb3206b8c2cc6b7bd6",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9405/148/ftb-quests-neoforge-2101.1.38.jar",
+        "author": "ftbcfuser",
+        "kind": "mod"
+      }
+    },
+    {
+      "previous": {
+        "path": "mods/guideme-21.1.21.jar",
+        "projectId": 1173950,
+        "fileId": 9347668,
+        "fileName": "guideme-21.1.21.jar",
+        "sizeBytes": 9329830,
+        "sha256": "b667183deb1049ec951b8c98e589144eb0de89226806f7f5bcd15ad0d9604197",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/1173950/files/9347668",
+        "metadataSha256": "91c1965291fd0fef2bae55e108b56dd901f2659c478c76e185949002d2102fb2",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9347/668/guideme-21.1.21.jar",
+        "author": "gimpanse",
+        "kind": "mod"
+      },
+      "current": {
+        "path": "mods/guideme-21.1.22.jar",
+        "projectId": 1173950,
+        "fileId": 9366366,
+        "fileName": "guideme-21.1.22.jar",
+        "sizeBytes": 9332340,
+        "sha256": "108337ff98c706b18ed2fbec077b3337ba72c08f8b46a273534886280e89ef0d",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/1173950/files/9366366",
+        "metadataSha256": "85a07bfd6220e7d23565e1c5bcdf9fd491a9f7d5c9532dfa825bf1d286f0ab3f",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9366/366/guideme-21.1.22.jar",
+        "author": "gimpanse",
+        "kind": "mod"
+      }
+    },
+    {
+      "previous": {
+        "path": "mods/integratedcrafting-1.21.1-neoforge-1.8.0.jar",
+        "projectId": 287357,
+        "fileId": 9219633,
+        "fileName": "integratedcrafting-1.21.1-neoforge-1.8.0.jar",
+        "sizeBytes": 513876,
+        "sha256": "24aeb962b63f144575ea3220d123e6794405c30e237a7d8a1edc5aa175eee472",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/287357/files/9219633",
+        "metadataSha256": "45b2165fc9c7412e7fbfda66e27834d99bb2507e2cd3d17cd5e9852da6192c6a",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9219/633/integratedcrafting-1.21.1-neoforge-1.8.0.jar",
+        "author": "kroeser",
+        "kind": "mod"
+      },
+      "current": {
+        "path": "mods/integratedcrafting-1.21.1-neoforge-1.8.1.jar",
+        "projectId": 287357,
+        "fileId": 9383656,
+        "fileName": "integratedcrafting-1.21.1-neoforge-1.8.1.jar",
+        "sizeBytes": 521588,
+        "sha256": "b8a526dd03029d110d4b3b2f4b52cc516f66666ad8fa2ab73bf7c130c7fb5bb0",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/287357/files/9383656",
+        "metadataSha256": "d24178a1e837285e8046bac2265e3024abe681b0d134c22e974dbb89e4ef4ac1",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9383/656/integratedcrafting-1.21.1-neoforge-1.8.1.jar",
+        "author": "kroeser",
+        "kind": "mod"
+      }
+    },
+    {
+      "previous": {
+        "path": "mods/integrateddynamics-1.21.1-neoforge-1.38.1-2352.jar",
+        "projectId": 236307,
+        "fileId": 9289794,
+        "fileName": "integrateddynamics-1.21.1-neoforge-1.38.1-2352.jar",
+        "sizeBytes": 4500978,
+        "sha256": "93ac3d53157ad8f20af1ec78e39a2ddaaf1421677760864107ba6e37c128c7a3",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/236307/files/9289794",
+        "metadataSha256": "f1c58c9e71b0d1c0244b916a3f75724f3988b617f3863becaefff05c72a18771",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9289/794/integrateddynamics-1.21.1-neoforge-1.38.1-2352.jar",
+        "author": "kroeser",
+        "kind": "mod"
+      },
+      "current": {
+        "path": "mods/integrateddynamics-1.21.1-neoforge-1.38.2.jar",
+        "projectId": 236307,
+        "fileId": 9385193,
+        "fileName": "integrateddynamics-1.21.1-neoforge-1.38.2.jar",
+        "sizeBytes": 4501170,
+        "sha256": "7dee30453f1e8972962108175cf46c09c7531ab273279888bf2162198d241198",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/236307/files/9385193",
+        "metadataSha256": "933292370a65490380a3457c895f1984532884b4737729c3bb8014c104eeb6da",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9385/193/integrateddynamics-1.21.1-neoforge-1.38.2.jar",
+        "author": "kroeser",
+        "kind": "mod"
+      }
+    },
+    {
+      "previous": {
+        "path": "mods/integratedscripting-1.21.1-neoforge-1.0.27-708.jar",
+        "projectId": 889785,
+        "fileId": 9299188,
+        "fileName": "integratedscripting-1.21.1-neoforge-1.0.27-708.jar",
+        "sizeBytes": 29503588,
+        "sha256": "0fcfbcc029b13c8ad088253253acdd3b3341bd282456100808215105a00f3f59",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/889785/files/9299188",
+        "metadataSha256": "4b5128581cbe2196889ca6a9ce53302408e2977e7f5a8d89200d099a250240e0",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9299/188/integratedscripting-1.21.1-neoforge-1.0.27-708.jar",
+        "author": "kroeser",
+        "kind": "mod"
+      },
+      "current": {
+        "path": "mods/integratedscripting-1.21.1-neoforge-1.1.0.jar",
+        "projectId": 889785,
+        "fileId": 9393701,
+        "fileName": "integratedscripting-1.21.1-neoforge-1.1.0.jar",
+        "sizeBytes": 29503585,
+        "sha256": "09950de1946690536372cbf4768ed7e6cdc328d444dfaa49193d3d8c710b121d",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/889785/files/9393701",
+        "metadataSha256": "60a5b4f3c53410da58766b91336ea63c21b4f8e65fa2ac4a919e1f33f4839173",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9393/701/integratedscripting-1.21.1-neoforge-1.1.0.jar",
+        "author": "kroeser",
+        "kind": "mod"
+      }
+    },
+    {
+      "previous": {
+        "path": "mods/jei-1.21.1-neoforge-19.70.0.464.jar",
+        "projectId": 238222,
+        "fileId": 9353559,
+        "fileName": "jei-1.21.1-neoforge-19.70.0.464.jar",
+        "sizeBytes": 4736819,
+        "sha256": "df3883c1f53780eacfb670c1c4252a4b9e3da3fea8469571aac5efc815459949",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/238222/files/9353559",
+        "metadataSha256": "8b63148e0d7d9a68ebe16d90f46274b1580c6945f2cb75a2b4f19b2c6821a543",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9353/559/jei-1.21.1-neoforge-19.70.0.464.jar",
+        "author": "mezz",
+        "kind": "mod"
+      },
+      "current": {
+        "path": "mods/jei-1.21.1-neoforge-19.70.0.469.jar",
+        "projectId": 238222,
+        "fileId": 9393327,
+        "fileName": "jei-1.21.1-neoforge-19.70.0.469.jar",
+        "sizeBytes": 4784333,
+        "sha256": "9ab82d9bdbc8d9a08b80bc2023e1d886f6335b92f937d3afac878c9ea995dc33",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/238222/files/9393327",
+        "metadataSha256": "bab361d800ef1df780184a6d6f83bfff3ec3d1e0e6a22948684b80194616344b",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9393/327/jei-1.21.1-neoforge-19.70.0.469.jar",
+        "author": "mezz",
+        "kind": "mod"
+      }
+    },
+    {
+      "previous": {
+        "path": "mods/keybindbundles-1.4.0.jar",
+        "projectId": 1172594,
+        "fileId": 7508312,
+        "fileName": "keybindbundles-1.4.0.jar",
+        "sizeBytes": 89565,
+        "sha256": "2098f7aa403d560d0da11cff33e122ca91c34122686a0fd61a675a51ffcdbbd1",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/1172594/files/7508312",
+        "metadataSha256": "39ea671616ced8f0ff6b010da5e02a1e6b9bd07886bf17e597adf35dc964bf08",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/7508/312/keybindbundles-1.4.0.jar",
+        "author": "matyrobbrt",
+        "kind": "mod"
+      },
+      "current": {
+        "path": "mods/keybindbundles-1.5.0.jar",
+        "projectId": 1172594,
+        "fileId": 9425844,
+        "fileName": "keybindbundles-1.5.0.jar",
+        "sizeBytes": 96494,
+        "sha256": "26a2e9f7208174d091c46f018d32cfc4b118c30adfa29b200c35ec64afb9db2b",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/1172594/files/9425844",
+        "metadataSha256": "cf132e528ceed6cec0d5405d8d2b09ff4138db47e625f66ae99f7f9f8c599e16",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9425/844/keybindbundles-1.5.0.jar",
+        "author": "matyrobbrt",
+        "kind": "mod"
+      }
+    },
+    {
+      "previous": {
+        "path": "mods/kubejs-neoforge-2101.7.2-build.377.jar",
+        "projectId": 238086,
+        "fileId": 8843626,
+        "fileName": "kubejs-neoforge-2101.7.2-build.377.jar",
+        "sizeBytes": 2294111,
+        "sha256": "43b656bc2d4ce867141abb828c9481f080a38585b99bcfa07e54732a4976a601",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/238086/files/8843626",
+        "metadataSha256": "a0970763d1df9b9ab2e3b072209c5a3ca04e26c268f5cb55158003fc6d5890db",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/8843/626/kubejs-neoforge-2101.7.2-build.377.jar",
+        "author": "latvianmodder",
+        "kind": "mod"
+      },
+      "current": {
+        "path": "mods/kubejs-neoforge-2101.7.2-build.381.jar",
+        "projectId": 238086,
+        "fileId": 9396059,
+        "fileName": "kubejs-neoforge-2101.7.2-build.381.jar",
+        "sizeBytes": 2295092,
+        "sha256": "e4539156a6e93badf140d050306d2b4d7975037541b3c51f746cf78bf6fe14a2",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/238086/files/9396059",
+        "metadataSha256": "4973bf835e77a00587235294e3602238166e6800b42c30fcdf7dba09e83b2f3a",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9396/59/kubejs-neoforge-2101.7.2-build.381.jar",
+        "author": "latvianmodder",
+        "kind": "mod"
+      }
+    },
+    {
+      "previous": {
+        "path": "mods/laserbridges-1.21.1-neoforge-6.2.jar",
+        "projectId": 776337,
+        "fileId": 9182998,
+        "fileName": "laserbridges-1.21.1-neoforge-6.2.jar",
+        "sizeBytes": 210177,
+        "sha256": "172efb98cc00ca6c1a434683eb6fd097c6f0835d8bc45f7ddf1df72b9fffbe25",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/776337/files/9182998",
+        "metadataSha256": "9985b36517ec496c801d2e3b0b3146179605eca73e49025dcaead57357d7a755",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9182/998/laserbridges-1.21.1-neoforge-6.2.jar",
+        "author": "1_block_microwave",
+        "kind": "mod"
+      },
+      "current": {
+        "path": "mods/laserbridges-1.21.1-neoforge-6.3.jar",
+        "projectId": 776337,
+        "fileId": 9384577,
+        "fileName": "laserbridges-1.21.1-neoforge-6.3.jar",
+        "sizeBytes": 227131,
+        "sha256": "8951922401ea55a0ce4a704b428cfbe857f322fa1c66504bfa89fac5bed24370",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/776337/files/9384577",
+        "metadataSha256": "5f30facbcf0dc1e0ebd2037393b6d231a45639eb7f64b8b899537743340ee068",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9384/577/laserbridges-1.21.1-neoforge-6.3.jar",
+        "author": "1_block_microwave",
+        "kind": "mod"
+      }
+    },
+    {
+      "previous": {
+        "path": "mods/mahoutsukai-1.21.1-v1.36.29.jar",
+        "projectId": 342543,
+        "fileId": 9305429,
+        "fileName": "mahoutsukai-1.21.1-v1.36.29.jar",
+        "sizeBytes": 5108386,
+        "sha256": "fd9eaf7e4fae40b20b4abd5875d2930c79abee7c4e2c694e6141059d70d9f815",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/342543/files/9305429",
+        "metadataSha256": "e9fa5a1ad1142bbe26df0482f78e4beeca0a67e03d0b8c37d9b4d1c457767531",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9305/429/mahoutsukai-1.21.1-v1.36.29.jar",
+        "author": "stepcros",
+        "kind": "mod"
+      },
+      "current": {
+        "path": "mods/mahoutsukai-1.21.1-v1.36.31.jar",
+        "projectId": 342543,
+        "fileId": 9396719,
+        "fileName": "mahoutsukai-1.21.1-v1.36.31.jar",
+        "sizeBytes": 5131117,
+        "sha256": "4022fb3cee32b28df02994cc4c5b40069651583516f6abd04775789616739aad",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/342543/files/9396719",
+        "metadataSha256": "edf7d214ff5cbc647274be598c36dd3cc3a0f1a8dad14ac1cb71b967c8d100da",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9396/719/mahoutsukai-1.21.1-v1.36.31.jar",
+        "author": "stepcros",
+        "kind": "mod"
+      }
+    },
+    {
+      "previous": {
+        "path": "mods/mekmm-1.21.1-1.4.1.jar",
+        "projectId": 1275257,
+        "fileId": 8724947,
+        "fileName": "mekmm-1.21.1-1.4.1.jar",
+        "sizeBytes": 3659440,
+        "sha256": "58d4eb5630c179f54cea6c91180eb4c1ba27f70ef2417d73d78be76061791219",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/1275257/files/8724947",
+        "metadataSha256": "b9e9c08f09f960b79a33789e528f566ce03936665fb3565730951e19444ad066",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/8724/947/mekmm-1.21.1-1.4.1.jar",
+        "author": "lost_myself8",
+        "kind": "mod"
+      },
+      "current": {
+        "path": "mods/mekmm-1.21.1-1.4.2.jar",
+        "projectId": 1275257,
+        "fileId": 9393169,
+        "fileName": "mekmm-1.21.1-1.4.2.jar",
+        "sizeBytes": 3721605,
+        "sha256": "f019b2d47d4dd6dfd72f066bb86b1572aa9089ac530221ef2b2ff136218f3c53",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/1275257/files/9393169",
+        "metadataSha256": "7c531638f79ef0d432b28bd39f7d14934c3d5ec5bbbdf278e45d5e6888cf780a",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9393/169/mekmm-1.21.1-1.4.2.jar",
+        "author": "lost_myself8",
+        "kind": "mod"
+      }
+    },
+    {
+      "previous": {
+        "path": "mods/mezz_config-1.21.1-neoforge-0.6.9-standalone.jar",
+        "projectId": 1689768,
+        "fileId": 9318719,
+        "fileName": "mezz_config-1.21.1-neoforge-0.6.9-standalone.jar",
+        "sizeBytes": 345479,
+        "sha256": "deedd2c3cc30b142d1a50d4a82190970e33a70a86f89c9e5ba7eed8286087f9f",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/1689768/files/9318719",
+        "metadataSha256": "a2f13334b9af9fc1b87f00b1f41706fe18a3de6d9a22852e5b37205ac0d99ee4",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9318/719/mezz_config-1.21.1-neoforge-0.6.9-standalone.jar",
+        "author": "mezz",
+        "kind": "mod"
+      },
+      "current": {
+        "path": "mods/mezz_config-1.21.1-neoforge-0.6.10-standalone.jar",
+        "projectId": 1689768,
+        "fileId": 9374030,
+        "fileName": "mezz_config-1.21.1-neoforge-0.6.10-standalone.jar",
+        "sizeBytes": 346260,
+        "sha256": "6f596cec9b531dd386ad6342c3deb5b27de4b4a4754ce30835f8ecc2e75f8703",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/1689768/files/9374030",
+        "metadataSha256": "fded4afaa0948f124eebdc8634ae4de401e5510833709ec27977cc5008c617de",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9374/30/mezz_config-1.21.1-neoforge-0.6.10-standalone.jar",
+        "author": "mezz",
+        "kind": "mod"
+      }
+    },
+    {
+      "previous": {
+        "path": "mods/minecolonies-1.1.1406-1.21.1-snapshot.jar",
+        "projectId": 245506,
+        "fileId": 9351402,
+        "fileName": "minecolonies-1.1.1406-1.21.1-snapshot.jar",
+        "sizeBytes": 78350952,
+        "sha256": "f57817f650ac3d7fd1c2b495fd5e77dbcfcce404605763a4294c2f467fbe7513",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/245506/files/9351402",
+        "metadataSha256": "fd1669f36c584706297f95ba135b158f884f3d27452f6970e0bd3e25df286103",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9351/402/minecolonies-1.1.1406-1.21.1-snapshot.jar",
+        "author": "ldtteammaintainers",
+        "kind": "mod"
+      },
+      "current": {
+        "path": "mods/minecolonies-1.1.1411-1.21.1-snapshot.jar",
+        "projectId": 245506,
+        "fileId": 9401752,
+        "fileName": "minecolonies-1.1.1411-1.21.1-snapshot.jar",
+        "sizeBytes": 78351943,
+        "sha256": "cf396583d91d2013e1c364f0b50a2670a4d5459bb3b01bfe78a5933b28f84516",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/245506/files/9401752",
+        "metadataSha256": "6a4c914dc78f37a03c0529004edc2fb91218075e189ea1f12c57b7ec65f8dc20",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9401/752/minecolonies-1.1.1411-1.21.1-snapshot.jar",
+        "author": "ldtteammaintainers",
+        "kind": "mod"
+      }
+    },
+    {
+      "previous": {
+        "path": "mods/modonomicon-1.21.1-neoforge-1.121.0.jar",
+        "projectId": 538392,
+        "fileId": 9351619,
+        "fileName": "modonomicon-1.21.1-neoforge-1.121.0.jar",
+        "sizeBytes": 2408548,
+        "sha256": "0cfbf023189b8842cb14c679d2adc753f3f969b3c585f77033eac2628a3ac1d0",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/538392/files/9351619",
+        "metadataSha256": "26d7a622520fa6c08620304fa82bab43ce263bb05d599f096b6a824464af32f9",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9351/619/modonomicon-1.21.1-neoforge-1.121.0.jar",
+        "author": "kli_kli",
+        "kind": "mod"
+      },
+      "current": {
+        "path": "mods/modonomicon-1.21.1-neoforge-1.123.0.jar",
+        "projectId": 538392,
+        "fileId": 9384356,
+        "fileName": "modonomicon-1.21.1-neoforge-1.123.0.jar",
+        "sizeBytes": 2430324,
+        "sha256": "23f02535d579602d3da3e15397c9edc55b9dcafb6b755c1665f31d70fa6bec1f",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/538392/files/9384356",
+        "metadataSha256": "31afa98d6040369e8ce6e90abff8d96ef5f6ca3d5f07bd45e486b41413bfa3d2",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9384/356/modonomicon-1.21.1-neoforge-1.123.0.jar",
+        "author": "kli_kli",
+        "kind": "mod"
+      }
+    },
+    {
+      "previous": {
+        "path": "mods/moonlight-1.21.1-3.7.2-neoforge.jar",
+        "projectId": 499980,
+        "fileId": 9122548,
+        "fileName": "moonlight-1.21.1-3.7.2-neoforge.jar",
+        "sizeBytes": 2299162,
+        "sha256": "4a9f15108607cc70273f8a0b6eb24e1e99af8eef44bc3ae8681767ca7ce21b0f",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/499980/files/9122548",
+        "metadataSha256": "4b2c45ddc68edcd5490802d1771631b542416864243cd2a3f769e47c82e0c155",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9122/548/moonlight-1.21.1-3.7.2-neoforge.jar",
+        "author": "mehvahdjukaar",
+        "kind": "mod"
+      },
+      "current": {
+        "path": "mods/moonlight-1.21.1-3.8.0-neoforge.jar",
+        "projectId": 499980,
+        "fileId": 9426244,
+        "fileName": "moonlight-1.21.1-3.8.0-neoforge.jar",
+        "sizeBytes": 2312798,
+        "sha256": "cdb0f0dac146abce76d316409eb72f5d1a375ebb65d138760de83f39537cfcf0",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/499980/files/9426244",
+        "metadataSha256": "c4211ebf80c0a47dd60b489bf2a97319b55df3c62c08c89ec8f90cfc2cb4ff72",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9426/244/moonlight-1.21.1-3.8.0-neoforge.jar",
+        "author": "mehvahdjukaar",
+        "kind": "mod"
+      }
+    },
+    {
+      "previous": {
+        "path": "mods/neovitae-1.21.1-1.1.48.jar",
+        "projectId": 1404763,
+        "fileId": 9280921,
+        "fileName": "neovitae-1.21.1-1.1.48.jar",
+        "sizeBytes": 13862763,
+        "sha256": "8422f61e3d72924c04894ee2ba8e28e642af33e7ac49cc20353f6efbd551f966",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/1404763/files/9280921",
+        "metadataSha256": "ee037445d707b1c137913009caaf75ef8c5d5d86387cbcb50f967f8bc9d0d0e9",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9280/921/neovitae-1.21.1-1.1.48.jar",
+        "author": "saereth",
+        "kind": "mod"
+      },
+      "current": {
+        "path": "mods/neovitae-1.21.1-1.1.51.jar",
+        "projectId": 1404763,
+        "fileId": 9403820,
+        "fileName": "neovitae-1.21.1-1.1.51.jar",
+        "sizeBytes": 12348069,
+        "sha256": "4f7c55e2e0aef1f341ba7b79596e419d49ec34ed948b724ead4a6508037047ec",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/1404763/files/9403820",
+        "metadataSha256": "cbe1d6ada3872865c5d92f6a91b7bc62028491583767406eb0d19e91ba76cefb",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9403/820/neovitae-1.21.1-1.1.51.jar",
+        "author": "saereth",
+        "kind": "mod"
+      }
+    },
+    {
+      "previous": {
+        "path": "mods/notenoughanimations-neoforge-1.12.6-mc1.21.1.jar",
+        "projectId": 433760,
+        "fileId": 8925075,
+        "fileName": "notenoughanimations-neoforge-1.12.6-mc1.21.1.jar",
+        "sizeBytes": 1866035,
+        "sha256": "e70609c5638d9f02edfb2c8ec448a7d567345323d7386937c174526aac56cb8f",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/433760/files/8925075",
+        "metadataSha256": "a8c5ae2990e71edbef625209a93e3ae7c13b6aab1bc5a4cf9952b2c57a9bdf34",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/8925/75/notenoughanimations-neoforge-1.12.6-mc1.21.1.jar",
+        "author": "tr7zw_",
+        "kind": "mod"
+      },
+      "current": {
+        "path": "mods/notenoughanimations-neoforge-1.12.7-mc1.21.1.jar",
+        "projectId": 433760,
+        "fileId": 9396193,
+        "fileName": "notenoughanimations-neoforge-1.12.7-mc1.21.1.jar",
+        "sizeBytes": 1868196,
+        "sha256": "5b8107cf01128523233287d9b0789f743f9d6186bda651de838e02350b311828",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/433760/files/9396193",
+        "metadataSha256": "361fabd1bbab94ff42da9a7caafc6e573902623cd7819fa06edd9de296eb3322",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9396/193/notenoughanimations-neoforge-1.12.7-mc1.21.1.jar",
+        "author": "tr7zw_",
+        "kind": "mod"
+      }
+    },
+    {
+      "previous": {
+        "path": "mods/occultism-1.21.1-neoforge-1.224.6.jar",
+        "projectId": 361026,
+        "fileId": 9344396,
+        "fileName": "occultism-1.21.1-neoforge-1.224.6.jar",
+        "sizeBytes": 6952019,
+        "sha256": "fd9d723ee6f074d655c339bbedde0e1e6e1c37db59fd86699e7ff11bb8f51961",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/361026/files/9344396",
+        "metadataSha256": "e9b6d29f78dbd412b3b8bb8352206954ba7bde2e5b39c173f5a455fed43d4f13",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9344/396/occultism-1.21.1-neoforge-1.224.6.jar",
+        "author": "kli_kli",
+        "kind": "mod"
+      },
+      "current": {
+        "path": "mods/occultism-1.21.1-neoforge-1.225.0.jar",
+        "projectId": 361026,
+        "fileId": 9405880,
+        "fileName": "occultism-1.21.1-neoforge-1.225.0.jar",
+        "sizeBytes": 6957914,
+        "sha256": "fc222df07edf266b38c538111522799165c1647114e8c37974a975e4a80bf514",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/361026/files/9405880",
+        "metadataSha256": "34e9e42aa26115d93947b2209f7c9a361d2ad6072fb0cd8176dd6d7c39b6bf40",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9405/880/occultism-1.21.1-neoforge-1.225.0.jar",
+        "author": "kli_kli",
+        "kind": "mod"
+      }
+    },
+    {
+      "previous": {
+        "path": "mods/pneumaticcraft-repressurized-8.2.23+mc1.21.1.jar",
+        "projectId": 281849,
+        "fileId": 8519226,
+        "fileName": "pneumaticcraft-repressurized-8.2.23+mc1.21.1.jar",
+        "sizeBytes": 11884697,
+        "sha256": "647ce20d52cf139f3b693b9b4c4753966a95a6dafc82d9e538ae4ae5b0249f9c",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/281849/files/8519226",
+        "metadataSha256": "65599dc808c7c7136dec7209a059c241d5450fdbe71e8cfe03a1940734c40916",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/8519/226/pneumaticcraft-repressurized-8.2.23%2Bmc1.21.1.jar",
+        "author": "desht_08",
+        "kind": "mod"
+      },
+      "current": {
+        "path": "mods/pneumaticcraft-repressurized-8.2.24-mc1.21.1.jar",
+        "projectId": 281849,
+        "fileId": 9363728,
+        "fileName": "pneumaticcraft-repressurized-8.2.24-mc1.21.1.jar",
+        "sizeBytes": 11885688,
+        "sha256": "03fa26883002b4252ec669a277b6fecf3367284e333a2165178fd236056f0b15",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/281849/files/9363728",
+        "metadataSha256": "94c12382837aaebaa86cc3288ee67554b68f3b9d64e8457a2226456eaaa2a5ac",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9363/728/pneumaticcraft-repressurized-8.2.24-mc1.21.1.jar",
+        "author": "desht_08",
+        "kind": "mod"
+      }
+    },
+    {
+      "previous": {
+        "path": "mods/sawmill-1.21-1.8.1-neoforge.jar",
+        "projectId": 964817,
+        "fileId": 8779294,
+        "fileName": "sawmill-1.21-1.8.1-neoforge.jar",
+        "sizeBytes": 455580,
+        "sha256": "081ed7b7811ccee556c7a475f770dc894b1845e6cbfe3181057c010894fea648",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/964817/files/8779294",
+        "metadataSha256": "3435266dcb7ca21a7b0863b98a656b50d3ab4c784a13599645e3125a2c9c25a2",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/8779/294/sawmill-1.21-1.8.1-neoforge.jar",
+        "author": "mehvahdjukaar",
+        "kind": "mod"
+      },
+      "current": {
+        "path": "mods/sawmill-1.21-1.9.0-neoforge.jar",
+        "projectId": 964817,
+        "fileId": 9422876,
+        "fileName": "sawmill-1.21-1.9.0-neoforge.jar",
+        "sizeBytes": 455631,
+        "sha256": "c621ba9ab66bcc092cd4c2436c1de5ec78c44b90e7423b15b147d8ed3e309f06",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/964817/files/9422876",
+        "metadataSha256": "4bbf2c08b00d13fec4e8d3b25337b2f30403538a1bad4459dbb0c0d254b918ba",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9422/876/sawmill-1.21-1.9.0-neoforge.jar",
+        "author": "mehvahdjukaar",
+        "kind": "mod"
+      }
+    },
+    {
+      "previous": {
+        "path": "mods/sophisticatedbackpacks-1.21.1-3.26.17.2232.jar",
+        "projectId": 422301,
+        "fileId": 9341438,
+        "fileName": "sophisticatedbackpacks-1.21.1-3.26.17.2232.jar",
+        "sizeBytes": 1256227,
+        "sha256": "db202d67b63f7d14868ca3abe2387d4cc0b66eefdc66eb91ad4dbc388c249b24",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/422301/files/9341438",
+        "metadataSha256": "bd1d0534abe08a7bbd92d7dff2a631c69c2afa4feb1600df0494e6aa16db2de7",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9341/438/sophisticatedbackpacks-1.21.1-3.26.17.2232.jar",
+        "author": "p3pp3rf1y",
+        "kind": "mod"
+      },
+      "current": {
+        "path": "mods/sophisticatedbackpacks-1.21.1-3.26.19.2243.jar",
+        "projectId": 422301,
+        "fileId": 9385446,
+        "fileName": "sophisticatedbackpacks-1.21.1-3.26.19.2243.jar",
+        "sizeBytes": 1260034,
+        "sha256": "d3b3e48216726563089e791a245c3c2efeb0e2f4428bebe9602c037d5133c6ee",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/422301/files/9385446",
+        "metadataSha256": "59cc0a51ac2850986f03d335399f568ba335b475c2992ea4b720320bbb9da6b0",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9385/446/sophisticatedbackpacks-1.21.1-3.26.19.2243.jar",
+        "author": "p3pp3rf1y",
+        "kind": "mod"
+      }
+    },
+    {
+      "previous": {
+        "path": "mods/sophisticatedcore-1.21.1-1.5.19.2434.jar",
+        "projectId": 618298,
+        "fileId": 9341397,
+        "fileName": "sophisticatedcore-1.21.1-1.5.19.2434.jar",
+        "sizeBytes": 1820184,
+        "sha256": "8b6921f217df8fbbed4990d19e6ff9187bc74777974a3421a1b4396a661fe0e4",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/618298/files/9341397",
+        "metadataSha256": "303c913c289cb35792378e5382e453564866c22bdc9419074a2798992d6c8b32",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9341/397/sophisticatedcore-1.21.1-1.5.19.2434.jar",
+        "author": "p3pp3rf1y",
+        "kind": "mod"
+      },
+      "current": {
+        "path": "mods/sophisticatedcore-1.21.1-1.5.25.2451.jar",
+        "projectId": 618298,
+        "fileId": 9409247,
+        "fileName": "sophisticatedcore-1.21.1-1.5.25.2451.jar",
+        "sizeBytes": 1830530,
+        "sha256": "dd42ebfccbcd5a3cb7702d3f342aff9e30b89850c10dd39e3b77eca6c597a0a0",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/618298/files/9409247",
+        "metadataSha256": "49a4b8a528d00eddb31d894a98199f74cea05e3965aba1bb7d9de2d0de6a079f",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9409/247/sophisticatedcore-1.21.1-1.5.25.2451.jar",
+        "author": "p3pp3rf1y",
+        "kind": "mod"
+      }
+    },
+    {
+      "previous": {
+        "path": "mods/sophisticatedstorage-1.21.1-1.6.10.2206.jar",
+        "projectId": 619320,
+        "fileId": 9341485,
+        "fileName": "sophisticatedstorage-1.21.1-1.6.10.2206.jar",
+        "sizeBytes": 1933125,
+        "sha256": "a0d065fe52ee52b0575e6f9ac67e8543abbc86e1dfa25e6847d538f40858b11d",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/619320/files/9341485",
+        "metadataSha256": "ccafadfbd7cf88f9883433c12c4b2ebc8d7c96324a4c120677badde606ffd663",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9341/485/sophisticatedstorage-1.21.1-1.6.10.2206.jar",
+        "author": "p3pp3rf1y",
+        "kind": "mod"
+      },
+      "current": {
+        "path": "mods/sophisticatedstorage-1.21.1-1.6.15.2219.jar",
+        "projectId": 619320,
+        "fileId": 9409326,
+        "fileName": "sophisticatedstorage-1.21.1-1.6.15.2219.jar",
+        "sizeBytes": 1933671,
+        "sha256": "8f9d92c88264215a94acb32f5e830aec487ea982c5457d039467660939c2ae19",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/619320/files/9409326",
+        "metadataSha256": "124b7fc96b0cdb580c7259f595a8776c04e564f6372c109448a4a8d0ce544e8d",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9409/326/sophisticatedstorage-1.21.1-1.6.15.2219.jar",
+        "author": "p3pp3rf1y",
+        "kind": "mod"
+      }
+    },
+    {
+      "previous": {
+        "path": "mods/sophisticatedstorageinmotion-1.21.1-0.10.36.381.jar",
+        "projectId": 1166930,
+        "fileId": 9155363,
+        "fileName": "sophisticatedstorageinmotion-1.21.1-0.10.36.381.jar",
+        "sizeBytes": 428840,
+        "sha256": "0383d0ac094a983371b7ddc5c57a8d5311e53e4ef59439ba34c3414d3e548bc7",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/1166930/files/9155363",
+        "metadataSha256": "66be159114452a3cb404b6fc63e83a3eb8033f6430be1b680dc45f100f9d1afe",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9155/363/sophisticatedstorageinmotion-1.21.1-0.10.36.381.jar",
+        "author": "p3pp3rf1y",
+        "kind": "mod"
+      },
+      "current": {
+        "path": "mods/sophisticatedstorageinmotion-1.21.1-0.10.38.395.jar",
+        "projectId": 1166930,
+        "fileId": 9385688,
+        "fileName": "sophisticatedstorageinmotion-1.21.1-0.10.38.395.jar",
+        "sizeBytes": 429320,
+        "sha256": "5a390d950879f188b268082ef52829d25817284472cd9510f17164a5b3a47ea3",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/1166930/files/9385688",
+        "metadataSha256": "86b8be1713ee433f3c60036a8b6f996b8607e90b1d8e28ad38ca0ee00bfefce7",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9385/688/sophisticatedstorageinmotion-1.21.1-0.10.38.395.jar",
+        "author": "p3pp3rf1y",
+        "kind": "mod"
+      }
+    },
+    {
+      "previous": {
+        "path": "mods/tesseract-api-neoforge-1.12.19-1.21.1.jar",
+        "projectId": 1067672,
+        "fileId": 9303715,
+        "fileName": "tesseract-api-neoforge-1.12.19-1.21.1.jar",
+        "sizeBytes": 764237,
+        "sha256": "bcf505bb7e2ef63eed03a5e4c437e1d583dd1994297eb9db4ccea3d2aafb9c2c",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/1067672/files/9303715",
+        "metadataSha256": "bc74bed7ea354de95c4ac91bfc04af9bcfb02cf6784cc4d612c4c4f919d8a4a9",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9303/715/tesseract-api-neoforge-1.12.19-1.21.1.jar",
+        "author": "swedzish",
+        "kind": "mod"
+      },
+      "current": {
+        "path": "mods/tesseract-api-neoforge-1.12.20-1.21.1.jar",
+        "projectId": 1067672,
+        "fileId": 9402002,
+        "fileName": "tesseract-api-neoforge-1.12.20-1.21.1.jar",
+        "sizeBytes": 768957,
+        "sha256": "d9173bc65d09df1d152399b3702c0a417850ac1a45701ab0996fe7fdcbedbace",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/1067672/files/9402002",
+        "metadataSha256": "11e1e462bb34279fb1e7886af14b82dcb4ca867211f455075a74a58e8fd1a39d",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9402/2/tesseract-api-neoforge-1.12.20-1.21.1.jar",
+        "author": "swedzish",
+        "kind": "mod"
+      }
+    },
+    {
+      "previous": {
+        "path": "mods/variantsandventures-neoforge-1.0.28+mc1.21.1.jar",
+        "projectId": 981139,
+        "fileId": 8982592,
+        "fileName": "variantsandventures-neoforge-1.0.28+mc1.21.1.jar",
+        "sizeBytes": 1099313,
+        "sha256": "de4621576e220c775a67472030cd86bd9280af69151b01f6b74f012d56e0898b",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/981139/files/8982592",
+        "metadataSha256": "e2b2b3d99628a51f430a188a7cbf340cb8bccdf68dc1588b05389bbcd7aa7b80",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/8982/592/variantsandventures-neoforge-1.0.28%2Bmc1.21.1.jar",
+        "author": "faboslav",
+        "kind": "mod"
+      },
+      "current": {
+        "path": "mods/variantsandventures-neoforge-1.0.29-mc1.21.1.jar",
+        "projectId": 981139,
+        "fileId": 9382945,
+        "fileName": "variantsandventures-neoforge-1.0.29-mc1.21.1.jar",
+        "sizeBytes": 1101475,
+        "sha256": "c9cb10777088ec1382a0e98a303a4a741bd47931720f27d0512f14bb9eb74b38",
+        "metadataUrl": "https://www.curseforge.com/api/v1/mods/981139/files/9382945",
+        "metadataSha256": "e5f1a0ad5022548c5bee2da376165f3eb3d231889c5b33bff6333ebc23abbf56",
+        "downloadUrl": "https://mediafilez.forgecdn.net/files/9382/945/variantsandventures-neoforge-1.0.29-mc1.21.1.jar",
+        "author": "faboslav",
+        "kind": "mod"
+      }
+    }
+  ],
+  "removedArtifacts": [
+    {
+      "path": "mods/ars_polymorphia-1.0.3.jar",
+      "projectId": 1197614,
+      "fileId": 6219409,
+      "fileName": "ars_polymorphia-1.0.3.jar",
+      "sizeBytes": 20201,
+      "sha256": "2b7724eb346a71b6e395a4ac781c1ecbfe37e6e813811f4aba2df8ff5d7c894d",
+      "metadataUrl": "https://www.curseforge.com/api/v1/mods/1197614/files/6219409",
+      "metadataSha256": "83680cca1a409356849ae21cc4cd3ac9b6d86cf38d106f7a22ebf5cc6630e840",
+      "downloadUrl": "https://mediafilez.forgecdn.net/files/6219/409/ars_polymorphia-1.0.3.jar",
+      "author": "qtherlol",
+      "kind": "mod"
+    }
+  ],
+  "jarRewrites": [],
+  "safetyReview": "No custom Safety framework is supplied by original ATM10. Author updates are BASE. FTB Chunks was updated by the author; no universal claim-protection or registry/world-migration guarantee is claimed.",
+  "personalSettingsTouched": false
+}

@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "legacyWithoutState": false,
+  "personalWorldsCopied": false,
+  "originalInstallationModified": false,
+  "packId": "all-the-mods-10",
+  "packRelativePath": "All The Mods 10",
+  "source": {
+    "owner": "MarkZamore",
+    "repo": "All-The-Mods-10",
+    "tag": "pack-latest"
+  },
+  "qaContractSha256": "28822f91439c854354daaedb3c3d20b9cc767033f63f430a1eef59adebae8144",
+  "qaRuntime": {
+    "minecraftVersion": "1.21.1",
+    "loader": {
+      "type": "neoforge",
+      "version": "21.1.265"
+    }
+  },
+  "oldRevision": "602740c1a53ce1886c94381b998d77bc7e035614",
+  "copiedManagedFiles": 8568,
+  "copiedManagedBytes": 3378437102,
+  "newRevision": "2222222222222222222222222222222222222222",
+  "expectedFiles": 4320,
+  "targetFilesSha256": "bf9cdcc8f7328d55e85bb2df79d6790dcaa31571cc4fd09451240a77c75d9546",
+  "reusableFiles": 4199,
+  "reusableBytes": 1452883540,
+  "interruptedDownload": "PASS",
+  "retryDownloadedBytes": 552374182,
+  "interruptedApplyRecovery": "PASS",
+  "verifiedRemovedHistoricalPaths": [],
+  "activeModFiles": 489,
+  "sentinelsPreserved": 5,
+  "unknownFilesPreservedOutsideActiveSet": true,
+  "idempotence": "PASS",
+  "payloadBytesOnFinalSync": 0,
+  "totalLocalHttpBytesIncludingManifestsAndRetries": 1641344260,
+  "originalSnapshotStillMatches": true
+}

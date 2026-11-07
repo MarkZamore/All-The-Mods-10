@@ -6725,26 +6725,6 @@
       "originalAuthorPresent": false,
       "originalAuthorValue": null
     },
-    "quest.3561A33758A1E8C3.quest_desc": {
-      "englishFingerprint": "448a85be63583422ebd0c111de8afb5a10b3f246e43fc43b3a9d4a905b38f1ac",
-      "generatedFingerprint": "3ab4d9b01ff76a3f0eaa3eaab71d58ff2ffdbf82e13c54c9ac7fd19933643fb4",
-      "generatedValue": [
-        "Сначала строим. Затем запускаем. Потом используем. \\n\\nКаждая сторона &c&lтермоядерного реактора&r имеет форму ромба длиной 5 блоков. Каркас состоит из &cкорпусов термоядерного реактора&r, а заполнение можно сделать из реакторного стекла&r. \\n\\n&cПорты термоядерного реактора&r могут заменять реакторное стекло в конструкции (кроме мест, где нужны другие блоки). \\n\\n&cМатрица фокусировки лазера&r также ставится вместо реакторного стекла. Лучше не слишком близко к другим блокам! \\n\\n&cКонтроллер термоядерного реактора&r, самый важный блок, ставится в квадратном центре верхнего слоя. \\n\\nВнутри остаётся пустота... Но не советую проверять это у работающего реактора: погибнете. ",
-        "{@pagebreak}",
-        "БУМ! Готово! Как же запустить эту махину? \\n\\nСначала возьмите заполненный &eхольраум&r и поместите его в интерфейс &c&lтермоядерного реактора&r. \\n\\nИнтерфейс открывается ПКМ по &cконтроллеру&r правильно построенного реактора. \\n\\nКроме заполненного &eхольраума&r, нужно подать топливо! \\n\\nЗатем выстрелите из &4лазерного усилителя&r зарядом не менее 1GFE в &cматрицу фокусировки лазера&r. \\n\\nТеперь реактор готов к работе! ",
-        "{@pagebreak}",
-        "Основное управление находится в &cконтроллере&r. Первое — главное меню. Здесь расположен слот &eхольраума&r и указано, правильно ли собран реактор! \\n\\nДалее идёт меню нагрева. Оно показывает &6температуру&r &c&lтермоядерного реактора&r. От неё зависит выработка &aэнергии&r или пара! На температуру влияют заряд &4лазерного усилителя&r при запуске и охлаждение. \\n\\nНижними кнопками можно менять единицы &6температуры&r и даже &aэнергии&r! \\n\\nСледующее меню — топливо! Оно показывает количество &cдейтерия&r, &aтрития&r и &5D-T-топлива&r в &c&lтермоядерном реакторе&r. Здесь меняется и скорость впрыска — расход топлива за тик. \\n\\nМеню статистики показывает множество занятных чисел! Они нужны только ботаникам, поэтому останавливаться на них не будем!",
-        "{@pagebreak}",
-        "(текст-заполнитель новой страницы)",
-        "{image:atm:textures/questpics/mek/mek_fusion1.png width:100 height:100 align:center}",
-        "{image:atm:textures/questpics/mek/mek_fusion2.png width:110 height:90 align:center}",
-        "{image:atm:textures/questpics/mek/mek_fusion3.png width:110 height:100 align:center}",
-        "{image:atm:textures/questpics/mek/mek_fusion4.png width:100 height:100 align:center}",
-        "{image:atm:textures/questpics/mek/mek_fusion5.png width:100 height:100 align:center}"
-      ],
-      "originalAuthorPresent": false,
-      "originalAuthorValue": null
-    },
     "quest.3561A33758A1E8C3.quest_subtitle": {
       "englishFingerprint": "7a500af902e2b1752feab707d9247bab5cf30966e956003e1b6a49f677e9e8fa",
       "generatedFingerprint": "f2b6de8c3ece24ab9d6f069c2f518f6acac234e14085fc45200f2856d4d9338a",
@@ -8946,16 +8926,6 @@
       "originalAuthorPresent": true,
       "originalAuthorValue": "Teak + Clove"
     },
-    "quest.45D73CA0A7BE4666.quest_desc": {
-      "englishFingerprint": "cbccd7aa89a5c6ad014f7865bc8f1a999b78f63bf17dee45d98f56b9f9bf9148",
-      "generatedFingerprint": "32f0fdeeb0e05aaaa7f034dbca68530926bf394f37865c3f3b962b44d939e74a",
-      "generatedValue": [
-        "&eПышное мелководное море&r оправдывает своё название: растительности много, а глубина небольшая! \\n\\nВсего около 20 блоков.",
-        "{image:atm:textures/questpics/eternal/starlight_shallow.png width:200 height:100 align:center}"
-      ],
-      "originalAuthorPresent": false,
-      "originalAuthorValue": null
-    },
     "quest.45D73CA0A7BE4666.title": {
       "englishFingerprint": "457d7e44383d1d8cffbcfeb41c921578b8ef86e55db60f3bfd922727b69a034a",
       "generatedFingerprint": "befa5b4ddec646cd46e555199f6f1a65fe1efed8c6862c027b9fbaf409ac40c4",
@@ -9410,13 +9380,6 @@
       "englishFingerprint": "0394e13e937df574b246e76a1671ff713e4b460d3bd105559d0cacbf50a164ff",
       "generatedFingerprint": "644caba57979516d5296580189a04cc5338b4ccd1373c9be21f7d449d4ee8cd4",
       "generatedValue": "Помазания",
-      "originalAuthorPresent": false,
-      "originalAuthorValue": null
-    },
-    "quest.49E3C40B3C24C36A.quest_subtitle": {
-      "englishFingerprint": "3c4b7444755899ca0ed6af19e7e6a98bdce3a045a8d400abc422f73e7f0a1f94",
-      "generatedFingerprint": "27bbcbb7188a1060da89ea8ca911167fae3a734e0cd6c2bb8bab80c05c1ef38d",
-      "generatedValue": "Уровень: &c5",
       "originalAuthorPresent": false,
       "originalAuthorValue": null
     },
@@ -10099,16 +10062,6 @@
       "englishFingerprint": "95571e52456b18bc283b56e2c678d73e2f9183390bd42da0422af19564202155",
       "generatedFingerprint": "f2eb7aac5f0efa730965fe7fd1128bf9f0571d18146b2e0c5c0375751281f453",
       "generatedValue": "Вращение ради &3плутония",
-      "originalAuthorPresent": false,
-      "originalAuthorValue": null
-    },
-    "quest.51B1AF28328FFBAD.quest_desc": {
-      "englishFingerprint": "9fa69c959403364c200e26945b09e2770b163289391e5eb49f6416a450bb1feb",
-      "generatedFingerprint": "f291ceabdc75f2bcc1338d4d851a6cb4642de4bc54fb93786b39d1982edfa6f4",
-      "generatedValue": [
-        "&cЛес спиральных ламинарий&r сильно разочарует любителей древесины. \\n\\nЭтот биом — не лес, а океан! Причём даже не тот океанический биом, где есть дерево: это &eПышное мелководное море&r. \\n\\nПростите.",
-        "{image:atm:textures/questpics/eternal/starlight_spiral.png width:200 height:100 align:center}"
-      ],
       "originalAuthorPresent": false,
       "originalAuthorValue": null
     },
@@ -18253,8 +18206,8 @@
     }
   },
   "flatPath": "config/ftbquests/quests/lang/ru_ru.snbt",
-  "flatSha256": "8c1aba78388bb3bd9fa8dfdfddea5d6f63c63c09ac3d6150783bd1a9737a8521",
-  "authorSourceFingerprint": "cf0871427d16fe962db5f6090f1ec599ce68076ae52091f0380758f6a07008bd",
+  "flatSha256": "c56febbbd9082ba23ed6e9cfc5708fe30b657098c8b322ec9ab5d93c1866db38",
+  "authorSourceFingerprint": "d93fa6054479ef250160612f698d4af9965ce66be0b763c35c682322b0dd1ab1",
   "inline": {
     "schemaVersion": 1,
     "entries": {

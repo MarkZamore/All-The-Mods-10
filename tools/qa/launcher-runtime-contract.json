@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "pack": {
+    "id": "all-the-mods-10",
+    "relativePath": "All The Mods 10",
+    "source": {
+      "owner": "MarkZamore",
+      "repo": "All-The-Mods-10",
+      "tag": "pack-latest"
+    }
+  },
+  "runtime": {
+    "minecraftVersion": "1.21.1",
+    "loader": {
+      "type": "neoforge",
+      "version": "21.1.265"
+    }
+  },
+  "qa": {
+    "heapMiB": 12288,
+    "playerName": "LocalQa",
+    "worldPrefix": "LocalQa"
+  },
+  "retiredHelpers": []
+}

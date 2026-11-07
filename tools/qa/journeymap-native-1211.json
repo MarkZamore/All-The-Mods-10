@@ -16,10 +16,9 @@
           "gitBlobSha1": "160e56c1169389c97285b1d356a07e25d16f9c96"
         },
         "kubejs": {
-          "fileName": "kubejs-neoforge-2101.7.2-build.377.jar",
-          "sizeBytes": 2294111,
-          "sha256": "43b656bc2d4ce867141abb828c9481f080a38585b99bcfa07e54732a4976a601",
-          "gitBlobSha1": "fc5a87dbf251856ec3d8cb7c519e6204faa3936d"
+          "fileName": "kubejs-neoforge-2101.7.2-build.381.jar",
+          "sizeBytes": 2295092,
+          "sha256": "e4539156a6e93badf140d050306d2b4d7975037541b3c51f746cf78bf6fe14a2"
         },
         "rhino": {
           "fileName": "rhino-2101.2.8-build.91.jar",
@@ -589,5 +588,6 @@
       }
     }
   ],
-  "fullMinecraftOrVisualAcceptanceClaimed": false
+  "fullMinecraftOrVisualAcceptanceClaimed": false,
+  "update85Review": "All four waypoint KubeJS API classes compared byte-for-byte against previous proof; other module pins unchanged. No new runtime result is implied."
 }
