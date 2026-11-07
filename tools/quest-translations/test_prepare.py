@@ -7,9 +7,10 @@ p=importlib.util.module_from_spec(spec);spec.loader.exec_module(p)
 K='quest.0000000000000001.title'
 L='quest.0000000000000002.quest_desc'
 
-def record(english,russian,decision='translated',original=None):
+def record(english,russian,decision='translated',original=None,policy=None):
     result={'englishFingerprint':p.fingerprint(english),'text':russian,'decision':decision}
     if original is not None:result['untranslatedAuthorFingerprint']=p.fingerprint(original)
+    if policy is not None:result['updatePolicy']=policy
     return result
 def manual(entries):return {'schemaVersion':1,'kind':p.KIND,'entries':entries}
 def write_locale(root,locale,values):
@@ -53,6 +54,43 @@ class MergeTests(unittest.TestCase):
         r=p.merge({K:'New machine'}, {K:'Old machine'},
             {K:record('Old machine','Старая машина',original='Old machine')})
         self.assertNotIn(K,r['effectiveRussian']);self.assertIn(K,r['omittedStaleEnglishAuthorKeys'])
+    def test_only_explicitly_retained_translation_survives_changed_english(self):
+        r=p.merge({K:'New machine',L:'New plate'}, {}, {
+            K:record('Old machine','Машина',policy='until-author-russian'),L:record('Old plate','Пластина')})
+        self.assertEqual(r['effectiveRussian'],{K:'Машина'})
+        self.assertEqual(r['retainedChangedEnglishKeys'],[K])
+        queue={item['key']:item for item in r['refreshQueue']}
+        self.assertEqual(queue[K]['reason'],'changed-English-manual-retained')
+        self.assertEqual(queue[K]['reviewedEnglishFingerprint'],p.fingerprint('Old machine'))
+        self.assertEqual(queue[K]['english'],'New machine')
+        self.assertEqual(queue[L]['reason'],'changed-English-manual-skipped')
+        self.assertFalse(r['futureUpdatesBlockedForNewEnglish'])
+    def test_retained_translation_accepts_future_paragraph_and_type_changes(self):
+        for new_english in ['New single string',['New paragraph'],['First','Second']]:
+            with self.subTest(english=new_english):
+                r=p.merge({K:new_english},{},{K:record(['Old paragraph'],['Русское описание'],policy='until-author-russian')})
+                self.assertEqual(r['effectiveRussian'][K],['Русское описание'])
+                self.assertEqual(r['retainedChangedEnglishKeys'],[K])
+    def test_new_english_placeholder_is_not_author_russian_for_retained_prose(self):
+        r=p.merge({K:'New machine'}, {K:'Another untranslated description'},
+            {K:record('Old machine','Машина',policy='until-author-russian')},fresh_author=True)
+        self.assertEqual(r['effectiveRussian'][K],'Машина');self.assertIn(K,r['ownedEntries'])
+    def test_fresh_author_russian_supersedes_retained_translation(self):
+        records={K:record('Old machine','Машина',policy='until-author-russian')}
+        first=p.merge({K:'Old machine'},{},records)
+        for author_ru in ['Авторская машина','Машина']:
+            with self.subTest(author=author_ru):
+                r=p.merge({K:'New machine'}, {K:author_ru},records,first['ownedEntries'],fresh_author=True)
+                self.assertEqual(r['effectiveRussian'][K],author_ru)
+                self.assertNotIn(K,r['ownedEntries']);self.assertFalse(r['refreshQueue'])
+    def test_removed_retained_key_does_not_restore_quest_or_locale(self):
+        records={K:record('Gear','Шестерня',policy='until-author-russian')}
+        first=p.merge({K:'Gear'}, {}, records)
+        removed=p.merge({},first['effectiveRussian'],records,first['ownedEntries'])
+        self.assertEqual(removed['effectiveRussian'],{});self.assertEqual(removed['removedManualKeys'],[K])
+    def test_unknown_update_policy_is_rejected(self):
+        with self.assertRaisesRegex(ValueError,'Unknown manual update policy'):
+            p.merge({K:'Gear'},{},{K:record('Gear','Шестерня',policy='typo')})
     def test_removed_english_drops_only_owned_generated_value(self):
         old=p.merge({K:'Gear'}, {}, {K:record('Gear','Шестерня')})
         r=p.merge({},old['effectiveRussian'],{K:record('Gear','Шестерня')},old['ownedEntries'])
@@ -123,6 +161,38 @@ class PreparationTests(unittest.TestCase):
             self.assertNotIn(K,p.FlatSnbt(plan[p.FLAT].decode()).parse())
             self.assertEqual(report['staleCachedAuthorKeysSkippedUntilFreshImport'],[K])
             self.assertEqual(len(report['refreshQueue']),1)
+    def test_fresh_update_retains_translation_and_retry_then_yields_to_author(self):
+        with tempfile.TemporaryDirectory() as temp:
+            target=Path(temp)/'target';upstream=Path(temp)/'upstream'
+            en=write_locale(target,'en_us',{K:['Gear']})
+            records=manual({K:record(['Gear'],['Шестерня'],policy='until-author-russian')})
+            initial,owner,cache,_=p.prepare(target,records,None,None)
+            apply(target,initial)
+            changed={K:['New gear','Another paragraph']}
+            en.write_bytes(p.dump_table(changed));write_locale(upstream,'en_us',changed)
+            ru=write_locale(upstream,'ru_ru',changed)
+            plan,new_owner,new_cache,report=p.prepare(target,records,owner,cache,fresh_author_root=upstream)
+            self.assertEqual(p.FlatSnbt(plan[p.FLAT].decode()).parse()[K],['Шестерня'])
+            self.assertEqual(report['retainedChangedEnglishKeys'],[K])
+            self.assertFalse(report['futureUpdatesBlockedForNewEnglish'])
+            apply(target,plan)
+            retry,retry_owner,retry_cache,retry_report=p.prepare(target,records,new_owner,new_cache)
+            self.assertEqual(plan[p.FLAT],retry[p.FLAT]);self.assertEqual(new_owner,retry_owner)
+            self.assertEqual(new_cache,retry_cache);self.assertEqual(report['refreshQueue'],retry_report['refreshQueue'])
+            self.assertEqual(en.read_bytes(),p.dump_table(changed))
+            ru.write_bytes(p.dump_table({K:['Новая авторская шестерня','Авторское дополнение']}))
+            official,official_owner,official_cache,official_report=p.prepare(target,records,new_owner,new_cache,fresh_author_root=upstream)
+            self.assertEqual(p.FlatSnbt(official[p.FLAT].decode()).parse()[K],['Новая авторская шестерня','Авторское дополнение'])
+            self.assertNotIn(K,official_owner['entries']);self.assertFalse(official_report['refreshQueue'])
+    def test_stale_cached_author_cannot_replace_explicit_retained_translation(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root=Path(temp);write_locale(root,'en_us',{K:'New machine'})
+            cache={'schemaVersion':1,'kind':p.AUTHOR_KIND,'entries':{K:'Старый авторский смысл'},
+                'englishFingerprintsAtCapture':{K:p.fingerprint('Old machine')}}
+            plan,_,_,report=p.prepare(root,manual({K:record('Old machine','Наш перевод',policy='until-author-russian')}),None,cache)
+            self.assertEqual(p.FlatSnbt(plan[p.FLAT].decode()).parse()[K],'Наш перевод')
+            self.assertEqual(report['staleCachedAuthorKeysSkippedUntilFreshImport'],[K])
+            self.assertEqual(report['retainedChangedEnglishKeys'],[K])
     def test_failed_multi_file_apply_restores_all_previous_bytes(self):
         with tempfile.TemporaryDirectory() as temp:
             root=Path(temp);(root/'first').write_bytes(b'old');real=p.atomic_write

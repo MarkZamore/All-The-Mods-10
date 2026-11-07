@@ -1,6 +1,7 @@
 """Prepare native FTB Russian fallback data. Author locales and quest logic win.
 
-No version/key-count pin: new/changed English safely uses native English fallback.
+No version/key-count pin: unreviewed English safely uses native English fallback.
+Explicitly approved entries can retain Russian until fresh author Russian arrives.
 The full-coverage switch is an explicit one-release review gate, not a future-update default.
 """
 from __future__ import annotations
@@ -106,6 +107,9 @@ def merge(english,author_russian,manual,old_owned=None,*,fresh_author=False):
         author_present=key in author
         author_value=author.get(key)
         record=manual.get(key)
+        policy=record.get('updatePolicy','matching-english') if record else 'matching-english'
+        if policy not in {'matching-english','until-author-russian'}:raise ValueError('Unknown manual update policy: '+key)
+        persistent=policy=='until-author-russian'
         known_untranslated_author=bool(record and author_present and
             record.get('untranslatedAuthorFingerprint')==fingerprint(author_value) and
             not re.search('[А-Яа-яЁё]',text(author_value)))
@@ -114,17 +118,31 @@ def merge(english,author_russian,manual,old_owned=None,*,fresh_author=False):
             effective.pop(key,None);omitted_stale_english.append(key)
         real_author=author_present and native_value(author_value) and bool(normalized(author_value)) and (
             normalized(author_value)!=normalized(english_value) or key in takeovers) and not known_untranslated_author
+        if persistent and real_author:
+            # These reviewed prose translations yield only to actual Russian,
+            # not to another English placeholder in a fresh ru_ru table.
+            real_author=bool(re.search('[А-Яа-яЁё]',text(author_value)))
         if real_author:
             official.append(key);covered.append(key);continue
-        if technical(english_value) or not normalized(english_value):covered.append(key);continue
+        if not persistent and (technical(english_value) or not normalized(english_value)):covered.append(key);continue
         if record is None:
             refresh.append({'key':key,'reason':'new-or-untranslated-English','englishFingerprint':fingerprint(english_value),'english':english_value});continue
-        if record.get('englishFingerprint')!=fingerprint(english_value):
-            refresh.append({'key':key,'reason':'changed-English-manual-skipped','englishFingerprint':fingerprint(english_value),'english':english_value});continue
+        changed_english=record.get('englishFingerprint')!=fingerprint(english_value)
+        if changed_english:
+            item={'key':key,'reason':'changed-English-manual-retained' if persistent else 'changed-English-manual-skipped',
+                'englishFingerprint':fingerprint(english_value),'english':english_value}
+            if persistent:item['reviewedEnglishFingerprint']=record.get('englishFingerprint')
+            refresh.append(item)
+            if not persistent:continue
         value=record.get('text');decision=record.get('decision')
-        if not native_value(value) or type(value)!=type(english_value):raise ValueError('Manual native type mismatch: '+key)
-        if isinstance(value,list) and len(value)!=len(english_value):raise ValueError('Manual paragraph count mismatch: '+key)
+        if not native_value(value):raise ValueError('Manual native type mismatch: '+key)
+        # Native FTB locale values accept either strings or string lists. A future
+        # EN paragraph/type change must not block an explicitly retained fallback.
+        if not changed_english:
+            if type(value)!=type(english_value):raise ValueError('Manual native type mismatch: '+key)
+            if isinstance(value,list) and len(value)!=len(english_value):raise ValueError('Manual paragraph count mismatch: '+key)
         if decision not in {'translated','preserve-brand','preserve-technical'}:raise ValueError('Missing explicit manual decision: '+key)
+        if persistent and decision!='translated':raise ValueError('Persistent policy requires an explicit translation: '+key)
         if decision=='translated' and (not normalized(value) or normalized(value)==normalized(english_value)):
             raise ValueError('Translated entry is empty/still English: '+key)
         covered.append(key)
@@ -134,9 +152,12 @@ def merge(english,author_russian,manual,old_owned=None,*,fresh_author=False):
         owned[key]={'englishFingerprint':fingerprint(english_value),'generatedFingerprint':fingerprint(value),
             'generatedValue':copy.deepcopy(value),'originalAuthorPresent':author_present,
             'originalAuthorValue':copy.deepcopy(author_value) if author_present else None}
+        if persistent:owned[key]['updatePolicy']=policy
     removed=sorted(set(manual)-set(english))
     return {'effectiveRussian':effective,'ownedEntries':owned,'refreshQueue':refresh,'removedManualKeys':removed,
         'strippedPreviousOwnedKeys':stripped,'officialRussianKeys':official,'coveredKeys':covered,
+        'persistentManualFallbackKeys':[key for key,owner in owned.items() if owner.get('updatePolicy')=='until-author-russian'],
+        'retainedChangedEnglishKeys':[item['key'] for item in refresh if item['reason']=='changed-English-manual-retained'],
         'omittedStaleEnglishAuthorKeys':omitted_stale_english,
         'freshAuthorSource':fresh_author,'futureUpdatesBlockedForNewEnglish':False}
 

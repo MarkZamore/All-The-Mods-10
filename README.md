@@ -167,7 +167,7 @@ have explicit preservation decisions.
 
 `tools/quest-translations/` owns the source-only preparation, provenance and
 update tests. Fresh author Russian takes precedence over manual fallback.
-Fallback is applied only to the exact reviewed English value. Changed or new
+By default, fallback is applied only to the exact reviewed English value. Changed or new
 English without a matching translation creates a review queue and keeps native
 English; it does not block a later pack update. The publication workflow uses
 no fixed version/key-count gate. The current complete-coverage check was run
@@ -212,9 +212,17 @@ ImmediatelyFast HUD policy and Memory Settings policy are retained.
 The four KubeJS classes used by the JourneyMap bridge are byte-identical in
 build.381; the exact proof and source pins were refreshed.
 
-Fresh author Russian was imported before regeneration. 9218 of the current
-9221 English keys are covered. Three changed descriptions retain English and
-are listed in `tools/quest-translations/last-report.json:refreshQueue`.
+Fresh author Russian was imported before regeneration. All 9221 current
+English keys and 39 inline captions are now covered; the review queue is empty.
+The three descriptions changed in 8.5 have been reviewed against the new English.
 Unchanged reviewed manual fallbacks remain. The translation overlay does not
 restore the author's removed quest or change its new tasks and rewards.
 The detailed 8.4 native runtime report above is historical evidence.
+
+At the user's explicit request, these three descriptions use the source-only
+`until-author-russian` policy: future English changes keep their reviewed Russian
+while entering the review queue. Fresh author Russian takes precedence, even if
+it matches our previous text. Removed keys are not restored. Other manual entries
+keep the exact-English-fingerprint rule. See `tools/quest-translations/README.md`
+for the three keys, provenance and import/retry tests. This translation-only
+release adds no launcher exception and does not claim a new client/world run.

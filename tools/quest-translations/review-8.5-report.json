@@ -1,0 +1,77 @@
+{
+  "status": "PASS",
+  "baseRevision": "bb648a00919d65abbd75c3198d299206963a3bb5",
+  "checkedAtUtc": "2026-11-07T15:24:48.098181+00:00",
+  "authorVersion": "8.5",
+  "englishKeys": 9221,
+  "coveredKeys": 9221,
+  "inline": {
+    "inlineEntries": 39,
+    "coveredInlineEntries": 39,
+    "nativeAliasStrings": 38,
+    "refreshQueue": [],
+    "englishOriginalResourceFilesChanged": false,
+    "newEnglishAliasResource": "kubejs/assets/atm10_quest_language/lang/en_us.json",
+    "russianAliasResource": "kubejs/assets/atm10_quest_language/lang/ru_ru.json",
+    "questIdsImagesClicksRewardsProgressChanged": false
+  },
+  "changedRussianKeys": [
+    "quest.3561A33758A1E8C3.quest_desc",
+    "quest.45D73CA0A7BE4666.quest_desc",
+    "quest.51B1AF28328FFBAD.quest_desc"
+  ],
+  "persistentFallbackKeys": [
+    "quest.3561A33758A1E8C3.quest_desc",
+    "quest.45D73CA0A7BE4666.quest_desc",
+    "quest.51B1AF28328FFBAD.quest_desc"
+  ],
+  "changedGameFiles": [
+    "config/ftbquests/quests/lang/ru_ru.snbt"
+  ],
+  "checkedGameFiles": 4320,
+  "russianTableSha256": "e75dfac616b4f32525ad1050d51223713ff05706a1809687f181a60db3cbe8ce",
+  "markupAndFormattingPreserved": true,
+  "retryByteIdentical": true,
+  "pristineAuthorSourceUnchanged": true,
+  "translationTestsPassed": 40,
+  "newClientRun": false,
+  "newServerRun": false,
+  "newWorldRun": false,
+  "newSteamRun": false,
+  "previousRuntimeReport": "tools/upstream/runtime-8.5-report.json",
+  "previousRuntimeErrorEvents": 250,
+  "launcherChanges": false,
+  "launcherExceptionsAdded": [],
+  "packToolTestsPassed": 27,
+  "commands": [
+    "python -B -m unittest discover -s tools/quest-translations -p 'test_*.py'",
+    "python -B -m unittest discover -s tools -p 'test_*.py'",
+    "prepare.py prepare --apply followed by prepare(..., require_complete=True) in memory; all planned bytes and ownership/cache identical",
+    "SHA256 comparison of all 4320 published game files against source; only the managed Russian table differs"
+  ],
+  "reviewedEntries": [
+    {
+      "key": "quest.3561A33758A1E8C3.quest_desc",
+      "englishFingerprint": "22a25491841bede048b0e28277358acffbc3bb5992caa6f8f16088dcb942c0d5",
+      "updatePolicy": "until-author-russian"
+    },
+    {
+      "key": "quest.45D73CA0A7BE4666.quest_desc",
+      "englishFingerprint": "d76e07153df86943943203a7d01f73ddc23affdc44945df4165e48e2db8c5352",
+      "updatePolicy": "until-author-russian"
+    },
+    {
+      "key": "quest.51B1AF28328FFBAD.quest_desc",
+      "englishFingerprint": "5b8c038bcb3854aaebeff12226868bc86671cd1467a66c1388609a161a29522b",
+      "updatePolicy": "until-author-russian"
+    }
+  ],
+  "sourceProofs": {
+    "tools/quest-translations/manual-ru.json": "0ddeafca153a8882bbda17a591c2ed6f0a961fc03c7f505634399ca49793b20c",
+    "tools/quest-translations/prepare.py": "1d79d0207a4beeca97c4f4a8da3ac12b674b41fb65de0f52f07dbd9bab428398",
+    "tools/quest-translations/test_prepare.py": "1f8c4247d10293fb0c8b32b709e4e5d9602fd7b107f924e0eb0356e7326a92f4"
+  },
+  "nativeParserReRun": false,
+  "questLogicAndAllOtherShippedFilesByteIdentical": true,
+  "temporaryStandaloneInstallCreated": false
+}
